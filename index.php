@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Johnston & Murphy</title>
 	
 	<meta name="description" content="">
 	<meta name="revisit-after" content="30 days">
