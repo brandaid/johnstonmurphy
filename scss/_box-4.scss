@@ -20,7 +20,9 @@
 		}
 	}
 }
-
+#only-desktop {
+	display: none;
+}
 // 500px
 @media all and (min-width: 500px) {
 	.box-4 {
@@ -38,14 +40,29 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-}
-
-// 1200px
-@media all and (min-width: $screen-desktop) {
 	.box-4 {
 		padding: 150px 0px;
 		.caption {
 			max-width: 880px;
+			small {
+				font-size: 24px;
+			}
+			h2 {
+				font-size: 50px;
+			}
+			br {
+				display: none;
+			}
 		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	#only-mobile {
+		display: none;
+	}
+	#only-desktop {
+		display: block;
 	}
 }

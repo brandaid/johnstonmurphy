@@ -50,7 +50,7 @@
 			</section>
 			
 			<!--BOX 4-->
-			<section class="box-4">
+			<section class="box-4" id="only-mobile">
 				<div class="caption">
 					<small>style philosophy</small>
 					<h2>THINKING ON <br> YOUR FEET IS <i>ALWAYS</i> <br> APPROPRIATE</h2>
@@ -79,8 +79,67 @@
 					<img src="images/box-5-3.jpg" alt="">
 				</div>
 			</section>
+			
+			<!--BOX 4-->
+			<section class="box-4" id="only-desktop">
+				<div class="caption">
+					<small>style philosophy</small>
+					<h2>THINKING ON <br> YOUR FEET IS <i>ALWAYS</i> <br> APPROPRIATE</h2>
+				</div>
+			</section>
 
+			<!--BOX 6-->
+			<section class="box-6">
+				<div class="col">
+					<img src="images/box-6-1.jpg" alt="">
+				</div>
+				<div class="col middle">
+					<h2>A Well-Balanced <br>Wardrobe</h2>
+					<p>All the rest of the fall essentials you need for toe-to-head style.</p>
+					<a href="" class="btn">SHOP WOMEN'S APPAREL</a>
+				</div>
+				<div class="col last">
+					<img src="images/box-6-2.jpg" alt="">
+				</div>
+			</section>
 
+			<!--BOX 7-->
+			<section class="box-7">
+				<div class="box-data">
+					<h2>Polish Makes <br>Perfect</h2>
+					<p>Patent, menswear-inspired looks let your feminine style shine.</p>
+					<a href="" class="btn">SHOP BEVERLY & GWYNN</a>
+					<img src="images/box-7.jpg" alt="">
+				</div>
+				<div class="box-image">
+					<img src="images/box-7-2.jpg" alt="">
+				</div>
+			</section>
+
+			<!--BOX 8-->
+			<section class="box-8">
+				<div class="caption">
+					<small>Introducing</small>
+					<h2>HAPPILY GREY</h2>
+					<img src="images/box-8-mobile.jpg" alt="" class="mobile">
+					<p>We caught up with the style blogger and hometown Nashville girl crush to find out her perspective on life, style, and of course, the shoes.</p>
+					<a href="" class="btn">READ MORE</a>
+				</div>
+				<img src="images/box-8.jpg" alt="" class="desktop">
+			</section>
+
+			<!--BOX 9-->
+			<section class="box-9">
+				<div class="box-data">
+					<h2>Well Heeled</h2>
+					<p>Finely crafted from start to luxurious finish.</p>
+					<a href="" class="btn">SHOP HEELS</a>
+					<img src="images/box-9.jpg" alt="">
+				</div>
+				<div class="box-image">
+					<img src="images/box-9-2.jpg" alt="">
+				</div>
+			</section>
 			
 		</div>
 	</main>

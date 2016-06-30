@@ -1,0 +1,95 @@
+.box-9 {
+	background: white;
+	text-align: center;
+	padding: 80px 0px;
+	h2, p {
+		color: $brand-primary;
+	}
+	h2 {
+		margin-bottom: 20px;
+		font-family: $font-bold;
+		line-height: 1.3em;
+		letter-spacing: 2px;
+		font-size: 26px;
+		&:after {
+			content: "";
+			width: 200px;
+			height: 1px;
+			background: $brand-primary;
+			display: block;
+			margin: 20px auto 10px auto;
+		}
+	}
+	p {
+		font-size: 16px;
+		@include center;
+		max-width: 330px;
+		margin-bottom: 40px;
+		font-family: $font-italic;
+	}
+	img {
+		width: 100%;
+		height: auto;
+		margin-top: 80px;
+	}
+	.box-image {
+		display: none;
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box-9 {
+		font-size: 0;
+		h2 {
+			font-size: 32px;
+		}
+		p {
+			font-size: 20px;
+		}
+		.box-data, .box-image {
+			@include inline-middle;
+			vertical-align: top;
+			width: 50%;
+			padding: 0; 
+		}
+		.box-data {
+			padding-top: 40px;
+			img {
+				margin-top: 70px;
+			}
+		}
+		.box-image {
+			padding-left: 60px;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			img {
+				margin-top: 0;
+			}
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box-9 {
+		h2 {
+			font-size: 52px;
+			margin-bottom: 0px;
+			max-width: 450px;
+			@include center;
+			&:after {
+				margin: 10px auto 15px auto;
+			}	
+		}
+		p {
+			font-size: 26px;
+			max-width: 400px;
+		}
+	}
+}

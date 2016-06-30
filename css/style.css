@@ -88,11 +88,17 @@ a, a:hover, a:active, a:focus {
   font-size: 22px;
   letter-spacing: 1px; }
   .btn:hover {
-    background: #3c3e3f; }
+    background: #3c3e3f;
+    padding-left: 28px;
+    padding-right: 28px; }
 
 @media all and (min-width: 768px) {
   .btn {
-    padding: 15px 35px 10px 35px; } }
+    padding: 15px 35px 10px 35px; }
+    .btn:hover {
+      background: #3c3e3f;
+      padding-left: 40px;
+      padding-right: 40px; } }
 h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -210,11 +216,15 @@ i, em  {
         height: auto;
         width: 100%; } }
 .box-3-video {
+  background: white;
   line-height: 0; }
   .box-3-video img {
     width: 100%;
     height: auto; }
 
+@media all and (min-width: 1200px) {
+  .box-3-video {
+    padding-bottom: 120px; } }
 .box-4 {
   padding: 80px 20px;
   text-align: center;
@@ -235,14 +245,29 @@ i, em  {
       letter-spacing: 3px;
       font-size: 18px; }
 
+#only-desktop {
+  display: none; }
+
 @media all and (min-width: 500px) {
   .box-4 .caption h2 {
     font-size: 22px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 992px) {
   .box-4 {
     padding: 150px 0px; }
     .box-4 .caption {
-      max-width: 880px; } }
+      max-width: 880px; }
+      .box-4 .caption small {
+        font-size: 24px; }
+      .box-4 .caption h2 {
+        font-size: 50px; }
+      .box-4 .caption br {
+        display: none; } }
+@media all and (min-width: 1200px) {
+  #only-mobile {
+    display: none; }
+
+  #only-desktop {
+    display: block; } }
 .box-5 {
   background: white;
   text-align: center;
@@ -267,7 +292,8 @@ i, em  {
     margin-left: auto;
     margin-right: auto;
     max-width: 330px;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
   .box-5 .box-data {
     padding-top: 50px; }
   .box-5 .box-image {
@@ -306,7 +332,7 @@ i, em  {
       margin-right: auto; }
     .box-5 p {
       font-size: 24px;
-      max-width: 400px; }
+      max-width: 390px; }
     .box-5 .box-image-mobile {
       display: none; }
     .box-5 .box-data, .box-5 .box-image {
@@ -347,3 +373,326 @@ i, em  {
     height: 550px; }
     .box-5-images .box-two-img.first img {
       bottom: 440px; } }
+.box-6 {
+  background: #F3F1F4;
+  font-size: 0; }
+  .box-6 .col img {
+    width: 100%;
+    height: auto; }
+  .box-6 .col.middle {
+    padding: 60px 20px;
+    text-align: center; }
+  .box-6 h2, .box-6 p {
+    color: #555759; }
+  .box-6 h2 {
+    margin-bottom: 20px;
+    font-family: "NewCenturySchlbkLTStdBd", Georgia, serif;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+    font-size: 26px; }
+    .box-6 h2:after {
+      content: "";
+      width: 200px;
+      height: 1px;
+      background: #555759;
+      display: block;
+      margin: 20px auto 10px auto; }
+  .box-6 p {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 260px;
+    margin-bottom: 40px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+@media all and (min-width: 500px) {
+  .box-6 .col {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .box-6 .col.middle {
+      width: 70%; }
+    .box-6 .col.last {
+      display: none; } }
+@media all and (min-width: 768px) {
+  .box-6 .col {
+    width: 30%; }
+    .box-6 .col.middle {
+      width: 40%; }
+      .box-6 .col.middle .btn {
+        font-size: 20px; }
+    .box-6 .col.last {
+      display: inline-block; } }
+@media all and (min-width: 992px) {
+  .box-6 h2 {
+    font-size: 32px; }
+  .box-6 p {
+    font-size: 20px; } }
+@media all and (min-width: 1200px) {
+  .box-6 h2 {
+    margin-bottom: 40px; }
+  .box-6 p {
+    max-width: 300px; }
+  .box-6 .col.middle .btn {
+    font-size: 24px; } }
+@media all and (min-width: 1500px) {
+  .box-6 h2 {
+    font-size: 46px; }
+  .box-6 p {
+    font-size: 24px;
+    max-width: 400px; } }
+.box-7 {
+  background: white;
+  text-align: center;
+  padding: 80px 0px; }
+  .box-7 h2, .box-7 p {
+    color: #555759; }
+  .box-7 h2 {
+    margin-bottom: 20px;
+    font-family: "NewCenturySchlbkLTStdBd", Georgia, serif;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+    font-size: 26px; }
+    .box-7 h2:after {
+      content: "";
+      width: 200px;
+      height: 1px;
+      background: #555759;
+      display: block;
+      margin: 20px auto 10px auto; }
+  .box-7 p {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 330px;
+    margin-bottom: 40px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+  .box-7 img {
+    width: 100%;
+    height: auto;
+    margin-top: 80px; }
+  .box-7 .box-image {
+    display: none; }
+
+@media all and (min-width: 768px) {
+  .box-7 {
+    font-size: 0; }
+    .box-7 h2 {
+      font-size: 32px; }
+    .box-7 p {
+      font-size: 20px; }
+    .box-7 .box-data, .box-7 .box-image {
+      display: inline-block;
+      vertical-align: middle;
+      vertical-align: top;
+      width: 50%;
+      padding: 0; }
+    .box-7 .box-data {
+      padding-top: 40px; }
+      .box-7 .box-data img {
+        margin-top: 70px; }
+    .box-7 .box-image {
+      padding-left: 60px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .box-7 .box-image img {
+        margin-top: 0; } }
+@media all and (min-width: 1200px) {
+  .box-7 h2 {
+    font-size: 52px;
+    margin-bottom: 0px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto; }
+    .box-7 h2:after {
+      margin: 10px auto 15px auto; }
+  .box-7 p {
+    font-size: 26px;
+    max-width: 400px; } }
+.box-8 {
+  background: #fbf5f3;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  text-align: center; }
+  .box-8 small {
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    display: block;
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px; }
+  .box-8 h2 {
+    font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 45px; }
+    .box-8 h2:after {
+      display: block;
+      content: "";
+      height: 1px;
+      background: #555759;
+      margin-bottom: 30px;
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px; }
+  .box-8 .mobile {
+    margin-bottom: 30px; }
+  .box-8 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    font-size: 18px; }
+  .box-8 .btn {
+    padding-left: 70px;
+    padding-right: 70px; }
+    .box-8 .btn:hover {
+      padding-left: 85px;
+      padding-right: 85px; }
+
+.mobile, .desktop {
+  width: 100%;
+  height: auto; }
+
+.desktop {
+  display: none; }
+
+@media all and (min-width: 992px) {
+  .desktop {
+    display: block; }
+
+  .mobile {
+    display: none; }
+
+  .box-8 {
+    padding: 0px;
+    background: transparent;
+    position: relative; }
+    .box-8:before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      background: black;
+      /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(left, transparent, black);
+      /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(right, transparent, black);
+      /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(right, transparent, black);
+      /* For Firefox 3.6 to 15 */
+      background: linear-gradient(to right, transparent, black);
+      /* Standard syntax */
+      z-index: 99;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      opacity: .7; }
+    .box-8 .caption {
+      position: absolute;
+      z-index: 9999;
+      right: 0;
+      top: 120px;
+      right: 40px; }
+      .box-8 .caption small, .box-8 .caption h2, .box-8 .caption p {
+        color: white; }
+      .box-8 .caption .btn {
+        background: white;
+        color: #555759;
+        cursor: pointer;
+        padding-left: 40px;
+        padding-right: 40px; }
+        .box-8 .caption .btn:hover {
+          padding-left: 50px;
+          padding-right: 50px; }
+      .box-8 .caption small {
+        margin-bottom: 50px;
+        font-size: 26px; }
+      .box-8 .caption h2 {
+        font-size: 90px; }
+        .box-8 .caption h2:after {
+          max-width: 300px;
+          background: white; } }
+@media all and (min-width: 1200px) {
+  .box-8 .caption {
+    max-width: 520px;
+    top: 160px;
+    right: 100px; } }
+@media all and (min-width: 1400px) {
+  .box-8 .caption {
+    top: 200px; } }
+.box-9 {
+  background: white;
+  text-align: center;
+  padding: 80px 0px; }
+  .box-9 h2, .box-9 p {
+    color: #555759; }
+  .box-9 h2 {
+    margin-bottom: 20px;
+    font-family: "NewCenturySchlbkLTStdBd", Georgia, serif;
+    line-height: 1.3em;
+    letter-spacing: 2px;
+    font-size: 26px; }
+    .box-9 h2:after {
+      content: "";
+      width: 200px;
+      height: 1px;
+      background: #555759;
+      display: block;
+      margin: 20px auto 10px auto; }
+  .box-9 p {
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 330px;
+    margin-bottom: 40px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+  .box-9 img {
+    width: 100%;
+    height: auto;
+    margin-top: 80px; }
+  .box-9 .box-image {
+    display: none; }
+
+@media all and (min-width: 768px) {
+  .box-9 {
+    font-size: 0; }
+    .box-9 h2 {
+      font-size: 32px; }
+    .box-9 p {
+      font-size: 20px; }
+    .box-9 .box-data, .box-9 .box-image {
+      display: inline-block;
+      vertical-align: middle;
+      vertical-align: top;
+      width: 50%;
+      padding: 0; }
+    .box-9 .box-data {
+      padding-top: 40px; }
+      .box-9 .box-data img {
+        margin-top: 70px; }
+    .box-9 .box-image {
+      padding-left: 60px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .box-9 .box-image img {
+        margin-top: 0; } }
+@media all and (min-width: 1200px) {
+  .box-9 h2 {
+    font-size: 52px;
+    margin-bottom: 0px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto; }
+    .box-9 h2:after {
+      margin: 10px auto 15px auto; }
+  .box-9 p {
+    font-size: 26px;
+    max-width: 400px; } }

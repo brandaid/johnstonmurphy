@@ -10,6 +10,8 @@
 	letter-spacing: 1px;
 	&:hover {
 		background: darken($brand-primary, 10%);
+		padding-left: 28px;
+		padding-right: 28px;
 	}
 }
 
@@ -17,6 +19,11 @@
 @media all and (min-width: $screen-portrait) {
 	.btn {
 		padding: 15px 35px 10px 35px;
+		&:hover {
+			background: darken($brand-primary, 10%);
+			padding-left: 40px;
+			padding-right: 40px;
+		}
 	}
 }
 

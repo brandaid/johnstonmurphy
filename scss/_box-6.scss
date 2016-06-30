@@ -1,0 +1,117 @@
+.box-6 {
+	background: #F3F1F4;
+	font-size: 0;
+	.col {
+		img {
+			width: 100%;
+			height: auto;
+		}
+		&.middle {
+			padding: 60px 20px;
+			text-align: center;
+		}
+	}
+	h2, p {
+		color: $brand-primary;
+	}
+	h2 {
+		margin-bottom: 20px;
+		font-family: $font-bold;
+		line-height: 1.3em;
+		letter-spacing: 2px;
+		font-size: 26px;
+		&:after {
+			content: "";
+			width: 200px;
+			height: 1px;
+			background: $brand-primary;
+			display: block;
+			margin: 20px auto 10px auto;
+		}
+	}
+	p {
+		font-size: 16px;
+		@include center;
+		max-width: 260px;
+		margin-bottom: 40px;
+		font-family: $font-italic;
+	}
+}
+// 500px
+@media all and (min-width: 500px) {
+	.box-6 {
+		.col {
+			display: inline-block;
+			vertical-align: middle;
+			width: 30%;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			&.middle {
+				width: 70%;
+			}
+			&.last {
+				display: none;
+			}
+		}
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box-6 {
+		.col {
+			width: 30%;
+			&.middle {
+				width: 40%;
+				.btn {
+					font-size: 20px;
+				}
+			}
+			&.last {
+				display: inline-block;
+			}
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box-6 {
+		h2 {
+			font-size: 32px;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box-6 {
+		h2 {
+			margin-bottom: 40px;
+		}
+		p {
+			max-width: 300px;
+		}
+		.col.middle {
+			.btn {
+				font-size: 24px;
+			}
+		}
+	}
+}
+
+// 1500px
+@media all and (min-width: 1500px) {
+	.box-6 {
+		h2 {
+			font-size: 46px;
+		}
+		p {
+			font-size: 24px;
+			max-width: 400px;
+		}
+	}
+}
