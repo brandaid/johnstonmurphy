@@ -1,0 +1,37 @@
+.box-5 {
+	padding: 100px 20px;
+	text-align: center;
+	.caption {
+		border-bottom: 1px solid $brand-primary;
+		border-top: 1px solid $brand-primary;
+		padding: 40px 25px;
+		max-width: 550px;
+		@include center;
+		small {
+			font-family: $font-italic;
+			display: block;
+			margin: 0 0 35px 0;
+		}
+		h2 {
+			line-height: 1.5em;
+		}
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box-5 {
+		padding: 150px 0px;
+		.caption {
+			max-width: 880px;
+		}
+	}
+}

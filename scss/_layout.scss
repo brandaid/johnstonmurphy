@@ -1,5 +1,7 @@
 html {
-	font-family: $primary-font;
+	font-family: $font-roman;
+	background: #f3f3f3;
+	color: $brand-primary;
 }
 
 a, a:hover, a:active, a:focus {
@@ -15,20 +17,22 @@ a, a:hover, a:active, a:focus {
 @media all and (min-width: $screen-portrait) {
 	.container { 
 		@include center;
-		max-width: 750px;
 	}
 }
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.container { 
-		max-width: 970px;
-	}
+
 }
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
+
+}
+
+// 1500px
+@media all and (min-width: 1500px) {
 	.container { 
-		max-width: 1170px;
+		max-width: 1400px;
 	}
 }

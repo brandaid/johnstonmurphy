@@ -1,7 +1,24 @@
-
+.btn {
+	padding: 19px 25px 14px 25px;
+	display: inline-block;
+	@include center;
+	background: $brand-primary;
+	color: white;
+	font-family: $secondary-font;
+	line-height: 100%;
+	font-size: 22px;
+	letter-spacing: 1px;
+	&:hover {
+		background: darken($brand-primary, 10%);
+	}
+}
 
 // 768px
 @media all and (min-width: $screen-portrait) {
+	.btn {
+		padding: 19px 50px 14px 50px;
+		font-size: 28px;
+	}
 }
 
 // 992px

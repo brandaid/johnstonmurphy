@@ -1,3 +1,5 @@
+@import "reset";
+@import "fonts";
 @import "variables";
 @import "mixins";
 @import "layout";
@@ -5,9 +7,14 @@
 @import "header";
 @import "footer";
 @import "navbar";
-@import "reset";
 @import "typography";
 @import "images";
 
+@import "box-1";
+@import "box-2";
+@import "box-3-video";
+@import "box-4";
+@import "box-5";
 
-@import "loginWP";
+
+
