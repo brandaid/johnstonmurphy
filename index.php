@@ -48,29 +48,9 @@
 			<section class="box-3-video">
 				<a href=""><img src="images/video.jpg" alt=""></a>
 			</section>
-
+			
 			<!--BOX 4-->
 			<section class="box-4">
-				<div class="box-data">
-					<h2>A Chic-er Sneaker</h2>
-					<p>Multi-task in style. The effortless go-to for the girl on the go.</p>
-					<a href="" class="btn">SHOP THE EMERSON</a>
-				</div>
-				<div class="box-image">
-					<img src="images/box-4.jpg" alt="">
-				</div>
-			</section>
-			<section class="box-4-images">
-				<div class="box-two-img first">
-					<img src="images/box-4-2.jpg" alt="">
-				</div>
-				<div class="box-two-img last">
-					<img src="images/box-4-3.jpg" alt="">
-				</div>
-			</section>
-
-			<!--BOX 4-->
-			<section class="box-5">
 				<div class="caption">
 					<small>style philosophy</small>
 					<h2>THINKING ON <br> YOUR FEET IS <i>ALWAYS</i> <br> APPROPRIATE</h2>
@@ -79,12 +59,29 @@
 
 			<!--BOX 5-->
 			<section class="box-5">
-				<img src="images/box-5.jpg" alt="">
-				<div class="caption">
-					<small>style philosophy</small>
-					<h2>THINKING ON <br> YOUR FEET IS <i>ALWAYS</i> <br> APPROPRIATE</h2>
+				<div class="box-image-mobile">
+					<img src="images/box-5.jpg" alt="">
+				</div>
+				<div class="box-data">
+					<h2>A Chic-er Sneaker</h2>
+					<p>Multi-task in style. The effortless go-to for the girl on the go.</p>
+					<a href="" class="btn">SHOP THE EMERSON</a>
+				</div>
+				<div class="box-image">
+					<img src="images/box-5.jpg" alt="">
 				</div>
 			</section>
+			<section class="box-5-images">
+				<div class="box-two-img first">
+					<img src="images/box-5-2.jpg" alt="">
+				</div>
+				<div class="box-two-img last">
+					<img src="images/box-5-3.jpg" alt="">
+				</div>
+			</section>
+
+
+			
 		</div>
 	</main>
 	<!--JQUERY -->

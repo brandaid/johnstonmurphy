@@ -1,25 +1,68 @@
 .box-5 {
-	padding: 100px 20px;
+	background: white;
 	text-align: center;
-	.caption {
-		border-bottom: 1px solid $brand-primary;
-		border-top: 1px solid $brand-primary;
-		padding: 40px 25px;
-		max-width: 550px;
-		@include center;
-		small {
-			font-family: $font-italic;
+	padding: 0 0 80px 0px;
+	h2, p {
+		color: $brand-primary;
+	}
+	h2 {
+		margin-bottom: 20px;
+		font-family: $font-bold;
+		line-height: 1.3em;
+		letter-spacing: 2px;
+		font-size: 26px;
+		&:after {
+			content: "";
+			width: 200px;
+			height: 1px;
+			background: $brand-primary;
 			display: block;
-			margin: 0 0 35px 0;
+			margin: 20px auto 10px auto;
 		}
-		h2 {
-			line-height: 1.5em;
+	}
+	p {
+		font-size: 16px;
+		@include center;
+		max-width: 330px;
+		margin-bottom: 40px;
+	}
+	.box-data {
+		padding-top: 50px;
+	}
+	.box-image {
+		display: none;
+	}
+}
+.box-image-mobile {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+.box-5-images {
+	font-size: 0;
+	background: white;
+	.box-two-img {
+		@include inline-middle;
+		width: 50%;
+		line-height: 0;
+		img {
+			width: 100%;
+			height: auto;
 		}
 	}
 }
 
 // 768px
 @media all and (min-width: $screen-portrait) {
+	.box-5 {
+		h2 {
+			font-size: 32px;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
 }
 
 // 992px
@@ -29,9 +72,77 @@
 // 1200px
 @media all and (min-width: $screen-desktop) {
 	.box-5 {
-		padding: 150px 0px;
-		.caption {
-			max-width: 880px;
+		font-size: 0;
+		padding: 0px 0px 90px 0;
+		h2 {
+			font-size: 42px;
+			margin-bottom: 40px;
+			max-width: 250px;
+			@include center;	
+		}
+		p {
+			font-size: 24px;
+			max-width: 400px;
+		}
+		.box-image-mobile {
+			display: none;
+		}
+		.box-data, .box-image {
+			@include inline-middle;
+			width: 50%;
+			padding: 0; 
+		}
+		.box-image {
+			text-align: right;
+			img {
+				height: auto;
+				width: 100%;
+				margin: 0;
+			}
+		}
+	}
+
+	.box-5-images {
+		.box-two-img {
+			@include inline-middle;
+			vertical-align: top;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			&.first {
+				width: 60%;
+				padding-right: 5%;
+				overflow: hidden;
+				height: 450px;
+				img {
+					position: relative;
+					bottom: 430px;
+				}
+			}
+			&.last {
+				width: 40%;
+				text-align: right;
+				padding-left: 5%;
+				img {
+					margin-top: 90px;
+				}
+			}
+		}
+	}
+
+}
+
+
+// 1400px
+@media all and (min-width: 1400px) {
+	.box-5-images {
+		.box-two-img {
+			&.first {
+				height: 550px;
+				img {
+					bottom: 440px;
+				}
+			}
 		}
 	}
 }
