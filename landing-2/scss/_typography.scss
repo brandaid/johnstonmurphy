@@ -1,0 +1,40 @@
+h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-roman;
+	color: $brand-primary;
+	letter-spacing: 5px;
+}
+p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+h2 {
+	font-size: 20px;
+}
+small {
+	font-size: 20px;
+}
+i, em {
+	font-family: $font-italic;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	h2 {
+		font-size: 56px;
+	}
+	small {
+		font-size: 32px;
+	}
+}

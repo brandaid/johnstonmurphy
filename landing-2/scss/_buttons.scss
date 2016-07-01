@@ -1,0 +1,36 @@
+.btn {
+	padding: 19px 25px 14px 25px;
+	display: inline-block;
+	@include center;
+	background: $brand-primary;
+	color: white;
+	font-family: $secondary-font;
+	line-height: 100%;
+	font-size: 22px;
+	letter-spacing: 1px;
+	&:hover {
+		background: darken($brand-primary, 10%);
+		padding-left: 28px;
+		padding-right: 28px;
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.btn {
+		padding: 15px 35px 10px 35px;
+		&:hover {
+			background: darken($brand-primary, 10%);
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}
