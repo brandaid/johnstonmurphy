@@ -130,13 +130,23 @@
 
 			<!--BOX 9-->
 			<section class="box-9">
+				<div class="box-image-mobile">
+					<img src="images/box-9.jpg" alt="">
+				</div>
 				<div class="box-data">
 					<h2>Well Heeled</h2>
 					<p>Finely crafted from start to luxurious finish.</p>
 					<a href="" class="btn">SHOP HEELS</a>
-					<img src="images/box-9.jpg" alt="">
 				</div>
 				<div class="box-image">
+					<img src="images/box-9.jpg" alt="">
+				</div>
+			</section>
+			<section class="box-9-images">
+				<div class="box-two-img first">
+					<img src="images/box-9-1.jpg" alt="">
+				</div>
+				<div class="box-two-img last">
 					<img src="images/box-9-2.jpg" alt="">
 				</div>
 			</section>

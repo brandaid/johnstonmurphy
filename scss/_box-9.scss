@@ -1,7 +1,7 @@
 .box-9 {
 	background: white;
 	text-align: center;
-	padding: 80px 0px;
+	padding: 0 0 80px 0px;
 	h2, p {
 		color: $brand-primary;
 	}
@@ -27,69 +27,126 @@
 		margin-bottom: 40px;
 		font-family: $font-italic;
 	}
-	img {
-		width: 100%;
-		height: auto;
-		margin-top: 80px;
+	.box-data {
+		padding-top: 50px;
 	}
 	.box-image {
 		display: none;
+	}
+}
+.box-image-mobile {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+.box-9-images {
+	font-size: 0;
+	background: white;
+	.box-two-img {
+		@include inline-middle;
+		width: 50%;
+		line-height: 0;
+		img {
+			width: 100%;
+			height: auto;
+		}
 	}
 }
 
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.box-9 {
-		font-size: 0;
 		h2 {
 			font-size: 32px;
 		}
 		p {
 			font-size: 20px;
 		}
-		.box-data, .box-image {
-			@include inline-middle;
-			vertical-align: top;
-			width: 50%;
-			padding: 0; 
-		}
-		.box-data {
-			padding-top: 40px;
-			img {
-				margin-top: 70px;
-			}
-		}
-		.box-image {
-			padding-left: 60px;
-			-moz-box-sizing: border-box;
-			-webkit-box-sizing: border-box;
-			box-sizing: border-box;
-			img {
-				margin-top: 0;
-			}
-		}
 	}
 }
 
 // 992px
 @media all and (min-width: $screen-landscape) {
+	.box-9 {
+		padding-top: 120px;
+	}
 }
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
 	.box-9 {
+		font-size: 0;
+		padding-bottom: 90px;
 		h2 {
-			font-size: 52px;
-			margin-bottom: 0px;
-			max-width: 450px;
-			@include center;
-			&:after {
-				margin: 10px auto 15px auto;
-			}	
+			font-size: 42px;
+			margin-bottom: 40px;
+			max-width: 250px;
+			@include center;	
 		}
 		p {
-			font-size: 26px;
-			max-width: 400px;
+			font-size: 24px;
+			max-width: 390px;
+		}
+		.box-image-mobile {
+			display: none;
+		}
+		.box-data, .box-image {
+			@include inline-middle;
+			width: 50%;
+			padding: 0; 
+		}
+		.box-image {
+			text-align: right;
+			img {
+				height: auto;
+				width: 100%;
+				margin: 0;
+			}
+		}
+	}
+
+	.box-9-images {
+		.box-two-img {
+			@include inline-middle;
+			vertical-align: top;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			&.first {
+				width: 60%;
+				padding-right: 5%;
+				overflow: hidden;
+				height: 450px;
+				img {
+					position: relative;
+					bottom: 430px;
+				}
+			}
+			&.last {
+				width: 40%;
+				text-align: right;
+				padding-left: 5%;
+				img {
+					margin-top: 90px;
+				}
+			}
+		}
+	}
+
+}
+
+
+// 1400px
+@media all and (min-width: 1400px) {
+	.box-9-images {
+		.box-two-img {
+			&.first {
+				height: 550px;
+				img {
+					bottom: 440px;
+				}
+			}
 		}
 	}
 }

@@ -121,6 +121,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/box-9-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66742,
+		"inputAbbreviatedPath": "\/images\/box-9-1.jpg",
+		"outputAbbreviatedPath": "\/images\/box-9-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/box-9-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84445,
+		"inputAbbreviatedPath": "\/images\/box-9-2.jpg",
+		"outputAbbreviatedPath": "\/images\/box-9-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/box-9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52749,
+		"inputAbbreviatedPath": "\/images\/box-9.jpg",
+		"outputAbbreviatedPath": "\/images\/box-9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/box-top.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
