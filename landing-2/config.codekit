@@ -110,6 +110,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/box-6-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89467,
+		"inputAbbreviatedPath": "\/images\/box-6-2.jpg",
+		"outputAbbreviatedPath": "\/images\/box-6-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/box-6-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25581,
+		"inputAbbreviatedPath": "\/images\/box-6-3.jpg",
+		"outputAbbreviatedPath": "\/images\/box-6-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/box-6.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

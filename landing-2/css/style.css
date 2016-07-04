@@ -619,12 +619,12 @@ i, em  {
     padding-bottom: 120px; }
     .box-6-one .col-left, .box-6-one .col-right {
       display: table-cell;
-      width: 60%;
+      width: 55%;
       vertical-align: top; }
     .box-6-one .col-right {
       padding-top: 50px;
       padding-left: 80px;
-      width: 40%; }
+      width: 45%; }
       .box-6-one .col-right .desktop {
         display: block;
         margin-bottom: 80px; }
@@ -640,12 +640,12 @@ i, em  {
     padding-bottom: 120px; }
     .box-6-two .col-left, .box-6-two .col-right {
       display: table-cell;
-      width: 60%;
+      width: 55%;
       vertical-align: top; }
     .box-6-two .col-left {
       padding-top: 50px;
       padding-right: 80px;
-      width: 40%; }
+      width: 45%; }
       .box-6-two .col-left .desktop {
         display: block;
         margin-bottom: 80px; }

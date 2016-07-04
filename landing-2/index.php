@@ -134,11 +134,11 @@
 			<section class="box-6-two">
 				<div class="col-left">
 					<p class="number">2.</p>
-					<img src="images/box-6-1.jpg" alt="" class="desktop">
+					<img src="images/box-6-3.jpg" alt="" class="desktop">
 					<p class="text">"I like where these hit. Mom was right…Always show some ankle, it’s the littlest part of you."</p>
 				</div>
 				<div class="col-right">
-					<img src="images/box-6.jpg" alt="">
+					<img src="images/box-6-2.jpg" alt="">
 				</div>
 				<a href="" class="btn">SHOP THE STEPHANIE</a>
 			</section>
