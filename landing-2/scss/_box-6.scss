@@ -100,7 +100,6 @@
 		}
 	}
 
-
 	.box-6-two {
 		padding-bottom: 120px;
 		.col-left, .col-right {
@@ -149,5 +148,21 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	
+	.box-6-one {
+		.col-left, .col-right {
+			width: 55%;
+		}
+		.col-right {
+			width: 45%;
+		}
+	}
+
+	.box-6-two {
+		.col-left, .col-right {
+			width: 55%;
+		}
+		.col-left {
+			width: 45%;
+		}
+	}
 }

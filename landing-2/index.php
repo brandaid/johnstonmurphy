@@ -101,8 +101,22 @@
 			<!--BOX 4-->
 			<section class="box-4">
 				<h2>SHOP THE EDIT</h2>
-				<div class="include">
-					[include]	
+				<div class="shop">
+					<div class="col">
+						<a href=""><img src="images/shop-1.jpg" alt=""></a>
+						<h4>Isabel Pump</h4>
+						<p><span>$248.00</span>$149.99</p>
+					</div>
+					<div class="col">
+						<a href=""><img src="images/shop-2.jpg" alt=""></a>
+						<h4>Isabel Pump</h4>
+						<p><span>$248.00</span>$149.99</p>
+					</div>
+					<div class="col">
+						<a href=""><img src="images/shop-3.jpg" alt=""></a>
+						<h4>Isabel Pump</h4>
+						<p><span>$248.00</span>$149.99</p>
+					</div>
 				</div>
 				<a href="" class="btn">SEE MORE</a>
 			</section>

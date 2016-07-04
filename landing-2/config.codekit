@@ -37,7 +37,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 134295,
+		"initialSize": 56350,
 		"inputAbbreviatedPath": "\/images\/box-2-1.jpg",
 		"outputAbbreviatedPath": "\/images\/box-2-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -139,6 +139,39 @@
 		"initialSize": 94807,
 		"inputAbbreviatedPath": "\/images\/box-6.jpg",
 		"outputAbbreviatedPath": "\/images\/box-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shop-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11593,
+		"inputAbbreviatedPath": "\/images\/shop-1.jpg",
+		"outputAbbreviatedPath": "\/images\/shop-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shop-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12653,
+		"inputAbbreviatedPath": "\/images\/shop-2.jpg",
+		"outputAbbreviatedPath": "\/images\/shop-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shop-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12628,
+		"inputAbbreviatedPath": "\/images\/shop-3.jpg",
+		"outputAbbreviatedPath": "\/images\/shop-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
