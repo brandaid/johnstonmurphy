@@ -97,8 +97,52 @@
 				</div>
 			</section>
 
-
 			
+			<!--BOX 4-->
+			<section class="box-4">
+				<h2>SHOP THE EDIT</h2>
+				<div class="include">
+					[include]	
+				</div>
+				<a href="" class="btn">SEE MORE</a>
+			</section>
+			
+			<!-- BOX 5 TESTIMONIAL-->
+			<section class="box-5-testimonial">
+				<h3>The way one walks, talks and stands all create style, but none of it's possible without personal confidence.</h3>
+				<p>MARY SENG @HappilyGrey</p>
+			</section>
+			
+			<!-- BOX 6 -->
+			<section class="box-6">
+				<h2>ONE BOOT</h2>
+				<span></span>
+				<h2>TWO WAYS</h2>
+			</section>
+
+			<section class="box-6-one">
+				<div class="col-left">
+					<img src="images/box-6.jpg" alt="">
+				</div>
+				<div class="col-right">
+					<p class="number">1.</p>
+					<img src="images/box-6-1.jpg" alt="" class="desktop">
+					<p class="text">"Safe to say these boots go with everything. I like them best with a knee-rip skinny, an oversized knit, and a topknot. Cozy casual, but still put-together."</p>
+				</div>
+			</section>
+	
+			<section class="box-6-two">
+				<div class="col-left">
+					<p class="number">2.</p>
+					<img src="images/box-6-1.jpg" alt="" class="desktop">
+					<p class="text">"I like where these hit. Mom was right…Always show some ankle, it’s the littlest part of you."</p>
+				</div>
+				<div class="col-right">
+					<img src="images/box-6.jpg" alt="">
+				</div>
+				<a href="" class="btn">SHOP THE STEPHANIE</a>
+			</section>
+		
 		</div>
 	</main>
 	<!--JQUERY -->
