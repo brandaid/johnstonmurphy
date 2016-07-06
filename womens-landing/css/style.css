@@ -73,9 +73,9 @@ a, a:hover, a:active, a:focus {
   .container {
     margin-left: auto;
     margin-right: auto; } }
-@media all and (min-width: 1500px) {
+@media all and (min-width: 1200px) {
   .container {
-    max-width: 1400px; } }
+    max-width: 1015px; } }
 .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -164,16 +164,13 @@ i, em  {
     padding-top: 250px;
     padding-bottom: 250px; }
     .box-1 h1 {
-      font-size: 44px; }
+      font-size: 37px;
+      line-height: 1.4em; }
     .box-1 p {
-      font-size: 22px; } }
+      font-size: 18px; } }
 @media all and (min-width: 1200px) {
   .box-1 .caption {
-    width: 50%; }
-  .box-1 h1 {
-    font-size: 52px; }
-  .box-1 p {
-    font-size: 26px; } }
+    width: 50%; } }
 .box-2 {
   background: white;
   text-align: center;

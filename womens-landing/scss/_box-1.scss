@@ -43,10 +43,11 @@
 		padding-top: 250px;
 		padding-bottom: 250px;
 		h1 {
-			font-size: 44px;
+			font-size: 37px;
+			line-height: 1.4em;
 		}
 		p {
-			font-size: 22px;
+			font-size: 18px;
 		}
 	}
 }
@@ -60,12 +61,6 @@
 	.box-1 {
 		.caption {
 			width: 50%;
-		}
-		h1 {
-			font-size: 52px;
-		}
-		p {
-			font-size: 26px;
 		}
 	}
 }

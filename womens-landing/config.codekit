@@ -600,8 +600,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "landing-1",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Womens Landing",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "compass_orange"
 	},
 "projectSettings": {
@@ -759,7 +759,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost:8888\/HTML\/johnstonmurphy\/landing-1\/",
+	"externalServerAddress": "http:\/\/localhost:8888\/HTML\/johnstonmurphy\/womens-landing\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
