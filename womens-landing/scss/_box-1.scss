@@ -54,6 +54,11 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
+	.box-1 {
+		.caption {
+			width: 40%;
+		}
+	}
 }
 
 // 1200px
