@@ -15,18 +15,18 @@
 		color: $brand-primary;
 	}
 	h2 {
-		margin-bottom: 20px;
+		margin-bottom: 12px;
 		font-family: $font-bold;
 		line-height: 1.3em;
 		letter-spacing: 2px;
 		font-size: 26px;
 		&:after {
 			content: "";
-			width: 200px;
+			width: 255px;
 			height: 1px;
 			background: $brand-primary;
 			display: block;
-			margin: 20px auto 10px auto;
+			margin: 0px auto 10px auto;
 		}
 	}
 	p {
@@ -35,6 +35,7 @@
 		max-width: 260px;
 		margin-bottom: 40px;
 		font-family: $font-italic;
+		letter-spacing: 1px;
 	}
 }
 // 500px
@@ -78,40 +79,21 @@
 @media all and (min-width: $screen-landscape) {
 	.box-6 {
 		h2 {
-			font-size: 32px;
+			font-size: 37px;
 		}
 		p {
-			font-size: 20px;
+			font-size: 18px;
+			max-width: 300px;
 		}
 	}
 }
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-6 {
-		h2 {
-			margin-bottom: 40px;
-		}
-		p {
-			max-width: 300px;
-		}
-		.col.middle {
-			.btn {
-				font-size: 24px;
-			}
-		}
-	}
+	
 }
 
 // 1500px
 @media all and (min-width: 1500px) {
-	.box-6 {
-		h2 {
-			font-size: 46px;
-		}
-		p {
-			font-size: 24px;
-			max-width: 400px;
-		}
-	}
+
 }

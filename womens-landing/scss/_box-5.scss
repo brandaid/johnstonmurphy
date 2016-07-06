@@ -13,7 +13,7 @@
 		font-size: 26px;
 		&:after {
 			content: "";
-			width: 200px;
+			width: 190px;
 			height: 1px;
 			background: $brand-primary;
 			display: block;
@@ -76,14 +76,14 @@
 		font-size: 0;
 		padding: 0px 0px 90px 0;
 		h2 {
-			font-size: 42px;
+			font-size: 37px;
 			margin-bottom: 40px;
 			max-width: 250px;
 			@include center;	
 		}
 		p {
-			font-size: 24px;
-			max-width: 390px;
+			font-size: 18px;
+			max-width: 280px;
 		}
 		.box-image-mobile {
 			display: none;

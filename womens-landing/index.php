@@ -40,13 +40,13 @@
 					<p>We believe when you’re on solid footing, the rest comes easy.</p>
 				</div>
 				<div class="box-image">
-					<img src="images/box-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-2.jpg" alt="Footwear First"></a>
 				</div>
 			</section>
 
 			<!--BOX 3-Video-->
 			<section class="box-3-video">
-				<a href=""><img src="images/video.jpg" alt=""></a>
+				<a href="https://vimeo.com/173527809" class="image-link" target="blank"><img src="images/video.jpg" alt=""></a>
 			</section>
 			
 			<!--BOX 4-->
@@ -60,7 +60,7 @@
 			<!--BOX 5-->
 			<section class="box-5">
 				<div class="box-image-mobile">
-					<img src="images/box-5.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-5.jpg" alt=""></a>
 				</div>
 				<div class="box-data">
 					<h2>A Chic-er Sneaker</h2>
@@ -68,15 +68,15 @@
 					<a href="" class="btn">SHOP THE EMERSON</a>
 				</div>
 				<div class="box-image">
-					<img src="images/box-5.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-5.jpg" alt="A Chic-er Sneaker"></a>
 				</div>
 			</section>
 			<section class="box-5-images">
 				<div class="box-two-img first">
-					<img src="images/box-5-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-5-2.jpg" alt="A Chic-er Sneaker"></a>
 				</div>
 				<div class="box-two-img last">
-					<img src="images/box-5-3.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-5-3.jpg" alt="A Chic-er Sneaker"></a>
 				</div>
 			</section>
 			
@@ -91,15 +91,15 @@
 			<!--BOX 6-->
 			<section class="box-6">
 				<div class="col">
-					<img src="images/box-6-1.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-6-1.jpg" alt="A Well-Balanced Wardrobe"></a>
 				</div>
 				<div class="col middle">
 					<h2>A Well-Balanced <br>Wardrobe</h2>
 					<p>All the rest of the fall essentials you need for toe-to-head style.</p>
-					<a href="" class="btn">SHOP WOMEN'S APPAREL</a>
+					<a href="#" class="btn">SHOP WOMEN'S APPAREL</a>
 				</div>
 				<div class="col last">
-					<img src="images/box-6-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-6-2.jpg" alt="A Well-Balanced Wardrobe"></a>
 				</div>
 			</section>
 
@@ -109,10 +109,10 @@
 					<h2>Polish Makes <br>Perfect</h2>
 					<p>Patent, menswear-inspired looks let your feminine style shine.</p>
 					<a href="" class="btn">SHOP BEVERLY & GWYNN</a>
-					<img src="images/box-7.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-7.jpg" alt="Polish Makes Perfect"></a>
 				</div>
 				<div class="box-image">
-					<img src="images/box-7-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-7-2.jpg" alt="Polish Makes Perfect"></a>
 				</div>
 			</section>
 
@@ -121,33 +121,33 @@
 				<div class="caption">
 					<small>Introducing</small>
 					<h2>HAPPILY GREY</h2>
-					<img src="images/box-8-mobile.jpg" alt="" class="mobile">
+					<a href="#" class="image-link"><img src="images/box-8-mobile.jpg" alt="Happily Grey" class="mobile"></a>
 					<p>We caught up with the style blogger and hometown Nashville girl crush to find out her perspective on life, style, and of course, the shoes.</p>
 					<a href="" class="btn">READ MORE</a>
 				</div>
-				<img src="images/box-8.jpg" alt="" class="desktop">
+				<a href="#" class="image-link"><img src="images/box-8.jpg" alt="Happily Grey" class="desktop"></a>
 			</section>
 
 			<!--BOX 9-->
 			<section class="box-9">
 				<div class="box-image-mobile">
-					<img src="images/box-9.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-9.jpg" alt=""></a>
 				</div>
 				<div class="box-data">
 					<h2>Well Heeled</h2>
 					<p>Finely crafted from start to luxurious finish.</p>
-					<a href="" class="btn">SHOP HEELS</a>
+					<a href="" class="btn">SHOP VALERIE & VANESSA</a>
 				</div>
 				<div class="box-image">
-					<img src="images/box-9.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-9.jpg" alt="Well Heeled"></a>
 				</div>
 			</section>
 			<section class="box-9-images">
 				<div class="box-two-img first">
-					<img src="images/box-9-1.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-9-1.jpg" alt="Well Heeled"></a>
 				</div>
 				<div class="box-two-img last">
-					<img src="images/box-9-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-9-2.jpg" alt="Well Heeled"></a>
 				</div>
 			</section>
 			

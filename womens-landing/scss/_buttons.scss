@@ -18,7 +18,8 @@
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.btn {
-		padding: 15px 35px 10px 35px;
+		padding: 15px 30px 10px 30px;
+		font-size: 18px;
 		&:hover {
 			background: darken($brand-primary, 10%);
 			padding-left: 40px;

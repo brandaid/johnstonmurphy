@@ -10,7 +10,6 @@
 		font-family: $font-bold;
 		line-height: 1.3em;
 		letter-spacing: 2px;
-		font-size: 26px;
 		&:after {
 			content: "";
 			width: 200px;
@@ -41,9 +40,6 @@
 @media all and (min-width: $screen-portrait) {
 	.box-7 {
 		font-size: 0;
-		h2 {
-			font-size: 32px;
-		}
 		p {
 			font-size: 20px;
 		}
@@ -73,23 +69,24 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
+	.box-7 {
+		padding: 100px 0;
+		h2 {
+			margin-bottom: 0px;
+			@include center;
+			&:after {
+				margin: 0px auto 10px auto;
+			}	
+		}
+		p {
+			font-size: 18px;
+			max-width: 280px;
+			margin-bottom: 30px;
+		}
+	}
 }
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-7 {
-		h2 {
-			font-size: 52px;
-			margin-bottom: 0px;
-			max-width: 450px;
-			@include center;
-			&:after {
-				margin: 10px auto 15px auto;
-			}	
-		}
-		p {
-			font-size: 26px;
-			max-width: 400px;
-		}
-	}
+	
 }

@@ -9,7 +9,7 @@
 		margin-bottom: 30px;
 		font-size: 18px;
 		text-transform: uppercase;
-		letter-spacing: 5px;
+		letter-spacing: 3px;
 	}
 	h2 {
 		font-family: $secondary-font;
@@ -36,14 +36,6 @@
 		@include center;
 		margin-bottom: 30px;
 		font-size: 18px;
-	}
-	.btn {
-		padding-left: 70px;
-		padding-right: 70px;
-		&:hover {
-			padding-left: 85px;
-			padding-right: 85px;
-		}	
 	}
 }
 
@@ -78,22 +70,22 @@
 			width: 50%;
 			background: black; /* For browsers that do not support gradients */
 			background: -webkit-linear-gradient(left, transparent , black); /* For Safari 5.1 to 6.0 */
-			background: -o-linear-gradient(right, transparent, black); /* For Opera 11.1 to 12.0 */
-			background: -moz-linear-gradient(right, transparent, black); /* For Firefox 3.6 to 15 */
-			background: linear-gradient(to right, transparent , black); /* Standard syntax */
+			background: -o-linear-gradient(left, transparent, black); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(left, transparent, black); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to left, transparent , black); /* Standard syntax */
 			z-index: 99;
 			position: absolute;
 			top: 0;
 			bottom: 0;
-			right: 0;
+			left: 0;
 			opacity: .7;
 		}
 		.caption {
 			position: absolute;
 			z-index: 9999;
-			right: 0;
+			left: 0;
 			top: 120px;
-			right: 40px;
+			left: 40px;
 			small, h2, p {
 				color: white;
 			}
@@ -101,23 +93,25 @@
 				background: white;
 				color: $brand-primary;
 				cursor: pointer;
-				padding-left: 40px;
-				padding-right: 40px;
-				&:hover {
-					padding-left: 50px;
-					padding-right: 50px;
-				}
+				font-size: 20px;
 			}
 			small {
-				margin-bottom: 50px;
-				font-size: 26px;
+				margin-bottom: 40px;
+				font-size: 16px;
 			}
 			h2 {
-				font-size: 90px;
-				&:after {
+				font-size: 54px;
+				padding-bottom: 0;
+            	&:after {
 					max-width: 300px;
 					background: white;
+					margin: 5px auto 20px auto;
 				}
+			}
+			p {
+				max-width: 300px;
+				margin-right: auto;
+				margin-left: auto;
 			}
 		}
 	}
@@ -128,16 +122,12 @@
 	.box-8 {
 		.caption {
 			max-width: 520px;
-			top: 160px;
-			right: 100px;
+			top: 100px;
+			right: 60px;
 		}
 	}
 }
 // 1400px
 @media all and (min-width: 1400px) {
-	.box-8 {
-		.caption {
-			top: 200px;
-		}
-	}
+
 }

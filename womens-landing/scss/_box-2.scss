@@ -18,20 +18,14 @@
 	}
 }
 
-// 500px
-@media all and (min-width: 500px) {
-	.box-2 {
-		h2 {
-			font-size: 32px;
-		}
-	}
-}
-
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.box-2 {
+		h2 {
+			font-size: 30px;
+		}
 		p {
-			font-size: 20px;
+			font-size: 18px;
 		}
 	}
 }
@@ -44,22 +38,18 @@
 @media all and (min-width: $screen-desktop) {
 	.box-2 {
 		font-size: 0;
-		padding: 136px 0px;
+		padding: 100px 0px;
 		h2 {
-			font-size: 42px;
-			margin-bottom: 40px;
+			margin-bottom: 30px;
 		}
 		p {
-			font-size: 24px;
-			max-width: 550px;
+			max-width: 350px;
 		}
-		
 		.box-data, .box-image {
 			@include inline-middle;
 			width: 50%;
 		}
 		.box-image {
-			
 			text-align: right;
 			img {
 				height: auto;

@@ -94,7 +94,8 @@ a, a:hover, a:active, a:focus {
 
 @media all and (min-width: 768px) {
   .btn {
-    padding: 15px 35px 10px 35px; }
+    padding: 15px 30px 10px 30px;
+    font-size: 18px; }
     .btn:hover {
       background: #3c3e3f;
       padding-left: 40px;
@@ -113,7 +114,7 @@ p {
   line-height: 1.5em; }
 
 h2 {
-  font-size: 20px; }
+  font-size: 26px; }
 
 small {
   font-size: 20px; }
@@ -121,12 +122,25 @@ small {
 i, em  {
   font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   h2 {
-    font-size: 56px; }
-
-  small {
     font-size: 32px; } }
+@media all and (min-width: 992px) {
+  h2 {
+    font-size: 37px; } }
+.image-link {
+  display: block; }
+  .image-link img {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1); }
+  .image-link:hover img {
+    opacity: 0.8; }
+
 .box-1 {
   background: url(../images/box-top.jpg) no-repeat center center;
   -webkit-background-size: cover;
@@ -187,22 +201,19 @@ i, em  {
   .box-2 .box-image {
     display: none; }
 
-@media all and (min-width: 500px) {
-  .box-2 h2 {
-    font-size: 32px; } }
 @media all and (min-width: 768px) {
+  .box-2 h2 {
+    font-size: 30px; }
   .box-2 p {
-    font-size: 20px; } }
+    font-size: 18px; } }
 @media all and (min-width: 1200px) {
   .box-2 {
     font-size: 0;
-    padding: 136px 0px; }
+    padding: 100px 0px; }
     .box-2 h2 {
-      font-size: 42px;
-      margin-bottom: 40px; }
+      margin-bottom: 30px; }
     .box-2 p {
-      font-size: 24px;
-      max-width: 550px; }
+      max-width: 350px; }
     .box-2 .box-data, .box-2 .box-image {
       display: inline-block;
       vertical-align: middle;
@@ -250,13 +261,19 @@ i, em  {
     font-size: 22px; } }
 @media all and (min-width: 992px) {
   .box-4 {
-    padding: 150px 0px; }
+    padding: 110px 0px; }
     .box-4 .caption {
-      max-width: 880px; }
+      max-width: 650px;
+      padding-left: 20px;
+      padding-right: 20px;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
       .box-4 .caption small {
-        font-size: 24px; }
+        font-size: 18px;
+        letter-spacing: 4px; }
       .box-4 .caption h2 {
-        font-size: 50px; }
+        font-size: 37px; }
       .box-4 .caption br {
         display: none; } }
 @media all and (min-width: 1200px) {
@@ -279,7 +296,7 @@ i, em  {
     font-size: 26px; }
     .box-5 h2:after {
       content: "";
-      width: 200px;
+      width: 190px;
       height: 1px;
       background: #555759;
       display: block;
@@ -322,14 +339,14 @@ i, em  {
     font-size: 0;
     padding: 0px 0px 90px 0; }
     .box-5 h2 {
-      font-size: 42px;
+      font-size: 37px;
       margin-bottom: 40px;
       max-width: 250px;
       margin-left: auto;
       margin-right: auto; }
     .box-5 p {
-      font-size: 24px;
-      max-width: 390px; }
+      font-size: 18px;
+      max-width: 280px; }
     .box-5 .box-image-mobile {
       display: none; }
     .box-5 .box-data, .box-5 .box-image {
@@ -382,25 +399,26 @@ i, em  {
   .box-6 h2, .box-6 p {
     color: #555759; }
   .box-6 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     font-family: "NewCenturySchlbkLTStdBd", Georgia, serif;
     line-height: 1.3em;
     letter-spacing: 2px;
     font-size: 26px; }
     .box-6 h2:after {
       content: "";
-      width: 200px;
+      width: 255px;
       height: 1px;
       background: #555759;
       display: block;
-      margin: 20px auto 10px auto; }
+      margin: 0px auto 10px auto; }
   .box-6 p {
     font-size: 16px;
     margin-left: auto;
     margin-right: auto;
     max-width: 260px;
     margin-bottom: 40px;
-    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    letter-spacing: 1px; }
 
 @media all and (min-width: 500px) {
   .box-6 .col {
@@ -425,22 +443,10 @@ i, em  {
       display: inline-block; } }
 @media all and (min-width: 992px) {
   .box-6 h2 {
-    font-size: 32px; }
+    font-size: 37px; }
   .box-6 p {
-    font-size: 20px; } }
-@media all and (min-width: 1200px) {
-  .box-6 h2 {
-    margin-bottom: 40px; }
-  .box-6 p {
-    max-width: 300px; }
-  .box-6 .col.middle .btn {
-    font-size: 24px; } }
-@media all and (min-width: 1500px) {
-  .box-6 h2 {
-    font-size: 46px; }
-  .box-6 p {
-    font-size: 24px;
-    max-width: 400px; } }
+    font-size: 18px;
+    max-width: 300px; } }
 .box-7 {
   background: white;
   text-align: center;
@@ -451,8 +457,7 @@ i, em  {
     margin-bottom: 20px;
     font-family: "NewCenturySchlbkLTStdBd", Georgia, serif;
     line-height: 1.3em;
-    letter-spacing: 2px;
-    font-size: 26px; }
+    letter-spacing: 2px; }
     .box-7 h2:after {
       content: "";
       width: 200px;
@@ -477,8 +482,6 @@ i, em  {
 @media all and (min-width: 768px) {
   .box-7 {
     font-size: 0; }
-    .box-7 h2 {
-      font-size: 32px; }
     .box-7 p {
       font-size: 20px; }
     .box-7 .box-data, .box-7 .box-image {
@@ -498,18 +501,19 @@ i, em  {
       box-sizing: border-box; }
       .box-7 .box-image img {
         margin-top: 0; } }
-@media all and (min-width: 1200px) {
-  .box-7 h2 {
-    font-size: 52px;
-    margin-bottom: 0px;
-    max-width: 450px;
-    margin-left: auto;
-    margin-right: auto; }
-    .box-7 h2:after {
-      margin: 10px auto 15px auto; }
-  .box-7 p {
-    font-size: 26px;
-    max-width: 400px; } }
+@media all and (min-width: 992px) {
+  .box-7 {
+    padding: 100px 0; }
+    .box-7 h2 {
+      margin-bottom: 0px;
+      margin-left: auto;
+      margin-right: auto; }
+      .box-7 h2:after {
+        margin: 0px auto 10px auto; }
+    .box-7 p {
+      font-size: 18px;
+      max-width: 280px;
+      margin-bottom: 30px; } }
 .box-8 {
   background: #fbf5f3;
   padding-bottom: 60px;
@@ -521,7 +525,7 @@ i, em  {
     margin-bottom: 30px;
     font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 5px; }
+    letter-spacing: 3px; }
   .box-8 h2 {
     font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
     letter-spacing: 1px;
@@ -546,12 +550,6 @@ i, em  {
     margin-right: auto;
     margin-bottom: 30px;
     font-size: 18px; }
-  .box-8 .btn {
-    padding-left: 70px;
-    padding-right: 70px; }
-    .box-8 .btn:hover {
-      padding-left: 85px;
-      padding-right: 85px; }
 
 .mobile, .desktop {
   width: 100%;
@@ -579,51 +577,50 @@ i, em  {
       /* For browsers that do not support gradients */
       background: -webkit-linear-gradient(left, transparent, black);
       /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(right, transparent, black);
+      background: -o-linear-gradient(left, transparent, black);
       /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(right, transparent, black);
+      background: -moz-linear-gradient(left, transparent, black);
       /* For Firefox 3.6 to 15 */
-      background: linear-gradient(to right, transparent, black);
+      background: linear-gradient(to left, transparent, black);
       /* Standard syntax */
       z-index: 99;
       position: absolute;
       top: 0;
       bottom: 0;
-      right: 0;
+      left: 0;
       opacity: .7; }
     .box-8 .caption {
       position: absolute;
       z-index: 9999;
-      right: 0;
+      left: 0;
       top: 120px;
-      right: 40px; }
+      left: 40px; }
       .box-8 .caption small, .box-8 .caption h2, .box-8 .caption p {
         color: white; }
       .box-8 .caption .btn {
         background: white;
         color: #555759;
         cursor: pointer;
-        padding-left: 40px;
-        padding-right: 40px; }
-        .box-8 .caption .btn:hover {
-          padding-left: 50px;
-          padding-right: 50px; }
+        font-size: 20px; }
       .box-8 .caption small {
-        margin-bottom: 50px;
-        font-size: 26px; }
+        margin-bottom: 40px;
+        font-size: 16px; }
       .box-8 .caption h2 {
-        font-size: 90px; }
+        font-size: 54px;
+        padding-bottom: 0; }
         .box-8 .caption h2:after {
           max-width: 300px;
-          background: white; } }
+          background: white;
+          margin: 5px auto 20px auto; }
+      .box-8 .caption p {
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto; } }
 @media all and (min-width: 1200px) {
   .box-8 .caption {
     max-width: 520px;
-    top: 160px;
-    right: 100px; } }
-@media all and (min-width: 1400px) {
-  .box-8 .caption {
-    top: 200px; } }
+    top: 100px;
+    right: 60px; } }
 .box-9 {
   background: white;
   text-align: center;

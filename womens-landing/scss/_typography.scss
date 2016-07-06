@@ -13,7 +13,7 @@ p {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 26px;
 }
 small {
 	font-size: 20px;
@@ -23,18 +23,20 @@ i, em {
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
+	h2 {
+		font-size: 32px;
+	}
 }
 
 // 992px
 @media all and (min-width: $screen-landscape) {
+	h2 {
+		font-size: 37px;
+	}
 }
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	h2 {
-		font-size: 56px;
-	}
-	small {
-		font-size: 32px;
-	}
+
+
 }
