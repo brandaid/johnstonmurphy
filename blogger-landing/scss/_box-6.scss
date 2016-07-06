@@ -126,7 +126,7 @@
 			}
 		}
 		.btn {
-			margin-top: 120px;
+			margin-top: 50px;
 		}
 	}
 }
@@ -135,12 +135,13 @@
 @media all and (min-width: $screen-landscape) {
 	.box-6 {
 		h2 {
-			font-size: 53px;
+			font-size: 45px;
+			letter-spacing: 5px;
 		}
 		span {
 			height: 2px;
 			width: 60px;
-			margin: 45px auto 50px auto;
+			margin: 35px auto 40px auto;
 		}
 
 	}

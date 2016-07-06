@@ -22,17 +22,7 @@ a, a:hover, a:active, a:focus {
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-
-}
-
-// 1200px
-@media all and (min-width: $screen-desktop) {
 	.container { 
 		max-width: 1015px;
 	}
-}
-
-// 1500px
-@media all and (min-width: 1500px) {
-
 }

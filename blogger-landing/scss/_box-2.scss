@@ -140,10 +140,15 @@
 	.box-2 {
 		.box-data {
 			padding-top: 50px;
+			h2 {
+				margin-bottom: 0px;
+				&:after {
+					content: "";
+					margin: 40px auto 10px auto;
+				}
+			}
 		}
 	}
-
-
 	.box-2-images {
 		.box-two-img {
 			p {
@@ -177,11 +182,6 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-2 {
-		h2 {
-			font-size: 40px;
-		}
-	}
 	.box-2-images {
 		.box-two-img {
 			&.first {
@@ -195,16 +195,11 @@
 					margin-bottom: 200px;
 				}
 				p {
-					font-size: 25px;
+					font-size: 18px;
 					max-width: 440px;
 				}
 			}
 		}
 	}
 	
-}
-
-// 1400px
-@media all and (min-width: 1400px) {
-
 }

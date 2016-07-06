@@ -28,10 +28,10 @@
 				<div class="caption">
 					<small>Introducing</small>
 					<h2>HAPPILY GREY</h2>
-					<img src="images/box-1-mobile.jpg" alt="" class="mobile">
+					<a href="#" class="image-link"><img src="images/box-1-mobile.jpg" alt="Happly Grey" class="mobile"></a>
 					<p>We caught up with the style blogger and hometown Nashville girl crush to find out her perspective on life, style, and of course, the shoes.</p>
 				</div>
-				<img src="images/box-1.jpg" alt="" class="desktop">
+				<a href="#" class="image-link"><img src="images/box-1.jpg" alt="Happly Grey" class="desktop"></a>
 			</section>
 			
 			<!--BOX 2-->
@@ -43,11 +43,11 @@
 			
 			<section class="box-2-images">
 				<div class="box-two-img first">
-					<img src="images/box-2-bottom.jpg" alt="" class="in-desktop">
-					<img src="images/box-2.jpg" alt="" class="vertical">
+					<a href="#" class="image-link"><img src="images/box-2-bottom.jpg" alt="My Style Foundations" class="in-desktop"></a>
+					<a href="#" class="image-link"><img src="images/box-2.jpg" alt="My Style Foundations" class="vertical"></a>
 				</div>
 				<div class="box-two-img last">
-					<img src="images/box-2-1.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-2-1.jpg" alt="My Style Foundations"></a>
 					<p class="in-desktop">"I enjoy putting looks together <br>side-by-side, rarely do I wear one <br> piece, one way. </p>
 					<p class="in-desktop">Style is meant to be utilitarian. <br>It’s expression, yes, but it’s evolving.</p>
 					<p class="in-desktop">I’m no expert, but my style allows <br> me to share all that inspires me."</p>
@@ -59,7 +59,7 @@
 					<p>"I enjoy putting looks together side-by-side, rarely do I wear one piece, one way. Style is meant to be utilitarian. It’s expression, yes, but it’s evolving. I’m no expert, but my style allows me to share all that inspires me."</p>
 				</div>
 				<div class="box-image">
-					<img src="images/box-2-bottom.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-2-bottom.jpg" alt="My Style Foundations"></a>
 				</div>
 			</section>
 
@@ -71,7 +71,7 @@
 
 			<section class="box-3-noticia">
 				<div class="box-image">
-					<img src="images/box-3-1.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-3-1.jpg" alt="The Fall Edit"></a>
 				</div>
 				<div class="box-data">
 					<h2>THE EMERSON</h2>
@@ -84,12 +84,12 @@
 					<p>"I love those borrowed-from-the-boys vibes. I’ve decided I don’t wear enough loafers; I forgot how versatile they are."</p>
 				</div>
 				<div class="box-image">
-					<img src="images/box-3-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-3-2.jpg" alt="The Fall Edit"></a>
 				</div>
 			</section>
 			<section class="box-3-noticia">
 				<div class="box-image">
-					<img src="images/box-3-3.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-3-3.jpg" alt="The Fall Edit"></a>
 				</div>
 				<div class="box-data">
 					<h2>THE STEPHANIE</h2>
@@ -136,11 +136,11 @@
 
 			<section class="box-6-one">
 				<div class="col-left">
-					<img src="images/box-6.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-6.jpg" alt=""></a>
 				</div>
 				<div class="col-right">
 					<p class="number">1.</p>
-					<img src="images/box-6-1.jpg" alt="" class="desktop">
+					<a href="#" class="image-link"><img src="images/box-6-1.jpg" alt="" class="desktop"></a>
 					<p class="text">"Safe to say these boots go with everything. I like them best with a knee-rip skinny, an oversized knit, and a topknot. Cozy casual, but still put-together."</p>
 				</div>
 			</section>
@@ -148,11 +148,11 @@
 			<section class="box-6-two">
 				<div class="col-left">
 					<p class="number">2.</p>
-					<img src="images/box-6-3.jpg" alt="" class="desktop">
+					<a href="#" class="image-link"><img src="images/box-6-3.jpg" alt="" class="desktop"></a>
 					<p class="text">"I like where these hit. Mom was right…Always show some ankle, it’s the littlest part of you."</p>
 				</div>
 				<div class="col-right">
-					<img src="images/box-6-2.jpg" alt="">
+					<a href="#" class="image-link"><img src="images/box-6-2.jpg" alt=""></a>
 				</div>
 				<a href="" class="btn">SHOP THE STEPHANIE</a>
 			</section>
