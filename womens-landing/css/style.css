@@ -88,18 +88,12 @@ a, a:hover, a:active, a:focus {
   font-size: 22px;
   letter-spacing: 1px; }
   .btn:hover {
-    background: #3c3e3f;
-    padding-left: 28px;
-    padding-right: 28px; }
+    background: #6e7173; }
 
 @media all and (min-width: 768px) {
   .btn {
     padding: 15px 30px 10px 30px;
-    font-size: 18px; }
-    .btn:hover {
-      background: #3c3e3f;
-      padding-left: 40px;
-      padding-right: 40px; } }
+    font-size: 18px; } }
 h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -152,9 +146,9 @@ i, em  {
   .box-1 .caption {
     width: 70%;
     padding: 0 0 0 20px;
-    text-align: center; }
+    text-align: left; }
   .box-1 h1 {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 1.2em;
     margin: 0; }
     .box-1 h1:after {
@@ -164,12 +158,12 @@ i, em  {
       max-width: 200px;
       width: 45%;
       display: block;
-      margin: 10px auto 14px auto; }
+      margin: 10px auto 14px 0; }
   .box-1 p {
     font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
     line-height: 1.3em;
     font-size: 13px;
-    letter-spacing: 5px; }
+    letter-spacing: 2px; }
   .box-1 h1, .box-1 p {
     color: white; }
 
@@ -177,11 +171,16 @@ i, em  {
   .box-1 {
     padding-top: 250px;
     padding-bottom: 250px; }
+    .box-1 .caption {
+      text-align: center; }
     .box-1 h1 {
       font-size: 37px;
       line-height: 1.4em; }
+      .box-1 h1:after {
+        margin: 10px auto 14px auto; }
     .box-1 p {
-      font-size: 18px; } }
+      font-size: 18px;
+      letter-spacing: 5px; } }
 @media all and (min-width: 992px) {
   .box-1 .caption {
     width: 40%; } }
@@ -191,13 +190,13 @@ i, em  {
 .box-2 {
   background: white;
   text-align: center;
-  padding: 100px 20px; }
+  padding: 65px 20px 50px 20px; }
   .box-2 h2, .box-2 p {
     color: #555759; }
   .box-2 h2 {
     margin-bottom: 20px; }
   .box-2 p {
-    font-size: 16px;
+    font-size: 15px;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto; }
@@ -605,6 +604,8 @@ i, em  {
         color: #555759;
         cursor: pointer;
         font-size: 20px; }
+        .box-8 .caption .btn:hover {
+          background: rgba(255, 255, 255, 0.8); }
       .box-8 .caption small {
         margin-bottom: 40px;
         font-size: 16px; }

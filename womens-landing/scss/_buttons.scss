@@ -9,9 +9,7 @@
 	font-size: 22px;
 	letter-spacing: 1px;
 	&:hover {
-		background: darken($brand-primary, 10%);
-		padding-left: 28px;
-		padding-right: 28px;
+		background: lighten($brand-primary, 10%);
 	}
 }
 
@@ -20,11 +18,6 @@
 	.btn {
 		padding: 15px 30px 10px 30px;
 		font-size: 18px;
-		&:hover {
-			background: darken($brand-primary, 10%);
-			padding-left: 40px;
-			padding-right: 40px;
-		}
 	}
 }
 

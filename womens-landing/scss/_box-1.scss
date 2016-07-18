@@ -9,10 +9,10 @@
 	.caption {
 		width: 70%;
 		padding: 0 0 0 20px;
-		text-align: center;
+		text-align: left;
 	}
 	h1 {
-		font-size: 20px;
+		font-size: 15px;
 		line-height: 1.2em;
 		margin: 0;
 		&:after {
@@ -22,14 +22,14 @@
 			max-width: 200px;
 			width: 45%;
 			display: block;
-			margin: 10px auto 14px auto;
+			margin: 10px auto 14px 0;
 		}
 	}
 	p {
 		font-family: $font-italic;
 		line-height: 1.3em;
 		font-size: 13px;
-		letter-spacing: 5px;
+		letter-spacing: 2px;
 	}
 	h1, p {
 		color: white;
@@ -42,12 +42,19 @@
 	.box-1 {
 		padding-top: 250px;
 		padding-bottom: 250px;
+		.caption {
+			text-align: center;
+		}
 		h1 {
 			font-size: 37px;
 			line-height: 1.4em;
+			&:after {
+				margin: 10px auto 14px auto;
+			}
 		}
 		p {
 			font-size: 18px;
+			letter-spacing: 5px;
 		}
 	}
 }

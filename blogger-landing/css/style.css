@@ -97,17 +97,11 @@ a, a:hover, a:active, a:focus {
   font-size: 22px;
   letter-spacing: 1px; }
   .btn:hover {
-    background: #3c3e3f;
-    padding-left: 28px;
-    padding-right: 28px; }
+    background: #6e7173; }
 
 @media all and (min-width: 768px) {
   .btn {
-    padding: 15px 30px 10px 30px; }
-    .btn:hover {
-      background: #3c3e3f;
-      padding-left: 40px;
-      padding-right: 40px; } }
+    padding: 15px 30px 10px 30px; } }
 h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -439,7 +433,7 @@ i, em  {
         background: #555759; }
     .box-3-noticia .box-data p {
       margin: 0;
-      max-width: 80%;
+      max-width: 85%;
       font-size: 17px;
       margin-left: auto;
       margin-right: auto; }

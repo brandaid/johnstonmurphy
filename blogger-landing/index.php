@@ -48,15 +48,15 @@
 				</div>
 				<div class="box-two-img last">
 					<a href="#" class="image-link"><img src="images/box-2-1.jpg" alt="My Style Foundations"></a>
-					<p class="in-desktop">"I enjoy putting looks together <br>side-by-side, rarely do I wear one <br> piece, one way. </p>
+					<p class="in-desktop">“I enjoy putting looks together <br>side-by-side, rarely do I wear one <br> piece, one way. </p>
 					<p class="in-desktop">Style is meant to be utilitarian. <br>It’s expression, yes, but it’s evolving.</p>
-					<p class="in-desktop">I’m no expert, but my style allows <br> me to share all that inspires me."</p>
+					<p class="in-desktop">I’m no expert, but my style allows <br> me to share all that inspires me.”</p>
 				</div>
 			</section>
 
 			<section class="box-2-bottom">
 				<div class="box-data in-mobile">
-					<p>"I enjoy putting looks together side-by-side, rarely do I wear one piece, one way. Style is meant to be utilitarian. It’s expression, yes, but it’s evolving. I’m no expert, but my style allows me to share all that inspires me."</p>
+					<p>“I enjoy putting looks together side-by-side, rarely do I wear one piece, one way. Style is meant to be utilitarian. It’s expression, yes, but it’s evolving. I’m no expert, but my style allows me to share all that inspires me.”</p>
 				</div>
 				<div class="box-image">
 					<a href="#" class="image-link"><img src="images/box-2-bottom.jpg" alt="My Style Foundations"></a>
@@ -75,13 +75,13 @@
 				</div>
 				<div class="box-data">
 					<h2>THE EMERSON</h2>
-					<p>"I want these in every color. I love the texture of a well-worn sneaker. It has an off-duty feel."</p>
+					<p>“I want these in every color. I love the texture of a well-worn sneaker. It has an off-duty feel.”</p>
 				</div>
 			</section>
 			<section class="box-3-noticia float">
 				<div class="box-data">
 					<h2>THE GWYNN</h2>
-					<p>"I love those borrowed-from-the-boys vibes. I’ve decided I don’t wear enough loafers; I forgot how versatile they are."</p>
+					<p>“I love those borrowed-from-the-boys vibes. I’ve decided I don’t wear enough loafers; I forgot how versatile they are.”</p>
 				</div>
 				<div class="box-image">
 					<a href="#" class="image-link"><img src="images/box-3-2.jpg" alt="The Fall Edit"></a>
@@ -93,7 +93,7 @@
 				</div>
 				<div class="box-data">
 					<h2>THE STEPHANIE</h2>
-					<p>"Glad to see midis stuck around for fall, updated with icy blues and greys. That leather will only get better with age."</p>
+					<p>“Glad to see midis stuck around for fall, updated with icy blues and greys. That leather will only get better with age.”</p>
 				</div>
 			</section>
 
@@ -103,19 +103,16 @@
 				<h2>SHOP THE EDIT</h2>
 				<div class="shop">
 					<div class="col">
-						<a href=""><img src="images/shop-1.jpg" alt=""></a>
-						<h4>Isabel Pump</h4>
-						<p><span>$248.00</span>$149.99</p>
+						<a href="http://www.johnstonmurphy.com/emerson-sneaker/6951.html?dwvar_6951_width=M&dwvar_6951_color=Off%20White%20Italian%20Snake%20Print%20Leather#start=3"><img src="images/shop-1.jpg" alt=""></a>
+						<h4>Emerson Sneaker</h4>
 					</div>
 					<div class="col">
-						<a href=""><img src="images/shop-2.jpg" alt=""></a>
-						<h4>Isabel Pump</h4>
-						<p><span>$248.00</span>$149.99</p>
+						<a href="http://www.johnstonmurphy.com/gwynn-penny/6946.html?dwvar_6946_width=M&dwvar_6946_color=Bordeaux%20Textured%20Patent%20Leather#start=2"><img src="images/shop-2.jpg" alt=""></a>
+						<h4>Gwynn Penny</h4>
 					</div>
 					<div class="col">
-						<a href=""><img src="images/shop-3.jpg" alt=""></a>
-						<h4>Isabel Pump</h4>
-						<p><span>$248.00</span>$149.99</p>
+						<a href="http://www.johnstonmurphy.com/stephanie-stitched-bootie/6947.html?dwvar_6947_color=Gray%20Italian%20Suede&dwvar_6947_width=M#start=1"><img src="images/shop-3.jpg" alt=""></a>
+						<h4>STEPHANIE STITCHED BOOTIE</h4>
 					</div>
 				</div>
 				<a href="" class="btn">SEE MORE</a>
@@ -141,7 +138,7 @@
 				<div class="col-right">
 					<p class="number">1.</p>
 					<a href="#" class="image-link"><img src="images/box-6-1.jpg" alt="" class="desktop"></a>
-					<p class="text">"Safe to say these boots go with everything. I like them best with a knee-rip skinny, an oversized knit, and a topknot. Cozy casual, but still put-together."</p>
+					<p class="text">“Safe to say these boots go with everything. I like them best with a knee-rip skinny, an oversized knit, and a topknot. Cozy casual, but still put-together.”</p>
 				</div>
 			</section>
 	
@@ -149,7 +146,7 @@
 				<div class="col-left">
 					<p class="number">2.</p>
 					<a href="#" class="image-link"><img src="images/box-6-3.jpg" alt="" class="desktop"></a>
-					<p class="text">"I like where these hit. Mom was right…Always show some ankle, it’s the littlest part of you."</p>
+					<p class="text">“I like where these hit. Mom was right…Always show some ankle, it’s the littlest part of you.”</p>
 				</div>
 				<div class="col-right">
 					<a href="#" class="image-link"><img src="images/box-6-2.jpg" alt=""></a>

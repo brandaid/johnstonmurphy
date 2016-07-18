@@ -12,6 +12,21 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.embed-container { 
+			position: relative; 
+			padding-bottom: 56.25%; 
+			height: 0; overflow: 
+			hidden; max-width: 100%; 
+		} 
+		.embed-container iframe, .embed-container object, .embed-container embed { 
+			position: absolute; 
+			top: 0; 
+			left: 0; 
+			width: 100%; 
+			height: 100%; 
+		}
+	</style>
 	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -46,7 +61,7 @@
 
 			<!--BOX 3-Video-->
 			<section class="box-3-video">
-				<a href="https://vimeo.com/173527809" class="image-link" target="blank"><img src="images/video.jpg" alt=""></a>
+				<div class='embed-container'><iframe src='https://player.vimeo.com/video/173527809' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 			</section>
 			
 			<!--BOX 4-->

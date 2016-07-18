@@ -1,7 +1,7 @@
 .box-2 {
 	background: white;
 	text-align: center;
-	padding: 100px 20px;
+	padding: 65px 20px 50px 20px;
 	h2, p {
 		color: $brand-primary;
 	}
@@ -9,7 +9,7 @@
 		margin-bottom: 20px;
 	}
 	p {
-		font-size: 16px;
+		font-size: 15px;
 		max-width: 650px;
 		@include center;
 	}

@@ -94,6 +94,9 @@
 				color: $brand-primary;
 				cursor: pointer;
 				font-size: 20px;
+				&:hover {
+					background: rgba(white, .8); 
+				}
 			}
 			small {
 				margin-bottom: 40px;
