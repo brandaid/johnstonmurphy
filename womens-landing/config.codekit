@@ -165,6 +165,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/brand.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10889,
+		"inputAbbreviatedPath": "\/images\/brand.png",
+		"outputAbbreviatedPath": "\/images\/brand.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-bag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1358,
+		"inputAbbreviatedPath": "\/images\/ico-bag.png",
+		"outputAbbreviatedPath": "\/images\/ico-bag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-locate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1513,
+		"inputAbbreviatedPath": "\/images\/ico-locate.png",
+		"outputAbbreviatedPath": "\/images\/ico-locate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1063,
+		"inputAbbreviatedPath": "\/images\/ico-menu.png",
+		"outputAbbreviatedPath": "\/images\/ico-menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1661,
+		"inputAbbreviatedPath": "\/images\/ico-search.png",
+		"outputAbbreviatedPath": "\/images\/ico-search.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/video.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

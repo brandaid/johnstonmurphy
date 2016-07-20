@@ -37,6 +37,30 @@
 <body>
 	<main>
 		<div class="container">
+			<header class="header">
+				<div class="box-legend">
+					Free Shipping on Orders Over $100 + Free Returns. Details
+				</div>
+				<div class="table-header">
+					<div class="col col-menu">
+						<a href=""><img src="images/ico-menu.png" alt="Icon menu"></a>
+					</div>
+					<div class="col col-locate">
+						<a href=""><img src="images/ico-locate.png" alt="Location"></a>
+					</div>
+					<div class="col col-brand">
+						<a href=""><img src="images/brand.png" alt="Johnston & Murphy"></a>
+					</div>
+					<div class="col col-search">
+						<a href=""><img src="images/ico-search.png" alt="Search"></a>
+					</div>
+					<div class="col col-bag">
+						<img src="images/ico-bag.png" alt="Bag">
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="container">
 			
 			<!--BOX 1-->
 			<section class="box-1">
