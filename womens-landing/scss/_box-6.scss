@@ -2,13 +2,16 @@
 	background: #F3F1F4;
 	font-size: 0;
 	.col {
+		width: 50%;
+		display: inline-block;
 		img {
 			width: 100%;
 			height: auto;
 		}
 		&.middle {
-			padding: 60px 20px;
+			padding: 60px 0px;
 			text-align: center;
+			width: 100%;
 		}
 	}
 	h2, p {
@@ -38,6 +41,9 @@
 		letter-spacing: 1px;
 	}
 }
+.only-desktop {
+	display: none!important;
+}
 // 500px
 @media all and (min-width: 500px) {
 	.box-6 {
@@ -49,12 +55,15 @@
 			-webkit-box-sizing: border-box;
 			box-sizing: border-box;
 			&.middle {
-				width: 70%;
-			}
-			&.last {
-				display: none;
+				width: 40%;
 			}
 		}
+	}
+	.only-mobile {
+		display: none!important;
+	}
+	.only-desktop {
+		display: inline-block!important;
 	}
 }
 // 768px

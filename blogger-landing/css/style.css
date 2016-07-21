@@ -520,24 +520,29 @@ i, em  {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto; }
+    .shop .col a {
+      display: block; }
     .shop .col h4, .shop .col p {
       padding-left: 30px; }
     .shop .col a:hover img {
       opacity: .8; }
   .shop img {
-    margin-bottom: 20px;
     width: 100%;
     height: auto;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #555759;
+    padding-bottom: 14px;
     -webkit-transition: all 300ms ease-in-out;
     -moz-transition: all 300ms ease-in-out;
     -ms-transition: all 300ms ease-in-out;
     -o-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out; }
+    transition: all 300ms ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1); }
   .shop h4 {
     letter-spacing: 0;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    font-family: 'HelveticaNeueW01-55Roma', Helvetica, sans-serif;
+    font-size: 15px;
+    color: black; }
   .shop p {
     font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
     color: #a32616;

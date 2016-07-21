@@ -112,7 +112,7 @@
 					</div>
 					<div class="col">
 						<a href="http://www.johnstonmurphy.com/stephanie-stitched-bootie/6947.html?dwvar_6947_color=Gray%20Italian%20Suede&dwvar_6947_width=M#start=1"><img src="images/shop-3.jpg" alt=""></a>
-						<h4>STEPHANIE STITCHED BOOTIE</h4>
+						<h4>Stephanie Stitched Bootie</h4>
 					</div>
 				</div>
 				<a href="" class="btn">SEE MORE</a>

@@ -13,6 +13,10 @@ a, a:hover, a:active, a:focus {
 	transition: all 230ms ease-in-out;
 }
 
+.only-desktop {
+	display: none;
+}
+
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.container { 

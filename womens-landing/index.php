@@ -129,10 +129,15 @@
 
 			<!--BOX 6-->
 			<section class="box-6">
+				<div class="col middle only-mobile">
+					<h2>A Well-Balanced <br>Wardrobe</h2>
+					<p>All the rest of the fall essentials you need for toe-to-head style.</p>
+					<a href="#" class="btn">SHOP WOMEN'S APPAREL</a>
+				</div>
 				<div class="col">
 					<a href="#" class="image-link"><img src="images/box-6-1.jpg" alt="A Well-Balanced Wardrobe"></a>
 				</div>
-				<div class="col middle">
+				<div class="col middle only-desktop">
 					<h2>A Well-Balanced <br>Wardrobe</h2>
 					<p>All the rest of the fall essentials you need for toe-to-head style.</p>
 					<a href="#" class="btn">SHOP WOMEN'S APPAREL</a>
