@@ -181,7 +181,10 @@ a, a:hover, a:active, a:focus {
     max-width: 37px; }
 
   .col-bag img {
-    max-width: 26px; } }
+    max-width: 26px; }
+
+  .box-legend {
+    font-size: 15px; } }
 h1, h2, h3, h4, h5, h6, p, span, a, ul, li {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
