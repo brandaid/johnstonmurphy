@@ -39,7 +39,7 @@
 		<div class="container">
 			<header class="header">
 				<div class="box-legend">
-					Free Shipping on Orders Over $100 + Free Returns. Details
+					<p>Free Shipping on Orders Over $100 + Free Returns. <a href="">Details</a></p>
 				</div>
 				<div class="table-header">
 					<div class="col col-menu">
