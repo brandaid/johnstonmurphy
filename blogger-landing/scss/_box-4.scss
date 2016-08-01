@@ -1,4 +1,4 @@
-.box-4 {
+.blogger-landing .box-4 {
 	background: white;
 	text-align: center;
 	padding: 20px 0 50px 0px;
@@ -28,7 +28,7 @@
 	}
 }
 
-.shop {
+.blogger-landing .shop {
 	max-width: 1010px;
 	@include center;
 	margin-bottom: 60px;
@@ -80,7 +80,7 @@
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.box-4 {
+	.blogger-landing .box-4 {
 		padding: 20px 0px 50px 0;
 		&:after {
 			top: 35px;
@@ -92,7 +92,7 @@
 			padding: 0 40px;
 		}
 	}
-	.shop {
+	.blogger-landing .shop {
 		display: table;
 		width: 100%;
 		vertical-align: top;

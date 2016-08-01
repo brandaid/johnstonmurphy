@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html.html-blogger-landing, body.body-blogger-landing, .blogger-landing div, .blogger-landing span, .blogger-landing applet, .blogger-landing object, .blogger-landing iframe, .blogger-landing h1, .blogger-landing h2, .blogger-landing h3, .blogger-landing h4, .blogger-landing h5, .blogger-landing h6, .blogger-landing p, .blogger-landing blockquote, .blogger-landing pre, .blogger-landing a, .blogger-landing abbr, .blogger-landing acronym, .blogger-landing address, .blogger-landing big, .blogger-landing cite, .blogger-landing code, .blogger-landing del, .blogger-landing dfn, .blogger-landing em, .blogger-landing img, .blogger-landing ins, .blogger-landing kbd, .blogger-landing q, .blogger-landing s, .blogger-landing samp, .blogger-landing small, .blogger-landing strike, .blogger-landing strong, .blogger-landing sub, .blogger-landing sup, .blogger-landing tt, .blogger-landing var, .blogger-landing b, .blogger-landing u, .blogger-landing i, .blogger-landing center, .blogger-landing dl, .blogger-landing dt, .blogger-landing dd, .blogger-landing ol, .blogger-landing ul, .blogger-landing li, .blogger-landing fieldset, .blogger-landing form, .blogger-landing label, .blogger-landing legend, .blogger-landing table, .blogger-landing caption, .blogger-landing tbody, .blogger-landing tfoot, .blogger-landing thead, .blogger-landing tr, .blogger-landing th, .blogger-landing td, .blogger-landing article, .blogger-landing aside, .blogger-landing canvas, .blogger-landing details, .blogger-landing embed, .blogger-landing figure, .blogger-landing figcaption, .blogger-landing footer, .blogger-landing header, .blogger-landing hgroup, .blogger-landing menu, .blogger-landing nav, .blogger-landing output, .blogger-landing ruby, .blogger-landing section, .blogger-landing summary, .blogger-landing time, .blogger-landing mark, .blogger-landing audio, .blogger-landing video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -13,28 +13,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* HTML5 display-role reset for older browsers */
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+.blogger-landing article, .blogger-landing aside, .blogger-landing details, .blogger-landing figcaption, .blogger-landing figure, .blogger-landing footer, .blogger-landing header, .blogger-landing hgroup, .blogger-landing menu, .blogger-landing nav, .blogger-landing section {
   display: block; }
 
-body {
+body.blogger-landing {
   line-height: 1; }
 
-ol, ul {
+.blogger-landing ol, .blogger-landing ul {
   list-style: none; }
 
-blockquote, q {
+.blogger-landing blockquote, .blogger-landing q {
   quotes: none; }
 
-blockquote {
+.blogger-landing blockquote {
   &:before, &:after {
     content: '';
     content: none; } }
 
-q {
+.blogger-landing q {
   &:before, &:after {
     content: '';
     content: none; } }
 
-table {
+.blogger-landing table {
   border-collapse: collapse;
   border-spacing: 0; }

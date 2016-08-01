@@ -1,4 +1,4 @@
-.box-3 {
+.blogger-landing .box-3 {
 	background: white;
 	text-align: center;
 	padding: 100px 0px;
@@ -35,7 +35,7 @@
 }
 
 
-.box-3-noticia {
+.blogger-landing .box-3-noticia {
 	background: white;
 	text-align: center;
 	.box-image {
@@ -66,7 +66,7 @@
 		}
 	}
 }
-.float {
+.blogger-landing .float {
 	display: table;
 	width: 100%;
 	.box-data {
@@ -85,7 +85,7 @@
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.box-3 {
+	.blogger-landing .box-3 {
 		padding: 140px 0px;
 		&:after {
 			top: 40%;
@@ -101,7 +101,7 @@
 		}
 	}
 
-	.box-3-noticia {
+	.blogger-landing .box-3-noticia {
 		font-size: 0;
 		display: table;
 		padding-bottom: 80px;
@@ -123,7 +123,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-3-noticia {
+	.blogger-landing .box-3-noticia {
 		padding-bottom: 90px;
 		.box-data {
 			h2 {

@@ -1,10 +1,10 @@
-html {
+html.html-blogger-landing  {
 	font-family: $font-roman;
 	background: #f3f3f3;
 	color: $brand-primary;
 }
 
-a, a:hover, a:active, a:focus {
+.blogger-landing a, .blogger-landing a:hover, .blogger-landing a:active, .blogger-landing a:focus {
 	text-decoration: none;
 	-webkit-transition: all 230ms ease-in-out;
 	-moz-transition: all 230ms ease-in-out;
@@ -13,25 +13,25 @@ a, a:hover, a:active, a:focus {
 	transition: all 230ms ease-in-out;
 }
 
-.in-desktop {
+.blogger-landing .in-desktop {
 	display: none;
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.container { 
+	.blogger-landing .container { 
 		@include center;
 	}
-	.in-desktop {
+	.blogger-landing .in-desktop {
 		display: block;
 	}
-	.in-mobile {
+	.blogger-landing .in-mobile {
 		display: none;
 	}
 }
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.container { 
+	.blogger-landing .container { 
 		max-width: 1015px;
 	}
 }

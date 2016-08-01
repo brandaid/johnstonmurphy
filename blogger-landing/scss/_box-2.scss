@@ -1,4 +1,4 @@
-.box-2 {
+.blogger-landing  .box-2 {
 	background: #fbf5f3;
 	text-align: center;
 	padding: 0px 20px 30px 20px;
@@ -28,7 +28,7 @@
 	}
 }
 
-.box-2-images {
+.blogger-landing .box-2-images {
 	font-size: 0;
 	background: #fbf5f3;
 	.box-two-img {
@@ -50,7 +50,7 @@
 	}
 }
 
-.box-2-bottom {
+.blogger-landing .box-2-bottom {
 	background: #fbf5f3;
 	.box-image {
 		img {
@@ -78,7 +78,7 @@
 
 // 500px
 @media all and (min-width: 500px) {
-	.box-2 {
+	.blogger-landing .box-2 {
 		h2 {
 			font-size: 32px;
 		}
@@ -87,18 +87,18 @@
 
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.box-2 {
+	.blogger-landing .box-2 {
 		padding-bottom: 80px;
 		p {
 			font-size: 20px;
 		}
 	}
-	.box-2-bottom {
+	.blogger-landing .box-2-bottom {
 		display: none;
 	}
 
 
-	.box-2-images {
+	.blogger-landing .box-2-images {
 		.box-two-img {
 			@include inline-middle;
 			vertical-align: top;
@@ -137,7 +137,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-2 {
+	.blogger-landing .box-2 {
 		.box-data {
 			padding-top: 50px;
 			h2 {
@@ -149,7 +149,7 @@
 			}
 		}
 	}
-	.box-2-images {
+	.blogger-landing .box-2-images {
 		.box-two-img {
 			p {
 				max-width: 360px;
@@ -182,7 +182,7 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-2-images {
+	.blogger-landing .box-2-images {
 		.box-two-img {
 			&.first {
 				padding-right: 2%;
@@ -201,5 +201,4 @@
 			}
 		}
 	}
-	
 }

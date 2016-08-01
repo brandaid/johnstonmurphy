@@ -1,4 +1,4 @@
-.box-1 {
+.blogger-landing .box-1 {
 	background: #fbf5f3;
 	padding-bottom: 40px;
 	padding-top: 60px;
@@ -39,11 +39,11 @@
 	}
 }
 
-.mobile, .desktop {
+.blogger-landing .mobile, .blogger-landing .desktop {
 	width: 100%;
 	height: auto;
 }
-.desktop {
+.blogger-landing .desktop {
 	display: none;
 }
 
@@ -54,13 +54,13 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.desktop {
+	.blogger-landing .desktop {
 		display: block;
 	}
-	.mobile {
+	.blogger-landing .mobile {
 		display: none;
 	}
-	.box-1 {
+	.blogger-landing .box-1 {
 		padding: 0px;
 		background: transparent;
 		position: relative;
@@ -111,7 +111,7 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-1 {
+	.blogger-landing .box-1 {
 		.caption {
 			left: 80px;
 		}

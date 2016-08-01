@@ -1,4 +1,4 @@
-.box-5-testimonial {
+.blogger-landing .box-5-testimonial {
 	background: #fbf5f3;
 	text-align: center;
 	padding: 40px 20px;
@@ -31,7 +31,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-5-testimonial {
+	.blogger-landing .box-5-testimonial {
 		padding: 65px 0px;
 		h3 {
 			font-size: 30px;

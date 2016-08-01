@@ -1,4 +1,4 @@
-.box-6 {
+.blogger-landing .box-6 {
 	background: white;
 	text-align: center;
 	padding: 80px 20px;
@@ -18,7 +18,7 @@
 	}
 }
 
-.box-6-one {
+.blogger-landing .box-6-one {
 	background: white;
 	text-align: center;
 	display: table;
@@ -45,7 +45,7 @@
 	}
 }
 
-.box-6-two {
+.blogger-landing .box-6-two {
 	background: white;
 	text-align: center;
 	padding-bottom: 80px;
@@ -73,7 +73,7 @@
 // 768px
 @media all and (min-width: $screen-portrait) {
 
-	.box-6-one {
+	.blogger-landing .box-6-one {
 		padding-bottom: 120px;
 		.col-left, .col-right {
 			display: table-cell;
@@ -100,7 +100,7 @@
 		}
 	}
 
-	.box-6-two {
+	.blogger-landing .box-6-two {
 		padding-bottom: 120px;
 		.col-left, .col-right {
 			display: table-cell;
@@ -133,7 +133,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-6 {
+	.blogger-landing .box-6 {
 		h2 {
 			font-size: 45px;
 			letter-spacing: 5px;
@@ -149,7 +149,7 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-6-one {
+	.blogger-landing .box-6-one {
 		.col-left, .col-right {
 			width: 55%;
 		}
@@ -158,7 +158,7 @@
 		}
 	}
 
-	.box-6-two {
+	.blogger-landing .box-6-two {
 		.col-left, .col-right {
 			width: 55%;
 		}

@@ -1,8 +1,8 @@
-.header {
+.blogger-landing .header {
 	background: white;
 }
 
-.box-legend {
+.blogger-landing .box-legend {
 	background: $brand-secondary;
 	padding: 20px 10px;
 	text-align: center;
@@ -21,7 +21,7 @@
 	}
 }
 
-.table-header {
+.blogger-landing .table-header {
 	display: table;
 	width: 100%;
 	padding: 23px 0 15px 0;
@@ -32,27 +32,27 @@
 	}
 }
 
-.col-menu {
+.blogger-landing .col-menu {
 	width: 11%;
 	text-align: right!important;
 }
-.col-locate {
+.blogger-landing .col-locate {
 	width: 9%;
 	text-align: right!important;
 }
-.col-brand {
+.blogger-landing .col-brand {
 	width: 60%;
 }
-.col-search {
+.blogger-landing .col-search {
 	width: 9%;
 	text-align: left!important;
 }
-.col-bag {
+.blogger-landing .col-bag {
 	width: 11%;
 	text-align: left!important;
 }
 
-.col-menu, .col-locate, .col-brand, .col-search, .col-bag {
+.blogger-landing .col-menu, .blogger-landing .col-locate, .blogger-landing .col-brand, .blogger-landing .col-search, .blogger-landing .col-bag {
 	img {
 		max-width: 28px;
 		height: auto;
@@ -61,22 +61,22 @@
 		}
 	}
 }
-.col-locate {
+.blogger-landing .col-locate {
 	img {
 		max-width: 16px;
 	}
 }
-.col-brand {
+.blogger-landing .col-brand {
 	img {
 		max-width: 190px;
 	}
 }
-.col-search {
+.blogger-landing .col-search {
 	img {
 		max-width: 24px;
 	}
 }
-.col-bag {
+.blogger-landing .col-bag {
 	img {
 		max-width: 17px;
 		margin-left: 5px;
@@ -84,44 +84,36 @@
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.table-header {
+	.blogger-landing .table-header {
 		padding: 45px 0 40px 0;
 	}
-	.col-menu {
+	.blogger-landing .col-menu {
 		img {
 			max-width: 36px;
 			margin-top: 3px;
 		}
 	}
-	.col-locate {
+	.blogger-landing .col-locate {
 		img {
 			max-width: 27px;
 		}
 	}
-	.col-brand {
+	.blogger-landing .col-brand {
 		img {
 			max-width: 370px;
 		}
 	}
-	.col-search {
+	.blogger-landing .col-search {
 		img {
 			max-width: 37px;
 		}
 	}
-	.col-bag {
+	.blogger-landing .col-bag {
 		img {
 			max-width: 26px;
 		}
 	}
-	.box-legend {
+	.blogger-landing .box-legend {
 		font-size: 15px;
 	}
-}
-
-// 992px
-@media all and (min-width: $screen-landscape) {
-}
-
-// 1200px
-@media all and (min-width: $screen-desktop) {
 }
