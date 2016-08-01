@@ -31,7 +31,12 @@
 		padding-top: 50px;
 	}
 	.box-image {
-		display: none;
+		text-align: right;
+		img {
+			height: auto;
+			width: 100%;
+			margin: 0;
+		}
 	}
 }
 .womens-landing .box-image-mobile {
@@ -73,8 +78,8 @@
 	}
 }
 
-// 1200px
-@media all and (min-width: $screen-desktop) {
+// 1000px
+@media all and (min-width: 1000px) {
 	.womens-landing .box-9 {
 		font-size: 0;
 		padding-bottom: 90px;
@@ -91,21 +96,15 @@
 		.box-image-mobile {
 			display: none;
 		}
+		.box-data {
+			float: left;
+		}
 		.box-data, .box-image {
 			@include inline-middle;
 			width: 50%;
 			padding: 0; 
-		}
-		.box-image {
-			text-align: right;
-			img {
-				height: auto;
-				width: 100%;
-				margin: 0;
-			}
-		}
+		}	
 	}
-
 	.womens-landing .box-9-images {
 		padding-bottom: 100px;
 		.box-two-img {
@@ -115,37 +114,22 @@
 			-webkit-box-sizing: border-box;
 			box-sizing: border-box;
 			&.first {
-				width: 60%;
+				width: 50%;
 				padding-right: 5%;
-				overflow: hidden;
-				height: 450px;
 				img {
-					position: relative;
-					bottom: 430px;
+				
 				}
 			}
 			&.last {
-				width: 40%;
+				width: 50%;
 				text-align: right;
 				padding-left: 5%;
 				img {
 					margin-top: 90px;
-				}
-			}
-		}
-	}
-
-}
-
-
-// 1400px
-@media all and (min-width: 1400px) {
-	.womens-landing .box-9-images {
-		.box-two-img {
-			&.first {
-				height: 550px;
-				img {
-					bottom: 440px;
+					max-width: 100%;
+					width: 100%;
+					height: auto;
+					float: right;
 				}
 			}
 		}

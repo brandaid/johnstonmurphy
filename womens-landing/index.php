@@ -12,21 +12,6 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-	<style>
-		.embed-container { 
-			position: relative; 
-			padding-bottom: 56.25%; 
-			height: 0; overflow: 
-			hidden; max-width: 100%; 
-		} 
-		.embed-container iframe, .embed-container object, .embed-container embed { 
-			position: absolute; 
-			top: 0; 
-			left: 0; 
-			width: 100%; 
-			height: 100%; 
-		}
-	</style>
 	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -174,24 +159,23 @@
 
 			<!--BOX 9-->
 			<section class="box-9">
-				<div class="box-image-mobile">
-					<a href="#" class="image-link"><img src="images/box-9.jpg" alt=""></a>
+				<div class="box-image">
+					<a href="#" class="image-link"><img src="images/box-9.jpg" alt="Well Heeled"></a>
 				</div>
 				<div class="box-data">
 					<h2>Well Heeled</h2>
 					<p>Finely crafted from start to luxurious finish.</p>
 					<a href="" class="btn">SHOP VALERIE & VANESSA</a>
 				</div>
-				<div class="box-image">
-					<a href="#" class="image-link"><img src="images/box-9.jpg" alt="Well Heeled"></a>
-				</div>
+				
 			</section>
 			<section class="box-9-images">
 				<div class="box-two-img first">
 					<a href="#" class="image-link"><img src="images/box-9-1.jpg" alt="Well Heeled"></a>
 				</div>
 				<div class="box-two-img last">
-					<a href="#" class="image-link"><img src="images/box-9-2.jpg" alt="Well Heeled"></a>
+					<a href="#" class="image-link"><img src="images/box-9-2.jpg" alt="Well Heeled" class="mobile"></a>
+					<a href="#" class="image-link"><img src="images/box-9-3.jpg" alt="Well Heeled" class="desktop"></a>
 				</div>
 			</section>
 			

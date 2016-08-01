@@ -318,6 +318,20 @@ html.html-womens-landing {
     width: 100%;
     height: auto; }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25% !important;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 @media all and (min-width: 1200px) {
   .womens-landing .box-3-video {
     padding-bottom: 120px; } }
@@ -457,24 +471,16 @@ html.html-womens-landing {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
     .womens-landing .box-5-images .box-two-img.first {
-      width: 60%;
-      padding-right: 5%;
-      overflow: hidden;
-      height: 450px; }
+      width: 55%;
+      padding-right: 5%; }
       .womens-landing .box-5-images .box-two-img.first img {
-        position: relative;
-        bottom: 430px; }
+        max-width: 90%; }
     .womens-landing .box-5-images .box-two-img.last {
-      width: 40%;
+      width: 45%;
       text-align: right;
       padding-left: 5%; }
       .womens-landing .box-5-images .box-two-img.last img {
         margin-top: 90px; } }
-@media all and (min-width: 1400px) {
-  .womens-landing .box-5-images .box-two-img.first {
-    height: 550px; }
-    .womens-landing .box-5-images .box-two-img.first img {
-      bottom: 440px; } }
 .womens-landing .box-6 {
   background: #F3F1F4;
   font-size: 0; }
@@ -751,7 +757,11 @@ html.html-womens-landing {
   .womens-landing .box-9 .box-data {
     padding-top: 50px; }
   .womens-landing .box-9 .box-image {
-    display: none; }
+    text-align: right; }
+    .womens-landing .box-9 .box-image img {
+      height: auto;
+      width: 100%;
+      margin: 0; }
 
 .womens-landing .box-image-mobile img {
   width: 100%;
@@ -777,7 +787,7 @@ html.html-womens-landing {
 @media all and (min-width: 992px) {
   .womens-landing .box-9 {
     padding-top: 120px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1000px) {
   .womens-landing .box-9 {
     font-size: 0;
     padding-bottom: 90px; }
@@ -792,17 +802,13 @@ html.html-womens-landing {
       max-width: 390px; }
     .womens-landing .box-9 .box-image-mobile {
       display: none; }
+    .womens-landing .box-9 .box-data {
+      float: left; }
     .womens-landing .box-9 .box-data, .womens-landing .box-9 .box-image {
       display: inline-block;
       vertical-align: middle;
       width: 50%;
       padding: 0; }
-    .womens-landing .box-9 .box-image {
-      text-align: right; }
-      .womens-landing .box-9 .box-image img {
-        height: auto;
-        width: 100%;
-        margin: 0; }
 
   .womens-landing .box-9-images {
     padding-bottom: 100px; }
@@ -814,21 +820,15 @@ html.html-womens-landing {
       -webkit-box-sizing: border-box;
       box-sizing: border-box; }
       .womens-landing .box-9-images .box-two-img.first {
-        width: 60%;
-        padding-right: 5%;
-        overflow: hidden;
-        height: 450px; }
-        .womens-landing .box-9-images .box-two-img.first img {
-          position: relative;
-          bottom: 430px; }
+        width: 50%;
+        padding-right: 5%; }
       .womens-landing .box-9-images .box-two-img.last {
-        width: 40%;
+        width: 50%;
         text-align: right;
         padding-left: 5%; }
         .womens-landing .box-9-images .box-two-img.last img {
-          margin-top: 90px; } }
-@media all and (min-width: 1400px) {
-  .womens-landing .box-9-images .box-two-img.first {
-    height: 550px; }
-    .womens-landing .box-9-images .box-two-img.first img {
-      bottom: 440px; } }
+          margin-top: 90px;
+          max-width: 100%;
+          width: 100%;
+          height: auto;
+          float: right; } }
