@@ -1,4 +1,4 @@
-.box-3-video {
+.womens-landing .box-3-video {
 	background: white;
 	line-height: 0;
 	img {
@@ -17,7 +17,7 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-3-video {
+	.womens-landing .box-3-video {
 		padding-bottom: 120px;
 	}
 }

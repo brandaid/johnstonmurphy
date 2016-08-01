@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="html-womens-landing">
 <head>
 	<meta charset="UTF-8">
 	<title>Johnston & Murphy</title>
@@ -34,7 +34,7 @@
 	  <script src="js/html5.js"></script>
 	<![endif]-->
 </head>
-<body>
+<body class="womens-landing">
 	<main>
 		<div class="container">
 			<header class="header">

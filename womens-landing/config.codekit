@@ -176,6 +176,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ico-bag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2168,
+		"inputAbbreviatedPath": "\/images\/ico-bag.png",
+		"outputAbbreviatedPath": "\/images\/ico-bag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-locate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 521,
+		"inputAbbreviatedPath": "\/images\/ico-locate.png",
+		"outputAbbreviatedPath": "\/images\/ico-locate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 150,
+		"inputAbbreviatedPath": "\/images\/ico-menu.png",
+		"outputAbbreviatedPath": "\/images\/ico-menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ico-search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 589,
+		"inputAbbreviatedPath": "\/images\/ico-search.png",
+		"outputAbbreviatedPath": "\/images\/ico-search.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -432,22 +476,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/_footer.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_footer.scss",
-		"outputAbbreviatedPath": "\/css\/_footer.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/scss\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -505,22 +533,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/scss\/_mixins.scss",
 		"outputAbbreviatedPath": "\/css\/_mixins.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/scss\/_navbar.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/_navbar.scss",
-		"outputAbbreviatedPath": "\/css\/_navbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

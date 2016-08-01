@@ -1,4 +1,4 @@
-.box-8 {
+.womens-landing .box-8 {
 	background: #fbf5f3;
 	padding-bottom: 60px;
 	padding-top: 60px;
@@ -39,11 +39,11 @@
 	}
 }
 
-.mobile, .desktop {
+.womens-landing .mobile, .womens-landing .desktop {
 	width: 100%;
 	height: auto;
 }
-.desktop {
+.womens-landing .desktop {
 	display: none;
 }
 
@@ -54,13 +54,13 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.desktop {
+	.womens-landing .desktop {
 		display: block;
 	}
-	.mobile {
+	.womens-landing .mobile {
 		display: none;
 	}
-	.box-8 {
+	.womens-landing .box-8 {
 		padding: 0px;
 		background: transparent;
 		position: relative;
@@ -122,7 +122,7 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-8 {
+	.womens-landing .box-8 {
 		.caption {
 			max-width: 520px;
 			top: 100px;

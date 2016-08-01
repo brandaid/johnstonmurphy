@@ -1,4 +1,4 @@
-.box-4 {
+.womens-landing .box-4 {
 	padding: 80px 20px;
 	text-align: center;
 	background: white;
@@ -20,12 +20,12 @@
 		}
 	}
 }
-#only-desktop {
+.womens-landing  #only-desktop {
 	display: none;
 }
 // 500px
 @media all and (min-width: 500px) {
-	.box-4 {
+	.womens-landing  .box-4 {
 		.caption {
 			h2 {
 				font-size: 22px;
@@ -40,7 +40,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-4 {
+	.womens-landing  .box-4 {
 		padding: 110px 0px;
 		.caption {
 			max-width: 650px;
@@ -65,10 +65,10 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	#only-mobile {
+	.womens-landing  #only-mobile {
 		display: none;
 	}
-	#only-desktop {
+	.womens-landing  #only-desktop {
 		display: block;
 	}
 }

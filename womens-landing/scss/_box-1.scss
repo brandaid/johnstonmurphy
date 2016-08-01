@@ -1,4 +1,4 @@
-.box-1 {
+.womens-landing .box-1 {
 	background: url(../images/box-top.jpg) no-repeat center center; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -39,7 +39,7 @@
 
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.box-1 {
+	.womens-landing .box-1 {
 		padding-top: 250px;
 		padding-bottom: 250px;
 		.caption {
@@ -61,7 +61,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-1 {
+	.womens-landing .box-1 {
 		.caption {
 			width: 40%;
 		}
@@ -70,7 +70,7 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	.box-1 {
+	.womens-landing .box-1 {
 		.caption {
 			width: 50%;
 		}

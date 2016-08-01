@@ -1,4 +1,4 @@
-.box-6 {
+.womens-landing .box-6 {
 	background: #F3F1F4;
 	font-size: 0;
 	.col {
@@ -41,12 +41,12 @@
 		letter-spacing: 1px;
 	}
 }
-.only-desktop {
+.womens-landing .only-desktop {
 	display: none!important;
 }
 // 500px
 @media all and (min-width: 500px) {
-	.box-6 {
+	.womens-landing .box-6 {
 		.col {
 			display: inline-block;
 			vertical-align: middle;
@@ -59,16 +59,16 @@
 			}
 		}
 	}
-	.only-mobile {
+	.womens-landing .only-mobile {
 		display: none!important;
 	}
-	.only-desktop {
+	.womens-landing .only-desktop {
 		display: inline-block!important;
 	}
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.box-6 {
+	.womens-landing .box-6 {
 		.col {
 			width: 30%;
 			&.middle {
@@ -86,7 +86,7 @@
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box-6 {
+	.womens-landing .box-6 {
 		h2 {
 			font-size: 37px;
 		}
