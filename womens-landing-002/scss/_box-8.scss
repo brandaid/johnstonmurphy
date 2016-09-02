@@ -1,0 +1,111 @@
+.womens-landing .box-8 {
+	background: #fbf5f3;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	text-align: center;
+	small {
+		font-family: $font-italic;
+		display: block;
+		margin-bottom: 30px;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+	h3 {
+		font-family: $secondary-font;
+		letter-spacing: 1px;
+		font-size: 45px;
+		&:after {
+			display: block;
+			content: "";
+			height: 1px;
+			background: $brand-primary;
+			margin-bottom: 30px;
+			max-width: 200px;
+			@include center;
+			margin-top: 30px;
+		}
+	}
+	.mobile {
+		margin-bottom: 30px;
+	}
+	p.text {
+		padding-left: 30px;
+		padding-right: 30px;
+		max-width: 450px;
+		@include center;
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
+}
+
+.womens-landing .mobile, .womens-landing .desktop {
+	width: 100%;
+	height: auto;
+}
+.womens-landing .desktop {
+	display: none;
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing .desktop {
+		display: block;
+	}
+	.womens-landing .mobile {
+		display: none;
+	}
+	.womens-landing .box-8 {
+		padding: 0px;
+		background: transparent;
+		position: relative;
+		.caption {
+			position: absolute;
+			z-index: 9999;
+			left: 0;
+			top: 60px;
+			left: 40px;
+			small, h3, p.text {
+				color: $brand-primary;
+			}
+			.btn {
+				background: $brand-primary;
+				color: white;
+				cursor: pointer;
+				font-size: 20px;
+				&:hover {
+					background: rgba(white, .8); 
+				}
+			}
+			small {
+				margin-bottom: 20px;
+				font-size: 16px;
+			}
+			h3 {
+				font-size: 54px;
+				padding-bottom: 0;
+            	&:after {
+					max-width: 150px;
+					background: $brand-primary;
+					margin: 5px auto 20px auto;
+				}
+			}
+			p.text {
+				max-width: 300px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.womens-landing .box-8 {
+		.caption {
+			max-width: 520px;
+			top: 100px;
+			right: 60px;
+		}
+	}
+}
