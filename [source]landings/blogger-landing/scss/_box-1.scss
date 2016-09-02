@@ -1,0 +1,119 @@
+.blogger-landing .box-1 {
+	background: #fbf5f3;
+	padding-bottom: 40px;
+	padding-top: 60px;
+	text-align: center;
+	small {
+		font-family: $font-italic;
+		display: block;
+		margin-bottom: 30px;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+	}
+	h2 {
+		font-family: $secondary-font;
+		letter-spacing: 1px;
+		font-size: 45px;
+		&:after {
+			display: block;
+			content: "";
+			height: 1px;
+			background: $brand-primary;
+			margin-bottom: 30px;
+			max-width: 200px;
+			@include center;
+			margin-top: 30px;
+		}
+	}
+	.mobile {
+		margin-bottom: 30px;
+	}
+	p {
+		padding-left: 30px;
+		padding-right: 30px;
+		max-width: 450px;
+		@include center;
+		margin-bottom: 0px;
+		font-size: 18px;
+	}
+}
+
+.blogger-landing .mobile, .blogger-landing .desktop {
+	width: 100%;
+	height: auto;
+}
+.blogger-landing .desktop {
+	display: none;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.blogger-landing .desktop {
+		display: block;
+	}
+	.blogger-landing .mobile {
+		display: none;
+	}
+	.blogger-landing .box-1 {
+		padding: 0px;
+		background: transparent;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			width: 50%;
+			background: black; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(left, transparent , black); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(left, transparent, black); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(left, transparent, black); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to left, transparent , black); /* Standard syntax */
+			z-index: 99;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			opacity: .7;
+		}
+		.caption {
+			position: absolute;
+			z-index: 9999;
+			left: 0;
+			top: 120px;
+			left: 40px;
+			small, h2, p {
+				color: white;
+			}
+			small {
+				margin-bottom: 40px;
+				font-size: 18px;
+			}
+			h2 {
+				font-size: 60px;
+				&:after {
+					max-width: 180px;
+					background: white;
+					margin-bottom: 40px;
+					margin-top: 30px;
+				}
+			}
+			p {
+				max-width: 270px;
+			}
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.blogger-landing .box-1 {
+		.caption {
+			left: 80px;
+		}
+	}	
+}

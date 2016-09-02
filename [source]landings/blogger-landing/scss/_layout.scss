@@ -1,0 +1,37 @@
+html.html-blogger-landing  {
+	font-family: $font-roman;
+	background: #f3f3f3;
+	color: $brand-primary;
+}
+
+.blogger-landing a, .blogger-landing a:hover, .blogger-landing a:active, .blogger-landing a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+
+.blogger-landing .in-desktop {
+	display: none;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.blogger-landing .container { 
+		@include center;
+	}
+	.blogger-landing .in-desktop {
+		display: block;
+	}
+	.blogger-landing .in-mobile {
+		display: none;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.blogger-landing .container { 
+		max-width: 1015px;
+	}
+}

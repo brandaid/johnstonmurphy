@@ -1,0 +1,137 @@
+.womens-landing .box-9 {
+	background: white;
+	text-align: center;
+	padding: 0 0 80px 0px;
+	h2, p {
+		color: $brand-primary;
+	}
+	h2 {
+		margin-bottom: 20px;
+		font-family: $font-bold;
+		line-height: 1.3em;
+		letter-spacing: 2px;
+		font-size: 26px;
+		&:after {
+			content: "";
+			width: 200px;
+			height: 1px;
+			background: $brand-primary;
+			display: block;
+			margin: 20px auto 10px auto;
+		}
+	}
+	p {
+		font-size: 16px;
+		@include center;
+		max-width: 330px;
+		margin-bottom: 40px;
+		font-family: $font-italic;
+	}
+	.box-data {
+		padding-top: 50px;
+	}
+	.box-image {
+		text-align: right;
+		img {
+			height: auto;
+			width: 100%;
+			margin: 0;
+		}
+	}
+}
+.womens-landing .box-image-mobile {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+.womens-landing .box-9-images {
+	font-size: 0;
+	background: white;
+	.box-two-img {
+		@include inline-middle;
+		width: 50%;
+		line-height: 0;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.womens-landing .box-9 {
+		h2 {
+			font-size: 32px;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing .box-9 {
+		padding-top: 120px;
+	}
+}
+
+// 1000px
+@media all and (min-width: 1000px) {
+	.womens-landing .box-9 {
+		font-size: 0;
+		padding-bottom: 90px;
+		h2 {
+			font-size: 42px;
+			margin-bottom: 40px;
+			max-width: 250px;
+			@include center;	
+		}
+		p {
+			font-size: 24px;
+			max-width: 390px;
+		}
+		.box-image-mobile {
+			display: none;
+		}
+		.box-data {
+			float: left;
+		}
+		.box-data, .box-image {
+			@include inline-middle;
+			width: 50%;
+			padding: 0; 
+		}	
+	}
+	.womens-landing .box-9-images {
+		padding-bottom: 100px;
+		.box-two-img {
+			@include inline-middle;
+			vertical-align: top;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			&.first {
+				width: 50%;
+				padding-right: 5%;
+				img {
+				
+				}
+			}
+			&.last {
+				width: 50%;
+				text-align: right;
+				padding-left: 5%;
+				img {
+					margin-top: 90px;
+					max-width: 100%;
+					width: 100%;
+					height: auto;
+					float: right;
+				}
+			}
+		}
+	}
+}

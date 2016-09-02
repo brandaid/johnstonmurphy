@@ -1,0 +1,40 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html.html-womens-landing, body.womens-landing, .womens-landing div, .womens-landing span, .womens-landing applet, .womens-landing object, .womens-landing iframe, .womens-landing h1, .womens-landing h2, .womens-landing h3, .womens-landing h4, .womens-landing h5, .womens-landing h6, .womens-landing p, .womens-landing blockquote, .womens-landing pre, .womens-landing a, .womens-landing abbr, .womens-landing acronym, .womens-landing address, .womens-landing big, .womens-landing cite, .womens-landing code, .womens-landing del, .womens-landing dfn, .womens-landing em, .womens-landing img, .womens-landing ins, .womens-landing kbd, .womens-landing q, .womens-landing s, .womens-landing samp, .womens-landing small, .womens-landing strike, .womens-landing strong, .womens-landing sub, .womens-landing sup, .womens-landing tt, .womens-landing var, .womens-landing b, .womens-landing u, .womens-landing i, .womens-landing center, .womens-landing dl, .womens-landing dt, .womens-landing dd, .womens-landing ol, .womens-landing ul, .womens-landing li, .womens-landing fieldset, .womens-landing form, .womens-landing label, .womens-landing legend, .womens-landing table, .womens-landing caption, .womens-landing tbody, .womens-landing tfoot, .womens-landing thead, .womens-landing tr, .womens-landing th, .womens-landing td, .womens-landing article, .womens-landing aside, .womens-landing canvas, .womens-landing details, .womens-landing embed, .womens-landing figure, .womens-landing figcaption, .womens-landing footer, .womens-landing header, .womens-landing hgroup, .womens-landing menu, .womens-landing nav, .womens-landing output, .womens-landing ruby, .womens-landing section, .womens-landing summary, .womens-landing time, .womens-landing mark, .womens-landing audio, .womens-landing video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+
+.womens-landing article, .womens-landing aside, .womens-landing details, .womens-landing figcaption, .womens-landing figure, .womens-landing footer, .womens-landing header, .womens-landing hgroup, .womens-landing menu, .womens-landing nav, .womens-landing section {
+  display: block; }
+
+body.womens-landing {
+  line-height: 1; }
+
+.womens-landing ol, .womens-landing ul {
+  list-style: none; }
+
+.womens-landing blockquote, .womens-landing q {
+  quotes: none; }
+
+.womens-landing blockquote {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+.womens-landing q {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+.womens-landing table {
+  border-collapse: collapse;
+  border-spacing: 0; }

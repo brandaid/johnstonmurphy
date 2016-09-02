@@ -1,0 +1,40 @@
+.blogger-landing h1, .blogger-landing h2, .blogger-landing h3, .blogger-landing h4,.blogger-landing  h5, .blogger-landing h6, .blogger-landing p, .blogger-landing span, .blogger-landing a, .blogger-landing ul, .blogger-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.blogger-landing h1, .blogger-landing h2, .blogger-landing h3, .blogger-landing h4, .blogger-landing h5, .blogger-landing h6 {
+	font-family: $font-roman;
+	color: $brand-primary;
+	letter-spacing: 5px;
+}
+.blogger-landing p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.blogger-landing h2 {
+	font-size: 20px;
+}
+.blogger-landing small {
+	font-size: 20px;
+}
+.blogger-landing i, .blogger-landing em {
+	font-family: $font-italic;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.blogger-landing h2 {
+		font-size: 56px;
+	}
+	.blogger-landing small {
+		font-size: 32px;
+	}
+}

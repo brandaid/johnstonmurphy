@@ -1,0 +1,71 @@
+.womens-landing .box-4 {
+	padding: 0px 20px 80px 20px;
+	text-align: center;
+	background: white;
+	.caption {
+		border-bottom: 1px solid $brand-primary;
+		border-top: 1px solid $brand-primary;
+		padding: 40px 0px;
+		max-width: 550px;
+		@include center;
+		small {
+			font-family: $font-italic;
+			display: block;
+			margin: 0 0 20px 0;
+		}
+		h3 {
+			line-height: 1.5em;
+			letter-spacing: 3px;
+			font-size: 18px;
+		}
+	}
+}
+.womens-landing  #only-desktop {
+	display: none;
+}
+// 500px
+@media all and (min-width: 500px) {
+	.womens-landing  .box-4 {
+		.caption {
+			h3 {
+				font-size: 22px;
+			}
+		}
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing  .box-4 {
+		padding: 110px 0px;
+		.caption {
+			max-width: 650px;
+			padding-left: 20px;
+			padding-right: 20px;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+			small {
+				font-size: 18px;
+				letter-spacing: 4px;
+			}
+			h3 {
+				font-size: 37px;
+			}
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.womens-landing  #only-mobile {
+		display: none;
+	}
+	.womens-landing  #only-desktop {
+		display: block;
+	}
+}

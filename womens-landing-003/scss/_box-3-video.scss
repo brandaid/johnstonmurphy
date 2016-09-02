@@ -1,0 +1,30 @@
+.womens-landing .box-3-video {
+	background: white;
+	line-height: 0;
+	margin-bottom: 60px;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.embed-container { 
+	position: relative; 
+	padding-bottom: 56.25%!important; 
+	height: 0; overflow: 
+	hidden; max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%; 
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.womens-landing .box-3-video {
+		padding-bottom: 0px;
+	}
+}
