@@ -1,0 +1,79 @@
+.womens-landing .box-1 {
+	background: url(../images/box-top.jpg) no-repeat center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	.caption {
+		margin: 0 0 0 auto;
+		width: 40%;
+		padding: 0 20px 0 0px;
+		text-align: center;
+	}
+	h1 {
+		font-size: 15px;
+		line-height: 1.2em;
+		margin: 0;
+		&:after {
+			content: "";
+			height: 1px;
+			background: white;
+			max-width: 200px;
+			width: 45%;
+			display: block;
+			margin: 10px auto 14px auto;
+		}
+	}
+	p.text {
+		font-family: $font-italic;
+		line-height: 1.3em;
+		font-size: 13px;
+		letter-spacing: 2px;
+	}
+	h1, p.text {
+		color: white;
+		
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.womens-landing .box-1 {
+		padding-top: 250px;
+		padding-bottom: 250px;
+		.caption {
+			padding-right: 0;
+		}
+		h1 {
+			font-size: 37px;
+			line-height: 1.4em;
+			&:after {
+				margin: 10px auto 14px auto;
+			}
+		}
+		p.text {
+			font-size: 18px;
+			letter-spacing: 5px;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing .box-1 {
+		.caption {
+			width: 40%;
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.womens-landing .box-1 {
+		.caption {
+			width: 50%;
+		}
+	}
+}

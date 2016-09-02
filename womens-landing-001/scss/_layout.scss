@@ -1,0 +1,32 @@
+html.html-womens-landing  {
+	font-family: $font-roman;
+	background: #f3f3f3;
+	color: $brand-primary;
+}
+
+.womens-landing a, .womens-landing a:hover, .womens-landing a:active, .womens-landing a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+
+.womens-landing .only-desktop {
+	display: none;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.womens-landing .container { 
+		@include center;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing .container { 
+		max-width: 1015px;
+	}
+}

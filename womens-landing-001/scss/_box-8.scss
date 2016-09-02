@@ -1,0 +1,127 @@
+.womens-landing .box-8 {
+	background: #fbf5f3;
+	padding-bottom: 60px;
+	padding-top: 60px;
+	text-align: center;
+	small {
+		font-family: $font-italic;
+		display: block;
+		margin-bottom: 30px;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+	h3 {
+		font-family: $secondary-font;
+		letter-spacing: 1px;
+		font-size: 45px;
+		&:after {
+			display: block;
+			content: "";
+			height: 1px;
+			background: $brand-primary;
+			margin-bottom: 30px;
+			max-width: 200px;
+			@include center;
+			margin-top: 30px;
+		}
+	}
+	.mobile {
+		margin-bottom: 30px;
+	}
+	p.text {
+		padding-left: 30px;
+		padding-right: 30px;
+		max-width: 450px;
+		@include center;
+		margin-bottom: 30px;
+		font-size: 18px;
+	}
+}
+
+.womens-landing .mobile, .womens-landing .desktop {
+	width: 100%;
+	height: auto;
+}
+.womens-landing .desktop {
+	display: none;
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing .desktop {
+		display: block;
+	}
+	.womens-landing .mobile {
+		display: none;
+	}
+	.womens-landing .box-8 {
+		padding: 0px;
+		background: transparent;
+		position: relative;
+		&:before {
+			content: "";
+			position: absolute;
+			width: 50%;
+			background: black; /* For browsers that do not support gradients */
+			background: -webkit-linear-gradient(left, transparent , black); /* For Safari 5.1 to 6.0 */
+			background: -o-linear-gradient(left, transparent, black); /* For Opera 11.1 to 12.0 */
+			background: -moz-linear-gradient(left, transparent, black); /* For Firefox 3.6 to 15 */
+			background: linear-gradient(to left, transparent , black); /* Standard syntax */
+			z-index: 99;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			opacity: .7;
+		}
+		.caption {
+			position: absolute;
+			z-index: 9999;
+			left: 0;
+			top: 120px;
+			left: 40px;
+			small, h3, p.text {
+				color: white;
+			}
+			.btn {
+				background: white;
+				color: $brand-primary;
+				cursor: pointer;
+				font-size: 20px;
+				&:hover {
+					background: rgba(white, .8); 
+				}
+			}
+			small {
+				margin-bottom: 40px;
+				font-size: 16px;
+			}
+			h3 {
+				font-size: 54px;
+				padding-bottom: 0;
+            	&:after {
+					max-width: 300px;
+					background: white;
+					margin: 5px auto 20px auto;
+				}
+			}
+			p.text {
+				max-width: 300px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.womens-landing .box-8 {
+		.caption {
+			max-width: 520px;
+			top: 100px;
+			right: 60px;
+		}
+	}
+}
