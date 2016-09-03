@@ -1,0 +1,742 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html.html-influencer-camille-landing, body.body-influencer-camille-landing, .influencer-camille-landing div, .influencer-camille-landing span, .influencer-camille-landing applet, .influencer-camille-landing object, .influencer-camille-landing iframe, .influencer-camille-landing h1, .influencer-camille-landing h3, .influencer-camille-landing h4, .influencer-camille-landing h5, .influencer-camille-landing h6, .influencer-camille-landing p, .influencer-camille-landing blockquote, .influencer-camille-landing pre, .influencer-camille-landing a, .influencer-camille-landing abbr, .influencer-camille-landing acronym, .influencer-camille-landing address, .influencer-camille-landing big, .influencer-camille-landing cite, .influencer-camille-landing code, .influencer-camille-landing del, .influencer-camille-landing dfn, .influencer-camille-landing em, .influencer-camille-landing img, .influencer-camille-landing ins, .influencer-camille-landing kbd, .influencer-camille-landing q, .influencer-camille-landing s, .influencer-camille-landing samp, .influencer-camille-landing small, .influencer-camille-landing strike, .influencer-camille-landing strong, .influencer-camille-landing sub, .influencer-camille-landing sup, .influencer-camille-landing tt, .influencer-camille-landing var, .influencer-camille-landing b, .influencer-camille-landing u, .influencer-camille-landing i, .influencer-camille-landing center, .influencer-camille-landing dl, .influencer-camille-landing dt, .influencer-camille-landing dd, .influencer-camille-landing ol, .influencer-camille-landing ul, .influencer-camille-landing li, .influencer-camille-landing fieldset, .influencer-camille-landing form, .influencer-camille-landing label, .influencer-camille-landing legend, .influencer-camille-landing table, .influencer-camille-landing caption, .influencer-camille-landing tbody, .influencer-camille-landing tfoot, .influencer-camille-landing thead, .influencer-camille-landing tr, .influencer-camille-landing th, .influencer-camille-landing td, .influencer-camille-landing article, .influencer-camille-landing aside, .influencer-camille-landing canvas, .influencer-camille-landing details, .influencer-camille-landing embed, .influencer-camille-landing figure, .influencer-camille-landing figcaption, .influencer-camille-landing footer, .influencer-camille-landing header, .influencer-camille-landing hgroup, .influencer-camille-landing menu, .influencer-camille-landing nav, .influencer-camille-landing output, .influencer-camille-landing ruby, .influencer-camille-landing section, .influencer-camille-landing summary, .influencer-camille-landing time, .influencer-camille-landing mark, .influencer-camille-landing audio, .influencer-camille-landing video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+.influencer-camille-landing article, .influencer-camille-landing aside, .influencer-camille-landing details, .influencer-camille-landing figcaption, .influencer-camille-landing figure, .influencer-camille-landing footer, .influencer-camille-landing header, .influencer-camille-landing hgroup, .influencer-camille-landing menu, .influencer-camille-landing nav, .influencer-camille-landing section {
+  display: block; }
+
+body.influencer-camille-landing {
+  line-height: 1; }
+
+.influencer-camille-landing ol, .influencer-camille-landing ul {
+  list-style: none; }
+
+.influencer-camille-landing blockquote, .influencer-camille-landing q {
+  quotes: none; }
+
+.influencer-camille-landing blockquote:before, .influencer-camille-landing blockquote:after {
+  content: '';
+  content: none; }
+
+.influencer-camille-landing q:before, .influencer-camille-landing q:after {
+  content: '';
+  content: none; }
+
+.influencer-camille-landing table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html.html-influencer-camille-landing {
+  font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+  background: #f3f3f3;
+  color: #555759; }
+
+.influencer-camille-landing a, .influencer-camille-landing a:hover, .influencer-camille-landing a:active, .influencer-camille-landing a:focus {
+  text-decoration: none;
+  -webkit-transition: all 230ms ease-in-out;
+  -moz-transition: all 230ms ease-in-out;
+  -ms-transition: all 230ms ease-in-out;
+  -o-transition: all 230ms ease-in-out;
+  transition: all 230ms ease-in-out; }
+
+.influencer-camille-landing .in-desktop {
+  display: none; }
+
+@media all and (min-width: 768px) {
+  .influencer-camille-landing .container {
+    margin-left: auto;
+    margin-right: auto; }
+
+  .influencer-camille-landing .in-desktop {
+    display: block; }
+
+  .influencer-camille-landing .in-mobile {
+    display: none; } }
+@media all and (min-width: 992px) {
+  .influencer-camille-landing .container {
+    max-width: 1015px; } }
+.influencer-camille-landing .btn {
+  padding: 19px 25px 14px 25px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #555759;
+  color: white;
+  font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+  line-height: 100%;
+  font-size: 22px;
+  letter-spacing: 1px; }
+  .influencer-camille-landing .btn:hover {
+    background: #6e7173; }
+
+@media all and (min-width: 768px) {
+  .influencer-camille-landing .btn {
+    padding: 15px 30px 10px 30px; } }
+.influencer-camille-landing .header {
+  background: white; }
+
+.influencer-camille-landing .box-legend {
+  background: #4b3041;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+  line-height: 1.4em;
+  font-family: "HelveticaNeueLTStdBd", Arial, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase; }
+  .influencer-camille-landing .box-legend p {
+    margin: 0; }
+  .influencer-camille-landing .box-legend a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold; }
+
+.influencer-camille-landing .table-header {
+  display: table;
+  width: 100%;
+  padding: 23px 0 15px 0; }
+  .influencer-camille-landing .table-header .col {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center; }
+
+.influencer-camille-landing .col-menu {
+  width: 11%;
+  text-align: right !important; }
+
+.influencer-camille-landing .col-locate {
+  width: 9%;
+  text-align: right !important; }
+
+.influencer-camille-landing .col-brand {
+  width: 60%; }
+
+.influencer-camille-landing .col-search {
+  width: 9%;
+  text-align: left !important; }
+
+.influencer-camille-landing .col-bag {
+  width: 11%;
+  text-align: left !important; }
+
+.influencer-camille-landing .col-menu img, .influencer-camille-landing .col-locate img, .influencer-camille-landing .col-brand img, .influencer-camille-landing .col-search img, .influencer-camille-landing .col-bag img {
+  max-width: 28px;
+  height: auto; }
+  .influencer-camille-landing .col-menu img:hover, .influencer-camille-landing .col-locate img:hover, .influencer-camille-landing .col-brand img:hover, .influencer-camille-landing .col-search img:hover, .influencer-camille-landing .col-bag img:hover {
+    opacity: 0.8; }
+
+.influencer-camille-landing .col-locate img {
+  max-width: 16px; }
+
+.influencer-camille-landing .col-brand img {
+  max-width: 190px; }
+
+.influencer-camille-landing .col-search img {
+  max-width: 24px; }
+
+.influencer-camille-landing .col-bag img {
+  max-width: 17px;
+  margin-left: 5px; }
+
+@media all and (min-width: 768px) {
+  .influencer-camille-landing .table-header {
+    padding: 45px 0 40px 0; }
+
+  .influencer-camille-landing .col-menu img {
+    max-width: 36px;
+    margin-top: 3px; }
+
+  .influencer-camille-landing .col-locate img {
+    max-width: 27px; }
+
+  .influencer-camille-landing .col-brand img {
+    max-width: 370px; }
+
+  .influencer-camille-landing .col-search img {
+    max-width: 37px; }
+
+  .influencer-camille-landing .col-bag img {
+    max-width: 26px; }
+
+  .influencer-camille-landing .box-legend {
+    font-size: 15px; } }
+.influencer-camille-landing h1, .influencer-camille-landing h3, .influencer-camille-landing h4, .influencer-camille-landing h5, .influencer-camille-landing h6, .influencer-camille-landing p, .influencer-camille-landing span, .influencer-camille-landing a, .influencer-camille-landing ul, .influencer-camille-landing li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.influencer-camille-landing h1, .influencer-camille-landing h3, .influencer-camille-landing h4, .influencer-camille-landing h5, .influencer-camille-landing h6 {
+  font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+  color: #555759;
+  letter-spacing: 5px; }
+
+.influencer-camille-landing p {
+  margin-bottom: 15px;
+  line-height: 1.5em; }
+
+.influencer-camille-landing h3 {
+  font-size: 20px; }
+
+.influencer-camille-landing small {
+  font-size: 20px; }
+
+.influencer-camille-landing i, .influencer-camille-landing em  {
+  font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+@media all and (min-width: 1200px) {
+  .influencer-camille-landing h3 {
+    font-size: 56px; }
+
+  .influencer-camille-landing small {
+    font-size: 32px; } }
+.influencer-camille-landing .image-link {
+  display: block; }
+  .influencer-camille-landing .image-link img {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1); }
+  .influencer-camille-landing .image-link:hover img {
+    opacity: 0.8; }
+
+.influencer-camille-landing .box-1 {
+  background: #fbf5f3;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  text-align: center; }
+  .influencer-camille-landing .box-1 small {
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 5px; }
+  .influencer-camille-landing .box-1 h3 {
+    font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 45px; }
+    .influencer-camille-landing .box-1 h3:after {
+      display: block;
+      content: "";
+      height: 1px;
+      background: #555759;
+      margin-bottom: 30px;
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px; }
+  .influencer-camille-landing .box-1 .mobile {
+    margin-bottom: 30px; }
+  .influencer-camille-landing .box-1 p {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    font-size: 18px; }
+
+.influencer-camille-landing .mobile, .influencer-camille-landing .desktop {
+  width: 100%;
+  height: auto; }
+
+.influencer-camille-landing .desktop {
+  display: none; }
+
+@media all and (min-width: 992px) {
+  .influencer-camille-landing .desktop {
+    display: block; }
+
+  .influencer-camille-landing .mobile {
+    display: none; }
+
+  .influencer-camille-landing .box-1 {
+    padding: 0px;
+    background: transparent;
+    position: relative; }
+    .influencer-camille-landing .box-1 .caption {
+      position: absolute;
+      z-index: 9999;
+      left: 30%;
+      top: 150px; }
+      .influencer-camille-landing .box-1 .caption small, .influencer-camille-landing .box-1 .caption h3, .influencer-camille-landing .box-1 .caption p {
+        color: white; }
+      .influencer-camille-landing .box-1 .caption small {
+        margin-bottom: 10px;
+        font-size: 18px; }
+      .influencer-camille-landing .box-1 .caption h3 {
+        font-size: 60px; }
+        .influencer-camille-landing .box-1 .caption h3:after {
+          max-width: 180px;
+          background: white;
+          margin-bottom: 30px; }
+      .influencer-camille-landing .box-1 .caption p {
+        max-width: 350px; } }
+.influencer-camille-landing .box-2 {
+  background: #fbf5f3;
+  text-align: center;
+  padding: 0px 20px 30px 20px; }
+  .influencer-camille-landing .box-2 h3, .influencer-camille-landing .box-2 p {
+    color: #555759; }
+  .influencer-camille-landing .box-2 h3 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    font-size: 30px;
+    margin-top: 40px; }
+    .influencer-camille-landing .box-2 h3:after {
+      content: "";
+      max-width: 150px;
+      height: 1px;
+      background: #555759;
+      display: block;
+      margin: 20px auto 10px auto; }
+  .influencer-camille-landing .box-2 p {
+    font-size: 16px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto; }
+  .influencer-camille-landing .box-2 .box-image {
+    display: none; }
+
+.influencer-camille-landing .box-2-table {
+  background: #fbf5f3; }
+  .influencer-camille-landing .box-2-table img {
+    width: 100%;
+    height: auto; }
+  .influencer-camille-landing .box-2-table small {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 40px;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 8px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+.influencer-camille-landing .box-2-data {
+  text-align: center;
+  margin-bottom: 40px; }
+  .influencer-camille-landing .box-2-data h3 {
+    font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 26px; }
+    .influencer-camille-landing .box-2-data h3:after {
+      content: "";
+      height: 1px;
+      width: 30px;
+      display: block;
+      margin: 10px auto;
+      background: #555759; }
+  .influencer-camille-landing .box-2-data p {
+    margin: 0;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    max-width: 85%;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto; }
+
+.influencer-camille-landing .box-2-last-image {
+  background: #fbf5f3; }
+  .influencer-camille-landing .box-2-last-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px; }
+
+@media all and (min-width: 992px) {
+  .influencer-camille-landing .box-2-table {
+    display: table;
+    width: 100%; }
+    .influencer-camille-landing .box-2-table .box-2-col {
+      width: 50%;
+      display: table-cell;
+      vertical-align: middle; }
+
+  .influencer-camille-landing .box-2-data h3 {
+    font-size: 32px; }
+    .influencer-camille-landing .box-2-data h3:after {
+      content: "";
+      height: 1px;
+      width: 30px;
+      display: block;
+      margin: 10px auto;
+      background: #555759; }
+  .influencer-camille-landing .box-2-data p {
+    margin: 0;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    max-width: 85%;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .influencer-camille-landing .box-2-table small {
+    font-size: 14px; }
+
+  .influencer-camille-landing .box-2-last-image {
+    text-align: right; }
+    .influencer-camille-landing .box-2-last-image img {
+      max-width: 80%;
+      margin-bottom: 60px; } }
+.influencer-camille-landing .box-3 {
+  background: white;
+  text-align: center;
+  padding: 100px 0px;
+  position: relative; }
+  .influencer-camille-landing .box-3:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #555759;
+    display: block;
+    top: 41.5%;
+    z-index: 99; }
+  .influencer-camille-landing .box-3 h3, .influencer-camille-landing .box-3 small {
+    color: #555759; }
+  .influencer-camille-landing .box-3 h3 {
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 29px;
+    line-height: 1.3em;
+    position: relative;
+    background: white;
+    display: inline-block;
+    z-index: 999;
+    padding: 0 30px; }
+  .influencer-camille-landing .box-3 small {
+    display: block;
+    font-size: 15px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+.influencer-camille-landing .box-3-noticia {
+  background: white;
+  text-align: center; }
+  .influencer-camille-landing .box-3-noticia .box-image img {
+    width: 100%;
+    height: auto; }
+  .influencer-camille-landing .box-3-noticia .box-data {
+    padding: 40px 0; }
+    .influencer-camille-landing .box-3-noticia .box-data h3 {
+      font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+      letter-spacing: 1px;
+      font-size: 30px; }
+      .influencer-camille-landing .box-3-noticia .box-data h3:after {
+        content: "";
+        height: 1px;
+        width: 30px;
+        display: block;
+        margin: 10px auto;
+        background: #555759; }
+    .influencer-camille-landing .box-3-noticia .box-data p {
+      margin: 0;
+      max-width: 85%;
+      font-size: 17px;
+      margin-left: auto;
+      margin-right: auto; }
+
+.influencer-camille-landing .float {
+  display: table;
+  width: 100%; }
+  .influencer-camille-landing .float .box-data {
+    display: table-row;
+    padding: 40px 0; }
+    .influencer-camille-landing .float .box-data h3 {
+      margin-top: 50px; }
+    .influencer-camille-landing .float .box-data p {
+      margin-bottom: 50px; }
+  .influencer-camille-landing .float .box-image {
+    display: table-header-group; }
+
+@media all and (min-width: 768px) {
+  .influencer-camille-landing .box-3 {
+    padding: 140px 0px; }
+    .influencer-camille-landing .box-3:after {
+      top: 40%; }
+    .influencer-camille-landing .box-3 h3 {
+      font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+      margin-bottom: 50px;
+      font-size: 45px;
+      padding: 0 40px; }
+    .influencer-camille-landing .box-3 small {
+      font-size: 19px; }
+
+  .influencer-camille-landing .box-3-noticia {
+    font-size: 0;
+    display: table;
+    padding-bottom: 80px; }
+    .influencer-camille-landing .box-3-noticia .box-image, .influencer-camille-landing .box-3-noticia .box-data {
+      width: 50%;
+      display: table-cell;
+      vertical-align: middle; }
+    .influencer-camille-landing .box-3-noticia.float h3 {
+      margin-top: 0px; }
+    .influencer-camille-landing .box-3-noticia.float p {
+      margin-bottom: 0px; } }
+@media all and (min-width: 992px) {
+  .influencer-camille-landing .box-3-noticia {
+    padding-bottom: 90px; }
+    .influencer-camille-landing .box-3-noticia .box-data h3 {
+      font-size: 30px; }
+    .influencer-camille-landing .box-3-noticia .box-data p {
+      font-size: 19px; } }
+.influencer-camille-landing .box-4 {
+  background: white;
+  text-align: center;
+  padding: 20px 0 50px 0px;
+  position: relative; }
+  .influencer-camille-landing .box-4:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #555759;
+    display: block;
+    top: 30px;
+    z-index: 99; }
+  .influencer-camille-landing .box-4 h3 {
+    color: #555759;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    margin-bottom: 100px;
+    letter-spacing: 2px;
+    font-size: 29px;
+    line-height: 1.3em;
+    position: relative;
+    background: white;
+    display: inline-block;
+    z-index: 999;
+    padding: 0 20px; }
+
+.influencer-camille-landing .shop {
+  max-width: 1010px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px; }
+  .influencer-camille-landing .shop .col {
+    text-align: left;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto; }
+    .influencer-camille-landing .shop .col a {
+      display: block; }
+    .influencer-camille-landing .shop .col h4, .influencer-camille-landing .shop .col p {
+      padding-left: 30px; }
+    .influencer-camille-landing .shop .col a:hover img {
+      opacity: .8; }
+  .influencer-camille-landing .shop img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 14px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1, 1); }
+  .influencer-camille-landing .shop h4 {
+    letter-spacing: 0;
+    margin-bottom: 10px;
+    font-family: 'HelveticaNeueW01-55Roma', Helvetica, sans-serif;
+    font-size: 15px;
+    color: black; }
+  .influencer-camille-landing .shop p {
+    font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+    color: #a32616;
+    letter-spacing: 1px; }
+    .influencer-camille-landing .shop p span {
+      text-decoration: line-through;
+      color: #555759;
+      padding-right: 5px; }
+
+@media all and (min-width: 768px) {
+  .influencer-camille-landing .box-4 {
+    padding: 20px 0px 50px 0; }
+    .influencer-camille-landing .box-4:after {
+      top: 35px; }
+    .influencer-camille-landing .box-4 h3 {
+      font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+      margin-bottom: 50px;
+      font-size: 30px;
+      padding: 0 40px; }
+
+  .influencer-camille-landing .shop {
+    display: table;
+    width: 100%;
+    vertical-align: top; }
+    .influencer-camille-landing .shop .col {
+      display: table-cell;
+      width: 33.333%;
+      padding: 20px;
+      max-width: 100%; } }
+.influencer-camille-landing .box-5-testimonial {
+  background: #fbf5f3;
+  text-align: center;
+  padding: 40px 20px; }
+  .influencer-camille-landing .box-5-testimonial h3 {
+    color: #555759;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+    letter-spacing: 2px;
+    font-size: 24px;
+    max-width: 80%;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto; }
+  .influencer-camille-landing .box-5-testimonial h3:after, .influencer-camille-landing .box-5-testimonial h3:before {
+    content: ' ” ';
+    display: block;
+    font-size: 100px;
+    height: 35px;
+    margin-top: 40px; }
+  .influencer-camille-landing .box-5-testimonial h3:before {
+    content: ' “ ';
+    margin: 0 0 40px 0; }
+  .influencer-camille-landing .box-5-testimonial p {
+    font-size: 16px;
+    margin: 0; }
+
+@media all and (min-width: 992px) {
+  .influencer-camille-landing .box-5-testimonial {
+    padding: 65px 0px; }
+    .influencer-camille-landing .box-5-testimonial h3 {
+      font-size: 30px;
+      max-width: 620px;
+      margin-bottom: 45px;
+      line-height: 1.2em; }
+    .influencer-camille-landing .box-5-testimonial h3:after, .influencer-camille-landing .box-5-testimonial h3:before {
+      content: ' ” ';
+      font-size: 120px;
+      height: 50px;
+      line-height: 100%;
+      margin-top: 45px; }
+    .influencer-camille-landing .box-5-testimonial h3:before {
+      content: ' “ ';
+      margin: 0 0 45px 0; }
+    .influencer-camille-landing .box-5-testimonial p {
+      font-size: 18px; } }
+.influencer-camille-landing .box-6 {
+  background: white;
+  text-align: center;
+  padding: 80px 20px; }
+  .influencer-camille-landing .box-6 h3 {
+    color: #555759;
+    font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+    letter-spacing: 2px;
+    line-height: 100%;
+    font-size: 28px; }
+  .influencer-camille-landing .box-6 span {
+    background: #555759;
+    height: 1px;
+    display: block;
+    width: 30px;
+    margin: 22px auto 25px auto; }
+
+.influencer-camille-landing .box-6-one {
+  background: white;
+  text-align: center;
+  display: table;
+  width: 100%;
+  padding-bottom: 80px; }
+  .influencer-camille-landing .box-6-one .col-left {
+    display: table-row; }
+    .influencer-camille-landing .box-6-one .col-left img {
+      width: 100%;
+      height: auto; }
+  .influencer-camille-landing .box-6-one .col-right {
+    display: table-header-group; }
+    .influencer-camille-landing .box-6-one .col-right p.number {
+      font-size: 50px; }
+    .influencer-camille-landing .box-6-one .col-right p.text {
+      padding: 0 40px 50px 40px;
+      font-size: 18px;
+      font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+.influencer-camille-landing .box-6-two {
+  background: white;
+  text-align: center;
+  padding-bottom: 80px; }
+  .influencer-camille-landing .box-6-two .col-right img, .influencer-camille-landing .box-6-two .col-left img {
+    width: 100%;
+    height: auto; }
+  .influencer-camille-landing .box-6-two .col-left p.number {
+    font-size: 50px; }
+  .influencer-camille-landing .box-6-two .col-left p.text {
+    padding: 0 40px 50px 40px;
+    font-size: 18px;
+    font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+  .influencer-camille-landing .box-6-two .btn {
+    margin-top: 70px; }
+
+@media all and (min-width: 768px) {
+  .influencer-camille-landing .box-6-one {
+    padding-bottom: 120px; }
+    .influencer-camille-landing .box-6-one .col-left, .influencer-camille-landing .box-6-one .col-right {
+      display: table-cell;
+      width: 55%;
+      vertical-align: top; }
+    .influencer-camille-landing .box-6-one .col-right {
+      padding-top: 50px;
+      padding-left: 80px;
+      width: 45%; }
+      .influencer-camille-landing .box-6-one .col-right .desktop {
+        display: block;
+        margin-bottom: 80px; }
+      .influencer-camille-landing .box-6-one .col-right p.number {
+        font-size: 50px;
+        margin-bottom: 60px; }
+      .influencer-camille-landing .box-6-one .col-right p.text {
+        padding: 0 40px 50px 40px;
+        font-size: 18px;
+        font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+  .influencer-camille-landing .box-6-two {
+    padding-bottom: 120px; }
+    .influencer-camille-landing .box-6-two .col-left, .influencer-camille-landing .box-6-two .col-right {
+      display: table-cell;
+      width: 55%;
+      vertical-align: top; }
+    .influencer-camille-landing .box-6-two .col-left {
+      padding-top: 50px;
+      padding-right: 80px;
+      width: 45%; }
+      .influencer-camille-landing .box-6-two .col-left .desktop {
+        display: block;
+        margin-bottom: 80px; }
+      .influencer-camille-landing .box-6-two .col-left p.number {
+        font-size: 50px;
+        margin-bottom: 60px; }
+      .influencer-camille-landing .box-6-two .col-left p.text {
+        padding: 0 40px 50px 40px;
+        font-size: 18px;
+        font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+    .influencer-camille-landing .box-6-two .btn {
+      margin-top: 50px; } }
+@media all and (min-width: 992px) {
+  .influencer-camille-landing .box-6 h3 {
+    font-size: 45px;
+    letter-spacing: 5px; }
+  .influencer-camille-landing .box-6 span {
+    height: 2px;
+    width: 60px;
+    margin: 35px auto 40px auto; } }
+@media all and (min-width: 1200px) {
+  .influencer-camille-landing .box-6-one .col-left, .influencer-camille-landing .box-6-one .col-right {
+    width: 55%; }
+  .influencer-camille-landing .box-6-one .col-right {
+    width: 45%; }
+
+  .influencer-camille-landing .box-6-two .col-left, .influencer-camille-landing .box-6-two .col-right {
+    width: 55%; }
+  .influencer-camille-landing .box-6-two .col-left {
+    width: 45%; } }

@@ -1,0 +1,169 @@
+.influencer-camille-landing .box-6 {
+	background: white;
+	text-align: center;
+	padding: 80px 20px;
+	h3 {
+		color: $brand-primary;
+		font-family: $font-roman;
+		letter-spacing: 2px;
+		line-height: 100%;
+		font-size: 28px;
+	}
+	span {
+		background: $brand-primary;
+		height: 1px;
+		display: block;
+		width: 30px;
+		margin: 22px auto 25px auto;
+	}
+}
+
+.influencer-camille-landing .box-6-one {
+	background: white;
+	text-align: center;
+	display: table;
+	width: 100%;
+	padding-bottom: 80px;
+	.col-left {
+		display: table-row;
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.col-right {
+		display: table-header-group; 
+		p.number {
+			font-size: 50px;
+			
+		}
+		p.text {
+			padding: 0 40px 50px 40px;
+			font-size: 18px;
+			font-family: $font-italic;
+		}
+	}
+}
+
+.influencer-camille-landing .box-6-two {
+	background: white;
+	text-align: center;
+	padding-bottom: 80px;
+	.col-right, .col-left {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+	.col-left { 
+		p.number {
+			font-size: 50px;
+			
+		}
+		p.text {
+			padding: 0 40px 50px 40px;
+			font-size: 18px;
+			font-family: $font-italic;
+		}
+	}
+	.btn {
+		margin-top: 70px;
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+
+	.influencer-camille-landing .box-6-one {
+		padding-bottom: 120px;
+		.col-left, .col-right {
+			display: table-cell;
+			width: 55%;
+			vertical-align: top;
+		}
+		.col-right {
+			padding-top: 50px;
+			padding-left: 80px;
+			width: 45%;
+			.desktop {
+				display: block;
+				margin-bottom: 80px;
+			}
+			p.number {
+				font-size: 50px;
+				margin-bottom: 60px;
+			}
+			p.text {
+				padding: 0 40px 50px 40px;
+				font-size: 18px;
+				font-family: $font-italic;
+			}
+		}
+	}
+
+	.influencer-camille-landing .box-6-two {
+		padding-bottom: 120px;
+		.col-left, .col-right {
+			display: table-cell;
+			width: 55%;
+			vertical-align: top;
+		}
+		.col-left {
+			padding-top: 50px;
+			padding-right: 80px;
+			width: 45%;
+			.desktop {
+				display: block;
+				margin-bottom: 80px;
+			}
+			p.number {
+				font-size: 50px;
+				margin-bottom: 60px;
+			}
+			p.text {
+				padding: 0 40px 50px 40px;
+				font-size: 18px;
+				font-family: $font-italic;
+			}
+		}
+		.btn {
+			margin-top: 50px;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-camille-landing .box-6 {
+		h3 {
+			font-size: 45px;
+			letter-spacing: 5px;
+		}
+		span {
+			height: 2px;
+			width: 60px;
+			margin: 35px auto 40px auto;
+		}
+
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.influencer-camille-landing .box-6-one {
+		.col-left, .col-right {
+			width: 55%;
+		}
+		.col-right {
+			width: 45%;
+		}
+	}
+
+	.influencer-camille-landing .box-6-two {
+		.col-left, .col-right {
+			width: 55%;
+		}
+		.col-left {
+			width: 45%;
+		}
+	}
+}

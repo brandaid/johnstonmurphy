@@ -1,0 +1,38 @@
+html.html-influencer-camille-landing  {
+	font-family: $font-roman;
+	background: #f3f3f3;
+	color: $brand-primary;
+}
+
+.influencer-camille-landing a, .influencer-camille-landing a:hover, .influencer-camille-landing a:active, .influencer-camille-landing a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+
+.influencer-camille-landing .in-desktop {
+	display: none;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.influencer-camille-landing .container { 
+		@include center;
+	}
+	.influencer-camille-landing .in-desktop {
+		display: block;
+	}
+	.influencer-camille-landing .in-mobile {
+		display: none;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-camille-landing .container { 
+		max-width: 1015px;
+	}
+}

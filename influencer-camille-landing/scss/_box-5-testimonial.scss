@@ -1,0 +1,57 @@
+.influencer-camille-landing .box-5-testimonial {
+	background: #fbf5f3;
+	text-align: center;
+	padding: 40px 20px;
+	h3 {
+		color: $brand-primary;
+		font-family: $font-italic;
+		letter-spacing: 2px;
+		font-size: 24px;
+		max-width: 80%;
+		margin-bottom: 40px;
+		@include center;
+	}
+	h3:after, h3:before {
+		content: ' ” '; 
+		display: block;
+		font-size: 100px;
+		height: 35px;
+		margin-top: 40px; 
+	}
+	h3:before {
+		content: ' “ ';
+		margin: 0 0 40px 0;
+	}
+	p {
+		font-size: 16px;
+		margin: 0;
+	}
+}
+
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-camille-landing .box-5-testimonial {
+		padding: 65px 0px;
+		h3 {
+			font-size: 30px;
+			max-width: 620px;
+			margin-bottom: 45px;
+			line-height: 1.2em;
+		}
+		h3:after, h3:before {
+			content: ' ” '; 
+			font-size: 120px;
+			height: 50px;
+			line-height: 100%;
+			margin-top: 45px; 
+		}
+		h3:before {
+			content: ' “ ';
+			margin: 0 0 45px 0;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}
