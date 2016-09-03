@@ -1,0 +1,38 @@
+html.html-influencer-wonderland-landing  {
+	font-family: $font-roman;
+	background: #f3f3f3;
+	color: $brand-primary;
+}
+
+.influencer-wonderland-landing a, .influencer-wonderland-landing a:hover, .influencer-wonderland-landing a:active, .influencer-wonderland-landing a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+
+.influencer-wonderland-landing .in-desktop {
+	display: none;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.influencer-wonderland-landing .container { 
+		@include center;
+	}
+	.influencer-wonderland-landing .in-desktop {
+		display: block;
+	}
+	.influencer-wonderland-landing .in-mobile {
+		display: none;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-wonderland-landing .container { 
+		max-width: 1015px;
+	}
+}

@@ -1,0 +1,29 @@
+.influencer-wonderland-landing .btn {
+	padding: 19px 25px 14px 25px;
+	display: inline-block;
+	@include center;
+	background: $brand-primary;
+	color: white;
+	font-family: $secondary-font;
+	line-height: 100%;
+	font-size: 22px;
+	letter-spacing: 1px;
+	&:hover {
+		background: lighten($brand-primary, 10%);
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.influencer-wonderland-landing .btn {
+		padding: 15px 30px 10px 30px;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}
