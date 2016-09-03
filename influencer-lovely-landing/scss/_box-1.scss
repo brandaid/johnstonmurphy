@@ -1,0 +1,92 @@
+.influencer-lovely-landing .box-1 {
+	background: #fbf5f3;
+	padding-bottom: 40px;
+	padding-top: 60px;
+	text-align: center;
+	small {
+		font-family: $font-italic;
+		display: block;
+		margin-bottom: 15px;
+		font-size: 18px;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+	}
+	h3 {
+		font-family: $secondary-font;
+		letter-spacing: 1px;
+		font-size: 45px;
+		&:after {
+			display: block;
+			content: "";
+			height: 1px;
+			background: $brand-primary;
+			margin-bottom: 30px;
+			max-width: 200px;
+			@include center;
+			margin-top: 10px;
+		}
+	}
+	.mobile {
+		margin-bottom: 30px;
+	}
+	p {
+		padding-left: 30px;
+		padding-right: 30px;
+		max-width: 450px;
+		@include center;
+		margin-bottom: 0px;
+		font-size: 18px;
+	}
+}
+
+.influencer-lovely-landing .mobile, .influencer-lovely-landing .desktop {
+	width: 100%;
+	height: auto;
+}
+.influencer-lovely-landing .desktop {
+	display: none;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-lovely-landing .desktop {
+		display: block;
+	}
+	.influencer-lovely-landing .mobile {
+		display: none;
+	}
+	.influencer-lovely-landing .box-1 {
+		padding: 0px;
+		background: transparent;
+		position: relative;
+		.caption {
+			position: absolute;
+			z-index: 9999;
+			right: 5%;
+			top: 150px;
+			small, h3, p {
+				color: white;
+			}
+			small {
+				margin-bottom: 10px;
+				font-size: 18px;
+			}
+			h3 {
+				font-size: 50px;
+				&:after {
+					max-width: 180px;
+					background: white;
+					margin-bottom: 30px;
+				}
+			}
+			p {
+				max-width: 320px;
+			}
+		}
+	}
+}

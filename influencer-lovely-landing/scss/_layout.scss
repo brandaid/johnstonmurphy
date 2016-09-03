@@ -1,0 +1,38 @@
+html.html-influencer-lovely-landing  {
+	font-family: $font-roman;
+	background: #f3f3f3;
+	color: $brand-primary;
+}
+
+.influencer-lovely-landing a, .influencer-lovely-landing a:hover, .influencer-lovely-landing a:active, .influencer-lovely-landing a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+
+.influencer-lovely-landing .in-desktop {
+	display: none;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.influencer-lovely-landing .container { 
+		@include center;
+	}
+	.influencer-lovely-landing .in-desktop {
+		display: block;
+	}
+	.influencer-lovely-landing .in-mobile {
+		display: none;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-lovely-landing .container { 
+		max-width: 1015px;
+	}
+}

@@ -1,0 +1,137 @@
+.influencer-lovely-landing  .box-2 {
+	background: #fbf5f3;
+	text-align: center;
+	padding: 50px 20px 30px 20px;
+	h3, p {
+		color: $brand-primary;
+	}
+	h3 {
+		margin-bottom: 20px;
+		letter-spacing: 2px;
+		line-height: 1.3em;
+		font-size: 30px;
+		margin-top: 40px;
+		&:after {
+			content: "";
+			max-width: 150px;
+			height: 1px;
+			background: $brand-primary;
+			display: block;
+			margin: 20px auto 10px auto;
+		}
+	}
+	p {
+		font-size: 16px;
+		max-width: 650px;
+		@include center;
+	}
+	.box-image {
+		display: none;
+	}
+}
+
+.influencer-lovely-landing .box-2-table {
+	background: #fbf5f3;
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 60px;
+	}
+}
+
+.influencer-lovely-landing .box-2-data {
+	text-align: center;
+	margin-bottom: 40px;
+	h3 {
+		font-family: $secondary-font;
+		letter-spacing: 1px;
+		font-size: 26px;
+		&:after {
+			content: "";
+			height: 1px;
+			width: 30px;
+			display: block;
+			margin: 10px auto;
+			background: $brand-primary;
+		}
+	}
+	p {
+		margin: 0;
+		font-family: $font-italic;
+		max-width: 85%;
+		font-size: 17px;
+		@include center;
+	}
+}
+
+
+.influencer-lovely-landing .box-2-last-image {
+	background: #fbf5f3;
+	img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 40px;
+	}
+}
+
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.influencer-lovely-landing .box-2-table {
+		display: table;
+		width: 100%;
+		.box-2-col {
+			width: 50%;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+
+	.influencer-lovely-landing .box-2-data {
+		h3 {
+			font-size: 32px;
+			&:after {
+				content: "";
+				height: 1px;
+				width: 30px;
+				display: block;
+				margin: 10px auto;
+				background: $brand-primary;
+			}
+		}
+		p {
+			margin: 0;
+			font-family: $font-italic;
+			max-width: 85%;
+			font-size: 17px;
+			@include center;
+		}
+		img {
+			max-width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.influencer-lovely-landing .box-2-table {
+		small {
+			font-size: 14px;
+		}
+	}
+	.influencer-lovely-landing .box-2-last-image {
+		text-align: right;
+		img {
+			max-width: 80%;
+			margin-bottom: 60px;
+		}
+	}
+	
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	
+}

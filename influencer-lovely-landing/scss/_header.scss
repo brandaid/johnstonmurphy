@@ -1,0 +1,119 @@
+.influencer-lovely-landing .header {
+	background: white;
+}
+
+.influencer-lovely-landing .box-legend {
+	background: $brand-secondary;
+	padding: 20px 10px;
+	text-align: center;
+	color: white;
+	line-height: 1.4em;
+	font-family: $primary-font;
+	font-size: 10px;
+	text-transform: uppercase;
+	p {
+		margin: 0;
+	}
+	a {
+		text-decoration: underline;
+		color: white;
+		font-weight: bold;
+	}
+}
+
+.influencer-lovely-landing .table-header {
+	display: table;
+	width: 100%;
+	padding: 23px 0 15px 0;
+	.col {
+		display: table-cell;
+		vertical-align: top;
+		text-align: center;
+	}
+}
+
+.influencer-lovely-landing .col-menu {
+	width: 11%;
+	text-align: right!important;
+}
+.influencer-lovely-landing .col-locate {
+	width: 9%;
+	text-align: right!important;
+}
+.influencer-lovely-landing .col-brand {
+	width: 60%;
+}
+.influencer-lovely-landing .col-search {
+	width: 9%;
+	text-align: left!important;
+}
+.influencer-lovely-landing .col-bag {
+	width: 11%;
+	text-align: left!important;
+}
+
+.influencer-lovely-landing .col-menu, .influencer-lovely-landing .col-locate, .influencer-lovely-landing .col-brand, .influencer-lovely-landing .col-search, .influencer-lovely-landing .col-bag {
+	img {
+		max-width: 28px;
+		height: auto;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+.influencer-lovely-landing .col-locate {
+	img {
+		max-width: 16px;
+	}
+}
+.influencer-lovely-landing .col-brand {
+	img {
+		max-width: 190px;
+	}
+}
+.influencer-lovely-landing .col-search {
+	img {
+		max-width: 24px;
+	}
+}
+.influencer-lovely-landing .col-bag {
+	img {
+		max-width: 17px;
+		margin-left: 5px;
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.influencer-lovely-landing .table-header {
+		padding: 45px 0 40px 0;
+	}
+	.influencer-lovely-landing .col-menu {
+		img {
+			max-width: 36px;
+			margin-top: 3px;
+		}
+	}
+	.influencer-lovely-landing .col-locate {
+		img {
+			max-width: 27px;
+		}
+	}
+	.influencer-lovely-landing .col-brand {
+		img {
+			max-width: 370px;
+		}
+	}
+	.influencer-lovely-landing .col-search {
+		img {
+			max-width: 37px;
+		}
+	}
+	.influencer-lovely-landing .col-bag {
+		img {
+			max-width: 26px;
+		}
+	}
+	.influencer-lovely-landing .box-legend {
+		font-size: 15px;
+	}
+}

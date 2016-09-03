@@ -1,0 +1,40 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html.html-influencer-lovely-landing, body.body-influencer-lovely-landing, .influencer-lovely-landing div, .influencer-lovely-landing span, .influencer-lovely-landing applet, .influencer-lovely-landing object, .influencer-lovely-landing iframe, .influencer-lovely-landing h1, .influencer-lovely-landing h3, .influencer-lovely-landing h4, .influencer-lovely-landing h5, .influencer-lovely-landing h6, .influencer-lovely-landing p, .influencer-lovely-landing blockquote, .influencer-lovely-landing pre, .influencer-lovely-landing a, .influencer-lovely-landing abbr, .influencer-lovely-landing acronym, .influencer-lovely-landing address, .influencer-lovely-landing big, .influencer-lovely-landing cite, .influencer-lovely-landing code, .influencer-lovely-landing del, .influencer-lovely-landing dfn, .influencer-lovely-landing em, .influencer-lovely-landing img, .influencer-lovely-landing ins, .influencer-lovely-landing kbd, .influencer-lovely-landing q, .influencer-lovely-landing s, .influencer-lovely-landing samp, .influencer-lovely-landing small, .influencer-lovely-landing strike, .influencer-lovely-landing strong, .influencer-lovely-landing sub, .influencer-lovely-landing sup, .influencer-lovely-landing tt, .influencer-lovely-landing var, .influencer-lovely-landing b, .influencer-lovely-landing u, .influencer-lovely-landing i, .influencer-lovely-landing center, .influencer-lovely-landing dl, .influencer-lovely-landing dt, .influencer-lovely-landing dd, .influencer-lovely-landing ol, .influencer-lovely-landing ul, .influencer-lovely-landing li, .influencer-lovely-landing fieldset, .influencer-lovely-landing form, .influencer-lovely-landing label, .influencer-lovely-landing legend, .influencer-lovely-landing table, .influencer-lovely-landing caption, .influencer-lovely-landing tbody, .influencer-lovely-landing tfoot, .influencer-lovely-landing thead, .influencer-lovely-landing tr, .influencer-lovely-landing th, .influencer-lovely-landing td, .influencer-lovely-landing article, .influencer-lovely-landing aside, .influencer-lovely-landing canvas, .influencer-lovely-landing details, .influencer-lovely-landing embed, .influencer-lovely-landing figure, .influencer-lovely-landing figcaption, .influencer-lovely-landing footer, .influencer-lovely-landing header, .influencer-lovely-landing hgroup, .influencer-lovely-landing menu, .influencer-lovely-landing nav, .influencer-lovely-landing output, .influencer-lovely-landing ruby, .influencer-lovely-landing section, .influencer-lovely-landing summary, .influencer-lovely-landing time, .influencer-lovely-landing mark, .influencer-lovely-landing audio, .influencer-lovely-landing video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+
+.influencer-lovely-landing article, .influencer-lovely-landing aside, .influencer-lovely-landing details, .influencer-lovely-landing figcaption, .influencer-lovely-landing figure, .influencer-lovely-landing footer, .influencer-lovely-landing header, .influencer-lovely-landing hgroup, .influencer-lovely-landing menu, .influencer-lovely-landing nav, .influencer-lovely-landing section {
+  display: block; }
+
+body.influencer-lovely-landing {
+  line-height: 1; }
+
+.influencer-lovely-landing ol, .influencer-lovely-landing ul {
+  list-style: none; }
+
+.influencer-lovely-landing blockquote, .influencer-lovely-landing q {
+  quotes: none; }
+
+.influencer-lovely-landing blockquote {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+.influencer-lovely-landing q {
+  &:before, &:after {
+    content: '';
+    content: none; } }
+
+.influencer-lovely-landing table {
+  border-collapse: collapse;
+  border-spacing: 0; }
