@@ -78,9 +78,8 @@
 		.caption {
 			position: absolute;
 			z-index: 9999;
-			left: 0;
 			top: 120px;
-			left: 40px;
+			right: 40px;
 			small, h3, p.text {
 				color: white;
 			}
@@ -120,8 +119,8 @@
 	.womens-landing .box-8 {
 		.caption {
 			max-width: 520px;
-			top: 100px;
-			right: 60px;
+			top: 27%;
+			right: 10%;
 		}
 	}
 }

@@ -69,15 +69,17 @@
 		p {
 			font-size: 20px;
 		}
+		p.text {
+			font-size: 18px;
+		}
 	}
 }
 
+
+
+
 // 992px
 @media all and (min-width: $screen-landscape) {
-}
-
-// 1200px
-@media all and (min-width: $screen-desktop) {
 	.womens-landing .box-5 {
 		font-size: 0;
 		padding: 50px 0px 90px 0;
@@ -102,6 +104,9 @@
 		}
 		.box-data {
 			padding-top: 50px;
+			.image-link {
+				text-align: left;
+			}
 		}
 		.box-image {
 			text-align: right;
