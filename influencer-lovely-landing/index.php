@@ -106,16 +106,16 @@
 					<h3>SHOP THE EDIT</h3>
 					<div class="shop">
 						<div class="col">
-							<a href="http://www.johnstonmurphy.com/gwynn-penny/6946.html?dwvar_6946_width=M&dwvar_6946_color=Bordeaux%20Textured%20Patent%20Leather#start=2"><img src="images/shop-2.jpg" alt=""></a>
-							<h4>Gwynn Penny</h4>
+							<a href="http://www.johnstonmurphy.com/stephanie-stitched-bootie/6947.html?dwvar_6947_color=Cognac%20Italian%20Suede&dwvar_6947_width=M#q=Stephanie+Stitched+Bootie&start=1"><img src="images/shop-1.jpg" alt=""></a>
+							<h4>Stephanie Stitched Bootie</h4>
 						</div>
 						<div class="col">
-							<a href="http://www.johnstonmurphy.com/emerson-sneaker/6951.html?dwvar_6951_width=M&dwvar_6951_color=Off%20White%20Italian%20Snake%20Print%20Leather#start=3"><img src="images/shop-1.jpg" alt=""></a>
+							<a href="http://www.johnstonmurphy.com/brianna-buckle-bootie/6954.html?dwvar_6954_color=Charcoal%20Kid%20Suede&dwvar_6954_width=M#q=Brianna+Buckle+Bootie&start=1"><img src="images/shop-2.jpg" alt=""></a>
+							<h4>Brianna Buckle Bootie</h4>
+						</div>
+						<div class="col">
+							<a href="http://www.johnstonmurphy.com/emerson-sneaker/6951.html?dwvar_6951_width=M&dwvar_6951_color=Off%20White%20Italian%20Snake%20Print%20Leather#q=Emerson+Sneaker&start=1"><img src="images/shop-3.jpg" alt=""></a>
 							<h4>Emerson Sneaker</h4>
-						</div>
-						<div class="col">
-							<a href="http://www.johnstonmurphy.com/stephanie-stitched-bootie/6947.html?dwvar_6947_color=Gray%20Italian%20Suede&dwvar_6947_width=M#start=1"><img src="images/shop-3.jpg" alt=""></a>
-							<h4>Valerie Bootie</h4>
 						</div>
 					</div>
 					<a href="" class="btn">SEE MORE</a>
@@ -136,7 +136,7 @@
 					<div class="box-2-col">
 						<div class="box-2-data">
 							<a href="#" class="image-link"><img src="images/box-2-2.jpg" alt="Our Style Philosophy" class="desktop"></a>
-							<p class="text">“Tem faceat. Id qui ilitio blaborum am landus, a consecuptam nossent optas archillam, atibusant as aborepe ribeari corentibus unt molupti nverore imoluptam, que ex eostius.”</p>
+							<p class="text">“I'm just a girl who loves the south, loves to get dressed, and loves to see the world. I really enjoy finding wardrobe solutions that help make high fashion accessible and easy to achieve through a mixture of high and low product points.”</p>
 						</div>
 					</div>
 				</section>
@@ -147,7 +147,7 @@
 
 				<!-- BOX 5 TESTIMONIAL-->
 				<section class="box-5-testimonial">
-					<h3>Optas con prest at“as et idebis nostrunt ventisincti omnihic ipsame sim ilis.</h3>
+					<h3>I'm inspired by effortless southern living and the creativity of streetstyle.</h3>
 					<p class="text">KRYSTAL FAIRCLOTH @APinchOfLovely</p>
 				</section>
 				

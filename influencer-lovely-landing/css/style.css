@@ -65,6 +65,9 @@ html.html-influencer-lovely-landing {
 @media all and (min-width: 992px) {
   .influencer-lovely-landing .container {
     max-width: 1015px; } }
+@media all and (min-width: 1300px) {
+  .influencer-lovely-landing .container {
+    max-width: 1280px; } }
 .influencer-lovely-landing .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -192,7 +195,7 @@ html.html-influencer-lovely-landing {
 .influencer-lovely-landing i, .influencer-lovely-landing em  {
   font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .influencer-lovely-landing h3 {
     font-size: 56px; }
 
@@ -727,7 +730,7 @@ html.html-influencer-lovely-landing {
     height: 2px;
     width: 60px;
     margin: 35px auto 40px auto; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .influencer-lovely-landing .box-6-one .col-left, .influencer-lovely-landing .box-6-one .col-right {
     width: 55%; }
   .influencer-lovely-landing .box-6-one .col-right {

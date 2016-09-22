@@ -65,6 +65,9 @@ html.html-influencer-camille-landing {
 @media all and (min-width: 992px) {
   .influencer-camille-landing .container {
     max-width: 1015px; } }
+@media all and (min-width: 1300px) {
+  .influencer-camille-landing .container {
+    max-width: 1280px; } }
 .influencer-camille-landing .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -192,7 +195,7 @@ html.html-influencer-camille-landing {
 .influencer-camille-landing i, .influencer-camille-landing em  {
   font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .influencer-camille-landing h3 {
     font-size: 56px; }
 
@@ -272,7 +275,8 @@ html.html-influencer-camille-landing {
       left: 30%;
       top: 150px; }
       .influencer-camille-landing .box-1 .caption small, .influencer-camille-landing .box-1 .caption h3, .influencer-camille-landing .box-1 .caption p {
-        color: white; }
+        color: white;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5); }
       .influencer-camille-landing .box-1 .caption small {
         margin-bottom: 10px;
         font-size: 18px; }
@@ -294,8 +298,8 @@ html.html-influencer-camille-landing {
     margin-bottom: 20px;
     letter-spacing: 2px;
     line-height: 1.3em;
-    font-size: 30px;
-    margin-top: 40px; }
+    padding-top: 40px;
+    font-size: 30px; }
     .influencer-camille-landing .box-2 h3:after {
       content: "";
       max-width: 150px;
@@ -624,7 +628,8 @@ html.html-influencer-camille-landing {
       content: ' “ ';
       margin: 0 0 45px 0; }
     .influencer-camille-landing .box-5-testimonial p {
-      font-size: 18px; } }
+      font-size: 18px;
+      letter-spacing: 1px; } }
 .influencer-camille-landing .box-6 {
   background: white;
   text-align: center;
@@ -730,7 +735,7 @@ html.html-influencer-camille-landing {
     height: 2px;
     width: 60px;
     margin: 35px auto 40px auto; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .influencer-camille-landing .box-6-one .col-left, .influencer-camille-landing .box-6-one .col-right {
     width: 55%; }
   .influencer-camille-landing .box-6-one .col-right {

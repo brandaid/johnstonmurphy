@@ -176,15 +176,15 @@
 					<h3>SHOP THE EDIT</h3>
 					<div class="shop">
 						<div class="col">
-							<a href="http://www.johnstonmurphy.com/gwynn-penny/6946.html?dwvar_6946_width=M&dwvar_6946_color=Bordeaux%20Textured%20Patent%20Leather#start=2"><img src="images/shop-2.jpg" alt=""></a>
+							<a href="http://www.johnstonmurphy.com/gwynn-penny/6946.html?dwvar_6946_width=M&dwvar_6946_color=Bordeaux%20Textured%20Patent%20Leather#start=2"><img src="images/shop-1.jpg" alt=""></a>
 							<h4>Gwynn Penny</h4>
 						</div>
 						<div class="col">
-							<a href="http://www.johnstonmurphy.com/emerson-sneaker/6951.html?dwvar_6951_width=M&dwvar_6951_color=Off%20White%20Italian%20Snake%20Print%20Leather#start=3"><img src="images/shop-1.jpg" alt=""></a>
+							<a href="http://www.johnstonmurphy.com/brianna-buckle-bootie/6954.html?dwvar_6954_color=Charcoal%20Kid%20Suede&dwvar_6954_width=M#q=Brianna+Buckle+Bootie&start=1"><img src="images/shop-2.jpg" alt=""></a>
 							<h4>Brianna Buckle Bootie</h4>
 						</div>
 						<div class="col">
-							<a href="http://www.johnstonmurphy.com/stephanie-stitched-bootie/6947.html?dwvar_6947_color=Gray%20Italian%20Suede&dwvar_6947_width=M#start=1"><img src="images/shop-3.jpg" alt=""></a>
+							<a href="http://www.johnstonmurphy.com/valerie-bootie/6962.html?dwvar_6962_color=Black%20Calfskin&dwvar_6962_width=M#q=Valerie+Bootie&start=1"><img src="images/shop-3.jpg" alt=""></a>
 							<h4>Valerie Bootie</h4>
 						</div>
 					</div>

@@ -36,3 +36,10 @@ html.html-influencer-camille-landing  {
 		max-width: 1015px;
 	}
 }
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.influencer-camille-landing .container { 
+		max-width: 1280px;
+	}
+}
