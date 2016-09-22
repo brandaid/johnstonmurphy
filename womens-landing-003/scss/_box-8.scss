@@ -63,13 +63,16 @@
 			position: absolute;
 			z-index: 9999;
 			top: 140px;
-			right: 40px;
+			left: 0;
+			width: 100%;
+			text-align: center;
 			small, h3, p.text {
-				color: $brand-primary;
+				color: white;
+				text-shadow: 0 1px 3px rgba(black, .5);
 			}
 			.btn {
-				background: $brand-primary;
-				color: white;
+				background: white;
+				color: $brand-primary;
 				cursor: pointer;
 				font-size: 20px;
 				&:hover {
@@ -85,7 +88,7 @@
 				padding-bottom: 0;
             	&:after {
 					max-width: 150px;
-					background: $brand-primary;
+					background: white;
 					margin: 5px auto 20px auto;
 				}
 			}

@@ -62,6 +62,7 @@
 						<h1>START WITH <br>THE SHOES</h1>
 						<p class="text">Kick Off the Holidays <br>in Style</p>
 					</div>
+					<img src="images/box-top.jpg" alt="">
 				</section>
 				
 				<!--BOX 2-->
@@ -156,9 +157,9 @@
 				<section class="box-8">
 					<div class="caption">
 						<small>Introducing</small>
-						<h3>A PINCH OF LOVELY</h3>
+						<h3>CAMILLE STYLES</h3>
 						<a href="#" class="image-link"><img src="images/box-8-mobile.jpg" alt="Happily Grey" class="mobile"></a>
-						<p class="text">Lorem ipsum dolor erc Ipsae nonsenis earchitatis ut es sitiorae quat atque di doluptatem sandelent.Ehenisque</p>
+						<p class="text">The trio behind the Austin-based lifestyle blog may each have their own style, but they all share a love for healthy-living and great shoes.</p>
 						<a href="" class="btn">READ MORE</a>
 					</div>
 					<a href="#" class="image-link"><img src="images/box-8.jpg" alt="Happily Grey" class="desktop"></a>
@@ -171,7 +172,7 @@
 						<a href="#" class="image-link"><img src="images/box-11-1.jpg" alt="Well Heeled"></a>
 					</div>
 					<div class="box-data">
-						<h3>A Warmer Welcome</h3>
+						<h3>Well Heeled</h3>
 						<p class="text">Nothing says ‘Hello Fall’ like a killer pair of boots with classic and cozy details.</p>
 						<a href="" class="btn">SHOP BOOTS</a>
 						<a href="#" class="image-link"><img src="images/box-11.jpg" class="image-responsive" alt="A Chic-er Sneaker"></a>
@@ -181,9 +182,6 @@
 				<section class="box-11-images one-column">
 					<a href="#" class="image-link"><img src="images/box-11-2.jpg" alt="Well Heeled" class="desktop"></a>
 				</section>
-
-
-
 
 			</div>
 		</div>

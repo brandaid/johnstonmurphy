@@ -1,16 +1,16 @@
 .womens-landing .box-1 {
-	background: url(../images/box-top.jpg) no-repeat center center; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	position: relative;
+	line-height: 0;
 	.caption {
-		margin: 0 0 0 auto;
+		position: absolute;
+		top: 20%;
+		right: 20px;
 		width: 40%;
-		padding: 0 20px 0 0;
 		text-align: center;
+	}
+	img {
+		width: 100%;
+		height: auto;
 	}
 	h1 {
 		font-size: 15px;
@@ -41,11 +41,8 @@
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.womens-landing .box-1 {
-		padding-top: 250px;
-		padding-bottom: 250px;
 		.caption {
-			padding-right: 0;
-			top: -120px;
+			top: 30%;
 		}
 		h1 {
 			font-size: 37px;

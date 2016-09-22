@@ -59,6 +59,9 @@ html.html-womens-landing {
 @media all and (min-width: 992px) {
   .womens-landing .container {
     max-width: 1015px; } }
+@media all and (min-width: 1300px) {
+  .womens-landing .container {
+    max-width: 1280px; } }
 .womens-landing .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -207,18 +210,17 @@ html.html-womens-landing {
     opacity: 0.8; }
 
 .womens-landing .box-1 {
-  background: url(../images/box-top.jpg) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 150px; }
+  position: relative;
+  line-height: 0; }
   .womens-landing .box-1 .caption {
-    margin: 0 0 0 auto;
+    position: absolute;
+    top: 20%;
+    right: 20px;
     width: 40%;
-    padding: 0 20px 0 0;
     text-align: center; }
+  .womens-landing .box-1 img {
+    width: 100%;
+    height: auto; }
   .womens-landing .box-1 h1 {
     font-size: 15px;
     line-height: 1.2em;
@@ -240,24 +242,20 @@ html.html-womens-landing {
     color: white; }
 
 @media all and (min-width: 768px) {
-  .womens-landing .box-1 {
-    padding-top: 250px;
-    padding-bottom: 250px; }
-    .womens-landing .box-1 .caption {
-      padding-right: 0;
-      top: -120px; }
-    .womens-landing .box-1 h1 {
-      font-size: 37px;
-      line-height: 1.4em; }
-      .womens-landing .box-1 h1:after {
-        margin: 10px auto 14px auto; }
-    .womens-landing .box-1 p.text {
-      font-size: 18px;
-      letter-spacing: 5px; } }
+  .womens-landing .box-1 .caption {
+    top: 30%; }
+  .womens-landing .box-1 h1 {
+    font-size: 37px;
+    line-height: 1.4em; }
+    .womens-landing .box-1 h1:after {
+      margin: 10px auto 14px auto; }
+  .womens-landing .box-1 p.text {
+    font-size: 18px;
+    letter-spacing: 5px; } }
 @media all and (min-width: 992px) {
   .womens-landing .box-1 .caption {
     width: 40%; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-1 .caption {
     width: 50%; } }
 .womens-landing .box-2 {
@@ -282,7 +280,7 @@ html.html-womens-landing {
     font-size: 30px; }
   .womens-landing .box-2 p.text {
     font-size: 18px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-2 {
     font-size: 0;
     padding: 100px 0px; }
@@ -301,8 +299,7 @@ html.html-womens-landing {
         width: 100%; } }
 .womens-landing .box-3-video {
   background: white;
-  line-height: 0;
-  margin-bottom: 60px; }
+  line-height: 0; }
   .womens-landing .box-3-video img {
     width: 100%;
     height: auto; }
@@ -321,7 +318,7 @@ html.html-womens-landing {
   width: 100%;
   height: 100%; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-3-video {
     padding-bottom: 0px; } }
 .womens-landing .box-4 {
@@ -365,7 +362,7 @@ html.html-womens-landing {
         letter-spacing: 4px; }
       .womens-landing .box-4 .caption h3 {
         font-size: 37px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing #only-mobile {
     display: none; }
 
@@ -427,7 +424,7 @@ html.html-womens-landing {
     font-size: 32px; }
   .womens-landing .box-5 p {
     font-size: 20px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-5 {
     font-size: 0;
     padding: 50px 0px 90px 0; }
@@ -658,12 +655,15 @@ html.html-womens-landing {
       position: absolute;
       z-index: 9999;
       top: 140px;
-      right: 40px; }
+      left: 0;
+      width: 100%;
+      text-align: center; }
       .womens-landing .box-8 .caption small, .womens-landing .box-8 .caption h3, .womens-landing .box-8 .caption p.text {
-        color: #555759; }
-      .womens-landing .box-8 .caption .btn {
-        background: #555759;
         color: white;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+      .womens-landing .box-8 .caption .btn {
+        background: white;
+        color: #555759;
         cursor: pointer;
         font-size: 20px; }
         .womens-landing .box-8 .caption .btn:hover {
@@ -676,13 +676,13 @@ html.html-womens-landing {
         padding-bottom: 0; }
         .womens-landing .box-8 .caption h3:after {
           max-width: 150px;
-          background: #555759;
+          background: white;
           margin: 5px auto 20px auto; }
       .womens-landing .box-8 .caption p.text {
         max-width: 300px;
         margin-right: auto;
         margin-left: auto; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-8 .caption {
     max-width: 520px;
     top: 100px;
