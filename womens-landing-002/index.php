@@ -125,7 +125,7 @@
 						<small>Introducing</small>
 						<h3>WALK IN WONDERLAND</h3>
 						<a href="#" class="image-link"><img src="images/box-8-mobile.jpg" alt="Happily Grey" class="mobile"></a>
-						<p class="text">Lorem ipsum dolor erc Ipsae nonsenis earchitatis ut es sitiorae quat atque di doluptatem sandelent.Ehenisque</p>
+						<p class="text">This L.A.-based blogger who dreams of walk-in closets, tells us what influences her style choices and shows us how to make a statement from the feet up.</p>
 						<a href="" class="btn">READ MORE</a>
 					</div>
 					<a href="#" class="image-link"><img src="images/box-8.jpg" alt="Happily Grey" class="desktop"></a>

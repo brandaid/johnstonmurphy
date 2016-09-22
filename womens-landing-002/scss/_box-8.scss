@@ -59,22 +59,37 @@
 		padding: 0px;
 		background: transparent;
 		position: relative;
+		&:before {
+			content: "";
+			width: 50%;
+			background: black;
+			background: -webkit-linear-gradient(left, transparent, black);
+			background: -o-linear-gradient(left, transparent, black);
+			background: -moz-linear-gradient(left, transparent, black);
+			background: linear-gradient(to left, transparent, black);
+			z-index: 99;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			opacity: .7;
+		}
 		.caption {
 			position: absolute;
 			z-index: 9999;
-			left: 0;
 			top: 60px;
 			left: 40px;
 			small, h3, p.text {
-				color: $brand-primary;
+				color: white;
 			}
 			.btn {
-				background: $brand-primary;
-				color: white;
+				background: white;
+				color: $brand-primary;
 				cursor: pointer;
 				font-size: 20px;
 				&:hover {
-					background: rgba(white, .8); 
+					background: $brand-primary;
+					color: white; 
 				}
 			}
 			small {
@@ -86,7 +101,7 @@
 				padding-bottom: 0;
             	&:after {
 					max-width: 150px;
-					background: $brand-primary;
+					background: white;
 					margin: 5px auto 20px auto;
 				}
 			}
@@ -104,8 +119,8 @@
 	.womens-landing .box-8 {
 		.caption {
 			max-width: 520px;
-			top: 100px;
-			right: 60px;
+			top: 30%;
+			left: 8%;
 		}
 	}
 }

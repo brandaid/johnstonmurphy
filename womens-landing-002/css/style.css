@@ -59,6 +59,9 @@ html.html-womens-landing {
 @media all and (min-width: 992px) {
   .womens-landing .container {
     max-width: 1015px; } }
+@media all and (min-width: 1300px) {
+  .womens-landing .container {
+    max-width: 1280px; } }
 .womens-landing .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -259,7 +262,7 @@ html.html-womens-landing {
 @media all and (min-width: 992px) {
   .womens-landing .box-1 .caption {
     width: 40%; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-1 .caption {
     width: 50%; } }
 .womens-landing .box-2 {
@@ -283,7 +286,7 @@ html.html-womens-landing {
     font-size: 30px; }
   .womens-landing .box-2 p.text {
     font-size: 18px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-2 {
     font-size: 0;
     padding: 100px 0px; }
@@ -321,7 +324,7 @@ html.html-womens-landing {
   width: 100%;
   height: 100%; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-3-video {
     padding-bottom: 0px; } }
 .womens-landing .box-4 {
@@ -365,7 +368,7 @@ html.html-womens-landing {
         letter-spacing: 4px; }
       .womens-landing .box-4 .caption h3 {
         font-size: 37px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing #only-mobile {
     display: none; }
 
@@ -427,7 +430,7 @@ html.html-womens-landing {
     font-size: 32px; }
   .womens-landing .box-5 p {
     font-size: 20px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-5 {
     font-size: 0;
     padding: 50px 0px 90px 0; }
@@ -654,21 +657,35 @@ html.html-womens-landing {
     padding: 0px;
     background: transparent;
     position: relative; }
+    .womens-landing .box-8:before {
+      content: "";
+      width: 50%;
+      background: black;
+      background: -webkit-linear-gradient(left, transparent, black);
+      background: -o-linear-gradient(left, transparent, black);
+      background: -moz-linear-gradient(left, transparent, black);
+      background: linear-gradient(to left, transparent, black);
+      z-index: 99;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      opacity: .7; }
     .womens-landing .box-8 .caption {
       position: absolute;
       z-index: 9999;
-      left: 0;
       top: 60px;
       left: 40px; }
       .womens-landing .box-8 .caption small, .womens-landing .box-8 .caption h3, .womens-landing .box-8 .caption p.text {
-        color: #555759; }
+        color: white; }
       .womens-landing .box-8 .caption .btn {
-        background: #555759;
-        color: white;
+        background: white;
+        color: #555759;
         cursor: pointer;
         font-size: 20px; }
         .womens-landing .box-8 .caption .btn:hover {
-          background: rgba(255, 255, 255, 0.8); }
+          background: #555759;
+          color: white; }
       .womens-landing .box-8 .caption small {
         margin-bottom: 20px;
         font-size: 16px; }
@@ -677,17 +694,17 @@ html.html-womens-landing {
         padding-bottom: 0; }
         .womens-landing .box-8 .caption h3:after {
           max-width: 150px;
-          background: #555759;
+          background: white;
           margin: 5px auto 20px auto; }
       .womens-landing .box-8 .caption p.text {
         max-width: 300px;
         margin-right: auto;
         margin-left: auto; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-8 .caption {
     max-width: 520px;
-    top: 100px;
-    right: 60px; } }
+    top: 30%;
+    left: 8%; } }
 .womens-landing .box-9 {
   background: white;
   text-align: center;
@@ -791,7 +808,7 @@ html.html-womens-landing {
 .womens-landing .box-10-images {
   padding-bottom: 100px; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .womens-landing .box-10-images .box-two-img {
     vertical-align: top; }
   .womens-landing .box-10-images .first img {
