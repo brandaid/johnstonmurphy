@@ -307,6 +307,10 @@ html.html-influencer-wonderland-landing {
           margin-bottom: 30px; }
       .influencer-wonderland-landing .box-1 .caption p {
         max-width: 320px; } }
+@media all and (min-width: 1300px) {
+  .influencer-wonderland-landing .box-1 .caption {
+    left: 10%;
+    top: 35%; } }
 .influencer-wonderland-landing .box-2 {
   background: #fbf5f3;
   text-align: center;
@@ -380,7 +384,7 @@ html.html-influencer-wonderland-landing {
       vertical-align: top; }
 
   .influencer-wonderland-landing .box-2-data {
-    padding-top: 60px; }
+    padding-top: 140px; }
     .influencer-wonderland-landing .box-2-data h3 {
       font-size: 32px; }
       .influencer-wonderland-landing .box-2-data h3:after {
@@ -398,7 +402,7 @@ html.html-influencer-wonderland-landing {
       margin-left: auto;
       margin-right: auto; }
     .influencer-wonderland-landing .box-2-data img {
-      margin-top: 90px;
+      margin-top: 160px;
       max-width: 400px;
       margin-left: auto;
       margin-right: auto; }
@@ -627,7 +631,8 @@ html.html-influencer-wonderland-landing {
     margin: 0 0 40px 0; }
   .influencer-wonderland-landing .box-5-testimonial p {
     font-size: 16px;
-    margin: 0; }
+    margin: 0;
+    letter-spacing: 2px; }
 
 @media all and (min-width: 992px) {
   .influencer-wonderland-landing .box-5-testimonial {

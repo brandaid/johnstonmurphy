@@ -106,3 +106,13 @@
 		}
 	}
 }
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.influencer-wonderland-landing .box-1 {
+		.caption {
+			left: 10%;
+			top: 35%;
+		}
+	}
+}
