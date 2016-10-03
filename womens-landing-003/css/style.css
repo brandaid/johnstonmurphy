@@ -257,7 +257,11 @@ html.html-womens-landing {
     width: 40%; } }
 @media all and (min-width: 1300px) {
   .womens-landing .box-1 .caption {
-    width: 50%; } }
+    width: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    right: 10%;
+    top: 38%; } }
 .womens-landing .box-2 {
   background: white;
   text-align: center;
@@ -684,9 +688,7 @@ html.html-womens-landing {
         margin-left: auto; } }
 @media all and (min-width: 1300px) {
   .womens-landing .box-8 .caption {
-    max-width: 520px;
-    top: 100px;
-    right: 60px; } }
+    top: 27%; } }
 .womens-landing .box-9 {
   background: white;
   text-align: center;

@@ -71,7 +71,11 @@
 @media all and (min-width: $screen-desktop) {
 	.womens-landing .box-1 {
 		.caption {
-			width: 50%;
+			width: auto;
+			padding-left: 30px;
+			padding-right: 30px;
+			right: 10%;
+			top: 38%;
 		}
 	}
 }

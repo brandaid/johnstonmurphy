@@ -162,7 +162,7 @@
 						<p class="text">The trio behind the Austin-based lifestyle blog may each have their own style, but they all share a love for healthy-living and great shoes.</p>
 						<a href="" class="btn">READ MORE</a>
 					</div>
-					<a href="#" class="image-link"><img src="images/box-8.jpg" alt="Happily Grey" class="desktop"></a>
+					<img src="images/box-8.jpg" alt="Happily Grey" class="desktop">
 				</section>
 				
 
