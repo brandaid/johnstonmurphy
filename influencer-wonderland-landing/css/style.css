@@ -65,6 +65,9 @@ html.html-influencer-wonderland-landing {
 @media all and (min-width: 992px) {
   .influencer-wonderland-landing .container {
     max-width: 1015px; } }
+@media all and (min-width: 1300px) {
+  .influencer-wonderland-landing .container {
+    max-width: 1280px; } }
 .influencer-wonderland-landing .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -192,7 +195,7 @@ html.html-influencer-wonderland-landing {
 .influencer-wonderland-landing i, .influencer-wonderland-landing em  {
   font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .influencer-wonderland-landing h3 {
     font-size: 56px; }
 
@@ -750,7 +753,7 @@ html.html-influencer-wonderland-landing {
     height: 2px;
     width: 60px;
     margin: 35px auto 40px auto; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .influencer-wonderland-landing .box-6-one .col-left, .influencer-wonderland-landing .box-6-one .col-right {
     width: 55%; }
   .influencer-wonderland-landing .box-6-one .col-right {
