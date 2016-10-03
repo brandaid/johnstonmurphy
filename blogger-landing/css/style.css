@@ -65,6 +65,9 @@ html.html-blogger-landing {
 @media all and (min-width: 992px) {
   .blogger-landing .container {
     max-width: 1015px; } }
+@media all and (min-width: 1300px) {
+  .blogger-landing .container {
+    max-width: 1280px; } }
 .blogger-landing .btn {
   padding: 19px 25px 14px 25px;
   display: inline-block;
@@ -192,7 +195,7 @@ html.html-blogger-landing {
 .blogger-landing i, .blogger-landing em  {
   font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .blogger-landing h2 {
     font-size: 56px; }
 
@@ -289,9 +292,8 @@ html.html-blogger-landing {
     .blogger-landing .box-1 .caption {
       position: absolute;
       z-index: 9999;
-      left: 0;
       top: 120px;
-      left: 40px; }
+      left: 10%; }
       .blogger-landing .box-1 .caption small, .blogger-landing .box-1 .caption h2, .blogger-landing .box-1 .caption p {
         color: white; }
       .blogger-landing .box-1 .caption small {
@@ -306,9 +308,10 @@ html.html-blogger-landing {
           margin-top: 30px; }
       .blogger-landing .box-1 .caption p {
         max-width: 270px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .blogger-landing .box-1 .caption {
-    left: 80px; } }
+    left: 10%;
+    top: 25%; } }
 .blogger-landing .box-2 {
   background: #fbf5f3;
   text-align: center;
@@ -440,7 +443,7 @@ html.html-blogger-landing {
     padding-left: 5%; }
     .blogger-landing .box-2-images .box-two-img.last img {
       margin-bottom: 100px; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .blogger-landing .box-2-images .box-two-img.first {
     padding-right: 2%; }
     .blogger-landing .box-2-images .box-two-img.first .in-desktop {
@@ -790,7 +793,7 @@ html.html-blogger-landing {
     height: 2px;
     width: 60px;
     margin: 35px auto 40px auto; } }
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1300px) {
   .blogger-landing .box-6-one .col-left, .blogger-landing .box-6-one .col-right {
     width: 55%; }
   .blogger-landing .box-6-one .col-right {

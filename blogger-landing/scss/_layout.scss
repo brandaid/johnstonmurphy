@@ -35,3 +35,10 @@ html.html-blogger-landing  {
 		max-width: 1015px;
 	}
 }
+
+//1300
+@media all and (min-width: $screen-desktop) {
+	.blogger-landing .container { 
+		max-width: 1280px;
+	}
+}

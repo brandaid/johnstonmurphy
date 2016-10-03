@@ -83,9 +83,8 @@
 		.caption {
 			position: absolute;
 			z-index: 9999;
-			left: 0;
 			top: 120px;
-			left: 40px;
+			left: 10%;
 			small, h2, p {
 				color: white;
 			}
@@ -113,7 +112,8 @@
 @media all and (min-width: $screen-desktop) {
 	.blogger-landing .box-1 {
 		.caption {
-			left: 80px;
+			left: 10%;
+			top: 25%;
 		}
 	}	
 }
