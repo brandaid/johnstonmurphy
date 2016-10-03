@@ -90,3 +90,13 @@
 		}
 	}
 }
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.influencer-lovely-landing .box-1 {
+		.caption {
+			right: 12%;
+			top: 30%;
+		}
+	}
+}

@@ -287,6 +287,10 @@ html.html-influencer-lovely-landing {
           margin-bottom: 30px; }
       .influencer-lovely-landing .box-1 .caption p {
         max-width: 320px; } }
+@media all and (min-width: 1300px) {
+  .influencer-lovely-landing .box-1 .caption {
+    right: 12%;
+    top: 30%; } }
 .influencer-lovely-landing .box-2 {
   background: #fbf5f3;
   text-align: center;
@@ -388,6 +392,9 @@ html.html-influencer-lovely-landing {
     .influencer-lovely-landing .box-2-last-image img {
       max-width: 80%;
       margin-bottom: 60px; } }
+@media all and (min-width: 1300px) {
+  .influencer-lovely-landing .box-2-last-image {
+    padding-top: 75px; } }
 .influencer-lovely-landing .box-3 {
   background: white;
   text-align: center;

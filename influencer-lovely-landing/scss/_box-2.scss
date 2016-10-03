@@ -131,7 +131,9 @@
 	
 }
 
-// 1200px
+// 1300px
 @media all and (min-width: $screen-desktop) {
-	
+	.influencer-lovely-landing .box-2-last-image {
+		padding-top: 75px;
+	}
 }
