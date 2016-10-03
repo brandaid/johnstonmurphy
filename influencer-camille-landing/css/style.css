@@ -288,6 +288,10 @@ html.html-influencer-camille-landing {
           margin-bottom: 30px; }
       .influencer-camille-landing .box-1 .caption p {
         max-width: 350px; } }
+@media all and (min-width: 1300px) {
+  .influencer-camille-landing .box-1 .caption {
+    left: 35%;
+    top: 30%; } }
 .influencer-camille-landing .box-2 {
   background: #fbf5f3;
   text-align: center;
@@ -392,6 +396,12 @@ html.html-influencer-camille-landing {
     .influencer-camille-landing .box-2-last-image img {
       max-width: 80%;
       margin-bottom: 60px; } }
+@media all and (min-width: 1300px) {
+  .influencer-camille-landing .box-2-data {
+    margin-bottom: 80px; }
+
+  .influencer-camille-landing .box-2-last-image {
+    padding-top: 60px; } }
 .influencer-camille-landing .box-3 {
   background: white;
   text-align: center;

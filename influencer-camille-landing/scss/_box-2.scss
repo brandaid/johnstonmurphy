@@ -136,5 +136,10 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
-	
+	.influencer-camille-landing .box-2-data {
+		margin-bottom: 80px;
+	}
+	.influencer-camille-landing .box-2-last-image {
+		padding-top: 60px;
+	}
 }

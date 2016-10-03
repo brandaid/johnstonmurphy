@@ -91,3 +91,13 @@
 		}
 	}
 }
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.influencer-camille-landing .box-1 {
+		.caption {
+			left: 35%;
+			top: 30%;
+		}
+	}
+}
