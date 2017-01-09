@@ -1,0 +1,37 @@
+.february-2017-landing h1 {
+	color: red;
+	font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+}
+.february-2017-landing h2 {
+	color: brown;
+	font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+}
+.february-2017-landing h3 {
+	color: green;
+	font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+}
+.february-2017-landing h4 {
+	color: yellow;
+}
+.february-2017-landing h5 {
+	color: cyan;
+}
+.february-2017-landing h6 {
+	color: olive;
+}
+.february-2017-landing h1, .february-2017-landing h2, .february-2017-landing h3, .february-2017-landing h4, .february-2017-landing h5, .february-2017-landing h6, .february-2017-landing p, .february-2017-landing span, .february-2017-landing a, .february-2017-landing ul, .february-2017-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}

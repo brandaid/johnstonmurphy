@@ -1,0 +1,79 @@
+html {
+  font-family: arial, sans-serif; }
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  -webkit-transition: all 230ms ease-in-out;
+  -moz-transition: all 230ms ease-in-out;
+  -ms-transition: all 230ms ease-in-out;
+  -o-transition: all 230ms ease-in-out;
+  transition: all 230ms ease-in-out; }
+
+@media all and (min-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 750px; } }
+
+@media all and (min-width: 992px) {
+  .container {
+    max-width: 970px; } }
+
+@media all and (min-width: 1200px) {
+  .container {
+    max-width: 1170px; } }
+
+.february-2017-landing div, .february-2017-landing span, .february-2017-landing applet, .february-2017-landing object, .february-2017-landing iframe, .february-2017-landing h1, .february-2017-landing h2, .february-2017-landing h3, .february-2017-landing h4, .february-2017-landing h5, .february-2017-landing h6, .february-2017-landing p, .february-2017-landing blockquote, .february-2017-landing pre, .february-2017-landing a, .february-2017-landing abbr, .february-2017-landing acronym, .february-2017-landing address, .february-2017-landing big, .february-2017-landing cite, .february-2017-landing code, .february-2017-landing del, .february-2017-landing dfn, .february-2017-landing em, .february-2017-landing img, .february-2017-landing ins, .february-2017-landing kbd, .february-2017-landing q, .february-2017-landing s, .february-2017-landing samp, .february-2017-landing small, .february-2017-landing strike, .february-2017-landing strong, .february-2017-landing sub, .february-2017-landing sup, .february-2017-landing tt, .february-2017-landing var, .february-2017-landing b, .february-2017-landing u, .february-2017-landing i, .february-2017-landing center, .february-2017-landing dl, .february-2017-landing dt, .february-2017-landing dd, .february-2017-landing ol, .february-2017-landing ul, .february-2017-landing li, .february-2017-landing fieldset, .february-2017-landing form, .february-2017-landing label, .february-2017-landing legend, .february-2017-landing table, .february-2017-landing caption, .february-2017-landing tbody, .february-2017-landing tfoot, .february-2017-landing thead, .february-2017-landing tr, .february-2017-landing th, .february-2017-landing td, .february-2017-landing article, .february-2017-landing aside, .february-2017-landing canvas, .february-2017-landing details, .february-2017-landing embed, .february-2017-landing figure, .february-2017-landing figcaption, .february-2017-landing footer, .february-2017-landing header, .february-2017-landing hgroup, .february-2017-landing menu, .february-2017-landing nav, .february-2017-landing output, .february-2017-landing ruby, .february-2017-landing section, .february-2017-landing summary, .february-2017-landing time, .february-2017-landing mark, .february-2017-landing audio, .february-2017-landing video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+.february-2017-landing article, .february-2017-landing aside, .february-2017-landing details, .february-2017-landing figcaption, .february-2017-landing figure, .february-2017-landing footer, .february-2017-landing header, .february-2017-landing hgroup, .february-2017-landing menu, .february-2017-landing nav, .february-2017-landing section {
+  display: block; }
+
+.february-2017-landing ol, .february-2017-landing ul {
+  list-style: none; }
+
+.february-2017-landing blockquote, .february-2017-landing q {
+  quotes: none; }
+
+.february-2017-landing blockquote:before, .february-2017-landing blockquote:after {
+  content: '';
+  content: none; }
+
+.february-2017-landing q:before, .february-2017-landing q:after {
+  content: '';
+  content: none; }
+
+.february-2017-landing table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.february-2017-landing h1 {
+  color: red;
+  font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif; }
+
+.february-2017-landing h2 {
+  color: brown;
+  font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
+.february-2017-landing h3 {
+  color: green;
+  font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif; }
+
+.february-2017-landing h4 {
+  color: yellow; }
+
+.february-2017-landing h5 {
+  color: cyan; }
+
+.february-2017-landing h6 {
+  color: olive; }
+
+.february-2017-landing h1, .february-2017-landing h2, .february-2017-landing h3, .february-2017-landing h4, .february-2017-landing h5, .february-2017-landing h6, .february-2017-landing p, .february-2017-landing span, .february-2017-landing a, .february-2017-landing ul, .february-2017-landing li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
