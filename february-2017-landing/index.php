@@ -30,6 +30,29 @@
 	<div class="february-2017-landing">
 		<main>
 			<div class="container">
+				<div class="box1">
+					<div class="col-b1 left">
+						<div class="content-box-tn">
+							<div class="box-tn">
+								<hr>
+								<h5>FREE SHIPING</h5>
+								<hr>
+								<h5>FREE RETURNS</h5>
+								<h6>On All Wome's Orders!</h6>
+								<hr>
+							</div>
+						</div>
+						<img src="images/box1-001-mobile.jpg" alt="johnstonmurphy" class="image-responsive">
+					</div>
+					<div class="col-b1 middle">
+						<p>style philosophy</p>
+						<h2>BE CLASSIC (WITH A MODERN DISTINCTION)</h2>
+						<a href="ad" class="btn">SHOP NOW</a>
+					</div>
+					<div class="col-b1 right">
+						<img src="images/box1-002-mobile.jpg" alt="johnstonmurphy" class="image-responsive">
+					</div>
+				</div>
 				<h1>hola</h1>
 				<h2>hola</h2>
 				<h3>hola</h3>

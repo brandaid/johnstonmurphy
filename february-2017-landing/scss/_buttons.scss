@@ -1,4 +1,25 @@
-
+.btn {
+	background: $brand-primary;
+	color: black;
+	display: inline-block;
+	padding: 16px 31px 10px 35px;
+	font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+	&:hover {
+		background: darken($brand-primary,5%);
+	}
+	&:after {
+		content: "▶";
+		display: inline-block;
+		font-size: 13px;
+		vertical-align: middle;
+		margin-left: 8px;
+		position: relative;
+		top: -1px;
+		background: transparent;
+		border: 0;
+		font-family: "Segoe UI Emoji", "NotoColorEmoji", "Segoe UI Symbol", "Android Emoji","AndroidEmoji", Symbola, "lucida grande",tahoma,verdana,arial,sans-serif, "EmojiSymbols" !important;
+	}
+}
 
 // 768px
 @media all and (min-width: $screen-portrait) {

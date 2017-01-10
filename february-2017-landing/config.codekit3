@@ -19,6 +19,22 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/images\/box1-001-mobile.jpg": {
+		"ft": 16384,
+		"iS": 139207,
+		"oA": 0,
+		"oAP": "\/images\/box1-001-mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box1-002-mobile.jpg": {
+		"ft": 16384,
+		"iS": 139782,
+		"oA": 0,
+		"oAP": "\/images\/box1-002-mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -534,6 +550,19 @@
 		"oA": 1,
 		"oAP": "\/scss\/.sass-cache\/f498e2261d9a7fa361e9ef74f46fd525554fa920\/_vendor-prefixes.scssc",
 		"oF": 0
+		},
+	"\/scss\/_box1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/scss\/_buttons.scss": {
 		"aP": 0,

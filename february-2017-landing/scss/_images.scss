@@ -1,4 +1,8 @@
-
+.image-responsive {
+	width: 100%;
+	height: auto;
+	line-height: 0;
+}
 
 // 768px
 @media all and (min-width: $screen-portrait) {
