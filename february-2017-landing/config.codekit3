@@ -27,11 +27,91 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/box1-001.jpg": {
+		"ft": 16384,
+		"iS": 76536,
+		"oA": 0,
+		"oAP": "\/images\/box1-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/box1-002-mobile.jpg": {
 		"ft": 16384,
 		"iS": 139782,
 		"oA": 0,
 		"oAP": "\/images\/box1-002-mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box1-002.jpg": {
+		"ft": 16384,
+		"iS": 64586,
+		"oA": 0,
+		"oAP": "\/images\/box1-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box2.jpg": {
+		"ft": 16384,
+		"iS": 85694,
+		"oA": 0,
+		"oAP": "\/images\/box2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box3-001.jpg": {
+		"ft": 16384,
+		"iS": 44731,
+		"oA": 0,
+		"oAP": "\/images\/box3-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box3-002.jpg": {
+		"ft": 16384,
+		"iS": 39776,
+		"oA": 0,
+		"oAP": "\/images\/box3-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box4.jpg": {
+		"ft": 16384,
+		"iS": 120116,
+		"oA": 0,
+		"oAP": "\/images\/box4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box5-001.jpg": {
+		"ft": 16384,
+		"iS": 128558,
+		"oA": 0,
+		"oAP": "\/images\/box5-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box5-002.jpg": {
+		"ft": 16384,
+		"iS": 74498,
+		"oA": 0,
+		"oAP": "\/images\/box5-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box7-001.jpg": {
+		"ft": 16384,
+		"iS": 56363,
+		"oA": 0,
+		"oAP": "\/images\/box7-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box7-002.jpg": {
+		"ft": 16384,
+		"iS": 90025,
+		"oA": 0,
+		"oAP": "\/images\/box7-002.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -564,6 +644,84 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/_box2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_box3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_box4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_box5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_box6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_box7.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box7.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/_buttons.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -586,32 +744,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_empty.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/scss\/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/scss\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -10,6 +10,7 @@
 	<meta name="author" content="">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,37 +31,94 @@
 	<div class="february-2017-landing">
 		<main>
 			<div class="container">
-				<div class="box1">
+				<section class="box1">
 					<div class="col-b1 left">
 						<div class="content-box-tn">
 							<div class="box-tn">
 								<hr>
-								<h5>FREE SHIPING</h5>
+								<h5>FREE <br>SHIPING</h5>
 								<hr>
-								<h5>FREE RETURNS</h5>
-								<h6>On All Wome's Orders!</h6>
+								<h5>FREE <br>RETURNS</h5>
+								<h6>On All Wome’s <br>Orders!</h6>
 								<hr>
 							</div>
 						</div>
-						<img src="images/box1-001-mobile.jpg" alt="johnstonmurphy" class="image-responsive">
+						<img src="images/box1-001-mobile.jpg" alt="Johnston & Murphy" class="image-responsive hidden-desktop">
+						<img src="images/box1-001.jpg" alt="Johnston & Murphy" class="image-responsive hidden-mobile">
 					</div>
 					<div class="col-b1 middle">
 						<p>style philosophy</p>
-						<h2>BE CLASSIC (WITH A MODERN DISTINCTION)</h2>
+						<h2>BE CLASSIC <br>(WITH A MODERN DISTINCTION)</h2>
 						<a href="ad" class="btn">SHOP NOW</a>
 					</div>
 					<div class="col-b1 right">
-						<img src="images/box1-002-mobile.jpg" alt="johnstonmurphy" class="image-responsive">
+						<img src="images/box1-002-mobile.jpg" alt="Johnston & Murphy" class="image-responsive hidden-desktop">
+						<img src="images/box1-002.jpg" alt="Johnston & Murphy" class="image-responsive hidden-mobile">
 					</div>
-				</div>
-				<h1>hola</h1>
-				<h2>hola</h2>
-				<h3>hola</h3>
-				<h4>hola</h4>
-				<h5>hola</h5>
-				<h6>hola</h6>
+				</section>
+				<section class="box2">
+					<div class="colb2 left">
+						<h3>START WITH <br>THE SHOES</h3>
+						<p>Spring means time to rethink your wardrobe—starting with the shoes. From taking the high-heel road to making comfortable strides—we introduce the newest style philosophies to keep your closet fresh all season. </p>
+					</div>
+					<div class="colb2 right">
+						<img src="images/box2.jpg" class="image-responsive" alt="Johnston & Murphy">
+					</div>
+				</section>
+				<section class="box3">
+					<div class="col-b3 left">
+						<img src="images/box3-001.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+					<div class="col-b3 middle">
+						<h2>A SPRING <br>CLOSET <br> UPGRADE</h2>
+						<p>All the rest of the spring <br> essentials you need for <br> toe-to-head style.</p>
+						<a href="ad" class="btn">SHOP SPRING APPAREL</a>
+					</div>
+					<div class="col-b3 right">
+						<img src="images/box3-002.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+				</section>
+				<section class="box4">
+					<div class="col-b4 left">
+						<img src="images/box4.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+					<div class="col-b4 right">
+						<h2>The new <br>standard of chic</h2>
+						<p>Put a style spin on tradition. <br> Make your feminine mark on <br>the ultimate classic.</p>
+						<a href="ad" class="btn">SHOP THE SLOANE</a>
+					</div>
+				</section>
+				<section class="box5">
+					<div class="col-b5 left">
+						<img src="images/box5-001.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+					<div class="col-b5 right">
+						<img src="images/box5-002.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+				</section>
+				<section class="box6">
+					<h4>style philosophy</h4>
+					<h2>THERE’S BEAUTY <br>
+					IN UTILITY</h2>
+				</section>
+				<section class="box7">
+					<div class="col-b7 left">
+						<div class="box">
+							<h2>URBAN ELEGANCE</h2>
+							<p>Street style that fits right <br>into your comfort zone.</p>
+							<a href="ad" class="btn">SHOP NOW</a>
+						</div>
+						<img src="images/box7-001.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+					<div class="col-b7 right">
+						<img src="images/box7-002.jpg" alt="Johnston & Murphy" class="image-responsive">
+					</div>
+				</section>
+				<section class="box6">
+					<h4>style philosophy</h4>
+					<h2>DRESS TO STAND TALL</h2>
+				</section>
 			</div>
-			<blockquote>sdas</blockquote>
 		</main>
 	</div>
 </body>

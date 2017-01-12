@@ -6,10 +6,12 @@ a, a:hover, a:active, a:focus {
 	-o-transition: all 230ms ease-in-out;
 	transition: all 230ms ease-in-out;
 }
-
 .february-2017-landing {
 	font-family: $primary-font;
 	color: #000;
+}
+.hidden-mobile {
+	display: none;
 }
 
 // 768px
@@ -17,6 +19,12 @@ a, a:hover, a:active, a:focus {
 	.container { 
 		@include center;
 		max-width: 750px;
+	}
+	.hidden-mobile {
+		display: block;
+	}
+	.hidden-desktop {
+		display: none;
 	}
 }
 
@@ -30,7 +38,6 @@ a, a:hover, a:active, a:focus {
 // 1200px
 @media all and (min-width: $screen-desktop) {
 	.container { 
-		max-width: 1170px;
-		background: red;
+		max-width: 1280px;
 	}
 }
