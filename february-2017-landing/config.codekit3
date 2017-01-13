@@ -115,6 +115,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/box8-001.jpg": {
+		"ft": 16384,
+		"iS": 65687,
+		"oA": 0,
+		"oAP": "\/images\/box8-001.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/box8-002.jpg": {
+		"ft": 16384,
+		"iS": 112435,
+		"oA": 0,
+		"oAP": "\/images\/box8-002.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/footer.jpg": {
+		"ft": 16384,
+		"iS": 210130,
+		"oA": 0,
+		"oAP": "\/images\/footer.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/header.jpg": {
+		"ft": 16384,
+		"iS": 24105,
+		"oA": 0,
+		"oAP": "\/images\/header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -718,6 +750,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_box7.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_box8.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_box8.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
