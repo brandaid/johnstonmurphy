@@ -131,6 +131,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/brand.png": {
+		"ft": 32768,
+		"iS": 10889,
+		"oA": 0,
+		"oAP": "\/images\/brand.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/footer.jpg": {
 		"ft": 16384,
 		"iS": 210130,
@@ -144,6 +152,38 @@
 		"iS": 24105,
 		"oA": 0,
 		"oAP": "\/images\/header.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ico-bag.png": {
+		"ft": 32768,
+		"iS": 2168,
+		"oA": 0,
+		"oAP": "\/images\/ico-bag.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ico-locate.png": {
+		"ft": 32768,
+		"iS": 521,
+		"oA": 0,
+		"oAP": "\/images\/ico-locate.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ico-menu.png": {
+		"ft": 32768,
+		"iS": 150,
+		"oA": 0,
+		"oAP": "\/images\/ico-menu.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/ico-search.png": {
+		"ft": 32768,
+		"iS": 589,
+		"oA": 0,
+		"oAP": "\/images\/ico-search.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -789,6 +829,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/_empty.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

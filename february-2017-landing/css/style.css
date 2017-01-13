@@ -24,6 +24,11 @@
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  background: #f3f3f3;
+  padding: 0;
+  margin: 0; }
+
 a, a:hover, a:active, a:focus {
   text-decoration: none;
   -webkit-transition: all 230ms ease-in-out;
@@ -38,6 +43,9 @@ a, a:hover, a:active, a:focus {
 
 .hidden-mobile {
   display: none; }
+
+.container {
+  background: white; }
 
 @media all and (min-width: 768px) {
   .container {
@@ -101,6 +109,89 @@ a, a:hover, a:active, a:focus {
   width: 100%;
   height: auto;
   line-height: 0; }
+
+.february-2017-landing .header {
+  background: white; }
+
+.february-2017-landing .box-legend {
+  background: #4b3041;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+  line-height: 1.4em;
+  font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+  font-size: 10px;
+  text-transform: uppercase; }
+  .february-2017-landing .box-legend p {
+    margin: 0; }
+  .february-2017-landing .box-legend a {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold; }
+
+.february-2017-landing .table-header {
+  display: table;
+  width: 100%;
+  padding: 23px 0 15px 0; }
+  .february-2017-landing .table-header .col {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center; }
+
+.february-2017-landing .col-menu {
+  width: 11%;
+  text-align: right !important; }
+
+.february-2017-landing .col-locate {
+  width: 9%;
+  text-align: right !important; }
+
+.february-2017-landing .col-brand {
+  width: 60%; }
+
+.february-2017-landing .col-search {
+  width: 9%;
+  text-align: left !important; }
+
+.february-2017-landing .col-bag {
+  width: 11%;
+  text-align: left !important; }
+
+.february-2017-landing .col-menu img, .february-2017-landing .col-locate img, .february-2017-landing .col-brand img, .february-2017-landing .col-search img, .february-2017-landing .col-bag img {
+  max-width: 28px;
+  height: auto; }
+  .february-2017-landing .col-menu img:hover, .february-2017-landing .col-locate img:hover, .february-2017-landing .col-brand img:hover, .february-2017-landing .col-search img:hover, .february-2017-landing .col-bag img:hover {
+    opacity: 0.8; }
+
+.february-2017-landing .col-locate img {
+  max-width: 16px; }
+
+.february-2017-landing .col-brand img {
+  max-width: 190px; }
+
+.february-2017-landing .col-search img {
+  max-width: 24px; }
+
+.february-2017-landing .col-bag img {
+  max-width: 17px;
+  margin-left: 5px; }
+
+@media all and (min-width: 768px) {
+  .february-2017-landing .table-header {
+    padding: 45px 0 40px 0; }
+  .february-2017-landing .col-menu img {
+    max-width: 36px;
+    margin-top: 3px; }
+  .february-2017-landing .col-locate img {
+    max-width: 27px; }
+  .february-2017-landing .col-brand img {
+    max-width: 370px; }
+  .february-2017-landing .col-search img {
+    max-width: 37px; }
+  .february-2017-landing .col-bag img {
+    max-width: 26px; }
+  .february-2017-landing .box-legend {
+    font-size: 15px; } }
 
 .box1 {
   position: relative;
