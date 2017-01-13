@@ -2,7 +2,7 @@
 <html lang="en" class="html-february-2017-landing">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Johnston & Murphy</title>
 	
 	<meta name="revisit-after" content="30 days">
 	<meta name="robots" content="index,follow">
