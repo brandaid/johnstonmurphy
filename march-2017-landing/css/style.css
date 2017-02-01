@@ -269,13 +269,14 @@ a, a:hover, a:active, a:focus {
     font-size: 26px;
     letter-spacing: 1px; }
   .col-b1.middle a.btn {
-    background: white; }
+    background: white;
+    color: black; }
     .col-b1.middle a.btn:hover {
       background: #f1f1f1; }
 
 @media all and (min-width: 768px) {
   .box1 {
-    display: table;
+    display: table !important;
     width: 100%; }
     .box1:before {
       content: "";

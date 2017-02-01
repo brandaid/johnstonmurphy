@@ -91,6 +91,7 @@
 	}
 	a.btn {
 		background: white;
+		color: black;
 		&:hover {
 			background: #f1f1f1;
 		}
@@ -99,7 +100,7 @@
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.box1 {
-		display: table;
+		display: table!important;
 		width: 100%;
 		&:before {
 			content:"";
