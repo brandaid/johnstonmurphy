@@ -16,7 +16,7 @@
 // 768px
 @media all and (min-width: $screen-portrait) {
 	.box2 {
-		padding: 60px 0;
+		padding: 90px 0;
 		display: table!important;
 		width: 100%;
 		p {
@@ -46,6 +46,9 @@
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
+	.box2 {
+		padding: 116px 0 170px 0;
+	}
 	.box2 {
 		p {
 			max-width: 390px;

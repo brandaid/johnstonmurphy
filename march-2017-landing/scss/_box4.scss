@@ -1,8 +1,8 @@
-.box8 {
+.box4 {
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-.col-b8.right {
+.col-b4.right {
 	padding: 50px 0px;
 	text-align: center;
 	position: relative;
@@ -38,16 +38,16 @@
 	}
 }
 
-.col-b8.left {
+.col-b4.left {
 	text-align: center;
 }
 
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.box8 {
+	.box4 {
 		display: table!important;
 		width: 100%;
-		.col-b8.left, .col-b8.right {
+		.col-b4.left, .col-b4.right {
 			display: table-cell;
 			width: 50%;
 			vertical-align: top;
@@ -57,7 +57,7 @@
 		}
 	}
 
-	.col-b8.right {
+	.col-b4.right {
 		padding: 90px 0 0 0;
 		text-align: right;
 		h2 {
@@ -73,22 +73,29 @@
 		}
 		img {
 			max-width: 300px;
+			margin-right: 0;
+			margin-left: auto;
 		}
 	}
-	.col-b8.left {
+	.col-b4.left {
 		line-height: 0;
+		text-align: left;
 		img {
 			max-width: 100%;
+		}
+		.the-last {
+			margin-top: 60px;
+			max-width: 85%;
 		}
 	}
 }
 
 // 992px
 @media all and (min-width: $screen-landscape) {
-	.box8 {
+	.box4 {
 		padding-top: 100px;
 	}
-	.col-b8.right {
+	.col-b4.right {
 		h2 {
 			font-size: 35px;
 		}
@@ -108,11 +115,24 @@
 
 // 1300px
 @media all and (min-width: $screen-desktop) {
-	.box8 {
+	.box4 {
 		padding-bottom: 170px;
 		padding-top: 170px;
+		.col-b4.left  {
+			width: 66%;
+			padding-right: 100px;
+		}
+		.col-b4.right {
+			width: 34%;
+		}
+		.box {
+			text-align: center;
+			margin-right: 80px;
+		}
 	}
-	.col-b8.right {
+
+
+	.col-b4.right {
 		padding-top: 110px;
 		p {
 			margin-bottom: 75px;
@@ -120,6 +140,11 @@
 		img {
 			max-width: 530px;
 			margin-top: 190px;
+		}
+	}
+	.col-b4.left {
+		.the-last {
+			margin-top: 100px;
 		}
 	}
 }

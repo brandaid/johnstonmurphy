@@ -73,10 +73,13 @@
 		}
 		img {
 			max-width: 300px;
+			margin-right: 0;
+			margin-left: auto;
 		}
 	}
 	.col-b8.left {
 		line-height: 0;
+		text-align: left;
 		img {
 			max-width: 100%;
 		}
