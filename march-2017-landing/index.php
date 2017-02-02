@@ -111,7 +111,7 @@
 				</section>
 				<section class="box6">
 					<div class="col-b6 left">
-						<img src="images/box6-001.jpg" alt="Johnston & Murphy" class="image-responsive hidden-mobile">
+						<img src="images/box6-001.jpg" alt="Johnston & Murphy" class="image-responsive">
 					</div>
 					<div class="col-b6 middle">
 						<h2>A SPRING <br>CLOSET <br> UPGRADE</h2>
@@ -119,8 +119,7 @@
 						<a href="ad" class="btn">SHOP SPRING APPAREL</a>
 					</div>
 					<div class="col-b6 right">
-						<img src="images/box6-002.jpg" alt="Johnston & Murphy" class="image-responsive hidden-mobile">
-						<img src="images/box6-003.jpg" alt="Johnston & Murphy" class="image-responsive hidden-desktop">
+						<img src="images/box6-002.jpg" alt="Johnston & Murphy" class="image-responsive">
 					</div>
 				</section>
 				<section class="box7">
