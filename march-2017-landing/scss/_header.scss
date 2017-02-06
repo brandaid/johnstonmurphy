@@ -1,8 +1,8 @@
-.february-2017-landing .header {
+.march-2017-landing .header {
 	background: white;
 }
 
-.february-2017-landing .box-legend {
+.march-2017-landing .box-legend {
 	background: $brand-secondary;
 	padding: 20px 10px;
 	text-align: center;
@@ -21,7 +21,7 @@
 	}
 }
 
-.february-2017-landing .table-header {
+.march-2017-landing .table-header {
 	display: table;
 	width: 100%;
 	padding: 23px 0 15px 0;
@@ -32,27 +32,27 @@
 	}
 }
 
-.february-2017-landing .col-menu {
+.march-2017-landing .col-menu {
 	width: 11%;
 	text-align: right!important;
 }
-.february-2017-landing .col-locate {
+.march-2017-landing .col-locate {
 	width: 9%;
 	text-align: right!important;
 }
-.february-2017-landing .col-brand {
+.march-2017-landing .col-brand {
 	width: 60%;
 }
-.february-2017-landing .col-search {
+.march-2017-landing .col-search {
 	width: 9%;
 	text-align: left!important;
 }
-.february-2017-landing .col-bag {
+.march-2017-landing .col-bag {
 	width: 11%;
 	text-align: left!important;
 }
 
-.february-2017-landing .col-menu, .february-2017-landing .col-locate, .february-2017-landing .col-brand, .february-2017-landing .col-search, .february-2017-landing .col-bag {
+.march-2017-landing .col-menu, .march-2017-landing .col-locate, .march-2017-landing .col-brand, .march-2017-landing .col-search, .march-2017-landing .col-bag {
 	img {
 		max-width: 28px;
 		height: auto;
@@ -61,22 +61,22 @@
 		}
 	}
 }
-.february-2017-landing .col-locate {
+.march-2017-landing .col-locate {
 	img {
 		max-width: 16px;
 	}
 }
-.february-2017-landing .col-brand {
+.march-2017-landing .col-brand {
 	img {
 		max-width: 190px;
 	}
 }
-.february-2017-landing .col-search {
+.march-2017-landing .col-search {
 	img {
 		max-width: 24px;
 	}
 }
-.february-2017-landing .col-bag {
+.march-2017-landing .col-bag {
 	img {
 		max-width: 17px;
 		margin-left: 5px;
@@ -84,36 +84,36 @@
 }
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.february-2017-landing .table-header {
+	.march-2017-landing .table-header {
 		padding: 45px 0 40px 0;
 	}
-	.february-2017-landing .col-menu {
+	.march-2017-landing .col-menu {
 		img {
 			max-width: 36px;
 			margin-top: 3px;
 		}
 	}
-	.february-2017-landing .col-locate {
+	.march-2017-landing .col-locate {
 		img {
 			max-width: 27px;
 		}
 	}
-	.february-2017-landing .col-brand {
+	.march-2017-landing .col-brand {
 		img {
 			max-width: 370px;
 		}
 	}
-	.february-2017-landing .col-search {
+	.march-2017-landing .col-search {
 		img {
 			max-width: 37px;
 		}
 	}
-	.february-2017-landing .col-bag {
+	.march-2017-landing .col-bag {
 		img {
 			max-width: 26px;
 		}
 	}
-	.february-2017-landing .box-legend {
+	.march-2017-landing .box-legend {
 		font-size: 15px;
 	}
 }
