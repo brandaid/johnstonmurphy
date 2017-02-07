@@ -1,0 +1,138 @@
+.box7 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.col-b7.left {
+	padding: 50px 0px 80px 0;
+	text-align: center;
+	position: relative;
+	z-index: 999;
+	p {
+		font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
+		margin-top: 0;
+		font-size: 24px;
+		margin-bottom: 30px;
+		line-height: 1.4em;
+		padding-right: 30px;
+		padding-left: 30px;
+		
+		&:before {
+			content: "";
+			height: 5px;
+			background: black;
+			display: block;
+			max-width: 30px;
+			margin: 15px auto 20px auto;
+		}
+		br {
+			display: none;
+			clear: none;
+		}
+	}
+	h2 {
+		margin-bottom: 0px;
+		font-size: 34px;
+		letter-spacing: 1px;
+		font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+		text-transform: uppercase;
+	}
+	img {
+		margin-top: 80px;
+	}
+	.hidden-desktop {
+		margin-bottom: 80px;
+	}
+}
+
+.col-b7.right {
+	text-align: center;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box7 {
+		display: table!important;
+		width: 100%;
+		.col-b7.left, .col-b7.right {
+			display: table-cell;
+			width: 50%;
+			vertical-align: top;
+		}
+		.box {
+			text-align: center;
+		}
+	}
+
+	.col-b7.left {
+		padding: 90px 0 0 0;
+		text-align: left;
+		h2 {
+			letter-spacing: 2px;
+			font-size: 20px;
+		}
+		p {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		a {
+			font-size: 16px;
+		}
+		img {
+			max-width: 300px;
+		}
+	}
+	.col-b7.right {
+		line-height: 0;
+		img {
+			max-width: 100%;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box7 {
+		padding-top: 100px;
+	}
+	.col-b7.left {
+		h2 {
+			font-size: 35px;
+		}
+		p {
+			font-size: 22px;
+			margin-bottom: 40px;
+			br {
+				clear: both;
+				display: inline-block;
+			}
+		}
+		a {
+			font-size: 20px;
+		}
+		img {
+			max-width: 400px;
+			margin-top: 100px;
+		}
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.box7 {
+		padding-bottom: 170px;
+		padding-top: 170px;
+	}
+	.col-b7.left {
+		padding-top: 110px;
+		p {
+			margin-bottom: 75px;
+			font-size: 24px;
+			max-width: 340px;
+			@include center;
+		}
+		img {
+			max-width: 530px;
+			margin-top: 190px;
+		}
+	}
+}
