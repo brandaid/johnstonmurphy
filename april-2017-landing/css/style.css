@@ -25,7 +25,7 @@
   border-spacing: 0; }
 
 body {
-  background: #fff;
+  background: #f4f2f5;
   padding: 0;
   margin: 0; }
 
@@ -45,7 +45,7 @@ a, a:hover, a:active, a:focus {
   display: none; }
 
 .container {
-  background: #f4f2f5; }
+  background: #fff; }
 
 @media all and (min-width: 768px) {
   .container {
