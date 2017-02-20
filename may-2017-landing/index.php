@@ -132,9 +132,9 @@
 					<div class="col-b7 left">
 						<img src="images/box7-001.jpg" alt="Johnston & Murphy" class="image-responsive hidden-desktop">
 						<div class="box">
-							<h2>URBAN ELEGANCE</h2>
-							<p>Street style that  ts right into your comfort zone.</p>
-							<a href="ad" class="btn">SHOP NOW</a>
+							<h2>WOMEN ABOUT TOWN</h2>
+							<p>A relaxed and ready-to-charm pair takes comfortable steps in the right direction.</p>
+							<a href="#" class="btn">SHOP NOW</a>
 						</div>
 						<img src="images/box7-001.jpg" alt="Johnston & Murphy" class="image-responsive hidden-mobile">
 					</div>
