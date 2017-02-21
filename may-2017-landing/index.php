@@ -142,8 +142,6 @@
 						<img src="images/box7-002.jpg" alt="Johnston & Murphy" class="image-responsive">
 					</div>
 				</section>
-
-
 			</div>
 		</main>
 	</div>
