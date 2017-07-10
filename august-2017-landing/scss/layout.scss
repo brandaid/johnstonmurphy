@@ -1,0 +1,23 @@
+body {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+}
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+hr{
+	border: 0;
+    height: 1px;
+    margin: 0;
+    background: #333;
+}
+.aug-2017-landing {
+	font-family: $primary-font;
+	color: #333;
+}

@@ -1,0 +1,66 @@
+.box1 {
+	background-color: $brand-secondary;
+	
+	.table{
+		display: table;
+		width: 100%;
+
+		.span1, 
+		.span2 {
+			display: table-cell;
+			vertical-align: bottom;
+			float: none;
+		}
+
+		.span1{
+			padding: 4.7%;
+
+			h2{
+				margin-bottom: 15px;
+				line-height: 50px;
+			}
+			p{
+				font-size: 0.917em;
+				margin-bottom: 55px;
+			}
+			.btn{
+				background-color: #fff;
+				color: #333;
+				padding: 17px 40px 11px 40px;
+			}
+		}
+		.span2{
+			border-right: 7px solid #fff;
+		}
+	}
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px){
+	.box1 {
+		.table{
+			display: block;
+			width: 100%;
+
+			.span1, 
+			.span2 {
+				display: block;
+			}
+
+			.span1{
+				text-align: center;
+				h2{
+					margin-bottom: 25px;
+				}
+				p{
+					display: none;
+				}
+			}
+			.span2{
+				border-right: none;
+			}
+		}
+	}
+}

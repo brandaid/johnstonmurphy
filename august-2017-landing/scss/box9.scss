@@ -1,0 +1,41 @@
+.box9 {
+	background: #f7f5f8 url('images/img-box9.0.jpg') repeat-x 0 0;
+	text-align: center;
+	margin-bottom: 8%;
+
+	.table{
+		display: table;
+		width: 100%;
+
+		.span1{
+			display: table-cell;
+			vertical-align: middle;
+			float: none;
+
+			&.alignBottom{
+				vertical-align: bottom;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px){
+	.box9 {
+		.table{
+			display: block;
+			width: 100%;
+
+			.span1{
+				display: block;
+				&.middle{
+					padding: 7.5% 0;
+
+					p{
+						margin: 0 25% 35px;
+					}
+				}
+			}
+		}
+	}
+}

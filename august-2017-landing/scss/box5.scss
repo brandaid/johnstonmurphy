@@ -1,0 +1,50 @@
+.box5 {
+
+	.span1,
+	.span2 {
+		opacity: 1;
+	}
+	.span1 .left,
+	.span2 .right{
+		display: block;
+		position: relative;
+	}
+
+	.span1 .left{
+		margin-top: 50%; 
+		margin-bottom: 50%; 
+		margin-left: 100px; 
+		margin-right: -100px; 
+		z-index: 5;
+		min-width: 125%;
+	}
+
+	.span2 .right{
+	}
+}
+
+
+
+@media screen and (max-width: 768px){
+	.box5 {
+		.span1 .left,
+		.span2 .right {
+			margin:0;
+			padding:0;
+		}
+		.span1 .left {
+			border-top: 7px solid #fff;
+		}
+
+		.wrapper {
+		  display: flex;
+		  flex-flow: row wrap;
+			.span1 {
+				order: 2;
+			}
+			.span2 {
+		        order: 1;
+		    }
+		}
+	}
+}
