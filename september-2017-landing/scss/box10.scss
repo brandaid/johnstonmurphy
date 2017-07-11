@@ -1,7 +1,7 @@
-.box9 {
-	background: #f7f5f8 url('images/img-box9.0.jpg') repeat-x 0 0;
+.box10 {
+	background: #f7f5f8 url('images/img-box10.0.jpg') repeat-x 0 0;
 	text-align: center;
-	margin-bottom: 8%;
+	margin: 8% 0;
 
 	.table{
 		display: table;
@@ -21,7 +21,7 @@
 
 
 @media screen and (max-width: $screen-portrait){
-	.box9 {
+	.box10 {
 		.table{
 			display: block;
 			width: 100%;

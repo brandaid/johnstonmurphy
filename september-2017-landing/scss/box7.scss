@@ -1,4 +1,4 @@
-.box5 {
+.box7 {
 	.span1 .left,
 	.span2 .right{
 		display: block;
@@ -7,16 +7,19 @@
 
 	.span1 .left{
 		margin-top: 50%; 
-		margin-bottom: 50%;
+		margin-bottom: 50%; 
 		z-index: 5;
 		min-width: 125%;
+	}
+
+	.span2 .right{
 	}
 }
 
 
 
 @media screen and (max-width: $screen-portrait){
-	.box5 {
+	.box7 {
 		.span1 .left,
 		.span2 .right {
 			margin:0;

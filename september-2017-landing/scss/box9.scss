@@ -1,0 +1,51 @@
+.box9 {
+	background: #e7e4e2;
+	.span3{
+		text-align: center;
+		padding: 6% 7.75%;
+
+		&.top{
+			padding-bottom: 4%;
+		}
+
+		&.bottom{
+			padding-top: 5%;
+		}
+
+		p{
+			margin-bottom: 0;
+		}
+	}
+	.left,
+	.middle,
+	.right{
+		img{
+			border-left: 7px solid #E7E4E2;
+			border-bottom: 7px solid #E7E4E2;
+		}
+	}
+	.left{
+		img{
+			border-left: none;
+		}
+	}
+}
+
+@media screen and (max-width: $screen-portrait){
+	.box9 {
+		.span1.left, .span1.middle {
+		    width: 50%;
+		    margin-left: 0;
+		}
+		.span1.middle{
+			img{
+			    border-left: 7px solid #E7E4E2;
+			}
+		}
+		.span1.right{
+			img{
+				border-left: none;
+			}
+		}
+	}
+}

@@ -3,52 +3,52 @@
 // font-family:'NewCenturySchlbkLTStdItalic';
 // font-family:'ITCFranklinGothicStdDmCp'; --> Buttons
 
-.aug-2017-landing,
-.aug-2017-landing h1,
-.aug-2017-landing h2,
-.aug-2017-landing h3,
-.aug-2017-landing h4,
-.aug-2017-landing h5,
-.aug-2017-landing h6,
-.aug-2017-landing p,
-.aug-2017-landing span,
-.aug-2017-landing a,
-.aug-2017-landing ul,
-.aug-2017-landing li {
+.sep-2017-landing,
+.sep-2017-landing h1,
+.sep-2017-landing h2,
+.sep-2017-landing h3,
+.sep-2017-landing h4,
+.sep-2017-landing h5,
+.sep-2017-landing h6,
+.sep-2017-landing p,
+.sep-2017-landing span,
+.sep-2017-landing a,
+.sep-2017-landing ul,
+.sep-2017-landing li {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: $primary-font;
 	font-size: $primary-font-size;
 }
-.aug-2017-landing h1,
-.aug-2017-landing h2,
-.aug-2017-landing h3,
-.aug-2017-landing h4,
-.aug-2017-landing h5,
-.aug-2017-landing h6 {
+.sep-2017-landing h1,
+.sep-2017-landing h2,
+.sep-2017-landing h3,
+.sep-2017-landing h4,
+.sep-2017-landing h5,
+.sep-2017-landing h6 {
 	margin: 0;
 	padding: 0;
 	font-weight: normal;
 }
 
-.aug-2017-landing h1 {
+.sep-2017-landing h1 {
 }
-.aug-2017-landing h2 {
+.sep-2017-landing h2 {
 	font-size: 32px;
 	font-size: 1.333em;
-	line-height: 1; 
+	line-height: 1.1; 
 	margin-bottom: 15px;
 }
-.aug-2017-landing h3 {
+.sep-2017-landing h3 {
 }
-.aug-2017-landing h4 {
+.sep-2017-landing h4 {
 }
-.aug-2017-landing h5 {
+.sep-2017-landing h5 {
 }
-.aug-2017-landing h6 {
+.sep-2017-landing h6 {
 }
 
-.aug-2017-landing p {
+.sep-2017-landing p {
 	margin-bottom: 35px; 
 	font-size: 0.750em;
 	line-height: 1.2; 
@@ -57,11 +57,11 @@
 
 // 768px
 @media all and (min-width: $screen-portrait) {
-	.aug-2017-landing h2 {
+	.sep-2017-landing h2 {
 		font-size: 58px;
 		font-size: 2.417em;
 	}
-	.aug-2017-landing p {
+	.sep-2017-landing p {
 	    font-size: 1.000em;
 	}
 }
