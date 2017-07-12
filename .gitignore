@@ -7,3 +7,5 @@ config.codekit
 /womens-landing/config.codekit
 
 *.codekit3
+
+.sass-cache

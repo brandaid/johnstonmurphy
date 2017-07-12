@@ -166,10 +166,14 @@ hr {
   line-height: 1.1;
   margin-bottom: 15px; }
 
+.sep-2017-landing em {
+  font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif; }
+
 .sep-2017-landing p {
   margin-bottom: 35px;
   font-size: 0.750em;
-  line-height: 1.2; }
+  line-height: 1.3;
+  letter-spacing: 0; }
 
 @media all and (min-width: 768px) {
   .sep-2017-landing h2 {
@@ -177,7 +181,9 @@ hr {
     font-size: 2.417em; }
 
   .sep-2017-landing p {
-    font-size: 1.000em; } }
+    font-size: 1.000em;
+    line-height: 1.4;
+    letter-spacing: 0.05em; } }
 .box1 {
   position: relative; }
   .box1 .table {
@@ -229,7 +235,7 @@ hr {
     font-size: 1.583em; } }
 .box2 {
   text-align: center;
-  padding: 11.75% 11%; }
+  padding: 11.75% 8%; }
   .box2 p {
     margin-bottom: 0; }
 
@@ -328,11 +334,11 @@ hr {
   background: #e7e4e2; }
   .box9 .span3 {
     text-align: center;
-    padding: 6% 7.75%; }
+    padding: 4% 7.75%; }
     .box9 .span3.top {
       padding-bottom: 4%; }
     .box9 .span3.bottom {
-      padding-top: 5%; }
+      padding-bottom: 5%; }
     .box9 .span3 p {
       margin-bottom: 0; }
   .box9 .left img,
