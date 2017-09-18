@@ -1,0 +1,80 @@
+// Fonts
+// font-family:'NewCenturySchlbkLTStdRoman';
+// font-family:'NewCenturySchlbkLTStdItalic';
+// font-family:'ITCFranklinGothicStdDmCp'; --> Buttons
+
+.#{$month}-2017-landing,
+.#{$month}-2017-landing h1,
+.#{$month}-2017-landing h2,
+.#{$month}-2017-landing h3,
+.#{$month}-2017-landing h4,
+.#{$month}-2017-landing h5,
+.#{$month}-2017-landing h6,
+.#{$month}-2017-landing p,
+.#{$month}-2017-landing span,
+.#{$month}-2017-landing a,
+.#{$month}-2017-landing ul,
+.#{$month}-2017-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $primary-font;
+	font-size: $primary-font-size;
+}
+.#{$month}-2017-landing h1,
+.#{$month}-2017-landing h2,
+.#{$month}-2017-landing h3,
+.#{$month}-2017-landing h4,
+.#{$month}-2017-landing h5,
+.#{$month}-2017-landing h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.#{$month}-2017-landing h1 {
+}
+.#{$month}-2017-landing h2 {
+	font-size: 32px;
+	font-size: 1.333em;
+	line-height: 1.1; 
+	margin-bottom: 15px;
+}
+.#{$month}-2017-landing h3 {
+}
+.#{$month}-2017-landing h4 {
+}
+.#{$month}-2017-landing h5 {
+}
+.#{$month}-2017-landing h6 {
+}
+
+.#{$month}-2017-landing em {
+	font-family: $primary-font-it;
+}
+.#{$month}-2017-landing p {
+	margin-bottom: 35px; 
+	font-size: 0.750em;
+	line-height: 1.3;
+	letter-spacing: 0;
+}
+
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.#{$month}-2017-landing h2 {
+		font-size: 58px;
+		font-size: 2.417em;
+	}
+	.#{$month}-2017-landing p {
+	    font-size: 1.000em;
+	    line-height: 1.4;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+}

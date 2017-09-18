@@ -1,0 +1,49 @@
+.box7{
+
+	.left,
+	.middle,
+	.right{
+		img{
+			border-left: 7px solid #fff;
+			border-bottom: 7px solid #fff;
+		}
+	}
+
+	.left{
+		img{
+			border-left: none;
+		}
+	}
+	.middle{
+	}
+	.right{
+	}
+}
+
+
+
+@media screen and (max-width: $screen-portrait){
+	.box7{
+		.span1.left, .span1.middle {
+		    width: 50%;
+		    margin-left: 0;
+		}
+		.span1.middle{
+			img{
+				-webkit-transform: scaleX(-1);
+			    -moz-transform: scaleX(-1);
+			    transform: scaleX(-1);
+			    filter: FlipH;
+			    -ms-filter: "FlipH";
+			    border-right: 7px solid #fff;
+				border-left: none;
+			}
+		}
+		.span1.right{
+			margin-top:1px;
+			img{
+				border-left: none;
+			}
+		}
+	}
+}

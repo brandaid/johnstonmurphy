@@ -1,0 +1,15 @@
+.box2 {
+	text-align: center;
+	padding: 11.75%;
+
+	p{
+		margin-bottom: 0;
+	}
+}
+
+
+@media screen and (max-width: $screen-desktop){
+	.box2 {
+		padding: 11.75% 8%;
+	}
+}

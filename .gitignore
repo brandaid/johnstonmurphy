@@ -1,11 +1,7 @@
 /landing-2/config.codekit
-
 config.codekit
-
 /blogger-landing/config.codekit
-
 /womens-landing/config.codekit
-
 *.codekit3
-
 .sass-cache
+style.css.map

@@ -1,0 +1,17 @@
+.box4 {
+	.span3{
+		text-align: center;
+		padding: 6% 7.75%;
+	}
+	@include oneColumnBorderBottom();
+}
+
+
+@media screen and (max-width: $screen-portrait){
+	.box4 {
+		.span3{
+			padding: 10% 7.75% 6%;
+		}
+		@include oneColumnBorderBottom768();
+	}
+}
