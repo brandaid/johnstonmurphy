@@ -49,3 +49,47 @@
 		}
 	}
 }
+
+
+//fix 
+.box9 .span1.left,
+.box9 .span1.middle{
+	height: 155px;
+	overflow: hidden;
+}
+
+.box9 .span1.right{
+	border-top: 7px solid #e7e4e2;
+}
+
+@media screen and (min-width: 425px) {
+	.box9 .span1.left,
+	.box9 .span1.middle{
+		height: 208px;
+	}
+}
+
+@media screen and (min-width: $screen-portrait ) {
+	.box9 .span1.left,
+	.box9 .span1.middle,
+	.box9 .span1.right{
+		height: 370px;
+	}	
+}
+@media screen and (min-width: $screen-landscape) {
+	.box9 .span1.left,
+	.box9 .span1.middle,
+	.box9 .span1.right{
+		height: 318px;
+	}	
+	.box9 .span1.right{
+		border-top: none;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.box9 .span1.left,
+	.box9 .span1.middle,
+	.box9 .span1.right{
+		height: 319px;
+	}	
+}

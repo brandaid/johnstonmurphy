@@ -415,6 +415,28 @@ hr {
     margin-top: 1px; }
     .box7 .span1.right img {
       border-left: none; } }
+.box7 .span1 {
+  height: 257px;
+  overflow: hidden; }
+
+.box7 .span1.right {
+  border-top: 7px solid #fff; }
+
+@media screen and (min-width: 425px) {
+  .box7 .span1 {
+    height: 346px; } }
+@media screen and (min-width: 768px) {
+  .box7 .span1 {
+    height: 620px; } }
+@media screen and (min-width: 992px) {
+  .box7 .span1 {
+    height: 530px; }
+
+  .box7 .span1.right {
+    border-top: none; } }
+@media screen and (min-width: 1024px) {
+  .box7 .span1 {
+    height: 710px; } }
 .box8 .span3 {
   text-align: center;
   padding: 6% 7.75%; }
@@ -459,6 +481,36 @@ hr {
     border-left: 7px solid #E7E4E2; }
   .box9 .span1.right img {
     border-left: none; } }
+.box9 .span1.left,
+.box9 .span1.middle {
+  height: 155px;
+  overflow: hidden; }
+
+.box9 .span1.right {
+  border-top: 7px solid #e7e4e2; }
+
+@media screen and (min-width: 425px) {
+  .box9 .span1.left,
+  .box9 .span1.middle {
+    height: 208px; } }
+@media screen and (min-width: 768px) {
+  .box9 .span1.left,
+  .box9 .span1.middle,
+  .box9 .span1.right {
+    height: 370px; } }
+@media screen and (min-width: 992px) {
+  .box9 .span1.left,
+  .box9 .span1.middle,
+  .box9 .span1.right {
+    height: 318px; }
+
+  .box9 .span1.right {
+    border-top: none; } }
+@media screen and (min-width: 1024px) {
+  .box9 .span1.left,
+  .box9 .span1.middle,
+  .box9 .span1.right {
+    height: 319px; } }
 .box10 {
   background: #f7f5f8 url("images/img-box10.0.jpg") repeat-x 0 0;
   text-align: center;

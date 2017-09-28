@@ -47,3 +47,41 @@
 		}
 	}
 }
+
+
+
+
+//fix 
+.box7 .span1{
+	height: 257px;
+	overflow: hidden;
+}
+.box7 .span1.right{
+	border-top: 7px solid #fff;
+}
+
+@media screen and (min-width: 425px) {
+	.box7 .span1{
+		height: 346px;
+	}
+}
+
+@media screen and (min-width: $screen-portrait) {
+	.box7 .span1{
+		height: 620px;
+	}	
+}
+@media screen and (min-width: $screen-landscape) {
+	.box7 .span1{
+		height: 530px;
+	}	
+	.box7 .span1.right{
+		border-top: none;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.box7 .span1{
+		height: 710px;
+	}	
+}
+
