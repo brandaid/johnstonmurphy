@@ -482,7 +482,8 @@ hr {
   .box9 .span1.right img {
     border-left: none; } }
 .box9 .span1.left,
-.box9 .span1.middle {
+.box9 .span1.middle,
+.box9 .span1.right {
   height: 155px;
   overflow: hidden; }
 
