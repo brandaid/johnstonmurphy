@@ -394,27 +394,13 @@ hr {
 .box7 .left img,
 .box7 .middle img,
 .box7 .right img {
-  border-left: 7px solid #fff;
-  border-bottom: 7px solid #fff; }
-.box7 .left img {
-  border-left: none; }
+  -webkit-box-shadow: 0px 0px 0px 7px white;
+  box-shadow: 0px 0px 0px 7px white; }
 
 @media screen and (max-width: 768px) {
   .box7 .span1.left, .box7 .span1.middle {
     width: 50%;
-    margin-left: 0; }
-  .box7 .span1.middle img {
-    -webkit-transform: scaleX(-1);
-    -moz-transform: scaleX(-1);
-    transform: scaleX(-1);
-    filter: FlipH;
-    -ms-filter: "FlipH";
-    border-right: 7px solid #fff;
-    border-left: none; }
-  .box7 .span1.right {
-    margin-top: 1px; }
-    .box7 .span1.right img {
-      border-left: none; } }
+    margin-left: 0; } }
 .box8 .span3 {
   text-align: center;
   padding: 6% 7.75%; }
@@ -446,19 +432,13 @@ hr {
   .box9 .left img,
   .box9 .middle img,
   .box9 .right img {
-    border-left: 7px solid #E7E4E2;
-    border-bottom: 7px solid #E7E4E2; }
-  .box9 .left img {
-    border-left: none; }
+    -webkit-box-shadow: 0px 0px 0px 7px #E7E4E2;
+    box-shadow: 0px 0px 0px 7px #E7E4E2; }
 
 @media screen and (max-width: 768px) {
   .box9 .span1.left, .box9 .span1.middle {
     width: 50%;
-    margin-left: 0; }
-  .box9 .span1.middle img {
-    border-left: 7px solid #E7E4E2; }
-  .box9 .span1.right img {
-    border-left: none; } }
+    margin-left: 0; } }
 .box10 {
   background: #f7f5f8 url("images/img-box10.0.jpg") repeat-x 0 0;
   text-align: center;
