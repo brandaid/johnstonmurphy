@@ -1,0 +1,90 @@
+.box10 {
+	background: #f7f5f8 url('images/img-box10.0.jpg') repeat-x 0 0;
+	text-align: center;
+	margin: 8% 0;
+
+	h2{
+		line-height: 0.9;
+	}
+
+	.table{
+		display: table;
+		width: 100%;
+
+		.span1{
+			display: table-cell;
+			vertical-align: middle;
+			float: none;
+
+			&.alignBottom{
+				vertical-align: bottom;
+			}
+		}
+	}
+}
+
+// 768px
+@media screen and (max-width: $screen-portrait){
+	.box10 {
+		.table{
+			display: block;
+			width: 100%;
+			.span1{
+				display: block;
+				&.middle{
+					padding: 7.5% 0;
+
+					p{
+						margin: 0 16% 35px;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box10 {
+		.table{
+			.span1{
+				&.middle{
+         p{ font-size: 20px;
+					}
+				}
+			}
+		}
+	}
+	}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box10 {
+		.table{
+			.span1{
+				&.middle{
+				 p{ font-size: 24px;
+
+					}
+				}
+			}
+		}
+	}
+	}
+
+
+@media all and (min-width: 768px) {
+	.box10 {
+		.table{
+			.span1{
+				&.middle{
+				 p{ font-size: 20px;
+
+					}
+				}
+			}
+		}
+	}
+}
