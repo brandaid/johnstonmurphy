@@ -1,0 +1,81 @@
+.box1 {
+    position: relative;
+    .table {
+        display: table;
+        width: 100%;
+        background: #a41e34;
+        .span1, .span2 {
+            display: table-cell;
+            vertical-align: middle;
+            float: none;
+            text-align: center;
+        }
+    }
+    h2 {
+        font-size: 60px;
+        color: #000000;
+    }
+    .span1 .btn {
+        background: #ffffff;
+        color: #000000;
+        border: 3px solid #ffffff;
+    }
+    .span1 .btn:hover {
+        border: 3px solid #ffffff;
+        color: #ffffff;
+    }
+}
+
+
+
+/* MEDIA QUERIES */
+
+//1300px
+@media screen and (max-width: $screen-desktop) {
+
+}
+//992px
+@media screen and (max-width: $screen-landscape) {
+
+}
+//768px
+@media screen and (max-width: $screen-portrait) {
+
+}
+//375px
+@media screen and (max-width: 375px) {
+
+}
+//320px
+@media screen and (max-width: 320px) {
+    .box1 {
+        h2 {
+            font-size: 1.583em;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .box1 .table .span1 {
+        text-align: center;
+    }
+    .box1 .table .span1,
+    .box1 .table .span2 {
+        display: block;
+    }
+}
+@media screen and (min-width: 768px) {
+    .box1 .table .span1,
+    .box1 .table .span2 {
+        width: 50%;
+    }
+    .white-line {
+        border: 3px solid #ffffff;
+        padding: 8%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .box1 h2 {
+        font-size: 58px;
+    }
+}
+@media screen and (min-width: 1200px) {}
