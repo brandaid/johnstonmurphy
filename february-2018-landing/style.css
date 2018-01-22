@@ -230,7 +230,7 @@
  .feb-2018, .feb-2018 h1, .feb-2018 h2, .feb-2018 h3, .feb-2018 h4, .feb-2018 h5, .feb-2018 h6, .feb-2018 p, .feb-2018 span, .feb-2018 a, .feb-2018 ul, .feb-2018 li {
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
-     font-family: "ITCFranklinGothicStd-DmXCp", Arial, sans-serif;
+     font-family: 'ITCFranklinGothicStd-DmXCp', Arial, sans-serif;
      font-size: 24px;
 }
  .feb-2018 h1, .feb-2018 h2, .feb-2018 h3, .feb-2018 h4, .feb-2018 h5, .feb-2018 h6 {
@@ -244,6 +244,7 @@
      margin-bottom: 15px;
      text-transform: uppercase;
 }
+
  .feb-2018 em {
      font-family: "NewCenturySchlbkLTStdItalic", Georgia, serif;
 }
