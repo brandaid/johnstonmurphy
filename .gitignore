@@ -5,3 +5,6 @@ config.codekit
 *.codekit3
 .sass-cache
 style.css.map
+.DS_Store
+
+.DS_Store
