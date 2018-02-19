@@ -1,0 +1,85 @@
+// Fonts
+// font-family:'NewCenturySchlbkLTStdRoman';
+// font-family:'NewCenturySchlbkLTStdItalic';
+// font-family:'ITCFranklinGothicStdDmCp'; --> Buttons
+
+.#{$month}-2018,
+.#{$month}-2018 h1,
+.#{$month}-2018 h2,
+.#{$month}-2018 h3,
+.#{$month}-2018 h4,
+.#{$month}-2018 h5,
+.#{$month}-2018 h6,
+.#{$month}-2018 p,
+.#{$month}-2018 span,
+.#{$month}-2018 a,
+.#{$month}-2018 ul,
+.#{$month}-2018 li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $primary-font;
+	font-size: $primary-font-size;
+
+}
+.#{$month}-2018 h1,
+.#{$month}-2018 h2,
+.#{$month}-2018 h3,
+.#{$month}-2018 h4,
+.#{$month}-2018 h5,
+.#{$month}-2018 h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.#{$month}-2018 h1 {
+}
+.#{$month}-2018 h2 {
+	font-size: 60px;
+	color: #000000;
+	line-height: 1.1;
+	margin-bottom: 15px;
+	font-family: "ITCFranklinGothicStd-DmXCp", Arial, sans-serif;
+	text-transform: uppercase;
+}
+.#{$month}-2018 h3 {
+}
+.#{$month}-2018 h4 {
+}
+.#{$month}-2018 h5 {
+}
+.#{$month}-2018 h6 {
+}
+
+.#{$month}-2018 em {
+	font-family: $primary-font-it;
+}
+.#{$month}-2018 p {
+	margin-bottom: 35px;
+	font-size: 0.750em;
+	line-height: 1.3;
+	letter-spacing: 0;
+	font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+    color: #000000;
+}
+
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.#{$month}-2018 h2 {
+	}
+	.#{$month}-2018 p {
+	    font-size: 1.000em;
+	    line-height: 1.4;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.#{$month}-2018 h2 {
+		font-size: 58px;}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+}

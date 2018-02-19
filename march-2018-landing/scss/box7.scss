@@ -1,0 +1,23 @@
+.box7 {
+	.left img,
+	.middle img,
+	.right img {
+		-webkit-box-shadow: 0px 0px 0px 7px white;
+				box-shadow: 0px 0px 0px 7px white;
+	}
+	.span1.left, .span1.middle {
+			width: 50%;
+			margin-left: 0;
+		}
+}
+
+
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+.box7 {
+	.span1.left, .span1.middle {
+		width: 33.3333333333%;
+	}
+	}
+}

@@ -1,0 +1,12 @@
+.#{$month}-2018 a.btn {
+	background: $brand-primary;
+	color: #000000;
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 17px 50px 11px 50px;
+	font-family: "ITCFranklinGothicStdDmCp", Arial, sans-serif;
+	&:hover {
+		background: darken($brand-primary,4%);
+	}
+}

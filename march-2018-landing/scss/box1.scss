@@ -1,0 +1,117 @@
+.box1 {
+    position: relative;
+    .table {
+        display: table;
+        width: 100%;
+        .span1, .span2 {
+            display: table-cell;
+            vertical-align: middle;
+            float: none;
+            text-align: center;
+        }
+    }
+    .span1 .btn {
+        background: #ffffff;
+        color: #000000;
+        border: 3px solid #ffffff;
+    }
+    .span1 .btn:hover {
+        border: 3px solid #ffffff;
+        color: #ffffff;
+    }
+}
+.box1 .table .span1, .box1 .table .span2 {
+    width: 50%;
+}
+.box1 .span3 {
+    text-align: center;
+    background: #ecedee;
+    padding: 30px;
+}
+.box1 img.image-responsive {
+    max-height: 715px;
+}
+
+.circle-one-day {
+    display: none;
+}
+
+.white-line {
+    border-left: 7px solid white;
+}
+
+/* MEDIA QUERIES */
+//1300px
+@media screen and (min-width: $screen-desktop) {
+    .box1 {
+        .circle-one-day {
+            display: block;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            -webkit-border-radius: 50%;
+            background-color: #ffffff;
+            height: 430px;
+            width: 430px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            h2 {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 55px;
+                font-size: 55px;
+                text-align: center;
+                padding-top: 80px;
+                text-align: center;
+                span {
+                    font-family: "ITCFranklinGothicStd-DmXCp", Arial, sans-serif;
+                    font-size: 95px;
+                    line-height: 70px;
+                }
+            }
+            p {
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 22px;
+                line-height: 25px;
+                margin-top: -20px;
+                margin-bottom: 20px;
+            }
+        }
+        .span3 {
+            display: none;
+        }
+    }
+.content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+}
+//992px
+@media screen and (min-width: $screen-landscape) {
+}
+//768px
+@media screen and (min-width: $screen-portrait) {
+}
+//320px
+@media screen and (max-width: 320px) {
+    .box1 {
+        h2 {
+            font-size: 1.583em;
+        }
+    }
+}
