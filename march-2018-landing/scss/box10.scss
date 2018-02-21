@@ -42,18 +42,20 @@
 // 992px
 @media all and (min-width: $screen-landscape) {
 	.box10 {
+		margin: 80px 0;
 		h2 {
 			font-size: 66px;
 		}
 		p {
 			font-size: 18px;
 		}
-	}	
+	}
 }
 
 // 1200px
 @media all and (min-width: $screen-desktop) {
 	.box10 {
+		margin: 100px 0;
 		h2 {
 			font-size: 86px;
 		}
