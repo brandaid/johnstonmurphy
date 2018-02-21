@@ -21,3 +21,26 @@ hr{
 	font-family: $primary-font;
 	color: #333;
 }
+
+.in-desktop {
+	display: none!important;
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.in-mobile {
+		display: none!important;
+	}
+	.in-desktop {
+		display: block!important;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}

@@ -12,18 +12,18 @@
 		min-width: 125%;
 	}
 	.span2 .right {
-border-top: 7px solid #ffffff;
+		border-top: 7px solid #fff;
 	}
 }
 
-/* MEDIA QUERIES */
+
 //768px
 @media screen and (min-width: $screen-portrait) {
 	.span2 .right {
-	border-top: none;
+		border-top: none;
 	}
 	.span1 .left {
-border: 7px solid #ffffff;
+		border: 7px solid #ffffff;
 	}
 }
 //992px

@@ -1,17 +1,22 @@
 .box8 {
-	.span3{
-		text-align: center;
-		padding: 6% 7.75%;
+	text-align: center;
+	padding: 50px 15px;
+	.hr {
+		display: none;
 	}
-	@include oneColumnBorderBottom();
 }
 
-
-@media screen and (max-width: $screen-portrait){
+// 992px
+@media all and (min-width: $screen-landscape) {
 	.box8 {
-		.span3{
-			padding: 8% 7.75% 6%;
+		padding: 80px 15px;
+		h2 {
+			margin-bottom: 0;
 		}
-		@include oneColumnBorderBottom768();
+		.hr {
+			display: block;
+			margin: 80px auto 0 auto;
+			max-width: 86%; 
+		}
 	}
 }
