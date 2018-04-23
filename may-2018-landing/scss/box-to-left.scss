@@ -1,0 +1,51 @@
+.box-to-left {
+	text-align: center;
+	.span1 .left,
+	.span2 .right {
+		display: block;
+		position: relative;
+	}
+	.span1 .left {
+		margin-top: 50%;
+		margin-bottom: 50%;
+		z-index: 5;
+		min-width: 125%;
+	}
+	.span2 .right {
+		border-top: 7px solid #fff;
+	}
+}
+
+
+//768px
+@media screen and (min-width: $screen-portrait) {
+	.box-to-left {
+		.span2 .right {
+			border-top: none;
+		}
+		.span1 .left {
+			border: 7px solid #ffffff;
+		}
+	}
+}
+//992px
+@media screen and (max-width: $screen-portrait){
+	.box-to-left {
+		.span1 .left,
+		.span2 .right {
+			margin:0;
+			padding:0;
+			min-width: 100%;
+		}
+		.wrapper {
+		  display: flex;
+		  flex-flow: row wrap;
+			.span1 {
+				order: 1;
+			}
+			.span2 {
+		        order: 2;
+		    }
+		}
+	}
+}
