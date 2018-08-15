@@ -1,0 +1,53 @@
+.box2 {
+	text-align: center;
+	padding: 50px 0 80px 0;
+	h2 {
+		margin-bottom: 0px;
+	}
+	p{
+		display: inline;
+
+		&:first-child{
+			margin-bottom: 0;
+		}
+	}
+	.logo{
+		margin-bottom: 50px;
+		padding: 0 15%;
+		img{
+			margin: 0 auto;
+			max-width: 443px;
+		}
+	}
+	.hr {
+		display: none;
+	}
+}
+
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box2 {
+		.hr {
+			display: block;
+			margin: 95px auto 0 auto;
+			max-width: 86%; 
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box2 {
+		padding: 130px 0px 105px;
+
+		p{
+			padding: 0 200px;
+			display: block;
+
+			&:nth-child(2){
+				margin-bottom: 0;
+			}
+		}
+	}	
+}

@@ -1,0 +1,29 @@
+.box9 {
+	text-align: center;
+	padding: 50px 0 80px 0;
+	.hr {
+		display: none;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box9 {
+		.hr {
+			display: block;
+			margin: 100px auto 0 auto;
+			max-width: 86%; 
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box9 {
+		padding: 95px 0px 60px;
+		p{
+			padding: 0 200px;
+			display: block;
+		}
+	}	
+}
