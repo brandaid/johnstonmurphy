@@ -1,0 +1,34 @@
+
+
+//768px
+@media screen and (min-width: $screen-portrait) {
+	.box-to-right {
+		.wrapper {
+			display: table;
+			width: 100%;
+			height: 400px;
+			.col-left,
+			.col-right {
+				display: table-cell;
+				vertical-align: middle;
+				width: 60%;
+			}
+			.col-right {
+				width: 40%;
+				position: relative;
+				left: -50px;
+				img {
+					outline: 7px solid white;
+				}
+			}
+		}
+	}
+}
+//992px
+@media screen and (min-width: $screen-landscape) {
+	
+}
+//992px
+@media screen and (min-width: $screen-desktop) {
+
+}
