@@ -295,7 +295,7 @@ hr {
   .october-2018 h2 {
     font-size: 60px; }
   .october-2018 p {
-    font-size: 30px; } }
+    font-size: 24px; } }
 
 .box-copy {
   padding: 80px 15px;
@@ -305,7 +305,9 @@ hr {
 
 @media screen and (min-width: 992px) {
   .box-copy {
-    padding: 130px 15px; } }
+    padding: 130px 15px; }
+    .box-copy p {
+      font-size: 30px; } }
 
 .box1 {
   position: relative; }
@@ -521,7 +523,7 @@ hr {
     .box8 .hr {
       display: block;
       margin: 80px auto 40px auto;
-      max-width: 86%; } }
+      max-width: 100%; } }
 
 .box10 {
   text-align: center;

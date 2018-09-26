@@ -9,5 +9,8 @@
 @media screen and (min-width: $screen-landscape) {
     .box-copy {
         padding: 130px 15px;
+        p {
+        	font-size: 30px;
+        }
     }
 }
