@@ -295,7 +295,7 @@ hr {
   .november-2018 h2 {
     font-size: 60px; }
   .november-2018 p {
-    font-size: 30px; } }
+    font-size: 24px; } }
 
 .box-copy {
   padding: 80px 15px;
@@ -305,7 +305,9 @@ hr {
 
 @media screen and (min-width: 992px) {
   .box-copy {
-    padding: 130px 15px; } }
+    padding: 130px 15px; }
+    .box-copy p {
+      font-size: 30px; } }
 
 .box1 {
   position: relative; }
