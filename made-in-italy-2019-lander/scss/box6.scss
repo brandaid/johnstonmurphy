@@ -1,0 +1,16 @@
+.box6 {
+	text-align: center;
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box6 {
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box6 {
+		//padding: 105px 0px 100px;
+	}	
+}

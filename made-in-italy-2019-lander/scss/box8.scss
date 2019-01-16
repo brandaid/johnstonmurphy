@@ -1,0 +1,32 @@
+.box8 {
+	text-align: center;
+	padding: 50px 0 80px 0;
+	//h2 {
+	//	font-size: 48px;
+	//}
+	.hr {
+		display: none;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box8 {
+		.hr {
+			display: block;
+			margin: 80px auto 0 auto;
+			max-width: 86%; 
+		}
+	}
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.box8 {
+		padding: 105px 0px 100px;
+		p{
+			padding: 0 200px;
+			display: block;
+		}
+	}	
+}
