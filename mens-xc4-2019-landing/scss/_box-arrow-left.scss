@@ -1,0 +1,57 @@
+.box-arrow-left {
+	background-image: url(../images/left-arrows.png);
+	background-size: 120px;
+	padding: 100px 0 0 0;
+	background-repeat: no-repeat;
+	figure {
+		padding: 20px 20px 40px 20px;
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box-arrow-left {
+		background-size: 200px;
+		.container {
+			display: table;
+			width: 100%;
+		}
+		.col-left,
+		.col-right {
+			display: table-cell;
+			width: 66%;
+		}
+		.col-left {
+			width: 34%;
+			position: relative;
+		}
+	}
+	.pads {
+		position: absolute;
+		left: 20%;
+		top: 27%;
+		width: 350px;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box-arrow-left {
+		background-size: 280px;
+		padding: 160px 0 20px 0;
+	}
+	.pads {
+		width: 440px;
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.box-arrow-left {
+		background-size: 340px;
+	}
+	.pads {
+		left: 0%;
+		top: 25%;
+		width: 670px;
+	}
+}

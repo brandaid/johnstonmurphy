@@ -1,0 +1,36 @@
+// 767px
+@media screen and (max-width: $screen-mobile) {
+	.col-video {
+		padding: 177.78% 0 0 0;
+		position:relative;
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+// 768px and 991px
+@media screen and (min-width: $screen-portrait) and (max-width: 991px) {
+	.col-video {
+		iframe {
+			width: 357px;
+			height: 635.36px;
+		}
+	}
+	.box-hero-center {
+		margin-left: 20px;
+	}
+}
+
+// 1300px
+@media screen and (min-width: $screen-desktop ) {
+  .col-video iframe {
+    height: 723.47px;
+    width: 407px;
+  }	
+}
+

@@ -1,0 +1,122 @@
+.#{$month}-2018 .header {
+	background: white;
+}
+
+.#{$month}-2018 .box-legend {
+	background: #4b3141;
+	padding: 20px 10px;
+	text-align: center;
+	color: white;
+	line-height: 1.4em;
+	font-family: $primary-font;
+	font-size: 15px;
+	text-transform: uppercase;
+	p {
+		margin: 0;
+		color: #ffffff;
+
+	}
+	a {
+		text-decoration: underline;
+		color: white;
+		font-weight: bold;
+		font-size: 10px;
+	}
+}
+
+.#{$month}-2018 .table-header {
+	display: table;
+	width: 100%;
+	padding: 23px 0 15px 0;
+	.col {
+		display: table-cell;
+		vertical-align: top;
+		text-align: center;
+	}
+}
+
+.#{$month}-2018 .col-menu {
+	width: 11%;
+	text-align: right!important;
+}
+.#{$month}-2018 .col-locate {
+	width: 9%;
+	text-align: right!important;
+}
+.#{$month}-2018 .col-brand {
+	width: 60%;
+}
+.#{$month}-2018 .col-search {
+	width: 9%;
+	text-align: left!important;
+}
+.#{$month}-2018 .col-bag {
+	width: 11%;
+	text-align: left!important;
+}
+
+.#{$month}-2018 .col-menu, .#{$month}-2018 .col-locate, .#{$month}-2018 .col-brand, .#{$month}-2018 .col-search, .#{$month}-2018 .col-bag {
+	img {
+		max-width: 28px;
+		height: auto;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+.#{$month}-2018 .col-locate {
+	img {
+		max-width: 16px;
+	}
+}
+.#{$month}-2018 .col-brand {
+	img {
+		max-width: 190px;
+	}
+}
+.#{$month}-2018 .col-search {
+	img {
+		max-width: 24px;
+	}
+}
+.#{$month}-2018 .col-bag {
+	img {
+		max-width: 17px;
+		margin-left: 5px;
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.#{$month}-2018 .table-header {
+		padding: 45px 0 40px 0;
+	}
+	.#{$month}-2018 .col-menu {
+		img {
+			max-width: 36px;
+			margin-top: 3px;
+		}
+	}
+	.#{$month}-2018 .col-locate {
+		img {
+			max-width: 27px;
+		}
+	}
+	.#{$month}-2018 .col-brand {
+		img {
+			max-width: 370px;
+		}
+	}
+	.#{$month}-2018 .col-search {
+		img {
+			max-width: 37px;
+		}
+	}
+	.#{$month}-2018 .col-bag {
+		img {
+			max-width: 26px;
+		}
+	}
+	.#{$month}-2018 .box-legend, .#{$month}-2018 .box-legend a, .#{$month}-2018 .box-legend p {
+		font-size: 15px;
+	}
+}

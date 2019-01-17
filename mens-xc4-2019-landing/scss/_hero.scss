@@ -1,0 +1,90 @@
+.box-hero-center {
+	background: $brand-primary;
+	@include border-box;
+	margin: 6px 0;
+	padding: 0 10px 0 30px;
+	img {
+		width: auto;
+		margin-bottom: 80px;
+	}
+	h2, p {
+		color: white;
+		line-height: 1.5em;
+	}
+	h2 {
+		line-height: 0.9em;
+	}
+	.btn {
+		background: black!important;
+		margin-bottom: 50px;
+		padding: 24px 25px 18px 25px!important;
+		&:hover {
+			background: white!important;
+			color: black;
+		}
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.hero {
+		display: table;
+		width: 100%;
+		.col {
+			display: table-cell;
+			width: 33.3333333%;
+			vertical-align: top;
+			&:nth-child(2) {
+				background: $brand-primary;
+				position: relative;
+				&:before,
+				&:after {
+					content: "";
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					width: 5px;
+					background: white;
+				}
+				&:after {
+					left: auto;
+					right: 0;
+				}
+			}
+		}
+	}
+	.box-hero-center {
+		img {
+			margin-bottom: 40px;
+		}
+		@include border-box;
+		margin: 0 6px;
+		h2 {
+			font-size: 40px;
+		}
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.box-hero-center {
+		img {
+			margin-bottom: 140px;
+		}
+		h2 {
+			font-size: 60px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+}
