@@ -1,0 +1,13 @@
+.#{$month}-2019 a.btn {
+	background: black;
+	color: white;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 17px 25px 11px 25px;
+	font-family: $primary-font;
+	&:hover {
+		background: darken($brand-primary,4%);
+	}
+}

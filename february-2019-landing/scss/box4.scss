@@ -1,0 +1,45 @@
+.box4 {
+	background: #e7e4e2;
+	.span3{
+		text-align: center;
+		padding: 52px 7.75%;
+
+		&.top{
+			padding-bottom: 4%;
+		}
+
+		&.bottom{
+			padding-bottom: 52px;
+			padding-top: 52px;
+		}
+
+		p{
+			margin-bottom: 0;
+		}
+	}
+
+	.left img,
+	.middle img,
+	.right img {
+		-webkit-box-shadow: 0px 0px 0px 7px #E7E4E2;
+				box-shadow: 0px 0px 0px 7px #E7E4E2;
+	}
+}
+
+.margin-bottom100 {
+	margin-bottom: 100px;
+}
+
+@media screen and (max-width: $screen-portrait){
+	.box4 {
+		.span1.left, .span1.middle {
+		    width: 50%;
+		    margin-left: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+.box4 .span3 p {
+    margin-bottom: 22px;
+}}

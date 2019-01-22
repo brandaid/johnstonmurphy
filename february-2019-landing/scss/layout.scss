@@ -1,0 +1,51 @@
+body {
+	background: #fff;
+	padding: 0;
+	margin: 0;
+}
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	-webkit-transition: all 230ms ease-in-out;
+	-moz-transition: all 230ms ease-in-out;
+	-ms-transition: all 230ms ease-in-out;
+	-o-transition: all 230ms ease-in-out;
+	transition: all 230ms ease-in-out;
+}
+hr{
+	border: 0;
+    height: 1px;
+    margin: 0;
+    background: #333;
+}
+.#{$month}-2019 {
+	font-family: $primary-font;
+	color: #333;
+}
+
+.in-desktop {
+	display: none!important;
+}
+.margin-top {
+	margin-top: 50px;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.in-mobile {
+		display: none!important;
+	}
+	.in-desktop {
+		display: block!important;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.margin-top {
+		margin-top: 150px;
+	}
+}
