@@ -1,0 +1,92 @@
+// Fonts
+// font-family:'NewCenturySchlbkLTStdRoman';
+// font-family:'NewCenturySchlbkLTStdItalic';
+// font-family:'ITCFranklinGothicStdDmCp'; --> Buttons
+
+.#{$month}-2019,
+.#{$month}-2019 h1,
+.#{$month}-2019 h2,
+.#{$month}-2019 h3,
+.#{$month}-2019 h4,
+.#{$month}-2019 h5,
+.#{$month}-2019 h6,
+.#{$month}-2019 p,
+.#{$month}-2019 span,
+.#{$month}-2019 a,
+.#{$month}-2019 ul,
+.#{$month}-2019 li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: $primary-font;
+	font-size: $primary-font-size;
+
+}
+.#{$month}-2019 h1,
+.#{$month}-2019 h2,
+.#{$month}-2019 h3,
+.#{$month}-2019 h4,
+.#{$month}-2019 h5,
+.#{$month}-2019 h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.#{$month}-2019 h1 {
+}
+.#{$month}-2019 h2 {
+	font-size: 32px;
+	color: #000000;
+	line-height: 1.1;
+	margin-bottom: 15px;
+	font-family: $primary-font;
+	text-transform: uppercase;
+}
+.#{$month}-2019 h3 {
+}
+.#{$month}-2019 h4 {
+}
+.#{$month}-2019 h5 {
+}
+.#{$month}-2019 h6 {
+}
+
+.#{$month}-2019 em {
+	font-family: $primary-font-it;
+}
+.#{$month}-2019 p {
+	margin-bottom: 35px;
+	font-size: 18px;
+	line-height: 1.3;
+	padding: 0 10px;
+	letter-spacing: 0;
+	font-family: $primary-font;
+    color: #000000;
+}
+.#{$month}-2019 p:last-child {
+	margin-bottom: 0px;
+}
+
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.#{$month}-2019 p {
+	    font-size: 1.000em;
+	    line-height: 1.4;
+	    padding: 0;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.#{$month}-2019 h2 {
+		font-size: 60px;
+	}
+	.#{$month}-2019 p {
+		font-size: 24px;
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+}
