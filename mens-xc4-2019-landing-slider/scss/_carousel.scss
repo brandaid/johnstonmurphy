@@ -1,0 +1,129 @@
+// WIDGET CAROUSEL 
+.carousel {
+  padding: 0 20px;
+  h2 {
+    font-size: 48px;
+  }
+  #sync1 {
+    width: 80%!important;
+    position: relative;
+    margin-bottom: 12px;
+    margin: 0 auto; 
+    .item {
+      margin: 0 auto;
+      text-align: center;
+      width: 90%;
+      padding: 0 10px;
+      box-sizing: border-box;
+      .quote-item {
+        color: #000;
+        font-size: 18px;
+        text-align: center;
+      }
+      .logo {
+        margin: 0 auto;
+        width: 220px!important;
+        margin-top: 25px;
+      }
+    }
+    .owl-next, .owl-prev {
+      width: 12px;
+      height: 30px;
+      position: absolute;
+      bottom: 80%;
+      &:focus {
+        outline: none;
+      }
+    }
+    .owl-next {
+      right: -20px;
+    } 
+    .owl-prev {
+      left: -20px;
+    }
+  }
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+  .carousel {
+    #sync1 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      .item {
+        .quote-item {
+          font-size: 22px;
+        }
+      }
+      .owl-next, 
+      .owl-prev {
+        bottom: 64%;
+      }
+      .owl-next {
+        right: -50px;
+      }
+      .owl-prev {
+        left: -50px;
+      }
+    }
+  }
+}
+
+// < 992px
+@media all and (max-width: $screen-landscape) {
+  .carousel {
+    #sync2 {
+      display: none;
+    }
+  }
+}
+// 768px and 991px
+@media screen and (min-width: $screen-portrait) and (max-width: 991px) {
+  .carousel {
+    #sync1 {
+      .item {
+        padding: 0 50px;
+      }
+    }
+  }
+}
+// 992px
+@media all and (min-width: $screen-landscape) {
+  .carousel {
+    margin-bottom: 60px;
+    margin-top: 30px;
+    h2 {
+      font-size: 100px;
+    }
+    .logo-link {
+      display: none;
+    }
+    #sync2 {
+      width: 90%!important;
+      margin: 0 auto;
+      .logo {
+        opacity: 0.3;
+        width: 130px!important;
+        margin: 0 auto;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .current {
+        .logo {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+@media all and (min-width: $screen-desktop) {
+  .carousel {
+    #sync2 {
+      .logo {
+        width: 160px!important;
+      }
+    }
+  }
+}

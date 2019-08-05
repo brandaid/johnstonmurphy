@@ -1,0 +1,30 @@
+.box-underlined {
+	text-align: center;
+	padding: 50px 15px;
+	h2 {
+		font-size: 48px;
+	}
+	.hr {
+		display: none;
+	}
+	p {
+		max-width: 870px;
+		@include center;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box-underlined {
+		padding: 80px 15px;
+		h2 {
+			margin-bottom: 0;
+			font-size: 100px;
+		}
+		.hr {
+			display: block;
+			margin: 60px auto 0 auto;
+			max-width: 1060px; 
+		}
+	}
+}
