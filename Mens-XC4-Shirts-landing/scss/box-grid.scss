@@ -1,0 +1,51 @@
+.box4grid {
+	text-align: center;
+	padding: 50px 0 25px;
+
+	h5 {
+		margin-bottom: 35px;
+		font-family: Arial, sans-serif;
+		font-weight: lighter;
+		font-size: 20px;
+		color: #444;
+		letter-spacing: 3px;
+	}
+
+	.box-grid {
+		text-align: left;
+		display: inline-table;
+		width: 100%;
+		box-sizing: border-box;
+		.col{
+			display: inline-block;
+			padding: 0 15px;
+			width: 50%;
+			text-align: center;
+			box-sizing: border-box;
+			vertical-align: text-top;
+
+			h4{
+				margin-top: 25px;
+			}
+
+			h4, h5{
+				font-family: Arial, sans-serif;
+		    	font-weight: lighter;
+		    	font-size: 12px;
+		    	line-height: 26px;
+		    	letter-spacing: 1px;
+			}
+		}
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box4grid {
+		.box-grid {
+			.col{
+				width: 25%;
+			}
+		}
+	}
+}

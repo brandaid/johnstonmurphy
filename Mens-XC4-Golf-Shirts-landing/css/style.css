@@ -1,0 +1,1055 @@
+/* Columns: 3, Gutter Width: 0, Breakpoints: 768,992,1300 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul, nav li {
+  margin: 0;
+}
+
+nav ul, ul {
+  list-style: none;
+}
+
+.container {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+.container, section {
+  overflow: hidden;
+}
+
+.span1, .span2, .span3, .span4 {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.col {
+  margin-left: 0%;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+.span1 {
+  width: 33.3333333333%;
+}
+
+.span2 {
+  width: 66.6666666667%;
+}
+
+.span3 {
+  width: 100%;
+  margin-left: 0;
+}
+
+.span4 {
+  width: 50%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .span2, .span4 {
+    width: 100%;
+  }
+
+  .span1 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+/* Custom Breakpoints */
+@media all and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+@media all and (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media all and (min-width: 1300px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+.cf {
+  zoom: 1;
+}
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+a, a:hover, a:active, a:focus {
+  text-decoration: none;
+  -webkit-transition: all 230ms ease-in-out;
+  -moz-transition: all 230ms ease-in-out;
+  -ms-transition: all 230ms ease-in-out;
+  -o-transition: all 230ms ease-in-out;
+  transition: all 230ms ease-in-out;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 0;
+  background: #333;
+}
+
+.mens-xc4-golf-shirts-2020 {
+  font-family: "Avenir", Arial, serif;
+  color: #000000;
+}
+
+.in-desktop {
+  display: none !important;
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0 !important;
+}
+
+@media all and (min-width: 768px) {
+  .in-mobile {
+    display: none !important;
+  }
+
+  .in-desktop {
+    display: block !important;
+  }
+}
+@media all and (min-width: 1300px) {
+  .margin-top {
+    margin-top: 150px;
+  }
+}
+.mens-xc4-golf-shirts-2020 .header {
+  background: white;
+}
+
+.mens-xc4-golf-shirts-2020 .box-legend {
+  background: #4b3141;
+  padding: 20px 10px;
+  text-align: center;
+  color: white;
+  line-height: 1.4em;
+  font-family: "Avenir", Arial, serif;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.mens-xc4-golf-shirts-2020 .box-legend p {
+  margin: 0;
+  color: #ffffff;
+}
+.mens-xc4-golf-shirts-2020 .box-legend a {
+  text-decoration: underline;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.mens-xc4-golf-shirts-2020 .table-header {
+  display: table;
+  width: 100%;
+  padding: 23px 0 15px 0;
+}
+.mens-xc4-golf-shirts-2020 .table-header .col {
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+}
+
+.mens-xc4-golf-shirts-2020 .col-menu {
+  width: 11%;
+  text-align: right !important;
+}
+
+.mens-xc4-golf-shirts-2020 .col-locate {
+  width: 9%;
+  text-align: right !important;
+}
+
+.mens-xc4-golf-shirts-2020 .col-brand {
+  width: 60%;
+}
+
+.mens-xc4-golf-shirts-2020 .col-search {
+  width: 9%;
+  text-align: left !important;
+}
+
+.mens-xc4-golf-shirts-2020 .col-bag {
+  width: 11%;
+  text-align: left !important;
+}
+
+.mens-xc4-golf-shirts-2020 .col-menu img, .mens-xc4-golf-shirts-2020 .col-locate img, .mens-xc4-golf-shirts-2020 .col-brand img, .mens-xc4-golf-shirts-2020 .col-search img, .mens-xc4-golf-shirts-2020 .col-bag img {
+  max-width: 28px;
+  height: auto;
+}
+.mens-xc4-golf-shirts-2020 .col-menu img:hover, .mens-xc4-golf-shirts-2020 .col-locate img:hover, .mens-xc4-golf-shirts-2020 .col-brand img:hover, .mens-xc4-golf-shirts-2020 .col-search img:hover, .mens-xc4-golf-shirts-2020 .col-bag img:hover {
+  opacity: 0.8;
+}
+
+.mens-xc4-golf-shirts-2020 .col-locate img {
+  max-width: 16px;
+}
+
+.mens-xc4-golf-shirts-2020 .col-brand img {
+  max-width: 190px;
+}
+
+.mens-xc4-golf-shirts-2020 .col-search img {
+  max-width: 24px;
+}
+
+.mens-xc4-golf-shirts-2020 .col-bag img {
+  max-width: 17px;
+  margin-left: 5px;
+}
+
+@media all and (min-width: 768px) {
+  .mens-xc4-golf-shirts-2020 .table-header {
+    padding: 45px 0 40px 0;
+  }
+
+  .mens-xc4-golf-shirts-2020 .col-menu img {
+    max-width: 36px;
+    margin-top: 3px;
+  }
+
+  .mens-xc4-golf-shirts-2020 .col-locate img {
+    max-width: 27px;
+  }
+
+  .mens-xc4-golf-shirts-2020 .col-brand img {
+    max-width: 370px;
+  }
+
+  .mens-xc4-golf-shirts-2020 .col-search img {
+    max-width: 37px;
+  }
+
+  .mens-xc4-golf-shirts-2020 .col-bag img {
+    max-width: 26px;
+  }
+
+  .mens-xc4-golf-shirts-2020 .box-legend, .mens-xc4-golf-shirts-2020 .box-legend a {
+    font-size: 15px;
+  }
+}
+.image-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+  line-height: 0;
+}
+
+.mens-xc4-golf-shirts-2020 a.btn {
+  background: white;
+  color: black;
+  display: inline-block;
+  border: 1px solid #3BAE49;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "AvenirBook", Arial, serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding: 17px 25px 15px;
+  margin-bottom: 80px;
+}
+.mens-xc4-golf-shirts-2020 a.btn:hover {
+  border: 1px solid #000000;
+}
+
+@media all and (min-width: 768px) {
+  .mens-xc4-golf-shirts-2020 a.btn {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 100px;
+  }
+}
+.mens-xc4-golf-shirts-2020,
+.mens-xc4-golf-shirts-2020 h1,
+.mens-xc4-golf-shirts-2020 h2,
+.mens-xc4-golf-shirts-2020 h3,
+.mens-xc4-golf-shirts-2020 h4,
+.mens-xc4-golf-shirts-2020 h5,
+.mens-xc4-golf-shirts-2020 h6,
+.mens-xc4-golf-shirts-2020 p,
+.mens-xc4-golf-shirts-2020 span,
+.mens-xc4-golf-shirts-2020 a,
+.mens-xc4-golf-shirts-2020 ul,
+.mens-xc4-golf-shirts-2020 li {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Avenir", Arial, serif;
+  font-size: 18px;
+}
+
+.mens-xc4-golf-shirts-2020 h1,
+.mens-xc4-golf-shirts-2020 h2,
+.mens-xc4-golf-shirts-2020 h3,
+.mens-xc4-golf-shirts-2020 h4,
+.mens-xc4-golf-shirts-2020 h5,
+.mens-xc4-golf-shirts-2020 h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.mens-xc4-golf-shirts-2020 h2, .mens-xc4-golf-shirts-2020 h2 span {
+  line-height: 1.4;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+.mens-xc4-golf-shirts-2020 h2 span, .mens-xc4-golf-shirts-2020 h2 span span {
+  color: #3BAE49;
+}
+
+.mens-xc4-golf-shirts-2020 p {
+  margin-bottom: 35px;
+  line-height: 1.3;
+  padding: 0 10px;
+  letter-spacing: 0;
+}
+
+.mens-xc4-golf-shirts-2020 p:last-child {
+  margin-bottom: 0px;
+}
+
+@media all and (min-width: 768px) {
+  .mens-xc4-golf-shirts-2020 h2, .mens-xc4-golf-shirts-2020 h2 span {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+
+  .mens-xc4-golf-shirts-2020 p {
+    font-size: 24px;
+    line-height: 1.4;
+    padding: 0;
+  }
+}
+@media all and (min-width: 992px) {
+  .mens-xc4-golf-shirts-2020 h2, .mens-xc4-golf-shirts-2020 h2 span {
+    font-size: 48px;
+    margin-bottom: 60px;
+  }
+
+  .mens-xc4-golf-shirts-2020 p {
+    font-size: 30px;
+  }
+}
+.box-copy {
+  padding: 60px 15px;
+  text-align: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.box-copy h2 {
+  font-family: "AvenirBook", Arial, serif;
+}
+@media all and (min-width: 768px) {
+  .box-copy {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box-copy {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+.box-first {
+  padding-top: 0 !important;
+}
+
+.box1 {
+  position: relative;
+}
+.box1 .collection {
+  color: white;
+  position: absolute;
+  left: 6%;
+  top: 8%;
+  z-index: 3;
+  max-width: 35%;
+  text-align: center;
+}
+.box1 .collection h3 {
+  font-family: "AvenirBook", Arial, serif;
+  font-size: 100%;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .box1 .collection {
+    left: 7%;
+    top: 9%;
+  }
+  .box1 .collection h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box1 .collection {
+    left: 7%;
+    top: 10%;
+    max-width: 32%;
+  }
+  .box1 .collection h3 {
+    font-size: 32px;
+    margin-bottom: 35px;
+  }
+}
+.box3 {
+  position: relative;
+}
+.box3 .copy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: table;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.box3 .copy .copy-left, .box3 .copy .copy-right {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.box3 .copy .copy-left h3, .box3 .copy .copy-right h3 {
+  font-family: "AvenirBook", Arial, serif;
+  font-size: 16px;
+  color: white;
+  margin-top: -30px;
+  text-shadow: 0px 0px 30px black;
+}
+.box3 .copy .copy-left {
+  width: 48%;
+  padding-left: 15px;
+  padding-right: 75px;
+}
+.box3 .copy .copy-right {
+  width: 52%;
+  padding-right: 15px;
+  padding-left: 75px;
+}
+
+@media screen and (min-width: 768px) {
+  .box3 .copy .copy-left h3, .box3 .copy .copy-right h3 {
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-top: -35px;
+  }
+}
+@media all and (min-width: 992px) {
+  .box3 .copy .copy-left h3, .box3 .copy .copy-right h3 {
+    font-size: 32px;
+    margin-top: -55px;
+  }
+}
+.box4 {
+  background: #e7e4e2;
+}
+.box4 .span3 {
+  text-align: center;
+  padding: 52px 7.75%;
+}
+.box4 .span3.top {
+  padding-bottom: 4%;
+}
+.box4 .span3.bottom {
+  padding-bottom: 52px;
+  padding-top: 52px;
+}
+.box4 .span3 p {
+  margin-bottom: 0;
+}
+.box4 h2 {
+  text-transform: none;
+}
+.box4 h5 {
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #444;
+}
+.box4 .left img,
+.box4 .middle img,
+.box4 .right img {
+  -webkit-box-shadow: 0px 0px 0px 7px #E7E4E2;
+  box-shadow: 0px 0px 0px 7px #E7E4E2;
+}
+
+.margin-bottom100 {
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .box4 .span1.left, .box4 .span1.right {
+    width: 50%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box4 .span3 p {
+    margin-bottom: 22px;
+  }
+}
+.box-to-left {
+  text-align: center;
+  padding: 60px 0;
+}
+.box-to-left .span1 .left,
+.box-to-left .span2 .right {
+  display: block;
+  position: relative;
+}
+.box-to-left .span1 .left {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  z-index: 5;
+  min-width: 125%;
+}
+.box-to-left .span2 .right {
+  border-top: 7px solid #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .box-to-left {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .box-to-left .span2 .right {
+    border-top: none;
+  }
+  .box-to-left .span1 .left {
+    border: 7px solid #ffffff;
+  }
+}
+@media screen and (max-width: 768px) {
+  .box-to-left .span1 .left,
+.box-to-left .span2 .right {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+  }
+  .box-to-left .wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .box-to-left .wrapper .span1 {
+    order: 1;
+  }
+  .box-to-left .wrapper .span2 {
+    order: 2;
+  }
+}
+@media all and (min-width: 992px) {
+  .box-to-left {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+.box-to-right {
+  padding: 60px 0;
+}
+.box-to-right .wrapper .col-right {
+  border-top: 7px solid #fff;
+}
+
+.txt-copy {
+  position: relative;
+}
+.txt-copy .txt {
+  font-family: "AvenirBook", Arial, serif;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 3;
+  color: white;
+  font-size: 16px;
+  line-height: 22px;
+  width: 200px;
+  text-align: left;
+  text-shadow: 0px 0px 10px black;
+}
+
+@media screen and (min-width: 768px) {
+  .box-to-right {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .box-to-right .wrapper {
+    display: table;
+    width: 100%;
+    height: 400px;
+  }
+  .box-to-right .wrapper .col-left,
+.box-to-right .wrapper .col-right {
+    display: table-cell;
+    vertical-align: middle;
+    width: 60%;
+  }
+  .box-to-right .wrapper .col-right {
+    width: 40%;
+    position: relative;
+    left: -50px;
+    border-top: 0;
+  }
+  .box-to-right .wrapper .col-right img {
+    outline: 7px solid white;
+  }
+  .box-to-right .wrapper.to-top .col-left,
+.box-to-right .wrapper.to-top .col-right {
+    vertical-align: top;
+  }
+
+  .txt-copy .txt {
+    top: 35px;
+    left: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 180px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .box-to-right {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .txt-copy .txt {
+    top: 45px;
+    left: 40px;
+  }
+}
+.box6 {
+  padding: 60px 0;
+}
+.box6.signature {
+  position: relative;
+}
+.box6.signature .quote {
+  position: absolute;
+  left: 15px;
+  bottom: 95px;
+  color: white;
+  font-size: 14px;
+  max-width: 180px;
+  line-height: 18px;
+}
+.box6.signature .quote .quote-text {
+  line-height: 20px;
+}
+.box6.signature .quote .quote-icon {
+  font-size: 60px;
+  line-height: 15px;
+  font-family: "NewCenturySchlbkLTStdRoman";
+}
+.box6.signature .quote .quote-gif {
+  margin: 10px 0 15px;
+  max-width: 120px;
+}
+.box6.signature .quote .quote-hashtag a {
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: white;
+}
+.box6.signature .quote .quote-hashtag a:hover {
+  opacity: 0.75;
+}
+
+@media all and (min-width: 768px) {
+  .box6 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .box6.signature .quote {
+    left: 55px;
+    bottom: 185px;
+    font-size: 22px;
+    max-width: 320px;
+    line-height: 20px;
+  }
+  .box6.signature .quote .quote-text {
+    line-height: 35px;
+  }
+  .box6.signature .quote .quote-icon {
+    font-size: 80px;
+    line-height: 25px;
+  }
+  .box6.signature .quote .quote-gif {
+    margin: 15px 0 25px;
+    max-width: 210px;
+  }
+  .box6.signature .quote .quote-hashtag a {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 992px) {
+  .box6 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .box6.signature .quote {
+    left: 50px;
+    bottom: auto;
+    top: 220px;
+    font-size: 24px;
+    max-width: 360px;
+    line-height: 20px;
+  }
+  .box6.signature .quote .quote-text {
+    line-height: 40px;
+  }
+  .box6.signature .quote .quote-icon {
+    font-size: 120px;
+  }
+  .box6.signature .quote .quote-gif {
+    margin: 15px 0 25px;
+    max-width: 230px;
+  }
+  .box6.signature .quote .quote-hashtag a {
+    font-size: 20px;
+  }
+}
+@media all and (min-width: 1300px) {
+  .box6.signature .quote {
+    left: 80px;
+    top: 320px;
+  }
+}
+.box8 {
+  text-align: center;
+  padding: 50px 0 80px 0;
+}
+.box8 .hr {
+  display: none;
+}
+.box8 h2 {
+  text-transform: none;
+}
+.box8 h5 {
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #444;
+  letter-spacing: 3px;
+}
+
+@media all and (min-width: 992px) {
+  .box8 {
+    padding: 60px 15px;
+  }
+  .box8 h2 {
+    margin-bottom: 0;
+  }
+  .box8 .hr {
+    display: block;
+    margin: 80px auto 40px auto;
+    max-width: 100%;
+  }
+}
+@media all and (min-width: 1200px) {
+  .box8 {
+    padding: 60px 15px;
+  }
+  .box8 h2 {
+    margin-bottom: 0;
+  }
+  .box8 .hr {
+    display: block;
+    margin: 80px auto 40px auto;
+    max-width: 100%;
+  }
+}
+.box10 {
+  text-align: center;
+  margin: 25px 0;
+  background: #f7f5f8;
+}
+.box10 img {
+  line-height: 0;
+}
+.box10 h2 {
+  font-size: 41px;
+  margin-bottom: 0;
+}
+.box10 .col-middle {
+  padding: 40px 10px;
+}
+
+@media all and (min-width: 768px) {
+  .box10 {
+    display: table;
+    width: 100%;
+  }
+  .box10 h2 {
+    font-size: 36px;
+    line-height: 0.9em;
+  }
+  .box10 p {
+    font-size: 16px;
+  }
+  .box10 .col-left,
+.box10 .col-middle,
+.box10 .col-right {
+    display: table-cell;
+    width: 33.333333%;
+    vertical-align: middle;
+  }
+}
+@media all and (min-width: 992px) {
+  .box10 {
+    margin: 80px 0;
+  }
+  .box10 h2 {
+    font-size: 60px;
+  }
+  .box10 p {
+    font-size: 18px;
+  }
+  .box10 .col-middle {
+    padding: 40px 25px;
+  }
+}
+@media all and (min-width: 1300px) {
+  .box10 {
+    margin: 100px 0;
+  }
+  .box10 p {
+    font-size: 24px;
+  }
+}
+.box-aerocool {
+  text-align: center;
+  padding: 60px 0;
+}
+.box-aerocool .col {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  line-height: 0;
+}
+.box-aerocool .col.top-right {
+  background-color: #586C8E;
+}
+.box-aerocool .col.top-left {
+  background-color: #62CBC9;
+}
+.box-aerocool .col.bottom-right {
+  background-color: #8DD4BD;
+}
+.box-aerocool .col.bottom-left {
+  background-color: #3BAE49;
+}
+.box-aerocool h2 {
+  font-family: "AvenirBook", Arial, serif;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 0;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-aerocool p {
+  max-width: 150px;
+  font-size: 14px;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box-aerocool .icon {
+  margin: 10px 35%;
+}
+.box-aerocool .icon .image-responsive {
+  margin: 0 auto;
+  max-width: 180px;
+}
+
+@media all and (min-width: 768px) {
+  .box-aerocool {
+    display: table;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .box-aerocool h2 {
+    font-size: 22px;
+    margin-bottom: 0;
+    max-width: 280px;
+  }
+  .box-aerocool p {
+    font-size: 18px;
+    max-width: 280px;
+  }
+  .box-aerocool .icon {
+    margin: 20px 130px;
+  }
+}
+@media all and (min-width: 992px) {
+  .box-aerocool {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+.box4grid {
+  text-align: center;
+  padding: 60px 0 25px;
+}
+.box4grid h3 {
+  margin-bottom: 60px;
+  font-family: "AvenirBook", Arial, serif;
+  font-size: 32px;
+  color: #444;
+}
+.box4grid h3 span {
+  font-size: 32px;
+  color: #3BAE49;
+}
+.box4grid .box-grid {
+  text-align: left;
+  display: inline-table;
+  width: 100%;
+  box-sizing: border-box;
+}
+.box4grid .box-grid .col {
+  display: inline-block;
+  padding: 0 15px;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: text-top;
+}
+.box4grid .box-grid .col h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.box4grid .box-grid .col h4, .box4grid .box-grid .col h5 {
+  font-family: "AvenirBook", Arial, serif;
+  font-weight: lighter;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+@media all and (min-width: 768px) {
+  .box4grid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .box4grid h3 {
+    margin-bottom: 70px;
+  }
+  .box4grid .box-grid .col {
+    width: 20%;
+  }
+}
+@media all and (min-width: 992px) {
+  .box4grid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .box4grid h3 {
+    margin-bottom: 80px;
+  }
+}
+.box4grid-gif {
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box4grid-gif .col {
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+  vertical-align: text-top;
+  width: calc(1/4*100% - (1 - 1/4)*10px);
+}
+.box-last {
+  margin-bottom: 60px;
+}
+
+@media all and (min-width: 768px) {
+  .box-last {
+    margin-bottom: 70px;
+  }
+}
+@media all and (min-width: 992px) {
+  .box-last {
+    margin-bottom: 80px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

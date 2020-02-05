@@ -1,0 +1,69 @@
+.box3 {
+	position: relative;
+	.copy{
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		display: table;
+		text-align: center;
+		vertical-align: middle;
+		width: 100%;
+		height: 100%;
+
+		.copy-left, .copy-right{
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+			box-sizing: border-box;
+			h3{
+				font-family: "AvenirBook", Arial, serif;
+				font-size: 16px;
+				color: white;
+				margin-top: -30px;
+				text-shadow: 0px 0px 30px black;
+			}			
+		}
+		.copy-left{
+			width: 48%;
+			padding-left: 15px;
+			padding-right: 75px;
+		}
+		.copy-right{
+			width: 52%;
+			padding-right: 15px;
+			padding-left: 75px;
+		}
+	}
+}
+
+
+//768px
+@media screen and (min-width: $screen-portrait) {
+	.box3 {
+		.copy{
+			.copy-left, .copy-right{
+				h3{
+					font-size: 22px;
+					letter-spacing: 5px;
+					margin-top: -35px;
+				}		
+			}
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box3 {
+		.copy{
+			.copy-left, .copy-right{
+				h3{
+					font-size: 32px;
+					margin-top: -55px;
+				}		
+			}
+		}
+	}	
+}

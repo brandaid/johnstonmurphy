@@ -1,0 +1,77 @@
+.box-aerocool {
+	text-align: center;
+	.col{
+		display: table-cell;
+		vertical-align: middle;
+		width: 50%;
+		line-height: 0;
+
+		&.green{
+			background-color: #005D63;
+		}
+		&.grey{
+			background-color: #F3F3F3;
+			h2{
+				color: #444;
+			}
+			p{
+				color: #444;
+			}
+		}
+		&.blue{
+			background-color: #62CBC9;
+		}
+	}
+	h2 {
+		font-family: Arial, sans-serif;
+	    font-weight: lighter;
+	    font-size: 16px;
+		color: white;
+		margin-bottom: 25px; 
+		max-width: 150px;
+		letter-spacing: 3px;
+		@include center;
+	}
+	p {
+		max-width: 150px;
+		font-size: 14px;
+		color: white;
+		@include center;
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box-aerocool {
+		display: table;
+		width: 100%;
+
+		h2 {
+		    font-size: 22px;
+		    margin-bottom: 35px;
+		    max-width: 280px;
+		}
+		p {
+			font-size: 18px;
+			max-width: 280px;
+		}
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box-aerocool {
+		h2 {
+			//font-size: 86px;
+		}
+		p {
+			//font-size: 24px;
+			//max-width: 370px;
+		}
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+
+}

@@ -1,0 +1,25 @@
+.#{$month}-2020 a.btn {
+	background: white;
+	color: black;
+	display: inline-block;
+	border: 1px solid $brand-secondary;
+	font-size: 18px;
+	line-height: 18px;
+	font-family: $primary-font-book;
+	font-weight: normal;
+	letter-spacing: 1px;
+	padding: 17px 25px 15px;
+	margin-bottom: 80px;
+	&:hover {
+		border: 1px solid $brand-primary;
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.#{$month}-2020 a.btn {
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 100px;
+	}
+}

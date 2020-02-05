@@ -1,0 +1,120 @@
+.box6 {
+	padding: 60px 0;
+
+	&.signature{
+		position: relative;
+
+		.quote{
+			position: absolute;
+
+			left: 15px;
+			bottom: 95px;
+			color: white;
+			font-size: 14px;
+			max-width: 180px;
+			line-height: 18px;
+			.quote-text {
+				line-height: 20px;
+			}
+			.quote-icon {
+				font-size: 60px;
+				line-height: 15px;
+				font-family:'NewCenturySchlbkLTStdRoman';
+			}
+			.quote-gif {
+				margin: 10px 0 15px;
+				max-width: 120px;
+			}
+			.quote-hashtag a {
+				font-family: Arial, sans-serif;
+	    		font-weight: lighter;
+	    		font-size: 12px;
+	    		letter-spacing: 2px;
+	    		color: white;
+	    		&:hover{
+	    			opacity: .75;
+	    		}
+			}
+		}
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box6 {
+		padding-top: 70px;
+        padding-bottom: 70px;
+
+		&.signature{
+
+			.quote{
+
+				left: 55px;
+				bottom: 185px;
+				font-size: 22px;
+				max-width: 320px;
+				line-height: 20px;
+				.quote-text {
+					line-height: 35px;
+				}
+				.quote-icon {
+					font-size: 80px;
+					line-height: 25px;
+				}
+				.quote-gif {
+					margin: 15px 0 25px;
+					max-width: 210px;
+				}
+				.quote-hashtag a {
+		    		font-size: 20px;
+				}
+			}
+		}		
+	}
+}
+
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box6 {
+		padding-top: 80px;
+        padding-bottom: 80px;
+
+		&.signature{
+
+			.quote{
+				left: 50px;
+				bottom: auto;
+				top: 220px;
+				font-size: 24px;
+				max-width: 360px;
+				line-height: 20px;
+				.quote-text {
+					line-height: 40px;
+				}
+				.quote-icon {
+					font-size: 120px;
+				}
+				.quote-gif {
+					margin: 15px 0 25px;
+					max-width: 230px;
+				}
+				.quote-hashtag a {
+					font-size: 20px;
+				}
+			}
+		}		
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+	.box6 {
+		&.signature{
+			.quote{
+				left: 80px;
+				top: 320px;
+			}
+		}		
+	}
+}

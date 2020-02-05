@@ -1,0 +1,81 @@
+.box-aerocool {
+	text-align: center;
+	padding: 60px 0;
+
+	.col{
+		display: table-cell;
+		vertical-align: middle;
+		width: 50%;
+		line-height: 0;
+
+		&.top-right{
+			background-color: #586C8E;
+		}
+		&.top-left{
+			background-color: #62CBC9;
+		}
+		&.bottom-right{
+			background-color: #8DD4BD;
+		}
+		&.bottom-left{
+			background-color: #3BAE49;
+		}		
+	}
+	h2 {
+		font-family: $primary-font-book;
+	    font-size: 16px;
+		color: white;
+		margin-bottom: 0;
+		max-width: 150px;
+		@include center;
+	}
+	p {
+		max-width: 150px;
+		font-size: 14px;
+		color: white;
+		@include center;
+	}
+	.icon{
+		margin: 10px 35%;
+		.image-responsive{
+			margin: 0 auto;
+			max-width: 180px;
+		}	
+	}
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box-aerocool {
+		display: table;
+		width: 100%;
+		padding-top: 70px;
+		padding-bottom: 70px;
+
+		h2 {
+		    font-size: 22px;
+		    margin-bottom: 0;
+		    max-width: 280px;
+		}
+		p {
+			font-size: 18px;
+			max-width: 280px;
+		}
+		.icon{
+			margin: 20px 130px;
+		}		
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box-aerocool {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+
+}

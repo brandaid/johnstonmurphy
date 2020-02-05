@@ -1,0 +1,17 @@
+.box-last{
+	margin-bottom: 60px 
+}
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.box-last{
+		margin-bottom: 70px;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.box-last{
+		margin-bottom: 80px;
+	}	
+}
