@@ -1,0 +1,44 @@
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+#tec-desktop .tec-icons {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 15px 0;
+}
+#tec-desktop .icon {
+	width: 16.66%;
+	text-align: center;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+#tec-desktop .icon img {
+	max-width: 90px;
+}
+@media all and (min-width:769px) {
+	#tec-mobile {
+		display: none;
+	}
+}
+@media all and (max-width:768px) {
+	#tec-desktop {
+		display: none;
+	}
+	#tec-mobile .item {
+		padding: 0 15px;
+		text-align: center;
+		box-sizing: border-box;
+		width: 250px;
+	}
+	#tec-mobile .item img {
+		max-width: 90px;
+		margin: 0 auto;
+	}
+}
+@media all and (max-width:1600px) {
+	#tec-desktop .tec-icons h3 {
+		min-height: 44px;
+	}
+}
