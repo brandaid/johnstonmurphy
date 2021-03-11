@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'akzidenzgroteskregular';
+    src: url('fonts/akzidenz-grotesk-roman-webfont.woff2') format('woff2'),
+         url('fonts/akzidenz-grotesk-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@charset "UTF-8";
+abbr,
+address,
+article,
+aside,
+audio,
+b,
+blockquote,
+body,
+canvas,
+caption,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+section,
+small,
+span,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+ul,
+var,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+nav li,
+nav ul {
+    margin: 0;
+}
+nav ul,
+ul {
+    list-style: none;
+}
+figure {
+    line-height: 0;
+}
+html {
+    font-family: 'akzidenzgroteskregular';
+    background: #f4f4f4;
+}
+body {
+    background: #f4f4f4;
+}
+.container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.hidden,
+.only-desktop {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .only-mobile {
+        display: none;
+    }
+    .only-desktop {
+        display: block;
+    }
+}
+@media all and (min-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.february-golf,
+.february-golf a,
+.february-golf h1,
+.february-golf h2,
+.february-golf h3,
+.february-golf h4,
+.february-golf h5,
+.february-golf h6,
+.february-golf li,
+.february-golf p,
+.february-golf ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'akzidenzgroteskregular';
+    font-size: 24px;
+}
+.february-golf h1,
+.february-golf h2,
+.february-golf h3,
+.february-golf h4,
+.february-golf h5,
+.february-golf h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'akzidenzgroteskregular';
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.february-golf h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.february-golf p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'akzidenzgroteskregular';
+    color: #000;
+}
+i {
+    font-family: 'akzidenzgroteskregular';
+}
+@media all and (min-width: 768px) {
+    .february-golf h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .february-golf p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.box-collection__shoes span {
+    font-family: 'akzidenzgroteskregular';
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 20px;
+    color: #000;
+}
+@media all and (min-width: 992px) {
+    .february-golf p {
+        max-width: 800px;
+    }
+}
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.box-collection {
+    padding: 50px 0;
+    text-align: center;
+}
+.box-collection__shoes {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.box-columns figure {
+    margin-bottom: 10px;
+}
+.copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.box-two.two-cols {
+    padding-top: 1.5%;
+}
+@media all and (min-width: 768px) {
+    .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .box-two .left,
+    .box-two .right {
+        width: 50%;
+    }
+    .box-two .left {
+        padding-right: 0.75%;
+        box-sizing: border-box;
+    }
+    .box-two .right {
+        padding-left: 0.75%;
+        box-sizing: border-box;
+    }
+    .box-collection {
+        padding: 66px 0 38px 0;
+    }
+    .box-collection h3 {
+        margin-bottom: 25px;
+        font-size: 23px;
+        color: #666666;
+    }
+    .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    .box-collection__shoes li {
+        width: 20%;
+        display: flex;
+    
+    }
+    /* Opacity on images */
+    .hover {
+        background: #212121;
+    }
+    .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .bottom .leftimg, .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.bottom .leftimg {
+    padding-right: 1.5%;
+}
+.bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.box-collection__shoes li {
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.embed-container {
+  position: relative;
+  padding-bottom: 100% !important;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .box-mobile,  .box-two.fourimages, .box-two.comfort .top, .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .box-two.fourimages {
+        display: table;
+    }
+    .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .footwear, .box-two.two-cols {
+        padding-top: 3%;
+    }
+    .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .women-col-mobile {
+        margin-bottom: 50px;
+    }
+}
+
+main.february-golf {
+    max-width: 1600px;
+    margin: 0 auto;
+}
