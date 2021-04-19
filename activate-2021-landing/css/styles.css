@@ -1,0 +1,414 @@
+@font-face {
+    font-family: 'akzidenzgroteskregular';
+    src: url('fonts/akzidenz-grotesk-roman-webfont.woff2') format('woff2'),
+         url('fonts/akzidenz-grotesk-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@charset "UTF-8";
+.activate-2021-landing abbr,
+.activate-2021-landing address,
+.activate-2021-landing article,
+.activate-2021-landing aside,
+.activate-2021-landing audio,
+.activate-2021-landing b,
+.activate-2021-landing blockquote,
+body.activate-2021-landing,
+.activate-2021-landing canvas,
+.activate-2021-landing caption,
+.activate-2021-landing cite,
+.activate-2021-landing code,
+.activate-2021-landing dd,
+.activate-2021-landing del,
+.activate-2021-landing details,
+.activate-2021-landing dfn,
+.activate-2021-landing div,
+.activate-2021-landing dl,
+.activate-2021-landing dt,
+.activate-2021-landing em,
+.activate-2021-landing fieldset,
+.activate-2021-landing figcaption,
+.activate-2021-landing figure,
+.activate-2021-landing footer,
+.activate-2021-landing form,
+.activate-2021-landing h1,
+.activate-2021-landing h2,
+.activate-2021-landing h3,
+.activate-2021-landing h4,
+.activate-2021-landing h5,
+.activate-2021-landing h6,
+.activate-2021-landing header,
+.activate-2021-landing hgroup,
+.activate-2021-landing html,
+.activate-2021-landing i,
+.activate-2021-landing iframe,
+.activate-2021-landing img,
+.activate-2021-landing ins,
+.activate-2021-landing kbd,
+.activate-2021-landing label,
+.activate-2021-landing legend,
+.activate-2021-landing li,
+.activate-2021-landing mark,
+.activate-2021-landing menu,
+.activate-2021-landing nav,
+.activate-2021-landing object,
+.activate-2021-landing ol,
+.activate-2021-landing p,
+.activate-2021-landing pre,
+.activate-2021-landing q,
+.activate-2021-landing samp,
+.activate-2021-landing section,
+.activate-2021-landing small,
+.activate-2021-landing span,
+.activate-2021-landing strong,
+.activate-2021-landing sub,
+.activate-2021-landing summary,
+.activate-2021-landing sup,
+.activate-2021-landing table,
+.activate-2021-landing tbody,
+.activate-2021-landing td,
+.activate-2021-landing tfoot,
+.activate-2021-landing th,
+.activate-2021-landing thead,
+.activate-2021-landing time,
+.activate-2021-landing tr,
+.activate-2021-landing ul,
+.activate-2021-landing var,
+.activate-2021-landing video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.activate-2021-landing article,
+.activate-2021-landing aside,
+.activate-2021-landing details,
+.activate-2021-landing figcaption,
+.activate-2021-landing figure,
+.activate-2021-landing footer,
+.activate-2021-landing header,
+.activate-2021-landing hgroup,
+.activate-2021-landing menu,
+.activate-2021-landing nav,
+.activate-2021-landing section {
+    display: block;
+}
+.activate-2021-landing nav li,
+.activate-2021-landing nav ul {
+    margin: 0;
+}
+.activate-2021-landing nav ul,
+.activate-2021-landing ul {
+    list-style: none;
+}
+.activate-2021-landing figure {
+    line-height: 0;
+}
+.activate-2021-landing {
+    font-family: 'akzidenzgroteskregular';
+    background: #f4f4f4;
+}
+.activate-2021-landing {
+    background: #f4f4f4;
+}
+.activate-2021-landing .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.activate-2021-landing .hidden,
+.activate-2021-landing .only-desktop {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .activate-2021-landing .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .activate-2021-landing .only-mobile {
+        display: none;
+    }
+    .activate-2021-landing .only-desktop {
+        display: block;
+    }
+}
+@media all and (min-width: 992px) {
+    .activate-2021-landing .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .activate-2021-landing .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.activate-2021-landing,
+.activate-2021-landing a,
+.activate-2021-landing h1,
+.activate-2021-landing h2,
+.activate-2021-landing h3,
+.activate-2021-landing h4,
+.activate-2021-landing h5,
+.activate-2021-landing h6,
+.activate-2021-landing li,
+.activate-2021-landing p,
+.activate-2021-landing ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'akzidenzgroteskregular';
+    font-size: 24px;
+}
+.activate-2021-landing h1,
+.activate-2021-landing h2,
+.activate-2021-landing h3,
+.activate-2021-landing h4,
+.activate-2021-landing h5,
+.activate-2021-landing h6 {
+    margin: 0;
+    padding: 0;
+    font-family: 'akzidenzgroteskregular';
+    letter-spacing: 3px;
+    font-weight: lighter;
+}
+.activate-2021-landing h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.activate-2021-landing p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'akzidenzgroteskregular';
+    color: #000;
+}
+.activate-2021-landing i {
+    font-family: 'akzidenzgroteskregular';
+}
+@media all and (min-width: 768px) {
+    .activate-2021-landing h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .february-golf p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.activate-2021-landing .box-collection__shoes span {
+    font-family: 'akzidenzgroteskregular';
+    letter-spacing: 2px;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 20px;
+    color: #000;
+}
+@media all and (min-width: 992px) {
+    .activate-2021-landing p {
+        max-width: 800px;
+    }
+}
+.activate-2021-landing .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+
+.activate-2021-landing .box-collection {
+    padding: 50px 0;
+    text-align: center;
+}
+.activate-2021-landing .box-collection__shoes {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.activate-2021-landing .box-columns figure {
+    margin-bottom: 10px;
+}
+.activate-2021-landing .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.activate-2021-landing .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.activate-2021-landing .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.activate-2021-landing .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.activate-2021-landing .box-two.two-cols {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+@media all and (min-width: 768px) {
+    .activate-2021-landing .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .activate-2021-landing .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .activate-2021-landing .box-two .left,
+    .activate-2021-landing .box-two .right {
+        width: 50%;
+    }
+    .activate-2021-landing .box-two .left {
+        padding-right: 0.75%;
+        box-sizing: border-box;
+    }
+    .activate-2021-landing .box-two .right {
+        padding-left: 0.75%;
+        box-sizing: border-box;
+    }
+    .activate-2021-landing .box-collection {
+        padding: 66px 0 38px 0;
+    }
+    .activate-2021-landing .box-collection h3 {
+        margin-bottom: 25px;
+        font-size: 23px;
+        color: #666666;
+    }
+    .activate-2021-landing .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    .activate-2021-landing .box-collection__shoes li {
+        width: 25%;
+        display: flex;
+    
+    }
+    /* Opacity on images */
+    .activate-2021-landing .hover {
+        background: #212121;
+    }
+    .activate-2021-landing .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .activate-2021-landing .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+    .activate-2021-landing #tec-mobile {
+        display: none;
+    }
+}
+.activate-2021-landing .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.activate-2021-landing .bottom .leftimg, .activate-2021-landing .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.activate-2021-landing .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.activate-2021-landing .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.activate-2021-landing .box-collection__shoes li {
+    box-sizing: border-box;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.activate-2021-landing .embed-container {
+  position: relative;
+  padding-bottom: 100% !important;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.activate-2021-landing .embed-container iframe, .activate-2021-landing .embed-container object, .activate-2021-landing .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .activate-2021-landing .box-mobile, .activate-2021-landing .box-two.fourimages, .activate-2021-landing .box-two.comfort .top, .activate-2021-landing .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .activate-2021-landing .box-two.fourimages {
+        display: table;
+    }
+    .activate-2021-landing .box-two .right {
+        padding-bottom: 1.5%;
+    }
+    .activate-2021-landing .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .activate-2021-landing .footwear, .activate-2021-landing .box-two.two-cols {
+        padding-top: 3%;
+    }
+    .activate-2021-landing .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .activate-2021-landing .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .activate-2021-landing #tec-mobile .item {
+        padding: 0 15px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 250px;
+    }
+    .activate-2021-landing #tec-mobile .item img {
+        margin: 0 auto;
+    }
+    .activate-2021-landing .box-two .right, .activate-2021-landing .spacing {
+        padding-top: 3%;
+    }
+    .activate-2021-landing .carousel {
+        margin-top: 40px;
+    }
+    .activate-2021-landing .carousel h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #666666;
+        text-align: center;
+    }
+}
+
+.activate-2021-landing #tec-mobile span {
+    font-family: 'akzidenzgroteskregular';
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 20px;
+    color: #000;
+}
+
+main.activate-2021-landing {
+    max-width: 1600px;
+    margin: 0 auto;
+}
