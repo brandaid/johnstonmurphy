@@ -1,0 +1,592 @@
+@charset "UTF-8";
+.mcguffey-2021 abbr,
+.mcguffey-2021 address,
+.mcguffey-2021 article,
+.mcguffey-2021 aside,
+.mcguffey-2021 audio,
+.mcguffey-2021 b,
+.mcguffey-2021 blockquote,
+.mcguffey-2021 body,
+.mcguffey-2021 canvas,
+.mcguffey-2021 caption,
+.mcguffey-2021 cite,
+.mcguffey-2021 code,
+.mcguffey-2021 dd,
+.mcguffey-2021 del,
+.mcguffey-2021 details,
+.mcguffey-2021 dfn,
+.mcguffey-2021 div,
+.mcguffey-2021 dl,
+.mcguffey-2021 dt,
+.mcguffey-2021 em,
+.mcguffey-2021 fieldset,
+.mcguffey-2021 figcaption,
+.mcguffey-2021 figure,
+.mcguffey-2021 footer,
+.mcguffey-2021 form,
+.mcguffey-2021 h1,
+.mcguffey-2021 h2,
+.mcguffey-2021 h3,
+.mcguffey-2021 h4,
+.mcguffey-2021 h5,
+.mcguffey-2021 h6,
+.mcguffey-2021 header,
+.mcguffey-2021 hgroup,
+.html-mcguffey-2021,
+.mcguffey-2021 i,
+.mcguffey-2021 iframe,
+.mcguffey-2021 img,
+.mcguffey-2021 ins,
+.mcguffey-2021 kbd,
+.mcguffey-2021 label,
+.mcguffey-2021 legend,
+.mcguffey-2021 li,
+.mcguffey-2021 mark,
+.mcguffey-2021 menu,
+.mcguffey-2021 nav,
+.mcguffey-2021 object,
+.mcguffey-2021 ol,
+.mcguffey-2021 p,
+.mcguffey-2021 pre,
+.mcguffey-2021 q,
+.mcguffey-2021 samp,
+.mcguffey-2021 section,
+.mcguffey-2021 small,
+.mcguffey-2021 span,
+.mcguffey-2021 strong,
+.mcguffey-2021 sub,
+.mcguffey-2021 summary,
+.mcguffey-2021 sup,
+.mcguffey-2021 table,
+.mcguffey-2021 tbody,
+.mcguffey-2021 td,
+.mcguffey-2021 tfoot,
+.mcguffey-2021 th,
+.mcguffey-2021 thead,
+.mcguffey-2021 time,
+.mcguffey-2021 tr,
+.mcguffey-2021 ul,
+.mcguffey-2021 var,
+.mcguffey-2021 video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.mcguffey-2021 article,
+.mcguffey-2021 aside,
+.mcguffey-2021 details,
+.mcguffey-2021 figcaption,
+.mcguffey-2021 figure,
+.mcguffey-2021 footer,
+.mcguffey-2021 header,
+.mcguffey-2021 hgroup,
+.mcguffey-2021 menu,
+.mcguffey-2021 nav,
+.mcguffey-2021 section {
+    display: block;
+}
+.mcguffey-2021 nav li,
+.mcguffey-2021 nav ul {
+    margin: 0;
+}
+.mcguffey-2021 nav ul,
+.mcguffey-2021 ul {
+    list-style: none;
+}
+.mcguffey-2021 figure {
+    line-height: 0;
+}
+/* Webfont: HelveticaNeue-Bold */
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url("fonts/HelveticaNeue-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Bold.woff") format("woff"), url("fonts/HelveticaNeue-Bold.ttf") format("truetype"), url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility; }
+
+/* Webfont: HelveticaNeue-Regular */
+@font-face {
+  font-family: 'HelveticaNeue-Regular';
+  src: url("fonts/HelveticaNeue-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/HelveticaNeue-Regular.woff") format("woff"), url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility; }
+
+.html-mcguffey-2021 {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.body-mcguffey-2021, .html-mcguffey-2021 {
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.mcguffey-2021 .container {
+	max-width: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mcguffey-2021 .hidden,
+.mcguffey-2021 .only-desktop {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .mcguffey-2021 .only-mobile {
+        display: none;
+    }
+    .mcguffey-2021 .only-desktop {
+        display: block;
+    }
+    .mcguffey-2021 .stars {
+    	width: 20%;
+    	margin-bottom: 20px;
+    }
+}
+.mcguffey-2021,
+.mcguffey-2021 h1,
+.mcguffey-2021 h2,
+.mcguffey-2021 h3,
+.mcguffey-2021 h4,
+.mcguffey-2021 h5,
+.mcguffey-2021 h6,
+.mcguffey-2021 li,
+.mcguffey-2021 p,
+.mcguffey-2021 ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+.mcguffey-2021 h1 {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 22px;
+}
+.mcguffey-2021 p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family:'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #666;
+}
+.mcguffey-2021 i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .mcguffey-2021 h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .mcguffey-2021 .box-hero p {
+    	font-size: 0.6em;
+    	color: #555555;
+    	text-align: center;
+    } 
+}
+.mcguffey-2021 .box-hero {
+	position: relative;
+}  
+.mcguffey-2021 .box-hero h2 {
+	font-size: 1em;
+	color: #555555;
+	text-align: center;
+	font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+	font-weight: bold;
+	margin-bottom: 15px;
+} 
+.mcguffey-2021 .caption {
+	position: absolute;
+	top: 13%;
+	left: 8%;
+	z-index: 99999999;
+}
+.mcguffey-2021 .caption p {
+	letter-spacing: 0.5px;
+}
+@media (max-width:950px) and (min-width:768px) {
+	.mcguffey-2021 .caption {
+		left: 3%;
+	} 
+}
+.mcguffey-2021 .responsive-image {
+    width: 100%;
+    height: auto;
+}
+.mcguffey-2021 .box-two-col section, 
+.mcguffey-2021 .testimonials {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.mcguffey-2021 .testimonials span {
+	font-weight: bold;
+	font-size: 14px;
+	color: #555555;
+} 
+.mcguffey-2021 .testimonials p {
+	font-size: 18px;
+	letter-spacing: 0;
+}
+.mcguffey-2021 .hold-animation {
+    -webkit-animation-name: none;
+    animation-name: none;
+    opacity: 0;
+}
+.mcguffey-2021 .section-heigth {
+    padding: 10px !important;
+}
+.mcguffey-2021 .btn {
+	background: white;
+	color: #555555;
+	display: inline-block;
+	border: 2px solid #555555;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding: 17px 35px 15px;
+	font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+}
+.mcguffey-2021 .box-collection {
+    padding: 50px 0;
+    background: #fff;
+    text-align: center;
+}
+@media all and (min-width: 768px) {
+    .mcguffey-2021 .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .mcguffey-2021 #tec-mobile {
+    	display: none;
+    }
+    .mcguffey-2021 .box-collection h3 {
+        margin-bottom: 15px;
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        color: #666666;
+    }
+    .mcguffey-2021 .box-hero {
+    	padding-bottom: 1.5%;
+    }
+    .mcguffey-2021 .box-collection {
+        padding: 66px 0 38px 0;
+    }
+    .mcguffey-2021 .box-two-col {
+        display: flex;
+        align-items: flex-end;
+    }
+    .mcguffey-2021 .box-collection__shoes li {
+        display: inline-flex;
+    }
+    .mcguffey-2021 .box-collection__shoes {
+	    display: flex;
+	}
+    .mcguffey-2021 .box-two-col .left {
+    	width: 34%;
+    }
+    .mcguffey-2021 .box-two-col .right {
+        width: 66%;
+    }
+    .mcguffey-2021 .box-two-col section {
+        padding: 74px 0 0 0;
+    }
+    .mcguffey-2021 .box-two-col section p {
+        font-size: 20px;
+    }
+    .mcguffey-2021 .box-two-col__bottom {
+        align-items: flex-start;
+        background: #f4f4f4;
+    }
+    .mcguffey-2021 .box-two-col__bottom .left figure {
+    	background: #fff;
+    	padding-bottom: 20px;
+    }
+   	.mcguffey-2021 .box-two-col__bottom .left figure img {
+		width: 150%;
+		position: relative;
+		right: 50%;
+   	}	
+    .mcguffey-2021 .box-two-col__bottom-2 .left figure img {
+        right: 0;
+    }
+    .mcguffey-2021 .box-two-col__bottom-2 {
+        margin-top: 1.5%;
+    }
+   .mcguffey-2021 .box-two-col__bottom-2 .left {
+        z-index: 999;
+    }
+    .mcguffey-2021 .box-two-col__bottom .left .btn {
+        margin-top: 50px;
+    }
+    .mcguffey-2021 .box-two-col__bottom-2 .right {
+        position: relative;
+    }
+    .mcguffey-2021 .box-two-col__bottom-2 .right section {
+        position: relative;
+        left: 25%;
+    }
+    .mcguffey-2021 .box-two-col__bottom section {
+        padding: 60px 30px !important;
+    }
+    .mcguffey-2021 .box-two-col__bottom .right section {
+    	max-width: 75%;
+    	background: #fff;
+    	padding: 60px 30px 100px!important;
+    	box-sizing: border-box;
+    }
+    .mcguffey-2021 .box-two-col__bottom .right section p {
+    	font-size: 24px;
+    	font-weight: 400;
+    	color: #555555;
+    	margin: 0 auto;
+    }
+    .mcguffey-2021 .box-two-col__bottom .right section span {
+    	font-size: 14px;
+    	font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    	font-weight: bold;
+    	letter-spacing: 0;
+    	color: #555555;
+    }
+}
+
+@media all and (min-width: 1070px) {
+  .mcguffey-2021 .box-hero p {
+    	font-size: 0.7em;
+    }
+}    	
+@media all and (min-width: 992px) {
+    .mcguffey-2021 .box-two-col section p {
+        font-size: 30px;
+    }
+    .mcguffey-2021 .box-hero h2 {
+	font-size: 1.2em;
+	}
+    .mcguffey-2021 .section-heigth {
+        height: 160px;
+    }
+    .mcguffey-2021 .box-categories {
+        padding: 120px 0;
+    }
+    .mcguffey-2021 .box-two-col__bottom section {
+        padding: 60px 15px !important;
+    }
+    .mcguffey-2021 .box-two-col__bottom section p {
+        max-width: 430px;
+    }
+
+    .mcguffey-2021 .box-two-col__bottom .left section {
+        padding: 20px 15px 40px 15px !important;
+    }
+}
+@media all and (max-width: 767px) {
+	.mcguffey-2021 #tec-mobile .item {
+        padding: 0 15px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 300px;
+    }
+    .mcguffey-2021 .box-hero h2 {
+	    max-width: 100px;
+	    text-align: left;
+	    text-transform: capitalize;
+	} 
+    .mcguffey-2021 .btn {
+    	font-size: 16px;
+    	max-width: 100px;
+    	display: block;
+    	text-align: center;
+    	margin: 40px auto;
+    	padding: 15px 20px 13px;
+    }
+    .mcguffey-2021 #tec-mobile .item img {
+        margin: 0 auto;
+    }
+    .mcguffey-2021 .carousel {
+    	margin-top: 40px;
+    	margin-bottom: 30px;
+    }
+	.mcguffey-2021 .carousel h3 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-weight: bold;
+        color: #626162;
+        text-align: center;
+    }
+    .mcguffey-2021 .stars {
+    	margin-bottom: 10px;
+    }
+}
+.mcguffey-2021 .box-collection__shoes li {
+	padding-left: 7px;
+	padding-right: 7px;
+	box-sizing: border-box;
+}
+.mcguffey-2021 .box-collection__shoes li:first-child {
+	padding-left: 0;
+}
+.mcguffey-2021 .box-collection__shoes li:last-child {
+	padding-right: 0;
+}
+
+@-webkit-keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -10%, 0);
+        transform: translate3d(0, -10%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10%, 0);
+        transform: translate3d(0, 10%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 10%, 0);
+        transform: translate3d(0, 10%, 0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+.mcguffey-2021 #top-box .hold-animation {
+    opacity: 1;
+}
+
+@media all and (min-width: 1300px) {
+	.mcguffey-2021 .box-two-col__bottom .right section p {
+		font-size: 29px;
+		line-height: 50px;
+	}
+	.mcguffey-2021 .box-two-col__bottom .right section span {
+		font-size: 16px;
+	}
+	.mcguffey-2021 .stars {
+		width: 25%;
+	}
+}
+
+@media all and (min-width: 992px) {
+    .mcguffey-2021 #top-box .hold-animation {
+        opacity: 0;
+    }
+    .mcguffey-2021 .animate__fadeInDownTico {
+        -webkit-animation-name: fadeInDownTico;
+        animation-name: fadeInDownTico;
+    }
+    @-webkit-keyframes fadeInDownTico {
+        from {
+            opacity: 1;
+            -webkit-transform: translate3d(0, -10%, 0);
+            transform: translate3d(0, -10%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    @keyframes fadeInDownTico {
+        from {
+            opacity: 1;
+            -webkit-transform: translate3d(0, -10%, 0);
+            transform: translate3d(0, -10%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    .mcguffey-2021 .animate__fadeInUpTico {
+        -webkit-animation-name: fadeInUpTico;
+        animation-name: fadeInUpTico;
+    }
+    @-webkit-keyframes fadeInUpTico {
+        from {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 10%, 0);
+            transform: translate3d(0, 10%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+    @keyframes fadeInUpTico {
+        from {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 10%, 0);
+            transform: translate3d(0, 10%, 0);
+        }
+        to {
+            opacity: 1;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+    }
+}
+
+.mcguffey-2021 .box-collection__shoes a, .mcguffey-2021 #tec-mobile a {
+    line-height: 1.95em;
+    display: block;
+    margin-top: 20px;
+    color: #626162;
+    font-size: 14px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+	font-weight: bold;
+    text-decoration: none;
+}
+.mcguffey-2021 .box-collection__shoes a {
+	font-size: 15px;
+	font-weight: bold;
+}
+.mcguffey-2021 .box-collection__shoes a:hover {
+	opacity: 0.8;
+}
+
