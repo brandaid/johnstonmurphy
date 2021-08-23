@@ -51,7 +51,7 @@
 .banks h6,
 .banks header,
 .banks hgroup,
-html,
+.html-banks,
 .banks i,
 .banks iframe,
 .banks img,
@@ -109,7 +109,7 @@ html,
 .banks figure {
     line-height: 0;
 }
-html {
+.html-banks {
     font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
 }
 
@@ -473,7 +473,6 @@ main.banks {
     }
 }
 
-//320px
 @media screen and (max-width: 320px) {
     .banks .box1 h2, .banks .trufoam h2 {
             font-size: 1.583em;
