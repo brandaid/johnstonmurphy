@@ -1,0 +1,1150 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.barret abbr,
+.barret address,
+.barret article,
+.barret aside,
+.barret audio,
+.barret b,
+.barret blockquote,
+.barret,
+.barret canvas,
+.barret caption,
+.barret cite,
+.barret code,
+.barret dd,
+.barret del,
+.barret details,
+.barret dfn,
+.barret div,
+.barret dl,
+.barret dt,
+.barret em,
+.barret fieldset,
+.barret figcaption,
+.barret figure,
+.barret footer,
+.barret form,
+.barret h1,
+.barret h2,
+.barret h3,
+.barret h4,
+.barret h5,
+.barret h6,
+.barret header,
+.barret hgroup,
+.html-barret,
+.barret i,
+.barret iframe,
+.barret img,
+.barret ins,
+.barret kbd,
+.barret label,
+.barret legend,
+.barret li,
+.barret mark,
+.barret menu,
+.barret nav,
+.barret object,
+.barret ol,
+.barret p,
+.barret pre,
+.barret q,
+.barret samp,
+.barret section,
+.barret small,
+.barret span,
+.barret strong,
+.barret sub,
+.barret summary,
+.barret sup,
+.barret table,
+.barret td,
+.barret tfoot,
+.barret th,
+.barret thead,
+.barret time,
+.barret tr,
+.barret ul,
+.barret var,
+.barret video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.barret article,
+.barret aside,
+.barret details,
+.barret figcaption,
+.barret figure,
+.barret hgroup,
+.barret section {
+    display: block;
+}
+.barret ul {
+    list-style: none;
+}
+.barret figure {
+    line-height: 0;
+}
+.html-barret {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.barret .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .barret .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .barret .only-mobile {
+        display: none;
+    }
+    .barret .only-desktop {
+        display: block;
+    }
+    .barret .box3 .span4 {
+        margin: 0 auto;
+    }
+    .barret .box3.someair .span4, .barret .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 78%;
+    }
+     .barret .box3 .span5 {
+        max-width: 64%;
+     }
+}
+@media all and (min-width: 992px) {
+    .barret .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .barret .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.barret,
+.barret a,
+.barret h1,
+.barret h2,
+.barret h3,
+.barret h4,
+.barret h5,
+.barret h6,
+.barret li,
+.barret p,
+.barret ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.barret h2 {
+    font-size: 65px;
+}
+.barret h3 {
+    font-size: 25.5px;
+    line-height: 30.96px;
+    letter-spacing: 1px;
+}
+.barret h4 {
+    font-size: 27px;
+}
+.barret h1,
+.barret h2,
+.barret h3,
+.barret h4,
+.barret h5,
+.barret h6 {
+    margin: 0;
+    padding: 0;
+}
+.barret h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.barret p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #000;
+}
+.barret i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .barret h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .barret p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.barret .box-collection__shoes span, .barret .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 18px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .barret p {
+        max-width: 800px;
+    }
+    .barret .box-collection__shoes span, .barret .carousel span {
+        font-size: 20.83px;
+    }
+}
+.barret .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.barret .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.barret .box-columns figure {
+    margin-bottom: 10px;
+}
+.barret .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.barret .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.barret .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.barret .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.barret .box-two.two-cols {
+    padding-top: 5%;
+}
+@media all and (min-width: 768px) {
+    .barret .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .barret .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .barret .box-two .left,
+    .barret .box-two .right {
+        width: 50%;
+    }
+
+    .barret .box-two .left {
+        padding-right: 5.82%;
+        box-sizing: border-box;
+    }
+    .barret .box-two .right {
+        padding-left: 7.15%;
+        box-sizing: border-box;
+        z-index: 9999;
+    }
+    .barret .barret .videoandbtn{
+        z-index: 9999;
+    }
+    .barret .box-collection, .barret #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .barret .box-collection h3, .barret .carousel h3, .barret .car2 h3 {
+        margin-bottom: 45px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .barret .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .barret .hover {
+        background: #212121;
+    }
+    .barret .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .barret .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.barret .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .barret .bottom .leftimg, .barret .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.barret .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.barret .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.barret .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.barret .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.barret .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.barret .embed-container {
+  position: relative;
+  padding-bottom: 66.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.barret .embed-container iframe, .barret .embed-container object, .barret .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .barret .box-mobile, .barret .box-two.fourimages, .barret .box-two.comfort .top, .barret .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .barret .box-two.fourimages {
+        display: table;
+    }
+    .barret .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .barret .footwear, .barret .box-two.two-cols {
+        padding-top: 7%;
+    }
+    .barret .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .barret .women-col-mobile {
+        margin-bottom: 50px;
+    }
+}
+
+main.barret {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.barret .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.barret .box1 {
+    position: relative;
+    }
+.barret .box1 h2 {
+        margin-bottom: 0;
+    }
+.barret .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.barret .box1 .span1, .barret .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.barret .box1 .table .span1, .barret .box1 .table .span2 {
+    width: 100%;
+}
+.barret .box1 .table .span9 {
+    width: 50%;
+}
+.barret .box1 .circle-one-day {
+    display: block;
+    text-align: left;
+    margin-left: 21%;
+    margin-right: auto;
+    margin-top: 37%;
+}
+.barret .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #fff;
+}
+.barret .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+.barret .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.barret .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.barret .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .barret h2 {
+        font-size: 54px;
+    }
+    .barret h3 {
+        font-size: 21.2px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .barret h2 {
+        font-size: 43px;
+    }
+    .barret h3 {
+        font-size: 16.5px;
+    }
+}
+
+//320px
+@media screen and (max-width: 320px) {
+    .barret .box1 h2, .barret .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .barret .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+
+    .barret .videoandbtn .theright {
+        width: 78%;
+    }
+    .barret .theleft {
+        align-self: center;
+    }
+}
+.barret .videoandbtn {
+    display: flex;
+}
+/* FIRST TWO COL BOX */
+/* .tru .left, .tru figure, .tru .right {
+    display: flex;
+}*/
+.barret .trufoam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.barret .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+}
+.barret .trufoam .trufoamlogo {
+    margin-bottom: 4.5%;
+}
+.barret .trufoam h3 {
+    text-transform: uppercase;
+    line-height: 30.96px;
+    padding-left: 5px;
+}
+
+.barret .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.barret .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 35px 15px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.barret .btn:hover {
+    opacity: 0.8;
+}
+.barret .trufoam .btn {
+    align-self: baseline;
+    margin-top: auto;
+}
+@media all (max-width: 767px) {
+    .barret .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }  
+}
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .barret .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .barret .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+    .barret .trufoam h4 {
+        font-size: 25px;
+        line-height: 30.55px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .barret .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .barret .trufoam h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .barret .trufoam h4 {
+        font-size: 22px;
+        line-height: 26.88px;
+    }
+    .barret .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .barret .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+    .barret .trufoam h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+     .barret .trufoam h4 {
+        font-size: 17.4px;
+        line-height: 21.25px;
+     }
+     .barret .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.barret .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.barret .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.barret .box4 {
+    padding-top: 0;
+}
+.barret .box3 .btn {
+    position: relative;
+}
+.barret .get-move {
+    display: flex;
+    align-items: center;
+}
+.barret .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.barret .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.barret .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.barret .box5, .barret #tec-mobile,  .barret .videoandbtn, .barret .rock {
+    position: relative;
+}
+@media screen and (min-width: 1401px){
+    .barret .box5, .barret #tec-mobile, .barret .videoandbtn, .barret .rock {
+        bottom: 500px;
+    }
+    .barret .rock {
+        bottom: 590px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .barret .white {
+        font-size: 48px;
+    }
+    .barret .box5, .barret #tec-mobile,  .barret .videoandbtn{
+    bottom: 470px;
+    }
+    .barret .rock {
+        bottom: 554.6px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .barret .white {
+        font-size: 35px;
+    }
+    .barret .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1249px){
+    .barret .box5, .barret #tec-mobile,  .barret .videoandbtn{
+        bottom: 470px;
+    }
+    .barret .rock {
+        bottom: 554.6px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1125px){
+    .barret .box5, .barret #tec-mobile,  .barret .videoandbtn {
+        bottom: 380px;
+    }
+    .barret .rock {
+        bottom: 448.4px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .barret .white {
+            font-size: 30px;
+        }
+        .barret .white {
+            font-size: 27px;
+        }
+        .barret .box5, .barret #tec-mobile,  .barret .videoandbtn {
+            bottom: 300px;
+        }
+        .barret .rock {
+           bottom: 354px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .barret .box4 .span4 {
+        padding-right: 5%;
+    }
+    .barret .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .barret .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.barret .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.barret .xc-container {
+    margin-bottom: 6%;
+}
+.barret .xc-container .cell-banner {
+    text-align: left;
+}
+.barret .xc-logo {
+    margin-bottom: 3%;
+}
+.barret .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .barret .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .barret .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .barret .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .barret .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .barret .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .barret .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .barret .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .barret .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .barret .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .barret .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .barret .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .barret .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .barret .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .barret .white {
+        font-size: 20px;
+    }
+    .barret .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .barret .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .barret .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .barret .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .barret .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .barret .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .barret .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .barret .white {
+        font-size: 24px;
+    }
+    .barret .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .barret .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .barret .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .barret .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .barret .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .barret .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .barret .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .barret .white {
+        font-size: 28px;
+    }
+    .barret .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .barret .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .barret .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .barret .xc-logo {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .barret .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .barret .xc-logo {
+        width: 100px;
+    }
+    .barret .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .barret .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .barret .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .barret .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .barret .white {
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 767px){
+    .barret .only-desktop, .barret .box1 .circle-one-day {
+        display: none;
+    }
+    .barret .span3 h3 {
+        font-size: 12.5px;
+        text-transform: uppercase;
+    }
+    .barret .box1 {
+        position: relative;
+    }
+    .barret .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .barret .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .barret .box1 .span3 {
+        position: absolute;
+        bottom: 12%;
+        left: 10%;
+    }
+    .barret .box1 .span3 h2 {
+        color: #fff;
+        font-size: 32px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .barret .tru, .barret .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .barret .tru .left {
+        order: 2;
+    }
+    .barret .tru .right {
+        order: 1;
+    }
+    .barret .trufoam .trufoamlogo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 6%;
+    }
+    .barret .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .barret .trufoam h3, .barret h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .barret .trufoam h4, .barret h4 {
+        font-size: 19.5px;
+        line-height: 24.5px;
+        margin-top: 6%;
+    }
+    .barret .trufoambanks {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .barret .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .barret .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .barret .box5.bigcontainer, .barret .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .barret .box4, .barret .box5 {
+        margin-top: 3%;
+    }
+    .barret .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .barret .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .barret .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .barret #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+        width: 250px;
+    }
+
+    .barret .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+        line-height: 1.95em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .barret .air {
+        margin-bottom: 14%;      
+    }
+    .barret .gifimage .right {
+        margin-top: 5%;
+    }
+    .barret .gifimage .left {
+        margin-top: 5%;
+    }
+    .barret #tec-mobile {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .barret #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .barret .xcmobile {
+        margin-bottom: 8%;
+    }
+    .barret .xc-container .btn {
+        display: none;
+    }
+    .barret .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .barret {
+      overflow-x: hidden;
+    }
+    .barret {
+      position: relative
+    }
+    .barret .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .barret .videoandbtn .btn {
+        background: #fff;
+    }
+    .barret .box5 {
+        padding-top: 10%;
+    }
+    .barret .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .barret .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .barret .rock {
+        bottom: 27px;
+    }
+    .barret  .righty img {
+    padding-top: 20px;
+    }
+     .barret .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .barret .videoandbtn .theright {
+        order: 1;
+    }   
+     .barret .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+}
+
+@media screen and (min-width: 768px){ 
+    .barret .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .barret .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .barret .lefty {
+        width: 64%;
+    }
+    .barret .righty {
+        width: 44.5%;
+    }
+    .barret .box5 .span4 {
+        margin-top: 30%;
+    }
+    .barret .xc-flex {
+        display: none;
+    }
+    .barret .xc-container {
+        margin-bottom: 10%; 
+    }
+    .barret .box-collection, .barret #tec-mobile {
+        padding: 6% 0;
+        text-align: center;
+    }
+    .barret .box-collection, .barret #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .barret .trufoam .btn {
+        margin-top: 11%;
+        margin-bottom: 6%;
+    }
+    .barret .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .barret .rock .box-two {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .barret  .righty {
+        right: 8.5%;
+        position: relative;
+    }
+}
+@media  screen and (min-width: 326px) and (max-width: 767px){ 
+    .barret .trufoam .btn {
+        position: absolute;
+        top: 40%;
+        background: #fff;
+    }
+}
+
