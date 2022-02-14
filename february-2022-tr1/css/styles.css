@@ -408,11 +408,9 @@ main.tr1 {
 }
 
 /* HERO BOX */
-.tr1 .hero {
-    margin-bottom: 1.8%;
-}
 .tr1 .box1 {
     position: relative;
+    margin-bottom: 1.8%;
     }
 .tr1 .box1 h2 {
         margin-bottom: 0;
