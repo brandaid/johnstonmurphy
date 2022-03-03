@@ -1,0 +1,1285 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.mcguffey abbr,
+.mcguffey address,
+.mcguffey article,
+.mcguffey aside,
+.mcguffey audio,
+.mcguffey b,
+.mcguffey blockquote,
+.mcguffey,
+.mcguffey canvas,
+.mcguffey caption,
+.mcguffey cite,
+.mcguffey code,
+.mcguffey dd,
+.mcguffey del,
+.mcguffey details,
+.mcguffey dfn,
+.mcguffey div,
+.mcguffey dl,
+.mcguffey dt,
+.mcguffey em,
+.mcguffey fieldset,
+.mcguffey figcaption,
+.mcguffey figure,
+.mcguffey footer,
+.mcguffey form,
+.mcguffey h1,
+.mcguffey h2,
+.mcguffey h3,
+.mcguffey h4,
+.mcguffey h5,
+.mcguffey h6,
+.mcguffey header,
+.mcguffey hgroup,
+.html-mcguffey,
+.mcguffey i,
+.mcguffey iframe,
+.mcguffey img,
+.mcguffey ins,
+.mcguffey kbd,
+.mcguffey label,
+.mcguffey legend,
+.mcguffey li,
+.mcguffey mark,
+.mcguffey menu,
+.mcguffey nav,
+.mcguffey object,
+.mcguffey ol,
+.mcguffey p,
+.mcguffey pre,
+.mcguffey q,
+.mcguffey samp,
+.mcguffey section,
+.mcguffey small,
+.mcguffey span,
+.mcguffey strong,
+.mcguffey sub,
+.mcguffey summary,
+.mcguffey sup,
+.mcguffey table,
+.mcguffey td,
+.mcguffey tfoot,
+.mcguffey th,
+.mcguffey thead,
+.mcguffey time,
+.mcguffey tr,
+.mcguffey ul,
+.mcguffey var,
+.mcguffey video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.mcguffey article,
+.mcguffey aside,
+.mcguffey details,
+.mcguffey figcaption,
+.mcguffey figure,
+.mcguffey hgroup,
+.mcguffey section {
+    display: block;
+}
+.mcguffey ul {
+    list-style: none;
+}
+.mcguffey figure {
+    line-height: 0;
+}
+.html-mcguffey {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.mcguffey .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .mcguffey .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .mcguffey .only-mobile {
+        display: none!important;
+    }
+    .mcguffey .only-desktop {
+        display: block;
+    }
+    .mcguffey .box3 .span4 {
+        margin: 0 auto;
+    }
+    .mcguffey .box3.someair .span4, .mcguffey .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 78%;
+    }
+     .mcguffey .box3 .span5 {
+        max-width: 64%;
+     }
+}
+@media all and (min-width: 992px) {
+    .mcguffey .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .mcguffey .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.mcguffey {
+    overflow-x: hidden;
+}
+.mcguffey,
+.mcguffey a,
+.mcguffey h1,
+.mcguffey h2,
+.mcguffey h3,
+.mcguffey h4,
+.mcguffey h5,
+.mcguffey h6,
+.mcguffey li,
+.mcguffey p,
+.mcguffey ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.mcguffey h2 {
+    font-size: 65px;
+}
+.mcguffey h3 {
+    font-size: 25.5px;
+    line-height: 30.96px;
+    letter-spacing: 1px;
+}
+.mcguffey h4 {
+    font-size: 27px;
+}
+.mcguffey h1,
+.mcguffey h2,
+.mcguffey h3,
+.mcguffey h4,
+.mcguffey h5,
+.mcguffey h6 {
+    margin: 0;
+    padding: 0;
+}
+.mcguffey h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.mcguffey p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #000;
+}
+.mcguffey i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .mcguffey h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .mcguffey p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.mcguffey .box-collection__shoes span, .mcguffey .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 18px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .mcguffey p {
+        max-width: 800px;
+    }
+    .mcguffey .box-collection__shoes span, .mcguffey .carousel span {
+        font-size: 20.83px;
+    }
+}
+.mcguffey .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.mcguffey .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.mcguffey .box-columns figure {
+    margin-bottom: 10px;
+}
+.mcguffey .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.mcguffey .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.mcguffey .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.mcguffey .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.mcguffey .box-two.two-cols {
+    padding-top: 4%;
+}
+.mcguffey .sec {
+    color: #839097;
+    font-size: 18px;
+    margin-bottom: 10%;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.29px;
+    text-align: center;
+}
+@media all and (max-width: 383px) {
+    .mcguffey .sec, .mcguffey h3 {
+        font-size: 14px;
+    }
+} 
+@media all and (min-width: 384px) and (max-width: 429px) {
+    .mcguffey .sec, .mcguffey h3 {
+        font-size: 18px;
+    }
+}
+@media all and (min-width: 430px) and (max-width: 530px) {
+    .mcguffey .sec, .mcguffey h3 {
+        font-size: 20px;
+    }
+}
+@media all and (min-width: 531px) and (max-width: 767px) {
+    .mcguffey .sec, .mcguffey h3 {
+        font-size: 25px;
+    }
+} 
+.mcguffey .boxtwo {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media all and (min-width: 768px) {
+    .mcguffey .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .mcguffey .sec {
+        margin-bottom: 8%;
+    }
+    .mcguffey .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .mcguffey .box-two .left,
+    .mcguffey .box-two .right {
+        width: 50%;
+    }
+    .mcguffey .box-two.bigcontainer2 .left, .mcguffey .box-two.bigcontainer3 .right {
+        width: 30%;
+    } 
+    .mcguffey .box-two.bigcontainer2 .right, .mcguffey .box-two.bigcontainer3 .left {
+        width: 70%;
+    }
+    .mcguffey .box-two.bigcontainer3 .left {
+        padding-left: 30px;
+    }
+    .mcguffey .box-two.bigcontainer2 .right {
+        padding-right: 30px;
+    }
+    .mcguffey .box-two .left {
+        box-sizing: border-box;
+    }
+    .mcguffey .box-two .up {
+        position: relative;
+        bottom: 200px;
+    }
+    .mcguffey .container4, .mcguffey .bigcontainer3 {
+        position: relative;
+        bottom: 170px;
+    }
+    .mcguffey .box-two .waterfoam {
+        max-width: 450px;
+    }
+    .mcguffey .box-two .right {
+        box-sizing: border-box;
+        z-index: 9999;
+    }
+    .mcguffey .mcguffey .videoandbtn{
+        z-index: 9999;
+    }
+    .mcguffey .box-collection, .mcguffey #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .mcguffey .box-collection h3, .mcguffey .carousel h3, .mcguffey .car2 h3 {
+        margin-bottom: 45px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .mcguffey .sec {
+        font-size: 45.83px;
+        line-height: 40px;
+    }
+    .mcguffey .tru .left .sec {
+        text-align: right;
+        padding-right: 0;
+    }
+    .mcguffey .tru .right .sec {
+        text-align: left;
+        padding-left: 0;
+    }
+    .mcguffey .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .mcguffey .hover {
+        background: #212121;
+    }
+    .mcguffey .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .mcguffey .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.mcguffey .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .mcguffey .bottom .leftimg, .mcguffey .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.mcguffey .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.mcguffey .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.mcguffey .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.mcguffey .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.mcguffey .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.mcguffey .embed-container {
+  position: relative;
+  padding-bottom: 81.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.mcguffey .embed-container iframe, .mcguffey .embed-container video, .mcguffey .embed-container object, .mcguffey .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .mcguffey .box-mobile, .mcguffey .box-two.fourimages, .mcguffey .box-two.comfort .top, .mcguffey .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .mcguffey .box-two.fourimages {
+        display: table;
+    }
+    .mcguffey .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .mcguffey .footwear, .mcguffey .box-two.two-cols {
+        padding-top: 7%;
+    }
+    .mcguffey .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .mcguffey .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .mcguffey .bigcontainer3.tru .right {
+        display: inline-flex;
+    }
+}
+
+main.mcguffey {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.mcguffey .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.mcguffey .box1 {
+    position: relative;
+    }
+.mcguffey .box1 h2 {
+        margin-bottom: 0;
+    }
+.mcguffey .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.mcguffey .box1 .span1, .mcguffey .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.mcguffey .box1 .table .span1, .mcguffey .box1 .table .span2 {
+    width: 100%;
+}
+.mcguffey .box1 .table .span9 {
+    width: 50%;
+}
+.mcguffey .box1 .circle-one-day {
+    display: block;
+    text-align: left;
+    margin-left: 21%;
+    margin-right: auto;
+    margin-top: 37%;
+}
+.mcguffey .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #fff;
+}
+.mcguffey .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+.mcguffey .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.mcguffey .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.mcguffey .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .mcguffey h2 {
+        font-size: 54px;
+    }
+    .mcguffey h3 {
+        font-size: 21.2px;
+    }
+    .mcguffey .sec h3 {
+        font-size: 37px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .mcguffey h2 {
+        font-size: 43px;
+    }
+    .mcguffey h3 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .mcguffey .box1 h2, .mcguffey .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+.mcguffey .box1 {
+    margin-bottom: 10%;
+}
+@media screen and (min-width: 768px) {
+    .mcguffey .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .mcguffey .embed-container {
+        padding-bottom: 56.25%;
+    }
+    .mcguffey .bigcontainer2 {
+        padding-left: 6.25%;
+    }
+    .mcguffey .box-two.two-cols.bigcontainer3 {
+        padding-right: 6.25%;
+        padding-top: 1.5%;
+    }
+    .mcguffey .box1 {
+        margin-bottom: 7%;
+    }
+    .mcguffey .videoandbtn .theright {
+        width: 78%;
+    }
+    .mcguffey .theleft {
+        align-self: center;
+    }
+}
+.mcguffey .videoandbtn {
+    display: flex;
+}
+/* FIRST TWO COL BOX */
+/* .tru .left, .tru figure, .tru .right {
+    display: flex;
+}*/
+.mcguffey .trufoam {
+    display: flex;
+    flex-direction: column;
+}
+.mcguffey .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+}
+.mcguffey .trufoam .trufoamlogo {
+    margin-bottom: 4.5%;
+}
+
+.mcguffey .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.mcguffey .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 35px 15px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.mcguffey .btn:hover {
+    opacity: 0.8;
+}
+
+.mcguffey .left .trufoam .btn {
+    align-self: flex-end;
+}
+.mcguffey .trufoam .btn {
+    margin-top: auto;
+}
+.mcguffey .right .trufoam .btn {
+    align-self: baseline;
+}
+
+
+@media all (max-width: 767px) {
+    .mcguffey .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }  
+}
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .mcguffey .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .mcguffey .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+    .mcguffey h3, .mcguffey .trufoam .sec, .mcguffey .sec {
+        font-size: 36px;    
+    } 
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .mcguffey .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .mcguffey h3, .mcguffey .trufoam .sec, .mcguffey .sec {
+        font-size: 28px;    
+    } 
+    .mcguffey .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .mcguffey .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+     .mcguffey .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.mcguffey .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.mcguffey .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.mcguffey .box4 {
+    padding-top: 0;
+}
+.mcguffey .box3 .btn {
+    position: relative;
+}
+.mcguffey .get-move {
+    display: flex;
+    align-items: center;
+}
+.mcguffey .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.mcguffey .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.mcguffey .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.mcguffey .box5, .mcguffey #tec-mobile,  .mcguffey .videoandbtn, .mcguffey .rock {
+    position: relative;
+}
+@media screen and (min-width: 1401px){
+    .mcguffey .box5, .mcguffey #tec-mobile, .mcguffey .videoandbtn, .mcguffey .rock {
+        bottom: 500px;
+    }
+    .mcguffey .rock {
+        bottom: 590px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .mcguffey .white {
+        font-size: 48px;
+    }
+    .mcguffey .box5, .mcguffey #tec-mobile,  .mcguffey .videoandbtn{
+    bottom: 470px;
+    }
+    .mcguffey .rock {
+        bottom: 554.6px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .mcguffey .white {
+        font-size: 35px;
+    }
+    .mcguffey .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1249px){
+    .mcguffey .box5, .mcguffey #tec-mobile,  .mcguffey .videoandbtn{
+        bottom: 470px;
+    }
+    .mcguffey .rock {
+        bottom: 554.6px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1125px){
+    .mcguffey .box5, .mcguffey #tec-mobile,  .mcguffey .videoandbtn {
+        bottom: 380px;
+    }
+    .mcguffey .rock {
+        bottom: 448.4px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .mcguffey .white {
+            font-size: 30px;
+        }
+        .mcguffey .white {
+            font-size: 27px;
+        }
+        .mcguffey .box5, .mcguffey #tec-mobile,  .mcguffey .videoandbtn {
+            bottom: 300px;
+        }
+        .mcguffey .rock {
+           bottom: 354px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .mcguffey .box4 .span4 {
+        padding-right: 5%;
+    }
+    .mcguffey .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .mcguffey .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.mcguffey .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.mcguffey .xc-container {
+    margin-bottom: 6%;
+}
+.mcguffey .xc-container .cell-banner {
+    text-align: left;
+}
+.mcguffey .xc-logo {
+    margin-bottom: 3%;
+}
+.mcguffey .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .mcguffey .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .mcguffey .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .mcguffey .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .mcguffey .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .mcguffey .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .mcguffey .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .mcguffey .white {
+        font-size: 20px;
+    }
+    .mcguffey .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .mcguffey .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .mcguffey .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .mcguffey .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .mcguffey .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .mcguffey .white {
+        font-size: 24px;
+    }
+    .mcguffey .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .mcguffey .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .mcguffey .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .mcguffey .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .mcguffey .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .mcguffey .white {
+        font-size: 28px;
+    }
+    .mcguffey .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .mcguffey .xc-logo {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .mcguffey .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .mcguffey .xc-logo {
+        width: 100px;
+    }
+    .mcguffey .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .mcguffey .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .mcguffey .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .mcguffey .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .mcguffey .white {
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 767px){
+    .mcguffey .only-desktop, .mcguffey .box1 .circle-one-day {
+        display: none;
+    }
+    .mcguffey .span3 h3 {
+        font-size: 12.5px;
+        text-transform: uppercase;
+    }
+    .mcguffey .box1 {
+        position: relative;
+    }
+    .mcguffey .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .mcguffey .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .mcguffey .box1 .span3 {
+        position: absolute;
+        bottom: 12%;
+        left: 10%;
+    }
+    .mcguffey .box1 .span3 h2 {
+        color: #fff;
+        font-size: 32px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .mcguffey .tru, .mcguffey .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .mcguffey .bigcontainer2.tru .left {
+        order: 1;
+        display: inline-flex;
+    }
+     .mcguffey .bigcontainer3 .btn {
+        margin-top: 20%;
+     }
+    .mcguffey .bigcontainer2 .sec {
+        margin-top: 10%;
+    }
+    .mcguffey .bigcontainer3 .right {
+        order: 2;
+    }
+    .mcguffey .lastcontainer {
+        margin-top: 20px;
+    }
+    .mcguffey .btn-container {
+        width: 38.5%;
+        display: inline-block;
+        text-align: center;
+    }
+    .mcguffey .bigcontainer2 .left figure, .mcguffey .bigcontainer3 .right figure {
+        width: 61.5%;
+    }
+    .mcguffey .bigcontainer2.tru .right {
+        order: 2;
+    }
+    .mcguffey .trufoam .trufoamlogo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 6%;
+    }
+ 
+    .mcguffey .trufoambanks {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .mcguffey .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .mcguffey .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .mcguffey .box5.bigcontainer, .mcguffey .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mcguffey .box4, .mcguffey .box5 {
+        margin-top: 3%;
+    }
+    .mcguffey .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .mcguffey .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .mcguffey .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .mcguffey #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+        width: 250px;
+    }
+
+    .mcguffey .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+        line-height: 1.95em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .mcguffey .air {
+        margin-bottom: 14%;      
+    }
+    .mcguffey .gifimage .right {
+        margin-top: 5%;
+    }
+    .mcguffey .gifimage .left {
+        margin-top: 5%;
+    }
+    .mcguffey #tec-mobile {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .mcguffey #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .mcguffey .xcmobile {
+        margin-bottom: 8%;
+    }
+    .mcguffey .xc-container .btn {
+        display: none;
+    }
+    .mcguffey .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .mcguffey {
+      overflow-x: hidden;
+    }
+    .mcguffey {
+      position: relative
+    }
+    .mcguffey .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .mcguffey .videoandbtn .btn {
+        background: #fff;
+    }
+    .mcguffey .box5 {
+        padding-top: 10%;
+    }
+    .mcguffey .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .mcguffey .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .mcguffey .rock {
+        bottom: 27px;
+    }
+    .mcguffey  .righty img {
+    padding-top: 20px;
+    }
+     .mcguffey .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .mcguffey .videoandbtn .theright {
+        order: 1;
+    }   
+     .mcguffey .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+}
+
+@media screen and (min-width: 768px){ 
+    .mcguffey .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .mcguffey .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .mcguffey .lefty {
+        width: 64%;
+    }
+    .mcguffey .righty {
+        width: 44.5%;
+    }
+    .mcguffey .box5 .span4 {
+        margin-top: 30%;
+    }
+    .mcguffey .xc-flex {
+        display: none;
+    }
+    .mcguffey .xc-container {
+        margin-bottom: 10%; 
+    }
+    .mcguffey .box-collection, .mcguffey #tec-mobile {
+        padding: 6% 0;
+        text-align: center;
+    }
+    .mcguffey .box-collection, .mcguffey #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .mcguffey .trufoam .btn {
+        margin-bottom: 8%;
+    }
+    .mcguffey .bigcontainer3 .trufoam .btn {
+        margin-top: 4.5%;
+        margin-bottom: 6%;
+    }
+    .mcguffey .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .mcguffey .rock .box-two {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .mcguffey  .righty {
+        right: 8.5%;
+        position: relative;
+    }
+    .mcguffey .lastcontainer {
+        position: relative; 
+        bottom: 300px;
+    }
+}
+@media  screen and (min-width: 326px) and (max-width: 767px){ 
+    .mcguffey .trufoam .btn {
+        position: absolute;
+        top: 40%;
+        background: #fff;
+    }
+}
+@media (max-width: 767px){
+    .mcguffey .bigcontainer2 .btn, .mcguffey .bigcontainer3 .btn {
+        margin-top: 100%;
+        border: 1px solid #555;
+    }
+}
+@media (max-width: 550px){
+    .mcguffey .bigcontainer2 .btn, .mcguffey .bigcontainer3 .btn {
+        padding: 9px 14px 7px;
+        font-size: 12px;
+        margin-top: 100%;
+        border: 1px solid #555;
+    }
+}
+@media  screen and (min-width: 551px) and (max-width: 767px){ 
+  .mcguffey .bigcontainer2 .btn, .mcguffey .bigcontainer3 .btn {
+    font-size: 16px;
+    padding: 17px 25px 15px;  
+  }
+}
+@media  screen and (min-width: 768px) and (max-width: 899px){ 
+    .mcguffey h3, .mcguffey .trufoam .sec, .mcguffey .sec {
+        font-size: 24px;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1390px){
+    .mcguffey .box-two .up {
+        bottom: 115px;
+    }
+    .mcguffey .container4, .mcguffey .bigcontainer3 {
+        bottom: 70px;
+    }
+    .mcguffey .lastcontainer {
+        bottom: 140px;
+    }
+} 
+.mcguffey .bigcontainer2 .waterfoam {
+    margin: 0 0 0 auto;
+}
