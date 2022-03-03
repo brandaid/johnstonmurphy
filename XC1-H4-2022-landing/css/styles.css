@@ -1370,3 +1370,7 @@ main.xc1 {
 .xc1 .carousel span.price {
     margin-top: 5px;
 }
+.xc1 sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
