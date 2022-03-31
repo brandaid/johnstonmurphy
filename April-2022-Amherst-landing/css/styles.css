@@ -1,0 +1,1062 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.amherst abbr,
+.amherst address,
+.amherst article,
+.amherst aside,
+.amherst audio,
+.amherst b,
+.amherst blockquote,
+.amherst,
+.amherst canvas,
+.amherst caption,
+.amherst cite,
+.amherst code,
+.amherst dd,
+.amherst del,
+.amherst details,
+.amherst dfn,
+.amherst div,
+.amherst dl,
+.amherst dt,
+.amherst em,
+.amherst fieldset,
+.amherst figcaption,
+.amherst figure,
+.amherst footer,
+.amherst form,
+.amherst h1,
+.amherst h2,
+.amherst h3,
+.amherst h4,
+.amherst h5,
+.amherst h6,
+.amherst header,
+.amherst hgroup,
+.html-amherst,
+.amherst i,
+.amherst iframe,
+.amherst img,
+.amherst ins,
+.amherst kbd,
+.amherst label,
+.amherst legend,
+.amherst li,
+.amherst mark,
+.amherst menu,
+.amherst nav,
+.amherst object,
+.amherst ol,
+.amherst p,
+.amherst pre,
+.amherst q,
+.amherst samp,
+.amherst section,
+.amherst small,
+.amherst span,
+.amherst strong,
+.amherst sub,
+.amherst summary,
+.amherst sup,
+.amherst table,
+.amherst td,
+.amherst tfoot,
+.amherst th,
+.amherst thead,
+.amherst time,
+.amherst tr,
+.amherst ul,
+.amherst var,
+.amherst video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.amherst article,
+.amherst aside,
+.amherst details,
+.amherst figcaption,
+.amherst figure,
+.amherst hgroup,
+.amherst section {
+    display: block;
+}
+.amherst ul {
+    list-style: none;
+}
+.amherst figure {
+    line-height: 0;
+}
+.html-amherst {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.amherst .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 992px) {
+    .amherst .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .amherst .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.amherst,
+.amherst a,
+.amherst h1,
+.amherst h2,
+.amherst h3,
+.amherst h4,
+.amherst h5,
+.amherst h6,
+.amherst li,
+.amherst p,
+.amherst ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.amherst h2 {
+    font-size: 65px;
+}
+.amherst h3 {
+    font-size: 25.5px;
+    line-height: 30.96px;
+    letter-spacing: 1px;
+}
+.amherst h4 {
+    font-size: 29px;
+    line-height: 46px;
+}
+.amherst h1,
+.amherst h2,
+.amherst h3,
+.amherst h4,
+.amherst h5,
+.amherst h6 {
+    margin: 0;
+    padding: 0;
+}
+.amherst h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.amherst p {
+    font-size: 29px;
+    line-height: 46px;
+    letter-spacing: 0.27px;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #555;
+}
+.amherst i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .amherst h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .amherst p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media all and (min-width: 992px) {
+}
+.amherst .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.amherst .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.amherst .box-columns figure {
+    margin-bottom: 10px;
+}
+.amherst .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.amherst .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.amherst .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.amherst .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.amherst .two-cols {
+    padding-top: 2.3%;
+}
+.amherst .two-cols .btn {
+    margin: 2.6% auto 0;
+}
+.amherst .box-two {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.amherst .box-two .left {
+    box-sizing: border-box;
+}
+.amherst .box-two .right {
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .amherst .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+
+    .amherst .box-collection, .amherst #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .amherst .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .amherst .hover {
+        background: #212121;
+    }
+    .amherst .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .amherst .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.amherst .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .amherst .bottom .leftimg, .amherst .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.amherst .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.amherst .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.amherst .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.amherst .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.amherst .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.amherst .embed-container {
+  position: relative;
+  padding-bottom: 82%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.amherst .embed-container iframe, .amherst .embed-container video, .amherst .embed-container object, .amherst .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+.amherst .two-cols {
+    text-align: center;
+    font-size: 0;
+}
+@media all and (max-width: 767px) {
+    .amherst .box-mobile, .amherst .box-two.fourimages, .amherst .box-two.comfort .top, .amherst .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .amherst .box-two.fourimages {
+        display: table;
+    }
+    .amherst .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .amherst .footwear, .amherst .box-two {
+        padding-top: 7%;
+    }
+    .amherst .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .amherst .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .amherst .trufoam p br {
+        display: none;
+    }
+}
+
+main.amherst {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.amherst .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.amherst .box1 {
+    position: relative;
+    margin-top: 4.3%;
+    }
+.amherst .box1 h2 {
+        margin-bottom: 0;
+    }
+.amherst .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.amherst .box1 .span1, .amherst .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.amherst .box1 .table .span1, .amherst .box1 .table .span2 {
+    width: 100%;
+}
+.amherst .box1 .table .span9 {
+    width: 50%;
+}
+.amherst .box1 .circle-one-day {
+    display: block;
+    text-align: left;
+    margin-left: 10.6%;
+    margin-right: auto;
+    margin-top: 7.7%;
+}
+.amherst .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #888888;
+}
+.amherst .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+.amherst .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.amherst .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.amherst .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.amherst h3 {
+    color: #839097;
+    font-size: 45.83px;
+    margin-bottom: 3%;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .amherst h2 {
+        font-size: 54px;
+    }
+    .amherst h3 {
+        font-size: 21.2px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .amherst h2 {
+        font-size: 43px;
+    }
+    .amherst h3 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .amherst .trufoam .trufoamlogo {
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px){ 
+    .amherst .trufoam .trufoamlogo {
+        width: 380px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .amherst .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .amherst .embed-container {
+        padding-bottom: 56.25%;
+    }
+}
+
+/* FIRST TWO COL BOX */
+
+.amherst .trufoam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.amherst .firstsection {
+    text-align: center;
+    margin-top: 6%;
+}
+.amherst .trufoam h4 {
+    color: #333;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    margin-top: 1%;
+}
+.amherst .trufoam .trufoamlogo {
+    margin: 0 auto;
+}
+.amherst .trufoam h3 {
+    font-size: 45.86px
+}
+
+.amherst .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+    width: 64.66%;
+}
+.amherst .btn {
+    background: #fff;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 35px 15px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.amherst .btn:hover {
+    opacity: 0.8;
+}
+.amherst .trufoam .btn {
+    align-self: center;
+    margin-top: 3.8%;
+}
+@media all (max-width: 767px) {
+    .amherst .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }   
+}
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .amherst .trufoam h3 {
+        font-size: 42px;
+        line-height: 28.53px;    
+    } 
+    .amherst .box1 .circle-one-day img {
+        width: 220px;
+    }
+    .amherst .trufoam h4 {
+        font-size: 26px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .amherst .trufoamlogo {
+        width: 500px;
+        height: auto;
+    }
+    .amherst .trufoam h3 {
+        font-size: 32px;    
+    } 
+    .amherst .trufoam h4, .amherst .trufoam p {
+        font-size: 25px;
+        line-height: 39px;
+    }
+    .amherst .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }  
+    .amherst .box1 .circle-one-day img {
+        width: 200px;
+    }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .amherst .trufoamlogo {
+        width: 380px;
+        height: auto;
+    }
+    .amherst .trufoam h3 {
+        font-size: 30px;   
+    } 
+     .amherst .trufoam h4, .amherst .trufoam p {
+        font-size: 22px;
+        line-height: 32px;
+     }
+     .amherst .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+    }   
+}
+/* Get a move on */
+.amherst .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.amherst .box3 {
+    font-size: 0;
+    padding-top: 5%;
+}
+
+.amherst .box3 .btn {
+    position: relative;
+}
+.amherst .get-move {
+    display: flex;
+    align-items: center;
+}
+.amherst .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.amherst .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.amherst .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .amherst .white {
+        font-size: 48px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .amherst .white {
+        font-size: 35px;
+    }
+    .amherst .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+.amherst .hidden,
+.amherst .only-desktop,
+.amherst .btn-only {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .amherst .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .amherst .ft {
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+    .amherst .nw {
+        margin-bottom: 1%;
+    }
+    .amherst .trufoam h4.light {
+        margin-top: 1.5%;
+    }
+    .amherst .only-mobile {
+        display: none;
+    }
+    .amherst .only-desktop {
+        display: block;
+    }
+    .amherst .btn-only {
+        display: inline-block;
+    }
+    .amherst .box3 .span4 {
+    width: 79.1%;
+    display: inline-block;
+    }
+    .amherst .box3 .span5 {
+        width: 20.9%;
+        display: inline-block;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .amherst .white {
+            font-size: 30px;
+        }
+        .amherst .white {
+            font-size: 27px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .amherst .box5 .span4 {
+        padding-left: 5%;
+    }
+    .amherst .box4 .span4 {
+        padding-right: 5%;
+    }
+    .amherst .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.amherst .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.amherst .xc-container {
+    margin-bottom: 6%;
+}
+.amherst .xc-container .cell-banner {
+    text-align: left;
+}
+.amherst .xc-logo {
+    margin-bottom: 3%;
+}
+.amherst .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .amherst .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .amherst .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .amherst .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .amherst .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .amherst .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .amherst .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .amherst .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .amherst .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .amherst .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .amherst .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */
+
+@media screen and (max-width: 449px){
+    .amherst .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .amherst .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .amherst .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .amherst .white {
+        font-size: 20px;
+    }
+    .amherst .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .amherst .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .amherst .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .amherst .xc-logo {
+        width: 100px;
+    }
+    .amherst .box1 .circle-one-day img {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .amherst .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .amherst .box1 .circle-one-day img {
+        width: 110px;
+    }
+    .amherst .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .amherst .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .amherst .white {
+        font-size: 24px;
+    }
+    .amherst .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .amherst .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .amherst .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .amherst .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .amherst .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .amherst .box1 .circle-one-day img {
+        width: 120px;
+    }
+    .amherst .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .amherst .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .amherst .white {
+        font-size: 28px;
+    }
+    .amherst .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .amherst .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .amherst .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .amherst .xc-logo {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .amherst .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .amherst .xc-logo {
+        width: 100px;
+    }
+    .amherst .box1 .circle-one-day img {
+        width: 150px;
+    }
+    .amherst .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .amherst .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .amherst .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .amherst .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .amherst .white {
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 767px){
+    .amherst .box1 {
+        position: relative;
+    }
+   .amherst .box1 .circle-one-day {
+    margin-top: 0;
+    margin-bottom: 50%;
+    margin-left: 10%;
+   }
+    .amherst .box1 .span3 {
+        position: absolute;
+        bottom: 30%;
+        left: 10%;
+    }
+    .amherst .box1 {
+        margin-top: 13.3%;
+    }
+    .amherst .box4 .firstsection {
+        margin-top: 1%;
+    }
+    .amherst .box1 .span3 h2 {
+        color: #fff;
+        font-size: 32px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .amherst .firstsection {
+        margin-top: 10%;
+    }
+    .amherst .tru, .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .amherst .tru .left {
+        order: 2;
+    }
+    .amherst .tru .right {
+        order: 1;
+    }
+    .amherst .trufoam .trufoamlogo {
+        margin-bottom: 6%;
+    }
+    .amherst .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .amherst .trufoam h3, .amherst h3 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+   .amherst h4, .amherst p {
+        font-size: 19.5px;
+        line-height: 31px;
+    }
+    .amherst .trufoambanks {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .amherst .trufoam .btn {
+        align-self: center;
+    }
+    .amherst .box5.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .amherst .box4 h3 {
+        margin-top: 8%;
+    }
+    .amherst .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .amherst .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .amherst .box5 .get-move .span5 {
+        display: none;
+    }
+    .amherst .air {
+        margin-bottom: 8%;      
+    }
+    .amherst .gifimage .right {
+        margin-top: 5%;
+    }
+    .amherst .gifimage .left {
+        margin-top: 5%;
+    }
+    .amherst #tec-mobile {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .amherst #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .amherst .xcmobile {
+        margin-bottom: 8%;
+    }
+    .amherst .xc-container .btn {
+        display: none;
+    }
+    .amherst .xc-container {
+        margin-top: 8%;
+    }
+    .amherst, .amherst {
+      overflow-x: hidden;
+    }
+    .amherst {
+      position: relative
+    }
+    .amherst .someair {
+        margin-top: 12%;
+    }
+    .amherst .box5 {
+        padding-top: 10%;
+    }
+    .amherst .two-cols.bigcontainer, .amherst .box1.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .amherst .two-cols .btn {
+        margin-top: 12%;
+    }
+    .amherst .reverse {
+        flex-flow: column-reverse;
+    }
+}
+
+@media screen and (max-width: 500px){  
+   .amherst h4, .amherst p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .amherst .firstsection {
+        margin-top: 14%;
+    }
+    .amherst .trufoam h4 {
+        max-width: 100%;
+    }
+
+    .amherst .trufoam .btn {
+        margin-top: 12%;
+        margin-bottom: 7%;
+    }
+}
+@media screen and (min-width: 768px){ 
+    .amherst .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .amherst .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .amherst .xc-flex {
+        display: none;
+    }
+    .amherst .xc-container {
+        margin-bottom: 10%; 
+    }
+    .amherst .box-collection, .amherst #tec-mobile {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .amherst .with-btn {
+        position: relative;
+    }
+    .amherst .btn-in {
+        position: absolute;
+        top: 33%;
+        left: 10%;
+    }
+    .amherst .btn-in.lt {
+        top: 22.9%;
+    }
+    .amherst .last-section {
+        margin-top: 3%;
+    }
+}
+.amherst .last-section {
+    margin-bottom: 30px;
+}
+.amherst sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
