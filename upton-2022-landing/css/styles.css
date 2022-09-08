@@ -1,0 +1,1177 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.upton abbr,
+.upton address,
+.upton article,
+.upton aside,
+.upton audio,
+.upton b,
+.upton blockquote,
+.upton,
+.upton canvas,
+.upton caption,
+.upton cite,
+.upton code,
+.upton dd,
+.upton del,
+.upton details,
+.upton dfn,
+.upton div,
+.upton dl,
+.upton dt,
+.upton em,
+.upton fieldset,
+.upton figcaption,
+.upton figure,
+.upton footer,
+.upton form,
+.upton h1,
+.upton h2,
+.upton h3,
+.upton h4,
+.upton h5,
+.upton h6,
+.upton header,
+.upton hgroup,
+.html-upton,
+.upton i,
+.upton iframe,
+.upton img,
+.upton ins,
+.upton kbd,
+.upton label,
+.upton legend,
+.upton li,
+.upton mark,
+.upton menu,
+.upton nav,
+.upton object,
+.upton ol,
+.upton p,
+.upton pre,
+.upton q,
+.upton samp,
+.upton section,
+.upton small,
+.upton span,
+.upton strong,
+.upton sub,
+.upton summary,
+.upton sup,
+.upton table,
+.upton td,
+.upton tfoot,
+.upton th,
+.upton thead,
+.upton time,
+.upton tr,
+.upton ul,
+.upton var,
+.upton video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.upton article,
+.upton aside,
+.upton details,
+.upton figcaption,
+.upton figure,
+.upton hgroup,
+.upton section {
+    display: block;
+}
+.upton ul {
+    list-style: none;
+}
+.upton figure {
+    line-height: 0;
+}
+.html-upton {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.upton .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .upton .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .upton .box3 .span4 {
+        margin: 0 auto;
+    }
+    .upton .box3.someair .span4, .upton .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 78%;
+    }
+     .upton .box3 .span5 {
+        max-width: 64%;
+     }
+}
+@media all and (min-width: 992px) {
+    .upton .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .upton .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.upton,
+.upton a,
+.upton h1,
+.upton h2,
+.upton h3,
+.upton h4,
+.upton h5,
+.upton h6,
+.upton li,
+.upton p,
+.upton ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.upton h2 {
+    font-size: 65px;
+}
+.upton h3 {
+    font-size: 25.5px;
+    color: #fff;
+    line-height: 30.96px;
+    letter-spacing: 1px;
+}
+.upton h4 {
+    font-size: 27px;
+}
+.upton h1,
+.upton h2,
+.upton h3,
+.upton h4,
+.upton h5,
+.upton h6 {
+    margin: 0;
+    padding: 0;
+}
+.upton h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.upton p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #000;
+}
+.upton i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .upton h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .upton p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.upton .box-collection__shoes span, .upton .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 18px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .upton p {
+        max-width: 800px;
+    }
+    .upton .box-collection__shoes span, .upton .carousel span {
+        font-size: 20.83px;
+    }
+}
+.upton .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.upton .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.upton .box-columns figure {
+    margin-bottom: 10px;
+}
+.upton .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.upton .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.upton .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.upton .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.upton .box-two.two-cols {
+    padding-top: 4.5%;
+}
+@media all and (min-width: 768px) {
+    .upton .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .upton .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .upton .box-two .left,
+    .upton .box-two .right {
+        width: 50%;
+    }
+    .upton .img-text {
+        position: relative
+    }
+    .upton .img-text h3 {
+        position: absolute;
+        top: 0;
+        margin-top: 11.5%;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .upton .box-two .left {
+        padding-right: 5.82%;
+        box-sizing: border-box;
+    }
+    .upton .box-two .right {
+        padding-left: 7.15%;
+        box-sizing: border-box;
+        z-index: 9999;
+    }
+    .upton .upton .videoandbtn{
+        z-index: 9999;
+    }
+    .upton .box-collection, .upton #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .upton .box-collection h3, .upton .carousel h3, .upton .car2 h3 {
+        margin-bottom: 40px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .upton .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .upton .hover {
+        background: #212121;
+    }
+    .upton .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .upton .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.upton .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .upton .bottom .leftimg, .upton .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.upton .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.upton .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.upton .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.upton .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.upton .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.upton .embed-container {
+  position: relative;
+  padding-bottom: 62.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.upton .embed-container iframe, .upton .embed-container object, .upton .embed-container embed, .upton .embed-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .upton .box-mobile, .upton .box-two.fourimages, .upton .box-two.comfort .top, .upton .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .upton .box-two.fourimages {
+        display: table;
+    }
+    .upton .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .upton .footwear, .upton .box-two.two-cols {
+        padding-top: 7%;
+    }
+    .upton .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .upton .women-col-mobile {
+        margin-bottom: 50px;
+    }
+}
+
+main.upton {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.upton .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.upton .box1 {
+    position: relative;
+    }
+.upton .box1 h2 {
+        margin-bottom: 0;
+    }
+.upton .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.upton .box1 .span1, .upton .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.upton .box1 .table .span1, .upton .box1 .table .span2 {
+    width: 100%;
+}
+.upton .box1 .table .span9 {
+    width: 50%;
+}
+.upton .box1 .circle-one-day {
+    display: block;
+    text-align: left;
+    margin-left: 54.7%;
+    margin-right: auto;
+    margin-top: 24.7%;
+}
+.upton .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #fff;
+}
+.upton .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+.upton .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.upton .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.upton .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .upton h2 {
+        font-size: 54px;
+    }
+    .upton h3 {
+        font-size: 21.2px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .upton h2 {
+        font-size: 43px;
+    }
+    .upton h3 {
+        font-size: 16.5px;
+    }
+}
+
+//320px
+@media screen and (max-width: 320px) {
+    .upton .box1 h2, .upton .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .upton .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+
+    .upton .videoandbtn .theright {
+        width: 78%;
+    }
+    .upton .theleft {
+        align-self: center;
+    }
+}
+.upton .videoandbtn {
+    display: flex;
+}
+/* FIRST TWO COL BOX */
+/* .tru .left, .tru figure, .tru .right {
+    display: flex;
+}*/
+.upton .trufoam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.upton .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+}
+.upton .trufoam .trufoamlogo {
+    margin-bottom: 6.5%;
+}
+.upton .trufoam h3 {
+    text-transform: uppercase;
+    line-height: 30.96px;
+    padding-left: 5px;
+}
+
+.upton .trufoambanks {
+    margin-top: 17%;
+    margin-bottom: 9%;
+}
+.upton .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 35px 15px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.upton .btn:hover {
+    opacity: 0.8;
+}
+.upton .trufoam .btn {
+    align-self: baseline;
+    margin-top: auto;
+}
+@media all (max-width: 767px) {
+    .upton .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }  
+}
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .upton .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .upton .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+    .upton .trufoam h4 {
+        font-size: 25px;
+        line-height: 30.55px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .upton .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .upton .trufoam h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .upton .trufoam h4 {
+        font-size: 22px;
+        line-height: 26.88px;
+    }
+    .upton .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .upton .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+    .upton .trufoam h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+     .upton .trufoam h4 {
+        font-size: 17.4px;
+        line-height: 21.25px;
+     }
+     .upton .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.upton .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.upton .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.upton .box4 {
+    padding-top: 0;
+}
+.upton .box3 .btn {
+    position: relative;
+}
+.upton .get-move {
+    display: flex;
+    align-items: center;
+}
+.upton .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.upton .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.upton .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.upton .box5, .upton #tec-mobile,  .upton .videoandbtn, .upton .rock {
+    position: relative;
+}
+@media screen and (min-width: 1401px){
+    .upton .videoandbtn{
+        bottom: 500px;
+    }
+    .upton .rock {
+        bottom: 622px;
+    }
+    .upton #tec-mobile {
+        bottom: 469px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .upton .white {
+        font-size: 48px;
+    }
+    .upton #tec-mobile,  .upton .videoandbtn{
+    bottom: 470px;
+    }
+   .upton #tec-mobile{
+    bottom: 415px;
+    }
+    .upton .rock {
+        bottom: 554.6px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1490px){
+    .upton .box5 {
+        bottom: 420px;
+    }
+}    
+@media screen and (min-width: 1491px){
+    .upton .box5 {
+        bottom: 470px;
+    }
+}  
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .upton .white {
+        font-size: 35px;
+    }
+    .upton .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1249px){
+    .upton .videoandbtn{
+        bottom: 470px;
+    }
+    .upton #tec-mobile {
+        bottom: 415px;
+    }
+    .upton .box5 {
+        bottom: 420px;
+    }
+    .upton .rock {
+        bottom: 554.6px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1125px){
+    .upton .box5, .upton #tec-mobile,  .upton .videoandbtn {
+        bottom: 380px;
+    }
+    .upton .rock {
+        bottom: 448.4px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .upton .white {
+            font-size: 30px;
+        }
+        .upton .white {
+            font-size: 27px;
+        }
+        .upton .box5, .upton #tec-mobile,  .upton .videoandbtn {
+            bottom: 300px;
+        }
+        .upton .rock {
+           bottom: 354px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .upton .box4 .span4 {
+        padding-right: 5%;
+    }
+    .upton .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .upton .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.upton .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.upton .xc-container {
+    margin-bottom: 6%;
+}
+.upton .xc-container .cell-banner {
+    text-align: left;
+}
+.upton .xc-logo {
+    margin-bottom: 3%;
+}
+.upton .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .upton .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .upton .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .upton .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .upton .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .upton .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .upton .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .upton .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .upton .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .upton .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .upton .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .upton .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .upton .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .upton .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .upton .white {
+        font-size: 20px;
+    }
+    .upton .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .upton .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .upton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .upton .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .upton .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .upton .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .upton .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .upton .white {
+        font-size: 24px;
+    }
+    .upton .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .upton .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .upton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .upton .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .upton .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .upton .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .upton .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .upton .white {
+        font-size: 28px;
+    }
+    .upton .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .upton .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .upton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .upton .xc-logo {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .upton .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .upton .xc-logo {
+        width: 100px;
+    }
+    .upton .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .upton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .upton .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .upton .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .upton .white {
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 767px){
+    .upton .only-desktop, .upton .box1 .circle-one-day {
+        display: none;
+    }
+    .upton .span3 h3 {
+        font-size: 12.5px;
+        text-transform: uppercase;
+    }
+    .upton .box1 {
+        position: relative;
+    }
+    .upton .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .upton .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .upton .box1 .span3 {
+        position: absolute;
+        bottom: 20%;
+        right: 10%;
+    }
+    .upton .box1 .span3 h2 {
+        color: #fff;
+        font-size: 32px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .upton .tru, .upton .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .upton .tru .left {
+        order: 2;
+    }
+    .upton .tru .right {
+        order: 1;
+    }
+    .upton .trufoam .trufoamlogo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 6%;
+    }
+    .upton .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .upton .trufoam h3, .upton h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .upton .trufoam h4, .upton h4 {
+        font-size: 19.5px;
+        line-height: 24.5px;
+        margin-top: 6%;
+    }
+    .upton .trufoambanks {
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    .upton .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .upton .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .upton .box5.bigcontainer, .upton .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .upton .box4, .upton .box5 {
+        margin-top: 3%;
+    }
+    .upton .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .upton .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .upton .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .upton #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+        width: 250px;
+    }
+
+    .upton .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+        line-height: 1.95em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .upton .air {
+        margin-bottom: 14%;      
+    }
+    .upton .gifimage .right {
+        margin-top: 5%;
+    }
+    .upton .gifimage .left {
+        margin-top: 5%;
+    }
+    .upton #tec-mobile {
+        margin-top: 35px;
+        text-align: center;
+    }
+    .upton #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .upton .xcmobile {
+        margin-bottom: 8%;
+    }
+    .upton .xc-container .btn {
+        display: none;
+    }
+    .upton .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .upton {
+      overflow-x: hidden;
+    }
+    .upton {
+      position: relative
+    }
+    .upton .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .upton .videoandbtn .btn {
+        background: #fff;
+    }
+    .upton .box5 {
+        padding-top: 10%;
+    }
+    .upton .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .upton .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .upton .rock {
+        bottom: 27px;
+    }
+    .upton  .righty img {
+    padding-top: 20px;
+    }
+     .upton .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .upton .videoandbtn .theright {
+        order: 1;
+    }   
+     .upton .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+}
+
+@media screen and (min-width: 768px){ 
+    .upton .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .upton .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .upton .box5 .span4 {
+        margin-top: 30%;
+    }
+    .upton .xc-flex {
+        display: none;
+    }
+    .upton .xc-container {
+        margin-bottom: 10%; 
+    }
+    .upton .box-collection, .upton #tec-mobile {
+        padding: 6% 0;
+        text-align: center;
+    }
+    .upton .box-collection, .upton #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .upton .trufoam .btn {
+        margin-top: 11%;
+        margin-bottom: 6%;
+    }
+    .upton .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .upton .rock .box-two {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .upton .righty {
+        position: relative;
+    }
+}
+@media  screen and (min-width: 326px) and (max-width: 767px){ 
+    .upton .trufoam .btn {
+        position: absolute;
+        top: 40%;
+        background: #fff;
+    }
+}
+@media all and (min-width: 768px) {
+    .upton .only-mobile {
+        display: none;
+    }
+    .upton .only-desktop {
+        display: block;
+    }
+}
