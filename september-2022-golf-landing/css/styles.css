@@ -1,0 +1,1373 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.golf abbr,
+.golf address,
+.golf article,
+.golf aside,
+.golf audio,
+.golf b,
+.golf blockquote,
+.golf,
+.golf canvas,
+.golf caption,
+.golf cite,
+.golf code,
+.golf dd,
+.golf del,
+.golf details,
+.golf dfn,
+.golf div,
+.golf dl,
+.golf dt,
+.golf em,
+.golf fieldset,
+.golf figcaption,
+.golf figure,
+.golf footer,
+.golf form,
+.golf h1,
+.golf h2,
+.golf h3,
+.golf h4,
+.golf h5,
+.golf h6,
+.golf header,
+.golf hgroup,
+.html-golf,
+.golf i,
+.golf iframe,
+.golf img,
+.golf ins,
+.golf kbd,
+.golf label,
+.golf legend,
+.golf li,
+.golf mark,
+.golf menu,
+.golf nav,
+.golf object,
+.golf ol,
+.golf p,
+.golf pre,
+.golf q,
+.golf samp,
+.golf section,
+.golf small,
+.golf span,
+.golf strong,
+.golf sub,
+.golf summary,
+.golf sup,
+.golf table,
+.golf td,
+.golf tfoot,
+.golf th,
+.golf thead,
+.golf time,
+.golf tr,
+.golf ul,
+.golf var,
+.golf video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.golf article,
+.golf aside,
+.golf details,
+.golf figcaption,
+.golf figure,
+.golf hgroup,
+.golf section {
+    display: block;
+}
+.golf ul {
+    list-style: none;
+}
+.golf figure {
+    line-height: 0;
+}
+.html-golf {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.golf .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .golf .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .golf .only-mobile {
+        display: none!important;
+    }
+    .golf .only-desktop {
+        display: block;
+    }
+    .golf .box3 .span4 {
+        margin: 0 auto;
+    }
+    .golf .box3.someair .span4, .golf .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 78%;
+    }
+     .golf .box3 .span5 {
+        max-width: 64%;
+     }
+}
+@media all and (min-width: 992px) {
+    .golf .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .golf .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.golf {
+    overflow-x: hidden;
+}
+.golf,
+.golf a,
+.golf h1,
+.golf h2,
+.golf h3,
+.golf h4,
+.golf h5,
+.golf h6,
+.golf li,
+.golf p,
+.golf ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.golf h2 {
+    font-size: 50px;
+}
+.golf h3 {
+    font-size: 25.5px;
+    line-height: 30.96px;
+    letter-spacing: 1px;
+}
+.golf h4 {
+    font-size: 27px;
+}
+.golf h1,
+.golf h2,
+.golf h3,
+.golf h4,
+.golf h5,
+.golf h6 {
+    margin: 0;
+    padding: 0;
+}
+.golf h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.golf p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #000;
+}
+.golf i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .golf h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .golf p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.golf .box-collection__shoes span, .golf .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 18px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .golf p {
+        max-width: 800px;
+    }
+}
+
+.golf .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.golf .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.golf .box-columns figure {
+    margin-bottom: 10px;
+}
+.golf .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.golf .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.golf .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.golf .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.golf .box-two.two-cols {
+    padding-top: 2%;
+}
+.golf .sec {
+    color: #839097;
+    font-size: 18px;
+    margin-bottom: 4.5%;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.29px;
+    text-align: center;
+}
+@media all and (max-width: 383px) {
+    .golf .sec, .golf h3, .golf .span3 h2 {
+        font-size: 14px;
+    }
+} 
+@media all and (min-width: 384px) and (max-width: 429px) {
+    .golf .sec, .golf h3, .golf .span3 h2 {
+        font-size: 20px;
+    }
+}
+@media all and (min-width: 430px) and (max-width: 530px) {
+    .golf .sec, .golf h3, .golf .span3 h2 {
+        font-size: 22px;
+    }
+}
+@media all and (min-width: 531px) and (max-width: 767px) {
+    .golf .sec, .golf h3, .golf .span3 h2 {
+        font-size: 25px;
+    }
+} 
+.golf .boxtwo {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+@media all and (min-width: 768px) {
+    .golf .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .golf .sec {
+        margin-top: 5.6%;
+    }
+    .golf .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .golf .box-two .left,
+    .golf .box-two .right {
+        width: 50%;
+    }
+    .golf .box-two.bigcontainer2 .left, .golf .box-two.bigcontainer3 .right {
+        width: 35%;
+    } 
+    .golf .box-two.bigcontainer2 .right, .golf .box-two.bigcontainer3 .left {
+        width: 65%;
+    }
+    .golf .box-two.bigcontainer3 .left {
+        padding-left: 30px;
+    }
+    .golf .box-two.bigcontainer2 .right {
+        padding-right: 30px;
+    }
+    .golf .box-two .left {
+        box-sizing: border-box;
+    }
+    .golf .box-two .waterfoam {
+        max-width: 529px;
+    }
+    .golf .box-two .right {
+        box-sizing: border-box;
+        z-index: 9999;
+    }
+    .golf .golf .videoandbtn{
+        z-index: 9999;
+    }
+    .golf .box-collection h3, .golf .carousel h3, .golf .car2 h3 {
+        margin-bottom: 45px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .golf .sec {
+        font-size: 45.83px;
+        line-height: 40px;
+    }
+    .golf .tru .left .sec {
+        text-align: center;
+        padding-right: 0;
+    }
+    .golf .tru .right .sec {
+        text-align: center;
+        padding-left: 0;
+    }
+    .golf .bigcontainer2.tru .right .sec {
+        text-align: center;
+    }
+    .golf .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .golf .hover {
+        background: #212121;
+    }
+    .golf .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .golf .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.golf .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .golf .bottom .leftimg, .golf .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.golf .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.golf .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.golf .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.golf .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.golf .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.golf .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.golf .embed-container iframe, .golf .embed-container video, .golf .embed-container object, .golf .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .golf .box-mobile, .golf .box-two.fourimages, .golf .box-two.comfort .top, .golf .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .golf .box-two.fourimages {
+        display: table;
+    }
+    .golf .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .golf .footwear, .golf .box-two.two-cols {
+        padding-top: 2%;
+    }
+    .golf .box-two.two-cols.bigcontainer3 {
+        padding-top: 0;
+    }
+    .golf .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .golf .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .golf .bigcontainer3.tru .right, .golf .container4.last .right {
+        display: inline-flex;
+    }
+}
+
+main.golf {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.golf .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.golf .box1 {
+    position: relative;
+    }
+.golf .box1 h2 {
+        margin-bottom: 0;
+    }
+.golf .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.golf .box1 .span1, .golf .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.golf .box1 .table .span1, .golf .box1 .table .span2 {
+    width: 100%;
+}
+.golf .box1 .table .span9 {
+    width: 50%;
+}
+.golf .box1 .circle-one-day {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42%;
+}
+.golf .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #fff;
+}
+.golf .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+.golf .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.golf .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.golf .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .golf h2 {
+        font-size: 45px;
+    }
+    .golf h3 {
+        font-size: 21.2px;
+    }
+    .golf .sec h3 {
+        font-size: 37px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .golf h2 {
+        font-size: 35px;
+    }
+    .golf h3 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .golf .box1 h2, .golf .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+.golf .box1 {
+    margin-bottom: 10%;
+}
+@media screen and (min-width: 768px) {
+    .golf .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .golf .pad {
+        margin-bottom: 9.5%;
+    }
+    .golf .pads {
+        margin-bottom: 7%;
+        margin-top: 3.5%;
+    }
+    .golf .bigcontainer2 {
+        padding-left: 6.25%;
+    }
+    .golf .box-two.two-cols.bigcontainer3 {
+        padding-right: 6.25%;
+        padding-top: 1.5%;
+    }
+    .golf .box1 {
+        margin-bottom: 7%;
+    }
+    .golf .box1.lasts {
+        margin-bottom: 1.5%;
+    }
+    .golf .videoandbtn .theright {
+        width: 78%;
+    }
+    .golf .theleft {
+        align-self: center;
+    }
+}
+.golf .videoandbtn {
+    display: flex;
+}
+/* FIRST TWO COL BOX */
+/* .tru .left, .tru figure, .tru .right {
+    display: flex;
+}*/
+.golf .trufoam {
+    display: flex;
+    flex-direction: column;
+}
+.golf .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+}
+.golf .trufoam .trufoamlogo {
+    margin-bottom: 4.5%;
+}
+
+.golf .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.golf .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 35px 15px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.golf .btn:hover {
+    opacity: 0.8;
+}
+
+.golf .trufoam .btn {
+    align-self: center;
+}
+.golf .trufoam .btn {
+    margin-top: auto;
+}
+
+
+@media all (max-width: 767px) {
+    .golf .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }  
+}
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .golf .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .golf .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+    .golf h3, .golf .trufoam .sec, .golf .sec {
+        font-size: 36px;    
+    } 
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .golf .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .golf h3, .golf .trufoam .sec, .golf .sec {
+        font-size: 28px;    
+    } 
+    .golf .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .golf .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+     .golf .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.golf .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.golf .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.golf .box4 {
+    padding-top: 0;
+}
+.golf .box3 .btn {
+    position: relative;
+}
+.golf .get-move {
+    display: flex;
+    align-items: center;
+}
+.golf .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.golf .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.golf .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.golf .box5, .golf #tec-mobile,  .golf .videoandbtn, .golf .rock {
+    position: relative;
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .golf .white {
+        font-size: 48px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .golf .white {
+        font-size: 35px;
+    }
+    .golf .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .golf .white {
+            font-size: 30px;
+        }
+        .golf .white {
+            font-size: 27px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .golf .box4 .span4 {
+        padding-right: 5%;
+    }
+    .golf .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .golf .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.golf .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.golf .xc-container {
+    margin-bottom: 6%;
+}
+.golf .xc-container .cell-banner {
+    text-align: left;
+}
+.golf .xc-logo {
+    margin-bottom: 3%;
+}
+.golf .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .golf .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .golf .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .golf .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .golf .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .golf .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .golf .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .golf .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .golf .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .golf .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .golf .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .golf .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .golf .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .golf .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .golf .white {
+        font-size: 20px;
+    }
+    .golf .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .golf .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .golf .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .golf .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .golf .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .golf .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .golf .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .golf .white {
+        font-size: 24px;
+    }
+    .golf .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .golf .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .golf .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .golf .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .golf .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .golf .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .golf .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .golf .white {
+        font-size: 28px;
+    }
+    .golf .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .golf .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .golf .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .golf .xc-logo {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .golf .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .golf .xc-logo {
+        width: 100px;
+    }
+    .golf .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .golf .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .golf .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .golf .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .golf .white {
+        font-size: 33px;
+    }
+}
+@media screen and (max-width: 767px){
+    .golf .only-desktop, .golf .box1 .circle-one-day {
+        display: none;
+    }
+    .golf .span3 h3 {
+        font-size: 12.5px;
+        text-transform: uppercase;
+    }
+    .golf .box1 {
+        position: relative;
+    }
+    .golf .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .golf .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .golf .box1 .span3 {
+        position: absolute;
+        bottom: 12%;
+        width: 100%;
+        text-align: center;
+    }
+    .golf .box1 .span3 h2 {
+        color: #fff;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .golf .tru, .golf .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .golf .bigcontainer2.tru .left {
+        order: 1;
+        display: inline-flex;
+    }
+     .golf .bigcontainer3 .btn {
+        margin-top: 20%;
+     }
+    .golf .bigcontainer2 .sec, .golf .bigcontainer3 .sec {
+        margin-top: 10%;
+    }
+    .golf .bigcontainer3 .right {
+        order: 2;
+    }
+    .golf .lastcontainer {
+        margin-top: 20px;
+    }
+    .golf .btn-container {
+        width: 38.5%;
+        display: inline-block;
+        text-align: center;
+        align-self: center;
+    }
+    .golf .bigcontainer2 .left figure, .golf .bigcontainer3 .right figure, .golf .container4.last .right figure {
+        width: 61.5%;
+    }
+    .golf .bigcontainer2.tru .right {
+        order: 2;
+    }
+    .golf .trufoam .trufoamlogo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 6%;
+    }
+ 
+    .golf .trufoambanks {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .golf .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .golf .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .golf .box5.bigcontainer, .golf .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .golf .box4, .golf .box5 {
+        margin-top: 3%;
+    }
+    .golf .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .golf .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .golf .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .golf #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+        width: 220px;
+    }
+
+    .golf .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 13px;
+        line-height: 1.95em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .golf .air {
+        margin-bottom: 14%;      
+    }
+    .golf .gifimage .right {
+        margin-top: 5%;
+    }
+    .golf .gifimage .left {
+        margin-top: 5%;
+    }
+    .golf #tec-mobile {
+        margin-top: 35px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .golf #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .golf .xcmobile {
+        margin-bottom: 8%;
+    }
+    .golf .xc-container .btn {
+        display: none;
+    }
+    .golf .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .golf {
+      overflow-x: hidden;
+    }
+    .golf {
+      position: relative
+    }
+    .golf .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .golf .videoandbtn .btn {
+        background: #fff;
+    }
+    .golf .box5 {
+        padding-top: 10%;
+    }
+    .golf .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .golf .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .golf .rock {
+        bottom: 27px;
+    }
+    .golf  .righty img {
+    padding-top: 20px;
+    }
+     .golf .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .golf .videoandbtn .theright {
+        order: 1;
+    }   
+     .golf .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+}
+.golf .button {
+    position: relative;
+    top: 55px;
+    background: #fff;
+}
+.golf .last .right, .golf .last .left{
+    position: relative;
+    text-align: center;
+}
+.golf .last .boxtwo {
+    align-items: flex-end!important;
+}
+@media screen and (min-width: 768px){ 
+    .golf .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    } 
+    .golf #tec-mobile.first-car {
+        padding-bottom: 5.3%;
+    }
+    .golf .first-car .carousel span {
+        margin-top: 5px;
+    }
+    .golf .box1.firstbox {
+        margin-bottom: 6%;
+    }
+    .golf .button {
+        top: 110px;
+    }
+    .golf #tec-mobile {
+        padding: 0.5% 0 2%;
+        text-align: center;
+    }
+    .golf .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .golf .lefty {
+        width: 64%;
+    }
+    .golf .righty {
+        width: 44.5%;
+    }
+    .golf .box5 .span4 {
+        margin-top: 30%;
+    }
+    .golf .xc-flex {
+        display: none;
+    }
+    .golf .xc-container {
+        margin-bottom: 10%; 
+    }
+    .golf .box-collection, .golf #tec-mobile {
+        padding: 0.5% 0 2%;
+        text-align: center;
+    }
+    .golf #tec-mobile.car2 {
+        padding-top: 3%;
+        padding-bottom: 5.5%;
+    }
+    .golf #tec-mobile.car3 {
+        padding-top: 1%;
+    }
+    .golf #tec-mobile.car3 .carousel span{
+        margin-top: 5px;
+    }
+    .golf .box-collection, .golf #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .golf .trufoam .btn {
+        margin-bottom: 0.5%;
+    }
+    .golf .bot {
+        position: relative;
+    }
+    .golf .bigcontainer3 .trufoam .btn {
+        margin-bottom: 6%;
+    }
+    
+    .golf .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .golf .rock .box-two {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .golf  .righty {
+        right: 8.5%;
+        position: relative;
+    }
+    .golf .lastcontainer {
+        position: relative; 
+        bottom: 300px;
+    }
+}
+@media (max-width: 767px){
+    .golf .bigcontainer2 .btn, .golf .bigcontainer3 .btn, .golf .container4.last .btn {
+        margin-top: 0;
+        border: 1px solid #555;
+    }
+    .golf .button {
+        border: 1px solid #555;
+    }
+    .golf .bot {
+        position: relative;
+    }
+    .golf .sec-con .sec {
+        margin-top: 10%;
+    }
+    .golf .sec-con .btn {
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+    .golf .btn {
+        font-size: 16px;
+    }
+    .golf .saddle-box .btn {
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    .golf #tec-mobile.car3 {
+        margin-top: 0;
+    }
+    .golf .lasts{
+        margin-top: 5%;
+    }
+    .golf .pads {
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 550px){
+    .golf .bigcontainer2 .btn, .golf .bigcontainer3 .btn, .golf .container4.last .btn {
+        padding: 9px 14px 7px;
+        font-size: 12px;
+        margin-top: 0;
+        border: 1px solid #555;
+    }
+    .golf .container4.last .btn, .golf .last .button {
+        font-size: 9px;
+        padding: 9px 5px 7px;
+    }
+}
+@media  screen and (min-width: 551px) and (max-width: 767px){ 
+  .golf .bigcontainer2 .btn, .golf .bigcontainer3 .btn {
+    font-size: 16px;
+    padding: 17px 25px 15px;
+    margin-top: 0;  
+  }
+    .golf .container4.last .btn, .golf .button {
+        font-size: 15px;
+        padding: 17px 15px 15px;
+    }
+    .golf .bot .button {
+        top: 80px;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 899px){ 
+    .golf h3, .golf .trufoam .sec, .golf .sec {
+        font-size: 24px;
+    }
+}
+@media  screen and (min-width: 768px) and (max-width: 1390px){
+    .golf .box-two .up {
+        bottom: 115px;
+    }
+    .golf .container4, .golf .bigcontainer3 {
+        bottom: 80px;
+    }
+    .golf .lastcontainer {
+        bottom: 140px;
+    }
+    .golf .container4.last {
+        bottom: 165px;
+    }
+} 
+.golf .bigcontainer2 .waterfoam {
+    margin: 0 0 0 auto;
+}
+.golf .sec {
+    margin-bottom: 2.8%;
+}
+.golf .sec.fst {
+    margin-bottom: 6.5%;
+}
+@media all and (min-width: 768px) and (max-width: 900px) {
+    .golf .box-collection__shoes span, .golf .carousel span {  
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .golf .carousel .price {
+       margin-top: 10px; 
+    }
+}
+
+@media all and (min-width: 901px) and (max-width: 1200px) {
+    .golf .box-collection__shoes span, .golf .carousel span {  
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .golf .carousel .price {
+       margin-top: 10px; 
+    }
+}
+
+
+
+@media all and (min-width: 1201px) and (max-width: 1380px) {
+    .golf .box-collection__shoes span, .golf .carousel span {  
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width: 1381px) {
+    .golf .box-collection__shoes span, .golf .carousel span {
+        font-size: 16px;
+    }
+}
+
+.golf .carousel span.price {
+    margin-top: 5px;
+}
+.golf sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
