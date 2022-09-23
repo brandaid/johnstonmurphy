@@ -1,0 +1,1430 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.xcflex abbr,
+.xcflex address,
+.xcflex article,
+.xcflex aside,
+.xcflex audio,
+.xcflex b,
+.xcflex blockquote,
+.xcflex,
+.xcflex canvas,
+.xcflex caption,
+.xcflex cite,
+.xcflex code,
+.xcflex dd,
+.xcflex del,
+.xcflex details,
+.xcflex dfn,
+.xcflex div,
+.xcflex dl,
+.xcflex dt,
+.xcflex em,
+.xcflex fieldset,
+.xcflex figcaption,
+.xcflex figure,
+.xcflex footer,
+.xcflex form,
+.xcflex h1,
+.xcflex h2,
+.xcflex h3,
+.xcflex h4,
+.xcflex h5,
+.xcflex h6,
+.xcflex header,
+.xcflex hgroup,
+.html-xcflex,
+.xcflex i,
+.xcflex iframe,
+.xcflex img,
+.xcflex ins,
+.xcflex kbd,
+.xcflex label,
+.xcflex legend,
+.xcflex li,
+.xcflex mark,
+.xcflex menu,
+.xcflex nav,
+.xcflex object,
+.xcflex ol,
+.xcflex p,
+.xcflex pre,
+.xcflex q,
+.xcflex samp,
+.xcflex section,
+.xcflex small,
+.xcflex span,
+.xcflex strong,
+.xcflex sub,
+.xcflex summary,
+.xcflex sup,
+.xcflex table,
+.xcflex td,
+.xcflex tfoot,
+.xcflex th,
+.xcflex thead,
+.xcflex time,
+.xcflex tr,
+.xcflex ul,
+.xcflex var,
+.xcflex video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.xcflex article,
+.xcflex aside,
+.xcflex details,
+.xcflex figcaption,
+.xcflex figure,
+.xcflex hgroup,
+.xcflex section {
+    display: block;
+}
+.xcflex ul {
+    list-style: none;
+}
+.xcflex figure {
+    line-height: 0;
+}
+.html-xcflex {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.xcflex .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .xcflex .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .xcflex .only-mobile {
+        display: none;
+    }
+    .xcflex .only-desktop {
+        display: block;
+    }
+    .xcflex .box3 .span4 {
+        margin: 0 auto;
+    }
+    .xcflex .box3.someair .span4, .xcflex .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 78%;
+    }
+     .xcflex .box3 .span5 {
+        max-width: 64%;
+     }
+     .xcflex .copy li::before {
+        content: url('images/arr.png');
+        position: absolute;
+        left: -37px;
+        top: 2px;
+    }
+}
+@media all and (min-width: 992px) {
+    .xcflex .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .xcflex .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .xcflex li {
+        font-size: 26px;
+        line-height: 38px;
+        color: #57595b;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1299px){
+     .xcflex li {
+        font-size: 20px;
+        line-height: 29px;
+        color: #57595b;
+    }   
+}
+@media screen and (min-width: 990px) and (max-width: 1109px){
+     .xcflex li {
+        position: relative;
+        margin-left: 24%;
+    }   
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+     .xcflex li {
+        position: relative;
+        margin-left: 15%;
+        font-size: 17px;
+        line-height: 25px;
+        color: #57595b;
+    }   
+}
+
+@media all and (min-width: 1110px) {
+    .xcflex .copy li {
+        position: relative;
+        margin-left: 33%;
+    }
+}
+
+.xcflex,
+.xcflex a,
+.xcflex h1,
+.xcflex h2,
+.xcflex h3,
+.xcflex h4,
+.xcflex h5,
+.xcflex h6,
+.xcflex li,
+.xcflex p,
+.xcflex ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.xcflex h2 {
+    font-size: 65px;
+}
+.xcflex h3 {
+    font-size: 25.5px;
+    line-height: 30.96px;
+    letter-spacing: 1px;
+}
+.xcflex h4 {
+    font-size: 27px;
+}
+.xcflex h1,
+.xcflex h2,
+.xcflex h3,
+.xcflex h4,
+.xcflex h5,
+.xcflex h6 {
+    margin: 0;
+    padding: 0;
+}
+.xcflex h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.xcflex p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #777;
+}
+.xcflex i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.xcflex ul, .xcflex li  {
+   font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .xcflex h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .xcflex p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .xcflex .two-cols p {
+        margin-top: 10%;
+        margin-bottom: 11.5%;
+        text-align: center;
+    }
+    .xcflex .two-cols .button {
+        margin-top: 16.7%;
+        text-align: center;
+        margin-bottom: 16.8%;
+    }
+    .xcflex .two-cols .topfig {
+        margin-bottom: 3.5%;
+    }
+}   
+.xcflex .box-collection__shoes span, .xcflex .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+    display: block;
+    margin-top: 35px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .xcflex .box-collection__shoes span, .xcflex .carousel span {
+        font-size: 19.79px;
+        line-height: 25px;
+    }
+}
+.xcflex .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.xcflex .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.xcflex .box-columns figure {
+    margin-bottom: 10px;
+}
+.xcflex .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.xcflex .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.xcflex .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.xcflex .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.xcflex .box-two.two-cols {
+    padding-top: 1.7%;
+}
+.xcflex .box1 .table .span1 .left,  .xcflex .box1 .table .span1 .right {
+    display: table-cell;
+}
+.xcflex .slider-image {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+}
+@media all and (min-width: 768px) {
+    .xcflex .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .xcflex .box-two p {
+        max-width: 51%;
+    }
+    .xcflex .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .xcflex .box-two .right .white {
+        margin-bottom: 35%;
+    }
+    .xcflex .box-two .right .white.tobot {
+        margin-bottom: 0;
+        margin-top: 75.5%;
+    }
+    .xcflex .box-two .right .white.second {
+        margin-bottom: 55%;
+    }
+    .xcflex .box-two .left,
+    .xcflex .box-two .right {
+        width: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        align-self: flex-end;
+        
+    }
+    .xcflex .section-two .left .btn {
+        margin: 0 auto;
+    }
+    .xcflex .xcflex .videoandbtn{
+        z-index: 9999;
+    }
+    .xcflex .box-collection, .xcflex #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .xcflex .box-collection h3, .xcflex .carousel h3, .xcflex .car2 h3 {
+        margin-bottom: 45px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .xcflex .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .xcflex .hover {
+        background: #212121;
+    }
+    .xcflex .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .xcflex .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.xcflex .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .xcflex .bottom .leftimg, .xcflex .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.xcflex .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.xcflex .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.xcflex .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.xcflex .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.xcflex .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.xcflex .embed-container {
+  position: relative;
+  padding-bottom: 66.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.xcflex .embed-container iframe, .xcflex .embed-container object, .xcflex .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .xcflex .box-mobile, .xcflex .box-two.fourimages, .xcflex .box-two.comfort .top, .xcflex .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .xcflex .box-two.fourimages {
+        display: table;
+    }
+    .xcflex .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .xcflex .footwear, .xcflex .box-two.two-cols {
+        padding-top: 3%;
+    }
+    .xcflex .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .xcflex .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .xcflex .box1 .span3 h2 {
+        color: #fff;
+        font-size: 32px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+     .xcflex .copy li {
+        position: relative;
+        padding-bottom: 10px;
+        margin-left: 22%;
+        line-height: 20px;
+     }
+     .xcflex .copy li::before {
+        content: url('images/arr.png');
+        position: absolute;
+        left: -37px;
+        top: 2px;
+    }
+}
+
+main.xcflex {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.xcflex .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.xcflex .box1 {
+    position: relative;
+    }
+.xcflex .box1 h2 {
+        margin-bottom: 0;
+    }
+.xcflex .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.xcflex .box1 .span1, .xcflex .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.xcflex .box1 .table .span1, .xcflex .box1 .table .span2 {
+    width: 100%;
+}
+.xcflex .box1 .table .span9 {
+    width: 50%;
+}
+.xcflex .box1 .circle-one-day {
+    display: block;
+    text-align: left;
+    margin-left: 36%;
+    margin-right: auto;
+}
+.xcflex .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #fff;
+    margin-bottom: 19%;
+}
+.xcflex .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+}
+.xcflex .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.xcflex .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.xcflex .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .xcflex h2 {
+        font-size: 54px;
+    }
+    .xcflex h3 {
+        font-size: 21.2px;
+    }
+    .xcflex .slider-image {
+        width: 220px;
+        height: 220px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .xcflex h2 {
+        font-size: 43px;
+    }
+    .xcflex h3 {
+        font-size: 16.5px;
+    }
+    .xcflex .slider-image {
+        width: 185px;
+        height: 185px;
+    }
+}
+@media screen and (min-width: 1091px) and (max-width: 1265px){
+     .xcflex .slider-image {
+        width: 269px;
+        height: 269px;
+    }   
+}
+@media screen and (min-width: 1265px){
+     .xcflex .slider-image {
+        width: 330px;
+        height: 330px;
+    }   
+}
+@media screen and (min-width: 1401px) {
+     .xcflex .slider-image {
+        width: 359px;
+        height: 359px;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    .xcflex .box1 h2, .xcflex .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .xcflex .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .xcflex .box1 .xclogo {
+        margin-left: 75%;
+    }
+    .xcflex .videoandbtn .theright {
+        width: 78%;
+    }
+    .xcflex .theleft {
+        align-self: center;
+    }
+    .xcflex .copy {
+    margin-top: 26.5%;
+    margin-bottom: 17%;
+    }
+    .xcflex .copy {
+        margin-left: 15%;
+    }
+}
+
+.xcflex .videoandbtn {
+    display: flex;
+}
+.xcflex .trufoam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.xcflex .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+}
+.xcflex .trufoam .trufoamlogo {
+    margin-bottom: 4.5%;
+}
+.xcflex .trufoam h3 {
+    text-transform: uppercase;
+    line-height: 30.96px;
+    padding-left: 5px;
+}
+
+.xcflex .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.xcflex .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 35px 15px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.xcflex .btn:hover {
+    opacity: 0.8;
+}
+.xcflex .trufoam .btn {
+    align-self: baseline;
+    margin-top: auto;
+}
+@media all (max-width: 767px) {
+    .xcflex .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }
+}
+@media all (max-width: 1535px)  {
+    .xcflex p {
+        font-size: 33.33px;
+        line-height: 41.67px;
+    }
+}
+@media screen and (min-width: 1453px) and (max-width: 1534px){ 
+    .xcflex .two-cols p {
+        font-size: 30px;
+        line-height: 37.5px;
+    }
+}
+@media screen and (min-width: 1290px) and (max-width: 1452px){ 
+    .xcflex .two-cols p {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+@media screen and (min-width: 1106px) and (max-width: 1289px){ 
+    .xcflex .two-cols p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+@media screen and (min-width: 922px) and (max-width: 1105px){ 
+    .xcflex .two-cols p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 922px){ 
+    .xcflex .two-cols p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .xcflex .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .xcflex .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+    .xcflex .trufoam h4 {
+        font-size: 25px;
+        line-height: 30.55px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .xcflex .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .xcflex .trufoam h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .xcflex .trufoam h4 {
+        font-size: 22px;
+        line-height: 26.88px;
+    }
+    .xcflex .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .xcflex .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+    .xcflex .trufoam h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+     .xcflex .trufoam h4 {
+        font-size: 17.4px;
+        line-height: 21.25px;
+     }
+     .xcflex .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.xcflex .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.xcflex .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.xcflex .box4 {
+    padding-top: 0;
+}
+.xcflex .box3 .btn {
+    position: relative;
+}
+.xcflex .get-move {
+    display: flex;
+    align-items: center;
+}
+.xcflex .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.xcflex .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.xcflex .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.xcflex .box5, .xcflex #tec-mobile,  .xcflex .videoandbtn, .xcflex .rock {
+    position: relative;
+}
+@media screen and (min-width: 1401px) and (max-width: 1500px){
+    .xcflex .box1 h2 {
+      font-size: 62px;  
+    }    
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .xcflex .white {
+        font-size: 48px;
+    }
+    .xcflex .box1 h2 {
+      font-size: 56px;  
+    }   
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .xcflex .white {
+        font-size: 35px;
+    }
+    .xcflex .box1 h2 {
+      font-size: 40px;  
+    }   
+    .xcflex .xclogo {
+        width: 120px;
+        height: auto;
+    }
+    .xcflex .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .xcflex .white {
+            font-size: 30px;
+        }
+        .xcflex .white {
+            font-size: 27px;
+        }
+        .xcflex .box1 h2 {
+            font-size: 34px;  
+        }   
+        .xcflex .xclogo {
+            width: 100px;
+            height: auto;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .xcflex .box4 .span4 {
+        padding-right: 5%;
+    }
+    .xcflex .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .xcflex .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.xcflex .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.xcflex .xc-container {
+    margin-bottom: 6%;
+}
+.xcflex .xc-container .cell-banner {
+    text-align: left;
+}
+.xcflex .xc-logo {
+    margin-bottom: 3%;
+}
+.xcflex .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .xcflex .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .xcflex .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .xcflex .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .xcflex .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .xcflex .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .xcflex .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .xcflex .white {
+        font-size: 20px;
+    }
+    .xcflex .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .xcflex .xc-logo {
+        width: 100px;
+    }
+    .xcflex .box1 .xclogo {
+        margin-left: 78%;
+    }
+    .xcflex .slider-image {
+        width: 195px;
+        height: 195px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .xcflex .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .xcflex .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .xcflex .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .xcflex .box1 .xclogo {
+        margin-left: 93%;
+        width: 100px;
+        height: auto;
+    }
+    .xcflex .white {
+        font-size: 24px;
+    }
+    .xcflex .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .xcflex .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .xcflex .copy .xclogo {
+        width: 90px;
+        height: auto;
+    }
+    .xcflex .copy {
+        margin-left: 10%;
+    }   
+    .xcflex .copy li {
+        margin-left: 22%;
+     }
+    .xcflex .white {
+        font-size: 30px;
+}
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .xcflex .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .xcflex .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .xcflex .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .xcflex .white {
+        font-size: 28px;
+    }
+    .xcflex .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .xcflex .xc-logo {
+        width: 120px;
+    }
+    .xcflex .box1 .span3 h2{
+        font-size: 40px;
+    }
+    .xcflex .box1 .xclogo {
+        margin-left: 91%;
+        width: 130px;
+        height: auto;
+    }
+    .xcflex .box1 .span3 {
+        left: 27%;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .xcflex .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .xcflex .copy .xclogo {
+        width: 140px;
+        height: auto;
+    }
+    .xcflex .xc-logo {
+        width: 100px;
+    }
+    .xcflex .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .xcflex .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .xcflex .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .xcflex .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .xcflex .white {
+        font-size: 33px;
+    }
+    .xcflex .box1 .xclogo {
+        margin-left: 75%;
+        width: 186px;
+        height: auto;
+    }
+    .xcflex .box1 .span3 h2{
+        font-size: 59px;
+    }
+    .xcflex .copy {
+        margin-left: 20%;
+    } 
+   .xcflex .copy li {
+    margin-left: 24%;
+   }
+   .xcflex .white {
+        font-size: 50px;
+   }
+}
+@media screen and (max-width: 767px){
+    .xcflex .space {
+        margin-bottom: 3%;
+    }
+    .xcflex .circle-mobile h5 {
+        margin-bottom: 200%;
+    }
+    .xcflex .circle-mobile h5.placing {
+        margin-bottom: 80%;
+    }
+    .xcflex .copy {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }   
+    .xcflex .two-cols .button {
+        text-align: center;
+    }
+    .xcflex .two-cols .button .btn {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .xcflex .spacing {
+        padding-bottom: 3%;
+    }
+    .xcflex .white {
+        margin-bottom: 30%;
+    }  
+    .xcflex .box-two .right .white.tobot {
+        margin-bottom: 0;
+        margin-top: 40%;
+    }
+    .xcflex .box-two .right.mobile-space {
+        padding-top: 3%;
+    }
+    .xcflex .only-desktop, .xcflex .box1 .circle-one-day {
+        display: none;
+    }
+    .xcflex .span3 h3 {
+        font-size: 12.5px;
+        text-transform: uppercase;
+    }
+    .xcflex .box1 {
+        position: relative;
+    }
+    .xcflex .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .xcflex .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .xcflex .box1 .span3 {
+        position: absolute;
+        bottom: 35%;
+        left: 22%;
+    }
+    .xcflex .box1 .xclogo {
+        margin-bottom: 27%;
+        margin-top: 20%;
+    }
+    .xcflex .tru, .xcflex .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .xcflex .tru .left {
+        order: 2;
+    }
+    .xcflex .tru .right {
+        order: 1;
+    }
+    .xcflex .trufoam .trufoamlogo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 6%;
+    }
+    .xcflex .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .xcflex .trufoam h3, .xcflex h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .xcflex .trufoam h4, .xcflex h4 {
+        font-size: 19.5px;
+        line-height: 24.5px;
+        margin-top: 6%;
+    }
+    .xcflex .trufoambanks {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .xcflex .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .xcflex .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .xcflex .box5.bigcontainer, .xcflex .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .xcflex .box4, .xcflex .box5 {
+        margin-top: 3%;
+    }
+    .xcflex .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .xcflex .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .xcflex .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .xcflex #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .xcflex .shirts .item {
+        width: 250px;
+    }
+
+    .xcflex .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+        line-height: 1.4em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .xcflex .air {
+        margin-bottom: 14%;      
+    }
+    .xcflex .gifimage .right {
+        margin-top: 5%;
+    }
+    .xcflex .gifimage .left {
+        margin-top: 5%;
+    }
+    .xcflex #tec-mobile {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .xcflex #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .xcflex .xcmobile {
+        margin-bottom: 8%;
+    }
+    .xcflex .xc-container .btn {
+        display: none;
+    }
+    .xcflex .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .xcflex {
+      overflow-x: hidden;
+    }
+    .xcflex {
+      position: relative
+    }
+    .xcflex .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .xcflex .videoandbtn .btn {
+        background: #fff;
+    }
+    .xcflex .box5 {
+        padding-top: 10%;
+    }
+    .xcflex .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .xcflex .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .xcflex  .righty img {
+    padding-top: 20px;
+    }
+     .xcflex .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .xcflex .videoandbtn .theright {
+        order: 1;
+    }   
+     .xcflex .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+     .xcflex .box-two p {
+        text-align: center;
+        max-width: 62%;
+        margin: 17% auto 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 768px){ 
+    .xcflex .desktop-space {
+        margin-top: 3%;
+    }
+    .xcflex .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .xcflex .white {
+        position: relative;
+        bottom: 38%;
+        text-align: center;
+    }
+    .xcflex .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .xcflex .lefty {
+        width: 64%;
+    }
+    .xcflex .righty {
+        width: 44.5%;
+    }
+    .xcflex .box5 .span4 {
+        margin-top: 30%;
+    }
+    .xcflex .xc-flex {
+        display: none;
+    }
+    .xcflex .xc-container {
+        margin-bottom: 10%; 
+    }
+    .xcflex .box-collection, .xcflex #tec-mobile {
+        padding: 5% 0;
+        text-align: center;
+    }
+    .xcflex .box-collection, .xcflex #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .xcflex .trufoam .btn {
+        margin-top: 11%;
+        margin-bottom: 6%;
+    }
+    .xcflex .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .xcflex .rock .box-two {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .xcflex  .righty {
+        right: 8.5%;
+        position: relative;
+    }
+}
+@media  screen and (min-width: 326px) and (max-width: 767px){ 
+    .xcflex .trufoam .btn {
+        position: absolute;
+        top: 40%;
+        background: #fff;
+    }
+}
+
+.xcflex .copy .xclogo {
+    margin-bottom: 8%;
+}
+
+
+
+/* START CAROUSEL - IMAGES ON HOVER*/
+@media all and (min-width: 768px) {
+    /* FIRST SHOE*/
+     .xcflex .hover-first-shoe:hover {
+        background-image: url('images/1.gif')!important;
+     }
+     /* SECOND SHOE*/
+     .xcflex .hover-second-shoe:hover {
+        background-image: url('images/2.gif')!important;
+     }
+    /* THIRD SHOE*/
+     .xcflex .hover-third-shoe:hover {
+        background-image: url('images/3.gif')!important;
+     }
+     /* FOURTH SHOE*/
+     .xcflex .hover-fourth-shoe:hover {
+        background-image: url('images/4.gif')!important;
+     }
+}
+
+
