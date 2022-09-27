@@ -1407,24 +1407,5 @@ main.xcflex {
 
 
 
-/* START CAROUSEL - IMAGES ON HOVER*/
-@media all and (min-width: 768px) {
-    /* FIRST SHOE*/
-     .xcflex .hover-first-shoe:hover {
-        background-image: url('images/1.gif')!important;
-     }
-     /* SECOND SHOE*/
-     .xcflex .hover-second-shoe:hover {
-        background-image: url('images/2.gif')!important;
-     }
-    /* THIRD SHOE*/
-     .xcflex .hover-third-shoe:hover {
-        background-image: url('images/3.gif')!important;
-     }
-     /* FOURTH SHOE*/
-     .xcflex .hover-fourth-shoe:hover {
-        background-image: url('images/4.gif')!important;
-     }
-}
 
 
