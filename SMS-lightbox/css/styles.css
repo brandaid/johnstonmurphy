@@ -1,0 +1,342 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.lightbox abbr,
+.lightbox address,
+.lightbox article,
+.lightbox aside,
+.lightbox audio,
+.lightbox b,
+.lightbox blockquote,
+.lightbox,
+.lightbox canvas,
+.lightbox caption,
+.lightbox cite,
+.lightbox code,
+.lightbox dd,
+.lightbox del,
+.lightbox details,
+.lightbox dfn,
+.lightbox div,
+.lightbox dl,
+.lightbox dt,
+.lightbox em,
+.lightbox fieldset,
+.lightbox figcaption,
+.lightbox figure,
+.lightbox footer,
+.lightbox form,
+.lightbox h1,
+.lightbox h2,
+.lightbox h3,
+.lightbox h4,
+.lightbox h5,
+.lightbox h6,
+.lightbox header,
+.lightbox hgroup,
+.html-lightbox,
+.lightbox i,
+.lightbox iframe,
+.lightbox img,
+.lightbox ins,
+.lightbox kbd,
+.lightbox label,
+.lightbox legend,
+.lightbox li,
+.lightbox mark,
+.lightbox menu,
+.lightbox nav,
+.lightbox object,
+.lightbox ol,
+.lightbox p,
+.lightbox pre,
+.lightbox q,
+.lightbox samp,
+.lightbox section,
+.lightbox small,
+.lightbox span,
+.lightbox strong,
+.lightbox sub,
+.lightbox summary,
+.lightbox sup,
+.lightbox table,
+.lightbox td,
+.lightbox tfoot,
+.lightbox th,
+.lightbox thead,
+.lightbox time,
+.lightbox tr,
+.lightbox ul,
+.lightbox var,
+.lightbox video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.lightbox article,
+.lightbox aside,
+.lightbox details,
+.lightbox figcaption,
+.lightbox figure,
+.lightbox hgroup,
+.lightbox section {
+    display: block;
+}
+.lightbox ul {
+    list-style: none;
+}
+.lightbox figure {
+    line-height: 0;
+}
+.html-lightbox {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.lightbox .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.lightbox .hidden,
+.lightbox .only-desktop {
+    display: none;
+}
+.lightbox .firstsection {
+    background-image: url(../images/background.jpg);
+}
+.lightbox,
+.lightbox a,
+.lightbox h1,
+.lightbox h2,
+.lightbox h3,
+.lightbox h4,
+.lightbox h5,
+.lightbox h6,
+.lightbox li,
+.lightbox p,
+.lightbox ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.lightbox a {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 10px;
+    line-height: 14px;
+}
+.lightbox h1,
+.lightbox h2,
+.lightbox h3,
+.lightbox h4,
+.lightbox h5,
+.lightbox h6 {
+    margin: 0;
+    padding: 0;
+}
+.lightbox h2 {
+    font-size: 34px;
+    color: #fff;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+.lightbox h3 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 24px;
+    max-width: 260px;
+    margin: 0 auto 35px;
+}
+.lightbox h1 {
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+}
+.lightbox p {
+    font-size: 10px;
+    line-height: 14.8px;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #fff;
+    max-width: 400px;
+    margin: 18px auto 79px;
+    padding-left: 5px;
+    text-align: left;
+}
+.lightbox i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.lightbox .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+main.lightbox, .lightbox .firstsection {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+.lightbox .firstsection {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.lightbox .firstsection {
+    text-align: center;
+}
+.lightbox .firstsection .johnstonlogo {
+    margin: 17px auto 54px;
+}
+
+.lightbox .btn {
+    background: #cecece;
+    color: #000;
+    display: block;
+    font-size: 25.21px;
+    text-transform: uppercase;
+    line-height: 33.61px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    padding: 14px 30px 7px;
+    margin-top: 30px;
+    width: 395px;
+    box-sizing: border-box;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.lightbox .btn:hover {
+    opacity: 0.8;
+}
+.lightbox form {
+    display: inline-block;
+}
+.lightbox input {
+    display: block; 
+    border: none;
+    width: 395px;
+    padding-left: 14px;
+    padding-top: 13px;
+    outline: none;
+    font-size: 26px;
+    color: #8b8b8b;
+    margin: 0 auto;
+    padding-bottom: 11px;
+    box-sizing: border-box;
+}
+.lightbox .firstsection .btn{
+    margin: 11px auto 0;
+}
+.lightbox .close-icon {
+    align-self: flex-end;
+    margin-top: 19px;
+    margin-right: 24px;
+}
+@media (max-width: 699px) {
+    main.lightbox, .lightbox .firstsection {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .lightbox .close-icon {
+        width: 20px;
+        height: auto;
+        margin-top: 11px;
+        margin-right: 12px;
+    }
+    .lightbox .firstsection .johnstonlogo {
+        width: 178px;
+        height: auto;
+        margin-top: 18px;
+        margin-bottom: 21px;
+    }
+    .lightbox h1 {
+        text-transform: none;
+        font-size: 44.5px;
+        margin-bottom: 0;
+        line-height: 42px;
+    }
+    .lightbox h2 {
+        font-size: 22.35px;
+        margin-bottom: 19px;
+        font-weight: normal;
+    }
+    .lightbox h3 {
+        font-size: 16px;
+        max-width: 220px;
+        line-height: 18.25px;
+        font-weight: normal;
+        margin-bottom: 23px;
+    }
+    .lightbox p {
+        line-height: 11.5px;
+        max-width: 261px;
+        margin-bottom: 64px;
+        margin-top: 0;
+    }
+    .lightbox .firstsection .mobilebtn {
+        width: 261px;
+        font-size: 16.91px;
+        line-height: 22.55px;
+        font-weight: normal;
+        padding-top: 10px;
+        margin-bottom: 25px;
+        font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    }
+    .lightbox .mobilebtn b {
+        font-weight: bold;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .lightbox .firstsection {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: -39px;
+    }
+}
+@media all and (min-width: 700px) {
+    .lightbox .only-mobile {
+        display: none;
+    }
+    .lightbox .only-desktop {
+        display: block;
+    }
+}
+.lightbox input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #8b8b8b;
+}
+.lightbox input::-moz-placeholder { /* Firefox 19+ */
+  color: #8b8b8b;
+}
+.lightbox input:-ms-input-placeholder { /* IE 10+ */
+  color: #8b8b8b;
+}
+.lightbox input:-moz-placeholder { /* Firefox 18- */
+  color: #8b8b8b;
+}
+.lightbox input::placeholder {
+  color: #8b8b8b;
+}
+
+
