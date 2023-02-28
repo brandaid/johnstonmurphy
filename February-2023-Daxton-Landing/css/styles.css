@@ -1,0 +1,1312 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.daxton abbr,
+.daxton address,
+.daxton article,
+.daxton aside,
+.daxton audio,
+.daxton b,
+.daxton blockquote,
+.daxton,
+.daxton canvas,
+.daxton caption,
+.daxton cite,
+.daxton code,
+.daxton dd,
+.daxton del,
+.daxton details,
+.daxton dfn,
+.daxton div,
+.daxton dl,
+.daxton dt,
+.daxton em,
+.daxton fieldset,
+.daxton figcaption,
+.daxton figure,
+.daxton footer,
+.daxton form,
+.daxton h1,
+.daxton h2,
+.daxton h3,
+.daxton h4,
+.daxton h5,
+.daxton h6,
+.daxton header,
+.daxton hgroup,
+.html-daxton,
+.daxton i,
+.daxton iframe,
+.daxton img,
+.daxton ins,
+.daxton kbd,
+.daxton label,
+.daxton legend,
+.daxton li,
+.daxton mark,
+.daxton menu,
+.daxton nav,
+.daxton object,
+.daxton ol,
+.daxton p,
+.daxton pre,
+.daxton q,
+.daxton samp,
+.daxton section,
+.daxton small,
+.daxton span,
+.daxton strong,
+.daxton sub,
+.daxton summary,
+.daxton sup,
+.daxton table,
+.daxton td,
+.daxton tfoot,
+.daxton th,
+.daxton thead,
+.daxton time,
+.daxton tr,
+.daxton ul,
+.daxton var,
+.daxton video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.daxton article,
+.daxton aside,
+.daxton details,
+.daxton figcaption,
+.daxton figure,
+.daxton hgroup,
+.daxton section {
+    display: block;
+}
+.daxton ul {
+    list-style: none;
+}
+.daxton figure {
+    line-height: 0;
+}
+.html-daxton {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.daxton .tru h3 {
+    font-weight: 400!important;
+}
+.daxton .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .daxton .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .daxton .only-mobile {
+        display: none!important;
+    }
+    .daxton .only-desktop {
+        display: block;
+    }
+    .daxton .box3 .span4 {
+        margin: 0 auto;
+    }
+    .daxton .box3.someair .span4, .daxton .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 75.5%;
+    }
+     .daxton .box3 .span5 {
+        max-width: 64%;
+     }
+}
+@media all and (min-width: 992px) {
+    .daxton .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .daxton .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.daxton,
+.daxton a,
+.daxton h1,
+.daxton h2,
+.daxton h3,
+.daxton h4,
+.daxton h5,
+.daxton h6,
+.daxton li,
+.daxton p,
+.daxton ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.daxton h2 {
+    font-size: 59px;
+}
+.daxton h3 {
+    font-size: 25px;
+    line-height: 30.96px;
+}
+.daxton h4 {
+    font-size: 27px;
+}
+.daxton h1,
+.daxton h2,
+.daxton h3,
+.daxton h4,
+.daxton h5,
+.daxton h6 {
+    margin: 0;
+    padding: 0;
+}
+.daxton h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.daxton p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #000;
+}
+.daxton i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .daxton h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .daxton p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.daxton .box-collection__shoes span, .daxton .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.95em;
+    display: block;
+    margin-top: 18px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .daxton p {
+        max-width: 800px;
+    }
+    .daxton .box-collection__shoes span, .daxton .carousel span {
+        font-size: 20.83px;
+    }
+}
+.daxton .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.daxton .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.daxton .box-columns figure {
+    margin-bottom: 10px;
+}
+.daxton .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.daxton .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.daxton .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.daxton .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.daxton .box-two.two-cols {
+    padding-top: 5%;
+}
+@media all and (min-width: 768px) {
+    .daxton .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .daxton .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .daxton .box-two .left,
+    .daxton .box-two .right {
+        width: 50%;
+    }
+
+    .daxton .box-two .left {
+        padding-right: 5.82%;
+        box-sizing: border-box;
+    }
+    .daxton .box-two .right {
+        padding-left: 5.8%;
+        box-sizing: border-box;
+        z-index: 9999;
+        text-align: center;
+    }
+    .daxton .daxton .videoandbtn{
+        z-index: 9999;
+        margin-top: 2.3%;
+    }
+    .daxton .box-collection, .daxton #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .daxton .box-collection h3, .daxton .carousel h3, .daxton .car2 h3 {
+        margin-bottom: 45px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .daxton .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .daxton .hover {
+        background: #212121;
+    }
+    .daxton .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .daxton .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.daxton .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .daxton .bottom .leftimg, .daxton .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.daxton .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.daxton .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.daxton .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.daxton .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.daxton .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.daxton .embed-container {
+  position: relative;
+  padding-bottom: 66.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.daxton .embed-container iframe, .daxton .embed-container object, .daxton .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .daxton .box-mobile, .daxton .box-two.fourimages, .daxton .box-two.comfort .top, .daxton .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .daxton .box-two.fourimages {
+        display: table;
+    }
+    .daxton .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .daxton .footwear, .daxton .box-two.two-cols {
+        padding-top: 7%;
+    }
+    .daxton .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .daxton .women-col-mobile {
+        margin-bottom: 50px;
+    }
+}
+
+main.daxton {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.daxton .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.daxton .box1 {
+    position: relative;
+    }
+.daxton .box1 h2 {
+        margin-bottom: 0;
+    }
+.daxton .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.daxton .box1 .span1, .daxton .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.daxton .box1 .table .span1, .daxton .box1 .table .span2 {
+    width: 100%;
+}
+.daxton .box1 .table .span9 {
+    width: 50%;
+}
+.daxton .box1 .circle-one-day {
+    display: block;
+    text-align: center;
+    margin-left: 46%;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 33%;
+}
+.daxton .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #a7b0b5;
+}
+.daxton .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400!important;
+    letter-spacing: 0.5px;
+    font-weight: 400!important;
+    text-transform: uppercase;
+    line-height: 31px;
+    margin-bottom: 5px;
+    margin-top: 2%;
+    color: #888888;
+}
+.daxton .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.daxton .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.daxton .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .daxton h2 {
+        font-size: 54px;
+    }
+    .daxton .box1 h2 {
+        font-size: 45px;
+    }
+    .daxton h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .daxton .tru h3 {
+        margin-top: 12%!important;
+    }
+}
+@media screen and (min-width: 1091px) and (max-width: 1210px){
+    .daxton .box1 h2 {
+        font-size: 50px;
+    }
+     .daxton .box1 h3 {
+        font-size: 21px;
+     }
+}
+
+@media screen and (min-width: 1091px) and (max-width: 1124px){
+    .daxton .tru h3 {
+        font-size: 19px;
+        line-height: 23px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .daxton h2 {
+        font-size: 43px;
+    }
+    .daxton .box1 h2 {
+        font-size: 31px;
+    }
+    .daxton h3 {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .daxton .box1 h3 {
+        font-size: 12.74px;
+    }
+}
+
+//320px
+@media screen and (max-width: 320px) {
+    .daxton .box1 h2, .daxton .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .daxton .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+
+    .daxton .videoandbtn .theright {
+        width: 75.5%;
+    }
+    .daxton .theleft {
+        align-self: center;
+    }
+    .daxton .rock .lefty figure {
+        margin-bottom: 13%;
+    }
+}
+.daxton .videoandbtn {
+    display: flex;
+}
+/* FIRST TWO COL BOX */
+/* .tru .left, .tru figure, .tru .right {
+    display: flex;
+}*/
+.daxton .trufoam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.daxton .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.daxton .trufoam h3 {
+    text-transform: uppercase;
+    line-height: 30.96px;
+    padding-left: 5px;
+}
+
+.daxton .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.daxton .tru h3 {
+    color: #777777;
+    text-align: left;
+    margin-top: 13.5%;
+}
+.daxton .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 17px 33px 13px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.daxton .btn:hover {
+    opacity: 0.8;
+}
+.daxton .trufoam .btn {
+    align-self: baseline;
+    margin-top: auto;
+}
+@media all (max-width: 767px) {
+    .daxton .trufoam .trufoamlogo {
+        margin: 0 auto 4.5%;
+    }
+}
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .daxton .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .daxton .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .daxton .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .daxton .trufoam h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .daxton .btn {
+        font-size: 16px;
+        padding: 14px 20px 10px;
+        line-height: 16px;
+    }    
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .daxton .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+    .daxton .trufoam h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+     .daxton .trufoam h4 {
+        font-size: 17.4px;
+        line-height: 21.25px;
+     }
+     .daxton .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.daxton .white {
+    color: #fff;
+    font-size: 48.25px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+
+.daxton .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.daxton .box4 {
+    padding-top: 0;
+}
+.daxton .box3 .btn {
+    position: relative;
+}
+.daxton .get-move {
+    display: flex;
+    align-items: center;
+}
+.daxton .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.daxton .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.daxton .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.daxton .box5, .daxton #tec-mobile,  .daxton .videoandbtn, .daxton .rock {
+    position: relative;
+}
+@media screen and (min-width: 1401px){
+    .daxton .rock {
+        bottom: 65px;
+    }
+}
+@media screen and (min-width: 1401px) and (max-width: 1490px){
+    .daxton .tru h3 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .daxton .white {
+        font-size: 48px;
+    }
+    .daxton .tru .white {
+        font-size: 40px;
+    }
+    .daxton .rock {
+        bottom: 55.6px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .daxton .white {
+        font-size: 35px;
+    }
+    .daxton .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+@media screen and (min-width: 1126px) and (max-width: 1249px){
+    .daxton .rock {
+        bottom: 49px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1125px){
+    .daxton .rock {
+        bottom: 35px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .daxton .white {
+            font-size: 27px;
+        }
+}
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .daxton .box4 .span4 {
+        padding-right: 5%;
+    }
+    .daxton .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .daxton .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.daxton .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.daxton .xc-container {
+    margin-bottom: 6%;
+}
+.daxton .xc-container .cell-banner {
+    text-align: left;
+}
+.daxton .xc-logo {
+    margin-bottom: 3%;
+}
+.daxton .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .daxton .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .daxton .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .daxton .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .daxton .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .daxton .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .daxton .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .daxton .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .daxton .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .daxton .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .daxton .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .daxton .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .daxton .box1 .span3 h2 {
+        font-size: 28.53px!important;
+    }
+    .daxton .box1 .span3 h3 {
+        font-size: 12.4215px;
+    }
+    .daxton .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .daxton .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .daxton .white {
+        font-size: 20px;
+    }
+    .daxton .tru .white {
+        font-size: 30px;
+    }
+    .daxton .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .daxton .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .daxton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .daxton .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .daxton .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .daxton .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .daxton .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .daxton .white {
+        font-size: 24px;
+    }
+    .daxton .tru .white {
+        font-size: 34px;
+    }
+    .daxton .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .daxton .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .daxton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .daxton .xc-logo {
+        width: 100px;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .daxton .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .daxton .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .daxton .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .daxton .white {
+        font-size: 28px;
+    }
+    .daxton .tru .white {
+        font-size: 38px;
+    }
+    .daxton .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .daxton .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .daxton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .daxton .xc-logo {
+        width: 120px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .daxton .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .daxton .xc-logo {
+        width: 100px;
+    }
+    .daxton .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .daxton .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .daxton .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .daxton .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .daxton .white {
+        font-size: 33px;
+    }
+    .daxton .tru .white {
+        font-size: 43px;
+    }
+}
+@media screen and (max-width: 767px){
+    .daxton .only-desktop, .daxton .box1 .circle-one-day {
+        display: none;
+    }
+    .daxton .span3 h3 {
+        font-size: 12.4215px;
+        text-transform: uppercase;
+    }
+    .daxton .box1 {
+        position: relative;
+    }
+    .daxton .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .daxton .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .daxton .box1 .span3 {
+        position: absolute;
+        top: 15%;
+        right: 15%;
+    }
+    .daxton .tru .right figure {
+        text-align: center;
+    }
+    .daxton .tru .right .trufoamlogo {
+        width: 50%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .daxton .box1 .span3 h2 {
+        color: #a7b0b5;
+        font-size: 28.53px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+    .daxton .box1 .span3 h3 {
+        color: #888888;
+        text-align: center;
+    }
+    .daxton .tru, .daxton .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .daxton .trufoamlogo {
+        width: 50%;
+        height: auto;
+        margin: 5% auto 12%;
+    }
+    .daxton .rock {
+        text-align: center;
+    }
+    .daxton .rock .trufoamlogo {
+        margin-top: 13%;
+        margin-bottom: 5%;
+    }
+    .daxton .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .daxton .trufoam h3, .daxton h3 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .daxton .trufoam h4, .daxton h4 {
+        font-size: 19.5px;
+        line-height: 24.5px;
+        margin-top: 6%;
+    }
+    .daxton .trufoambanks {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 4%;
+    }
+    .daxton .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .daxton .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .daxton .box5.bigcontainer, .daxton .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .daxton .box4, .daxton .box5 {
+        margin-top: 3%;
+    }
+    .daxton .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .daxton .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .daxton .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .daxton #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+        width: 250px;
+    }
+
+    .daxton .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+        line-height: 1.95em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .daxton .air {
+        margin-bottom: 14%;      
+    }
+    .daxton .gifimage .right {
+        margin-top: 5%;
+    }
+    .daxton .gifimage .left {
+        margin-top: 5%;
+    }
+    .daxton #tec-mobile {
+        margin-top: 12%;
+        margin-bottom: 7%;
+        text-align: center;
+    }
+    .daxton #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .daxton .xcmobile {
+        margin-bottom: 8%;
+    }
+    .daxton .xc-container .btn {
+        display: none;
+    }
+    .daxton .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .daxton {
+      overflow-x: hidden;
+    }
+    .daxton {
+      position: relative
+    }
+    .daxton .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .daxton .videoandbtn .btn {
+        background: #fff;
+    }
+    .daxton .box5 {
+        padding-top: 10%;
+    }
+    .daxton .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .daxton .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .daxton .rock {
+        margin-top: 10%;
+    }
+    .daxton  .righty img {
+    padding-top: 20px;
+    }
+     .daxton .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .daxton .videoandbtn .theright {
+        order: 1;
+    }   
+     .daxton .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+    .daxton .tru .right .btn {
+        margin-top: 10%;
+        margin-bottom: 13%;
+    }
+    .daxton .btn {
+        font-size: 14px;
+        padding: 15px 30px 13px;
+    }  
+}
+
+@media screen and (min-width: 768px){ 
+    .daxton .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .daxton .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .daxton .thep {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .daxton .tru .trufoamlogo {
+        margin: 0 auto 5%;
+    }
+    .daxton .tru figure {
+        position: relative;
+    }
+    .daxton .tru .white { 
+        position: absolute; 
+        margin-top: 42%;
+        width: 100%;
+        text-align: center;
+    }
+    .daxton .tru .right figure {
+        display: flex;
+        justify-content: center;
+    }
+    .daxton .tru .btn {
+        position: absolute;
+        top: 5.7%;
+        background-color: #fff;
+    }
+    .daxton .box5 .span4 {
+        margin-top: 30%;
+    }
+    .daxton .xc-flex {
+        display: none;
+    }
+    .daxton .xc-container {
+        margin-bottom: 10%; 
+    }
+    .daxton .box-collection, .daxton #tec-mobile {
+        padding: 0.3% 0 6%;
+        text-align: center;
+    }
+    .daxton .box-collection, .daxton #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .daxton .trufoam .btn {
+        margin-top: 11%;
+        margin-bottom: 6%;
+    }
+    .daxton .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .daxton .rock .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .daxton  .righty {
+        position: relative;
+        margin-bottom: 30px;
+        margin-left: 5.858%;
+    }
+    .daxton .lefty {
+        margin-right: 5.858%;
+    }
+}
+@media  screen and (min-width: 326px) and (max-width: 767px){ 
+    .daxton .trufoam .btn {
+        position: absolute;
+        top: 40%;
+        background: #fff;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .daxton .box1 .span3 {
+        right: 5%;
+    }
+}
+@media screen and (min-width: 361px) and (max-width: 500px) {
+    .daxton .box1 .span3 {
+        right: 8%;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .daxton .box1 .span3 h3 {
+        font-size: 14px;
+    }  
+    .daxton .box1 .span3 h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .daxton .box1 .circle-one-day h3 {
+        font-size: 21.5px;
+    }
+    .daxton .box1 h2 {
+      font-size: 52px;  
+    }   
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .daxton .box1 h2 {
+      font-size: 47px;  
+    }   
+    .daxton .box1 .circle-one-day h3 {
+        font-size: 19.89px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .daxton .box1 h2 {
+            font-size: 31px;  
+        } 
+        .daxton .box1 .circle-one-day h3 {
+            font-size: 12.74px;
+        }
+}
+
+@media screen and (min-width: 1106px) and (max-width: 1289px){
+    .daxton .thep {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media screen and (min-width: 1290px) and (max-width: 1400px){
+    .daxton .thep {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+@media screen and (min-width: 923px) and (max-width: 1105px){
+    .daxton .thep {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 922px){
+    .daxton .thep {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .daxton .thep {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+}
+

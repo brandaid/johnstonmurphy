@@ -1,0 +1,1444 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.conard abbr,
+.conard address,
+.conard article,
+.conard aside,
+.conard audio,
+.conard b,
+.conard blockquote,
+.conard,
+.conard canvas,
+.conard caption,
+.conard cite,
+.conard code,
+.conard dd,
+.conard del,
+.conard details,
+.conard dfn,
+.conard div,
+.conard dl,
+.conard dt,
+.conard em,
+.conard fieldset,
+.conard figcaption,
+.conard figure,
+.conard footer,
+.conard form,
+.conard h1,
+.conard h2,
+.conard h3,
+.conard h4,
+.conard h5,
+.conard h6,
+.conard header,
+.conard hgroup,
+.html-conard,
+.conard i,
+.conard iframe,
+.conard img,
+.conard ins,
+.conard kbd,
+.conard label,
+.conard legend,
+.conard li,
+.conard mark,
+.conard menu,
+.conard nav,
+.conard object,
+.conard ol,
+.conard p,
+.conard pre,
+.conard q,
+.conard samp,
+.conard section,
+.conard small,
+.conard span,
+.conard strong,
+.conard sub,
+.conard summary,
+.conard sup,
+.conard table,
+.conard td,
+.conard tfoot,
+.conard th,
+.conard thead,
+.conard time,
+.conard tr,
+.conard ul,
+.conard var,
+.conard video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.conard article,
+.conard aside,
+.conard details,
+.conard figcaption,
+.conard figure,
+.conard hgroup,
+.conard section {
+    display: block;
+}
+.conard ul {
+    list-style: none;
+}
+.conard sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
+.conard figure {
+    line-height: 0;
+}
+.html-conard {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+
+.conard .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .conard .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .conard .only-mobile {
+        display: none;
+    }
+    .conard .only-desktop {
+        display: block;
+    }
+    .conard .box3 .span4 {
+        margin: 0 auto;
+    }
+    .conard .box3.someair .span4, .conard .videoandbtn .thevideo {
+        margin-left: auto;
+        margin-right: 0;
+        max-width: 78%;
+    }
+     .conard .box3 .span5 {
+        max-width: 64%;
+     }
+}
+@media all and (min-width: 992px) {
+    .conard .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .conard .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .conard li {
+        font-size: 26px;
+        line-height: 38px;
+        color: #57595b;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1299px){
+     .conard li {
+        font-size: 20px;
+        line-height: 29px;
+        color: #57595b;
+    }   
+}
+@media screen and (min-width: 990px) and (max-width: 1109px){
+     .conard li {
+        position: relative;
+        margin-left: 24%;
+    }   
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+     .conard li {
+        position: relative;
+        margin-left: 15%;
+        font-size: 17px;
+        line-height: 25px;
+        color: #57595b;
+    }   
+}
+
+.conard,
+.conard a,
+.conard h1,
+.conard h2,
+.conard h3,
+.conard h4,
+.conard h5,
+.conard h6,
+.conard li,
+.conard p,
+.conard ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.conard h2 {
+    font-size: 59px;
+}
+.conard h3 {
+    font-size: 44.11px;
+    line-height: 58.33px;
+}
+.conard h4 {
+    font-size: 27px;
+}
+.conard h1,
+.conard h2,
+.conard h3,
+.conard h4,
+.conard h5,
+.conard h6 {
+    margin: 0;
+    padding: 0;
+}
+.conard h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.conard p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #777;
+}
+.conard i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.conard ul, .conard li, .conard .box-two h3 {
+   font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .conard h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .conard .box-two .shoe {
+        margin-top: 11%;
+    }
+    .conard .full {
+        margin-bottom: 2.5%;
+        margin-top: 1%;
+    }
+    .conard .box-two .shoes {
+        margin-top: 12%;
+    }
+    .conard p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .conard .two-cols p {
+        margin-top: 4.5%;
+        margin-bottom: 9%;
+        text-align: center;
+    }
+    .conard .two-cols .button {
+        margin-top: 16.7%;
+        text-align: center;
+        margin-bottom: 16.8%;
+    }
+    .conard .two-cols .topfig {
+        margin-bottom: 3.5%;
+    }
+}   
+.conard .box-collection__shoes span, .conard .carousel span {
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.2px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+    display: block;
+    margin-top: 35px;
+    color: #777777;
+}
+
+@media all and (min-width: 992px) {
+    .conard .box-collection__shoes span, .conard .carousel span {
+        font-size: 19.79px;
+        line-height: 25px;
+    }
+}
+.conard .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.conard .box-collection__shoes {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.conard .box-columns figure {
+    margin-bottom: 10px;
+}
+.conard .copy-content {
+    padding: 40px 20px;
+    text-align: center;
+}
+.conard .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.conard .box-two.fourimages .top {
+    padding-bottom: 3.2%;
+    box-sizing: border-box;
+}
+.conard .box-two.fourimages {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.conard .box-two.two-cols {
+    padding-top: 1.7%;
+}
+.conard .box1 .table .span1 .left,  .conard .box1 .table .span1 .right {
+    display: table-cell;
+}
+.conard .slider-image {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    background-size: cover;
+}
+.conard .box-two .right h3 {
+    color: #999999;
+    margin-top: 4.5%;
+}
+
+.conard .box-two .right p {
+    color: #777;
+}
+@media all and (min-width: 768px) {
+    .conard .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    .conard .box-two .right .lasth3 {
+        margin-top: 6.3%;
+    }
+    .conard .box-two p {
+        max-width: 74%;
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .conard .box-two .right .btn {
+        margin-bottom: 11.5%;
+    }
+    .conard .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .conard .box-two .copy {
+        margin: 6% auto 0;
+    }
+    .conard .box-two .right .white {
+        margin-bottom: 35%;
+    }
+    .conard .box-two .right .white.tobot {
+        margin-bottom: 0;
+        margin-top: 75.5%;
+    }
+    .conard .two-cols .lastp {
+        margin-bottom: 8%;
+    }
+    .conard .shoes {
+
+    }
+    .conard .box-two .right .white.second {
+        margin-bottom: 55%;
+    }
+    .conard .box-two .left,
+    .conard .box-two .right {
+        width: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        
+    }
+    .conard .box-two .left {
+        padding-right: 2.858%;
+    }
+    .conard .box-two .right {
+        padding-left: 2.858%;
+        text-align: center;
+    }
+    .conard .section-two .left .btn {
+        margin: 0 auto;
+    }
+    .conard .conard .videoandbtn{
+        z-index: 9999;
+    }
+    .conard .box-collection, .conard #tec-mobile {
+        padding: 5% 0 0 0;
+    }
+    .conard .box-collection h3, .conard .carousel h3, .conard .car2 h3 {
+        margin-bottom: 45px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 29.17px;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+        text-align: center;
+    }
+    .conard .box-collection.women-col h3 {
+        margin-bottom: 34px;
+    }
+    /* Opacity on images */
+    .conard .hover {
+        background: #212121;
+    }
+    .conard .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .conard .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.conard .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .conard .bottom .leftimg, .conard .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.conard .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.conard .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+.conard .box-collection__shoes li figure {
+    box-sizing: border-box;
+}
+.conard .box-collection__shoes li:not(.last){
+    padding-right: 7px;
+}
+.conard .box-collection__shoes li:not(.first){
+    padding-left: 7px;
+}
+.conard .embed-container {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.conard .embed-container iframe, .conard .embed-container object, .conard .embed-container embed, .conard .embed-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+
+@media all and (max-width: 767px) {
+    .conard .box-mobile, .conard .box-two.fourimages, .conard .box-two.comfort .top, .conard .box-two.fourimages .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .conard .box-two.fourimages {
+        display: table;
+    }
+    .conard .box-two h3 {
+        color: #999999;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 17%;
+    }
+    .conard .embed-container {
+        margin-top: 15%;
+    }
+    .conard .box-two.fourimages .right {
+        display: table-header-group;
+        padding-bottom: 3%;
+    }
+    .conard .footwear, .conard .box-two.two-cols {
+        padding-top: 5%;
+    }
+    .conard .box-two.fourimages .left {
+        display: table-footer-group;
+    }
+    .conard .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .conard .box1 .span3 h2 {
+        color: #333846;
+        font-size: 28.53px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+}
+
+main.conard {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.conard .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.conard .box1 {
+    position: relative;
+    }
+.conard .box1 h2 {
+        margin-bottom: 0;
+    }
+.conard .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.conard .box1 .span1, .conard .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.conard .box1 .table .span1, .conard .box1 .table .span2 {
+    width: 100%;
+}
+.conard .box1 .table .span9 {
+    width: 50%;
+}
+.conard .box1 .circle-one-day {
+    display: block;
+    text-align: center;
+    margin-left: 48%;
+    margin-bottom: 3.5%;
+    margin-right: auto;
+}
+.conard .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #333846;
+    margin-bottom: 1.3%;
+}
+.conard .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif!important;
+    font-weight: 400!important;
+    margin-bottom: 5px;
+    color: #333846;
+}
+.conard .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.conard .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.conard .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .conard h2 {
+        font-size: 54px;
+    }
+    .conard h3 {
+        font-size: 21.2px;
+    }
+    .conard .slider-image {
+        width: 220px;
+        height: 220px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .conard h2 {
+        font-size: 43px;
+    }
+    .conard h3 {
+        font-size: 16.5px;
+    }
+    .conard .slider-image {
+        width: 185px;
+        height: 185px;
+    }
+}
+@media screen and (min-width: 1091px) and (max-width: 1265px){
+     .conard .slider-image {
+        width: 269px;
+        height: 269px;
+    }   
+}
+@media screen and (min-width: 1265px){
+     .conard .slider-image {
+        width: 330px;
+        height: 330px;
+    }   
+}
+@media screen and (min-width: 1401px) {
+     .conard .slider-image {
+        width: 385px;
+        height: 385px;
+    }   
+}
+
+@media screen and (max-width: 320px) {
+    .conard .box1 h2, .conard .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .conard .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .conard .box1 .xclogo {
+        margin-left: 75%;
+    }
+    .conard .videoandbtn .theright {
+        width: 78%;
+    }
+    .conard .theleft {
+        align-self: center;
+    }
+    .conard .copy {
+    margin-top: 26.5%;
+    margin-bottom: 17%;
+    }
+}
+
+.conard .videoandbtn {
+    display: flex;
+}
+.conard .trufoam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.conard .trufoam h4 {
+    color: #777777;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    letter-spacing: 0.27px;
+    line-height: 33px;
+    max-width: 90%;
+    margin-top: 5%;
+}
+.conard .trufoam .trufoamlogo {
+    margin-bottom: 4.5%;
+}
+.conard .trufoam h3 {
+    text-transform: uppercase;
+    line-height: 30.96px;
+    padding-left: 5px;
+}
+
+.conard .trufoambanks {
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.conard .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 17px 33px 13px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.conard .btn:hover {
+    opacity: 0.8;
+}
+.conard .trufoam .btn {
+    align-self: baseline;
+    margin-top: auto;
+}
+@media all (max-width: 1535px)  {
+    .conard p {
+        font-size: 33.33px;
+        line-height: 41.67px;
+    }
+}
+
+@media screen and (min-width: 1106px) and (max-width: 1289px){ 
+    .conard .two-cols p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media screen and (min-width: 923px) and (max-width: 1105px){ 
+    .conard .two-cols p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 922px){ 
+    .conard .two-cols p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 1125px) and (max-width: 1490px){
+    .conard .trufoam h3 {
+        font-size: 23.5px;
+        line-height: 28.53px;    
+    } 
+    .conard .trufoamlogo {
+        width: 250px;
+        height: auto;
+    }
+    .conard .trufoam h4 {
+        font-size: 25px;
+        line-height: 30.55px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .conard .trufoamlogo {
+        width: 240px;
+        height: auto;
+    }
+    .conard .trufoam h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .conard .trufoam h4 {
+        font-size: 22px;
+        line-height: 26.88px;
+    }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .conard .trufoamlogo {
+        width: 200px;
+        height: auto;
+    }
+    .conard .trufoam h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+     .conard .trufoam h4 {
+        font-size: 17.4px;
+        line-height: 21.25px;
+     }
+     .conard .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+/* Get a move on */
+.conard .white {
+    color: #fff;
+    font-size: 56.61px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+}
+.conard .box3 {
+    font-size: 0;
+    padding-top: 6%;
+}
+.conard .box4 {
+    padding-top: 0;
+}
+.conard .box3 .btn {
+    position: relative;
+}
+.conard .get-move {
+    display: flex;
+    align-items: center;
+}
+.conard .box3 .circle-one-day {
+    display: block;
+    margin-right: auto;
+}
+.conard .box5 .circle-one-day {
+    margin-left: 57%;
+    margin-bottom: 1.4%;
+}
+.conard .box4 .circle-one-day {
+    margin-left: 24.7%;
+    margin-bottom: 0.6%;
+}
+.conard .box5, .conard #tec-mobile,  .conard .videoandbtn, .conard .rock {
+    position: relative;
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .conard .white {
+        font-size: 48px;
+    }
+    .conard .box1 .circle-one-day h3 {
+        font-size: 21.5px;
+    }
+    .conard .box1 h2 {
+      font-size: 52px;  
+    }   
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .conard .white {
+        font-size: 35px;
+    }
+    .conard .box1 h2 {
+      font-size: 47px;  
+    }   
+    .conard .xclogo {
+        width: 120px;
+        height: auto;
+    }
+    .conard .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .conard .white {
+            font-size: 30px;
+        }
+        .conard .white {
+            font-size: 27px;
+        }
+        .conard .box1 h2 {
+            font-size: 31px;  
+        } 
+
+        .conard .box1 .circle-one-day h3 {
+            font-size: 12.74px;
+        }
+        .conard .box-two p {
+            max-width: 83%;
+        } 
+        .conard .box-two .right h3 {
+            font-size: 25.64px;
+            line-height: 30px;
+        }
+        .conard .xclogo {
+            width: 100px;
+            height: auto;
+        }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+        .conard .box-two .right h3 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        .conard .box1 .circle-one-day h3 {
+            font-size: 19.89px;  
+        }
+} 
+@media screen and (min-width: 768px) and (max-width: 1249px){
+    .conard .box4 .span4 {
+        padding-right: 5%;
+    }
+    .conard .box-two.two-cols {
+        margin-top: 4%
+    }
+    .conard .full {
+        margin-top: 4.5%;
+    }  
+    .conard .box4.someair .span4 {
+        padding-right: 0;
+    }
+    .conard .box4 .circle-one-day {
+        margin-left: 18%;
+    }
+}
+/* GET SOME AIR */
+.conard .box4 .span5 {
+    text-align: right;
+}
+/* XC HERO */
+.conard .xc-container {
+    margin-bottom: 6%;
+}
+.conard .xc-container .cell-banner {
+    text-align: left;
+}
+.conard .xc-logo {
+    margin-bottom: 3%;
+}
+.conard .xc-container .circle-one-day {
+    margin-left: 57.7%;
+    margin-bottom: 26%;
+}
+@media screen and (min-width: 1082px) and (max-width: 1249px) {
+    .conard .xc-container .xc-logo {
+        width: 150px;
+        height: auto;
+    }
+    .conard .xc-container h3 {
+        font-size: 20.8px;
+        line-height: 25.25px;    
+    } 
+    .conard .xc-container .circle-one-day {
+        margin-left: 52.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) { 
+    .conard .xc-container .circle-one-day {
+        margin-left: 56%;
+        margin-bottom: 30%;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1081px) {
+    .conard .xc-container .xc-logo {
+        width: 120px;
+        height: auto;
+    }
+    .conard .xc-container h3 {
+        font-size: 16px;
+        line-height: 19.42px;    
+    } 
+    .conard .xc-container .circle-one-day {
+        margin-left: 53.7%;
+        margin-bottom: 28%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 899px) {
+    .conard .xc-container .xc-logo {
+        width: 100px;
+        height: auto;
+    }
+    .conard .xc-container h3 {
+        font-size: 13px;
+        line-height: 15.77px;    
+    } 
+    .conard .xc-container .circle-one-day {
+        margin-left: 54.7%;
+        margin-bottom: 27%;
+    }
+}
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .conard .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .conard .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .conard .box5 .circle-one-day {
+        margin-left: 51%;
+        margin-bottom: 13%;
+    }
+    .conard .white {
+        font-size: 20px;
+    }
+    .conard .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 28%;
+    }
+    .conard .xc-container h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .conard .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .conard .xc-logo {
+        width: 100px;
+    }
+    .conard .box1 .xclogo {
+        margin-left: 78%;
+    }
+    .conard .slider-image {
+        width: 195px;
+        height: 195px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .conard .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .conard .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+    .conard .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .conard .box1 .xclogo {
+        margin-left: 93%;
+        width: 100px;
+        height: auto;
+    }
+    .conard .white {
+        font-size: 24px;
+    }
+    .conard .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 27%;
+    }
+    .conard .xc-container h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .conard .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .conard .xc-logo {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .conard .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .conard .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .conard .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 11.4%;
+    }
+    .conard .white {
+        font-size: 28px;
+    }
+    .conard .box4 .circle-one-day {
+        margin-left: 62%;
+        margin-bottom: 25%;
+    }
+    .conard .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .conard .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .conard .xc-logo {
+        width: 120px;
+    }
+    .conard .box1 .xclogo {
+        margin-left: 91%;
+        width: 130px;
+        height: auto;
+    }
+    .conard .box1 .span3 {
+        right: 10%!important;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .conard .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .conard .copy .xclogo {
+        width: 140px;
+        height: auto;
+    }
+    .conard .xc-logo {
+        width: 100px;
+    }
+    .conard .xc-container h3 {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .conard .xc-container .circle-one-day {
+        margin-left: 8%;
+        margin-bottom: 36%;
+    }
+    .conard .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .conard .box5 .circle-one-day {
+        margin-left: 52%;
+        margin-bottom: 13.4%;
+    }
+    .conard .white {
+        font-size: 33px;
+    }
+    .conard .box1 .xclogo {
+        margin-left: 75%;
+        width: 186px;
+        height: auto;
+    }
+    .conard .box1 .span3 {
+        right: 10%!important;
+    }
+    .conard .box1 .span3 h2 {
+        font-size: 40px;
+    }
+    .conard .span3 h3 {
+        font-size: 18px!important;
+    }
+   .conard .white {
+        font-size: 50px;
+   }
+}
+@media screen and (max-width: 767px){
+    .conard .space {
+        margin-bottom: 3%;
+    }
+    .conard .btn {
+        font-size: 14px;
+        padding: 15px 30px 13px;
+    }
+    .conard .circle-mobile h5 {
+        margin-bottom: 200%;
+    }
+    .conard .circle-mobile h5.placing {
+        margin-bottom: 80%;
+    }
+    .conard .copy {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }   
+    .conard .two-cols .button {
+        text-align: center;
+    }
+    .conard #tec-mobile img{
+        max-width: 280px;
+    }
+    .conard .c2 {
+        margin-top: 15%;
+    }
+    .conard .two-cols .button .btn {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .conard .shoes {
+        margin-top: 10%;
+        margin-bottom: 13%;
+    }
+    .conard .spacing {
+        padding-bottom: 3%;
+    }
+    .conard .white {
+        margin-bottom: 30%;
+    }  
+    .conard .box-two .right .white.tobot {
+        margin-bottom: 0;
+        margin-top: 40%;
+    }
+    .conard .box-two .right.mobile-space {
+        padding-top: 3%;
+    }
+    .conard .only-desktop, .conard .box1 .circle-one-day {
+        display: none;
+    }
+    .conard .span3 h3 {
+        font-size: 12.4215px;
+        color: #333846;
+        text-align: center;
+        font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+        font-weight: 400!important;
+        text-transform: uppercase;
+    }
+    .conard .box1 {
+        position: relative;
+    }
+    .conard .trufoam h4 {
+        max-width: 100%;
+        margin-top: 9%;
+    }
+    .conard .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .conard .box1 .span3 {
+        position: absolute;
+        bottom: 46%;
+        right: 5%;
+    }
+    .conard .box1 .xclogo {
+        margin-bottom: 27%;
+        margin-top: 20%;
+    }
+    .conard .tru, .conard .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .conard .tru .left {
+        order: 2;
+    }
+    .conard .tru .right {
+        order: 1;
+    }
+    .conard .trufoam .trufoamlogo {
+        width: 200px;
+        height: auto;
+        margin-bottom: 6%;
+    }
+    .conard .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .conard .trufoam h3, .conard h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .conard .trufoam h4, .conard h4 {
+        font-size: 19.5px;
+        line-height: 24.5px;
+        margin-top: 6%;
+    }
+    .conard .trufoambanks {
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    .conard .trufoambanks.trumobile {
+        margin-top: 3%;
+        margin-bottom: 15%;
+    }
+    .conard .trufoam .btn {
+        align-self: center;
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .conard .box5.bigcontainer, .conard .box4.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .conard .box4, .conard .box5 {
+        margin-top: 3%;
+    }
+    .conard .get-move {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+    .conard .car {
+        margin-bottom: 4%;
+    }
+    /* carousel */
+    .conard .carousel h3 {
+        margin-bottom: 30px;
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 4%;
+        color: #777777;
+        line-height: 33.33px;
+        letter-spacing: 0.29px;
+    }
+    .conard #tec-mobile .item {
+        text-align: center;
+        box-sizing: border-box;
+    }
+    .conard .shirts .item {
+        width: 250px;
+    }
+
+    .conard .carousel-mobile span {
+        font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+        letter-spacing: 0.2px;
+        font-size: 15px;
+        line-height: 1.4em;
+        display: block;
+        margin-top: 18px;
+        color: #777777;
+    }
+    .conard .air {
+        margin-bottom: 14%;      
+    }
+    .conard .gifimage .right {
+        margin-top: 5%;
+    }
+    .conard .gifimage .left {
+        margin-top: 5%;
+    }
+    .conard #tec-mobile {
+        margin-top: 15%;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+    .conard #tec-mobile .btn {
+        margin-top: 5%;
+    }
+    .conard .xcmobile {
+        margin-bottom: 8%;
+    }
+    .conard .xc-container .btn {
+        display: none;
+    }
+    .conard .xc-container {
+        margin-top: 8%;
+    }
+    .html-banks, .conard {
+      overflow-x: hidden;
+    }
+    .conard {
+      position: relative
+    }
+    .conard .videoandbtn {
+        margin-top: 12%;
+        z-index: 9999;
+    }
+    .conard .videoandbtn .btn {
+        background: #fff;
+    }
+    .conard .box5 {
+        padding-top: 10%;
+    }
+    .conard .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .conard .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+    .conard  .righty img {
+    padding-top: 20px;
+    }
+     .conard .videoandbtn {
+        flex-flow: column;
+        padding-left: 0;
+        padding-right: 0;
+     }
+    .conard .videoandbtn .theright {
+        order: 1;
+    }   
+     .conard .videoandbtn .theleft {
+        order: 2;
+        text-align: center;
+        margin-top: 12%;
+     }
+     .conard .box-two p {
+        text-align: center;
+        max-width: 90%;
+        margin: 8% auto 12%;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .conard .right {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px){ 
+    .conard .desktop-space {
+        margin-top: 3%;
+    }
+    .conard .gifimage .left {
+        padding-left: 8.45%;
+        padding-right: 0;
+        width: 55%;
+    }  
+    .conard .white {
+        position: relative;
+        bottom: 38%;
+        text-align: center;
+    }
+    .conard .gifimage .right {
+        padding-left: 4%;
+        padding-right: 0;
+        width: 45%;
+    }
+    .conard .lefty {
+        width: 64%;
+    }
+    .conard .righty {
+        width: 44.5%;
+    }
+    .conard .box5 .span4 {
+        margin-top: 30%;
+    }
+    .conard .xc-flex {
+        display: none;
+    }
+    .conard .xc-container {
+        margin-bottom: 10%; 
+    }
+    .conard .box-collection, .conard #tec-mobile {
+        padding: 6.1% 0;
+        text-align: center;
+    }
+    .conard .box-collection, .conard #tec-mobile.tbottom {
+        padding: 0;
+    }
+    .conard .trufoam .btn {
+        margin-top: 11%;
+        margin-bottom: 6%;
+    }
+    .conard .rock {
+        text-align: center;
+        font-size: 0;
+    }
+    .conard .rock .box-two {
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-end;
+    }
+    .conard  .righty {
+        right: 8.5%;
+        position: relative;
+    }
+}
+@media  screen and (min-width: 326px) and (max-width: 767px){ 
+    .conard .trufoam .btn {
+        position: absolute;
+        top: 40%;
+        background: #fff;
+    }
+}
+
+.conard .copy .xclogo {
+    margin-bottom: 8%;
+}
+
+
+
