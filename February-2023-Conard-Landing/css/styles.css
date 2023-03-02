@@ -115,8 +115,12 @@
 }
 .html-conard {
     font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    overscroll-behavior: none!important;
 }
+body.conard {
+    overscroll-behavior: none!important;
 
+}
 .conard .container {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
