@@ -1,0 +1,785 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+
+@charset "UTF-8";
+.wedding abbr,
+.wedding address,
+.wedding article,
+.wedding aside,
+.wedding audio,
+.wedding b,
+.wedding blockquote,
+.wedding,
+.wedding canvas,
+.wedding caption,
+.wedding cite,
+.wedding code,
+.wedding dd,
+.wedding del,
+.wedding details,
+.wedding dfn,
+.wedding div,
+.wedding dl,
+.wedding dt,
+.wedding em,
+.wedding fieldset,
+.wedding figcaption,
+.wedding figure,
+.wedding footer,
+.wedding form,
+.wedding h1,
+.wedding h2,
+.wedding h3,
+.wedding h4,
+.wedding h5,
+.wedding h6,
+.wedding header,
+.wedding hgroup,
+.html-wedding,
+.wedding i,
+.wedding iframe,
+.wedding img,
+.wedding ins,
+.wedding kbd,
+.wedding label,
+.wedding legend,
+.wedding li,
+.wedding mark,
+.wedding menu,
+.wedding nav,
+.wedding object,
+.wedding ol,
+.wedding p,
+.wedding pre,
+.wedding q,
+.wedding samp,
+.wedding section,
+.wedding small,
+.wedding span,
+.wedding strong,
+.wedding sub,
+.wedding summary,
+.wedding sup,
+.wedding table,
+.wedding td,
+.wedding tfoot,
+.wedding th,
+.wedding thead,
+.wedding time,
+.wedding tr,
+.wedding ul,
+.wedding var,
+.wedding video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.wedding article,
+.wedding aside,
+.wedding details,
+.wedding figcaption,
+.wedding figure,
+.wedding hgroup,
+.wedding section {
+    display: block;
+}
+.wedding ul {
+    list-style: none;
+}
+.wedding sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
+.wedding figure {
+    line-height: 0;
+}
+.html-wedding {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    overscroll-behavior: none!important;
+}
+body.wedding {
+    overscroll-behavior: none!important;
+
+}
+.wedding .container {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .wedding .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .wedding .only-mobile {
+        display: none;
+    }
+    .wedding .only-desktop {
+        display: block;
+    }
+}
+@media all and (min-width: 992px) {
+    .wedding .container {
+        max-width: 970px;
+    }
+}
+@media all and (min-width: 1300px) {
+    .wedding .container {
+        max-width: 1170px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wedding li {
+        font-size: 26px;
+        line-height: 38px;
+        color: #57595b;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1299px){
+     .wedding li {
+        font-size: 20px;
+        line-height: 29px;
+        color: #57595b;
+    }   
+}
+@media screen and (min-width: 990px) and (max-width: 1109px){
+     .wedding li {
+        position: relative;
+        margin-left: 24%;
+    }   
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+     .wedding li {
+        position: relative;
+        margin-left: 15%;
+        font-size: 17px;
+        line-height: 25px;
+        color: #57595b;
+    }   
+}
+
+.wedding,
+.wedding a,
+.wedding h1,
+.wedding h2,
+.wedding h3,
+.wedding h4,
+.wedding h5,
+.wedding h6,
+.wedding li,
+.wedding p,
+.wedding ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.wedding h2 {
+    font-size: 59px;
+}
+.wedding h3 {
+    font-size: 44.11px;
+    line-height: 58.33px;
+}
+.wedding h4 {
+    font-size: 27px;
+}
+.wedding h1,
+.wedding h2,
+.wedding h3,
+.wedding h4,
+.wedding h5,
+.wedding h6 {
+    margin: 0;
+    padding: 0;
+}
+.wedding h1 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 22px;
+}
+.wedding p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #777;
+}
+.wedding i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.wedding ul, .wedding li, .wedding .box-two h3 {
+   font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .wedding h1 {
+        font-size: 28px;
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+    .wedding .box-two .text {
+        margin-top: 23%;
+    }
+    .wedding .box-two.last .text {
+        margin-top: 28%;
+    }
+    .wedding p {
+        font-size: 30px;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wedding .box-two .text.cocktail {
+        margin-top: 26%;
+    }
+    .wedding .two-cols p {
+        margin-top: 4%;
+        margin-bottom: 13.3%;
+        text-align: center;
+    }
+    .wedding .two-cols .button {
+        margin-top: 16.7%;
+        text-align: center;
+        margin-bottom: 16.8%;
+    }
+}   
+
+.wedding .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.wedding .box-columns figure {
+    margin-bottom: 10px;
+}
+.wedding .box-two.comfort .top {
+    padding-bottom: 3%;
+    box-sizing: border-box;
+}
+.wedding .box1 .table .span1 .left,  .wedding .box1 .table .span1 .right {
+    display: table-cell;
+}
+.wedding .box-two h3 {
+    color: #999999;
+    margin-top: 4.5%;
+}
+
+.wedding .box-two p {
+    color: #777;
+}
+@media all and (min-width: 768px) {
+    .wedding .box-two.two-cols {
+        padding-top: 1.7%;
+    }
+    .wedding .box-two.two-cols.last {
+        padding-top: 0;
+        position: relative;
+        bottom: 16px;
+    }
+    .wedding .box-two p {
+        max-width: 80%;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .wedding .section-two .left .btn {
+        margin: 0 auto 29.5%;
+    }
+    .wedding .section-two.last .left .btn {
+        margin: 0 auto 27%;
+    }
+    .wedding .box-two .btn {
+        margin-bottom: 11.5%;
+    }
+    .wedding .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .wedding .two-cols .lastp {
+        margin-bottom: 8%;
+    }
+    .wedding .box-two .left,
+    .wedding .box-two .right {
+        width: 50%;
+        display: inline-flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        
+    }
+    .wedding .box-two .left {
+        padding-right: 2.858%;
+        text-align: center;
+    }
+    .wedding .box-two .right {
+        padding-left: 2.858%;
+        text-align: center;
+    }
+    /* Opacity on images */
+    .wedding .hover {
+        background: #212121;
+    }
+    .wedding .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .wedding .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+.wedding .bottom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+ .wedding .bottom .leftimg, .wedding .bottom .rightimg{
+    width: 50%;
+    box-sizing: border-box;
+}
+.wedding .bottom .leftimg {
+    padding-right: 1.5%;
+}
+.wedding .bottom .rightimg{
+    padding-left: 1.5%;
+}
+
+@media all and (max-width: 767px) {
+    .wedding .box-mobile, .wedding .box-two.comfort .top {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .wedding .box1 {
+        margin-bottom: 5%;
+    }
+    .wedding .box-two h3 {
+        color: #999999;
+        font-size: 28px;
+        text-align: center;
+        margin-top: 17%;
+    }
+    .wedding .women-col-mobile {
+        margin-bottom: 50px;
+    }
+    .wedding .box1 .span3 h2 {
+        color: #333846;
+        font-size: 24px;
+        font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    }
+}
+
+main.wedding {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.wedding .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.wedding .box1 {
+    position: relative;
+    }
+.wedding .box1 h2 {
+        margin-bottom: 0;
+    }
+.wedding .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.wedding .box1 .span1, .wedding .box1 .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.wedding .box1 .table .span1, .wedding .box1 .table .span2 {
+    width: 100%;
+}
+.wedding .box1 .table .span9 {
+    width: 50%;
+}
+.wedding .box1 .circle-one-day {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 23%;
+    margin-right: 59.3%;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .wedding .box1 .circle-one-day {
+        margin-right: 54%;
+    }
+}
+.wedding .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #333846;
+    margin-bottom: 1.3%;
+}
+.wedding .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif!important;
+    font-weight: 400!important;
+    margin-bottom: 5px;
+    color: #333846;
+}
+.wedding .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.wedding .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.wedding .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .wedding h2 {
+        font-size: 54px;
+    }
+    .wedding h3 {
+        font-size: 21.2px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .wedding h2 {
+        font-size: 43px;
+    }
+    .wedding h3 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1458px){
+    .wedding .box-two p {
+        font-size: 21px;
+        line-height: 29px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .wedding .box1 h2, .wedding .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .wedding .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .wedding .box1 .xclogo {
+        margin-left: 75%;
+    }
+    .wedding .theleft {
+        align-self: center;
+    }
+    .wedding .copy {
+    margin-top: 26.5%;
+    margin-bottom: 17%;
+    }
+}
+
+.wedding .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 17px 33px 13px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.wedding .btn:hover {
+    opacity: 0.8;
+}
+
+@media all (max-width: 1535px)  {
+    .wedding p {
+        font-size: 33.33px;
+        line-height: 41.67px;
+    }
+}
+
+@media screen and (min-width: 1106px) and (max-width: 1289px){ 
+    .wedding .two-cols p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+}
+@media screen and (min-width: 923px) and (max-width: 1105px){ 
+    .wedding .two-cols p {
+        font-size: 18px;
+        line-height: 27px;
+        max-width: 70%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 922px){ 
+    .wedding .two-cols p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+     .wedding .btn {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 14px 20px 11px;
+
+    }   
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1400px){
+    .wedding .box1 .circle-one-day h3 {
+        font-size: 21.5px;
+    }
+    .wedding .box1 h2 {
+      font-size: 52px;  
+    }   
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+    .wedding .box1 h2 {
+      font-size: 47px;  
+    }   
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .wedding .box1 h2 {
+            font-size: 31px;  
+        } 
+
+        .wedding .box1 .circle-one-day h3 {
+            font-size: 12.74px;
+        }
+        .wedding .box-two p {
+            max-width: 83%;
+        } 
+        .wedding .box-two h3 {
+            font-size: 25.64px;
+            line-height: 30px;
+        }
+        .wedding .xclogo {
+            width: 100px;
+            height: auto;
+        }
+}
+@media screen and (min-width: 900px) and (max-width: 1249px){
+        .wedding .box-two h3 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+        .wedding .box1 .circle-one-day h3 {
+            font-size: 19.89px;  
+        }
+} 
+
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .wedding .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .wedding .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .wedding .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .wedding .box1 .circle-one-day {
+        margin-left: 57.2%;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .wedding .box1 .circle-one-day h3 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .wedding .box1 .circle-one-day {
+        margin-left: 59.2%;
+    }
+    .wedding .box1 .span3 {
+        left: 10%!important;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .wedding .box1 .circle-one-day h3 {
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .wedding .box1 .circle-one-day {
+        margin-left: 61.2%;
+    }
+    .wedding .box1 .span3 {
+        left: 10%!important;
+    }
+    .wedding .box1 .span3 h2 {
+        font-size: 34px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .wedding .span3 h3 {
+        font-size: 18px!important;
+    }
+}
+@media screen and (max-width: 767px){
+    .wedding .space {
+        margin-bottom: 3%;
+    }
+    .wedding .btn {
+        font-size: 14px;
+        padding: 15px 30px 13px;
+    }
+    .wedding .circle-mobile h5 {
+        margin-bottom: 200%;
+    }
+    .wedding .circle-mobile h5.placing {
+        margin-bottom: 80%;
+    }
+    .wedding .copy {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }   
+    .wedding .two-cols .button {
+        text-align: center;
+    }
+    .wedding .c2 {
+        margin-top: 15%;
+    }
+    .wedding .two-cols .button .btn {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .wedding .spacing {
+        padding-bottom: 3%;
+    }
+    .wedding .box-two .right.mobile-space {
+        padding-top: 3%;
+    }
+    .wedding .only-desktop, .wedding .box1 .circle-one-day {
+        display: none;
+    }
+    .wedding .span3 h3 {
+        font-size: 12px;
+        color: #333846;
+        text-align: center;
+        font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+        font-weight: 400!important;
+        text-transform: uppercase;
+    }
+    .wedding .box1 {
+        position: relative;
+    }
+    .wedding .box1 .circle-one-day h2 {
+        display: none;
+    }
+    .wedding .box1 .span3 {
+        position: absolute;
+        bottom: 72%;
+        left: 5%;
+    }
+    .wedding .box1 .xclogo {
+        margin-bottom: 27%;
+        margin-top: 20%;
+    }
+    .wedding .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .wedding .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+     .wedding h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .wedding h4 {
+        font-size: 19.5px;
+        line-height: 24.5px;
+        margin-top: 6%;
+    }
+    .html-banks, .wedding {
+      overflow-x: hidden;
+    }
+    .wedding {
+      position: relative
+    }
+    .wedding .btnmobile {
+        position: absolute;
+        top: -27px;
+        background: #fff;
+    }
+    .wedding .mobilebtn {
+        position: absolute; 
+        background: #fff;
+    }
+     .wedding .box-two p {
+        text-align: center;
+        max-width: 90%;
+        margin: 8% auto 12%;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .wedding .right, .wedding .left {
+        text-align: center;
+    }
+    .wedding .right {
+        order: 1;
+    }
+    .wedding .left {
+        order: 2;
+    }
+    .wedding .text {
+        margin-bottom: 10%;
+    }
+}
