@@ -1,0 +1,534 @@
+@font-face{
+    font-family:'HelveticaNeue-Bold';
+    src:url("fonts/HelveticaNeue-Bold.eot");
+    src:url("fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+     url("fonts/HelveticaNeue-Bold.woff") format("woff"),
+     url("fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+     url("fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+    font-style:normal;font-weight:bold;text-rendering:optimizeLegibility}
+
+    @font-face{
+        font-family:'HelveticaNeue-Regular';
+        src:url("fonts/HelveticaNeue-Regular.eot");
+        src:url("fonts/HelveticaNeue-Regular.eot?#iefix") format("embedded-opentype"),
+            url("fonts/HelveticaNeue-Regular.woff") format("woff"),
+            url("fonts/HelveticaNeue-Regular.ttf") format("truetype"), 
+            url("fonts/HelveticaNeue-Regular.svg#HelveticaNeue-Regular") format("svg");
+        font-style:italic;font-weight:bold;text-rendering:optimizeLegibility}
+
+body.backpack {
+    margin: 0;
+}
+.backpack ul {
+    list-style: none;
+}
+.backpack sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
+.backpack .box-two figure {
+    line-height: 0;
+}
+.html-backpack {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    overscroll-behavior: none!important;
+}
+body.backpack {
+    overscroll-behavior: none!important;
+
+}
+@media all and (min-width: 768px) {
+    .backpack .only-mobile {
+        display: none;
+    }
+    .backpack .only-desktop {
+        display: block;
+    }
+}
+
+.backpack h2 {
+    font-size: 59px;
+}
+.backpack h3 {
+    font-size: 44.11px;
+    line-height: 58.33px;
+}
+
+.backpack .box1 h2,
+.backpack .box-two h3 {
+    margin: 0;
+    padding: 0;
+}
+.backpack p {
+    font-size: 20px;
+    line-height: 1.3;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #777;
+}
+.backpack i {
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+}
+.backpack .box-two h3 {
+   font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+}
+@media all and (min-width: 768px) {
+    .backpack .box-two .text {
+        margin-top: 1.5%;
+    }
+    .backpack .two-cols p {
+        margin-top: 2%;
+        margin-bottom: 7%;
+        text-align: center;
+    }
+    .backpack .two-cols .button {
+        margin-top: 16.7%;
+        text-align: center;
+        margin-bottom: 16.8%;
+    }
+}   
+.backpack .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.backpack .box1 .table .span1 .left,  .backpack .box1 .table .span1 .right {
+    display: table-cell;
+}
+.backpack .box-two h3 {
+    color: #999999;
+    margin-top: 4.5%;
+}
+
+.backpack .box-two p {
+    color: #777;
+}
+.backpack .box-two.two-cols {
+    margin-bottom: 3.2%;
+}
+@media all and (min-width: 768px) {
+    .backpack .box-two.two-cols {
+        padding-top: 2%;
+    }
+    .backpack .box-two p {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    .backpack .btn {
+        margin-bottom: 8%;
+    }
+    .backpack .box-two {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .backpack .box-two .left,
+    .backpack .box-two .right {
+        width: 50%;
+        display: inline-flex;
+        align-self: flex-end;
+        flex-direction: column;
+        box-sizing: border-box;
+        
+    }
+    .backpack .box-two .left {
+        padding-right: 2.858%;
+        text-align: center;
+    }
+    .backpack .box-two .right {
+        padding-left: 2.858%;
+        text-align: center;
+    }
+    /* Opacity on images */
+    .backpack .hover {
+        background: #212121;
+    }
+    .backpack .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .backpack .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+
+@media all and (max-width: 767px) {
+    .backpack .box-mobile, .backpack .box-two.comfort .top {
+        padding-bottom: 3%;
+        padding-top: 3%;
+        box-sizing: border-box;
+    }
+    .backpack .box1 {
+        margin-bottom: 5%;
+    }
+    .backpack .box-two h3 {
+        color: #999999;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 15%;
+    }
+    .backpack .box-two br {
+        display: none;
+    }
+}
+
+main.backpack {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.backpack .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNeue-Bold', arial, sans-serif;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.backpack .box1 {
+    position: relative;
+    }
+.backpack .box1 h2 {
+        margin-bottom: 0;
+    }
+.backpack .box1 .table {
+        display: table;
+        width: 100%; 
+ }       
+.backpack .box1 .span1 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.backpack .box1 .table .span1 {
+    width: 100%;
+}
+
+.backpack .box1 .circle-one-day {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 27.5%;
+    margin-right: 51.5%;
+}
+@media screen and (min-width: 768px) and (max-width: 1200px){
+    .backpack .box1 .circle-one-day {
+        margin-right: 54%;
+    }
+}
+.backpack .box1 .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNeue-Bold', Arial, sans-serif;
+    margin-right: auto;
+    color: #fff;
+    margin-bottom: 1.3%;
+}
+.backpack .box1 .circle-one-day h3 {
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    line-height: 31px;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif!important;
+    font-weight: 400!important;
+    margin-bottom: 5px;
+    color: #333846;
+}
+.backpack .content-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.backpack .two-cols figure {
+    margin: 0;
+}
+.backpack .table-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.backpack .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .backpack h2 {
+        font-size: 54px;
+    }
+    .backpack h3 {
+        font-size: 21.2px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .backpack h2 {
+        font-size: 43px;
+    }
+    .backpack h3 {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (min-width: 1290px) and (max-width: 1458px){
+    .backpack .box-two p {
+        font-size: 23px;
+        line-height: 29px;
+    }
+    .backpack .box-two h3 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+} 
+
+@media screen and (max-width: 320px) {
+    .backpack .box1 h2, .backpack .trufoam h2 {
+            font-size: 1.583em;
+        }
+}
+@media screen and (min-width: 768px) {
+    .backpack .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .backpack .copy {
+    margin-top: 26.5%;
+    margin-bottom: 17%;
+    }
+}
+
+.backpack .btn {
+    background: transparent;
+    color: #555555;
+    display: inline-block;
+    border: 2px solid #555555;
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 14px 30px 8px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+}
+.backpack .btn:hover {
+    opacity: 0.8;
+}
+
+@media all (max-width: 1535px)  {
+    .backpack p {
+        font-size: 33.33px;
+        line-height: 41.67px;
+    }
+}
+
+@media screen and (min-width: 1106px) and (max-width: 1289px){ 
+    .backpack .two-cols p {
+        font-size: 19px;
+        line-height: 27px;
+    }
+    .backpack .two-cols h3 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+}
+
+
+@media screen and (min-width: 923px) and (max-width: 1105px){ 
+    .backpack .two-cols p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 922px){ 
+    .backpack .two-cols p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1300px){
+    .backpack .box1 h2 {
+      font-size: 52px;  
+    }   
+}
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .backpack .box1 h2 {
+      font-size: 39px;  
+    }   
+}
+
+@media screen and (min-width: 1200px)  {
+    .backpack .btn {
+        font-size: 18.35px;
+        padding: 19px 36px 16px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px)  {
+    .backpack .box-two.two-cols {
+        padding-top: 1.5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+        .backpack .box1 h2 {
+            font-size: 31px;  
+        } 
+         .backpack .btn {
+            font-size: 14px;
+            line-height: 14px;
+            padding: 14px 20px 11px;
+
+        }  
+
+        .backpack .box-two h3 {
+            font-size: 22px;
+            line-height: 28px;
+        }
+}
+
+
+
+@media screen and (min-width: 900px) and (max-width: 1000px){
+        .backpack .box-two h3 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+} 
+@media screen and (min-width: 1001px) and (max-width: 1105px){
+        .backpack .box-two h3 {
+            font-size: 30px;
+            line-height: 35px;
+        }
+} 
+
+/* MOBILE */  
+
+@media screen and (max-width: 449px){
+    .backpack .box1 .circle-one-day h3 {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .backpack .box1 .circle-one-day {
+        margin-left: 0%;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 550px) {
+    .backpack .box1 .circle-one-day h3 {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .backpack .box1 .circle-one-day {
+        margin-left: 0;
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+    .backpack .space {
+        margin-bottom: 3%;
+    }
+    .backpack .btn {
+        font-size: 14px;
+        padding: 15px 30px 13px;
+    }
+    .backpack .circle-mobile h5 {
+        margin-bottom: 200%;
+    }
+    .backpack .circle-mobile h5.placing {
+        margin-bottom: 80%;
+    }
+    .backpack .copy {
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }   
+    .backpack .two-cols .button {
+        text-align: center;
+    }
+    .backpack .two-cols .button .btn {
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    .backpack .only-desktop, .backpack .box1 .circle-one-day {
+        margin-right: 57%;
+    }
+    .backpack .box1 {
+        position: relative;
+    }
+    .backpack .box1 .circle-one-day h2 {
+        font-size: 20px;
+    }
+    .backpack .box1 .span3 {
+        position: absolute;
+        bottom: 72%;
+        left: 5%;
+    }
+    .backpack .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .backpack .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+     .backpack h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .html-banks, .backpack {
+      overflow-x: hidden;
+    }
+    .backpack {
+      position: relative;
+    }
+    .backpack .box-two p {
+        text-align: center;
+        max-width: 90%;
+        margin: 6% auto 10%;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .backpack .right, .backpack .left {
+        text-align: center;
+    }
+    .backpack .right {
+        order: 1;
+    }
+    .backpack .left {
+        order: 2;
+    }
+    .backpack .text {
+        margin-bottom: 10%;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .backpack .box1 .circle-one-day h2 {
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 767px) {
+    .backpack .box-two h3 {
+        margin-top: 11%;
+        font-size: 25px;
+    }
+    .backpack .box-two p {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 4% auto 8%;
+    }
+}
+@media screen and (min-width: 550px) and (max-width: 650px) {
+    .backpack .box1 .circle-one-day {
+        margin-left: 0;
+    }
+    .backpack .box1 .circle-one-day h2 {
+        font-size: 28px;
+    }
+}
