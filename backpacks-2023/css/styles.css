@@ -47,7 +47,7 @@ body.backpack {
 }
 
 .backpack h2 {
-    font-size: 59px;
+    font-size: 58.33px;
 }
 .backpack h3 {
     font-size: 44.11px;
@@ -210,12 +210,12 @@ main.backpack {
     display: block;
     text-align: center;
     margin-left: auto;
-    margin-bottom: 27.5%;
-    margin-right: 51.5%;
+    margin-bottom: 22.2%;
+    margin-right: 59.8%;
 }
 @media screen and (min-width: 768px) and (max-width: 1200px){
     .backpack .box1 .circle-one-day {
-        margin-right: 54%;
+        margin-right: 61%;
     }
 }
 .backpack .box1 .circle-one-day h2 {
@@ -353,12 +353,12 @@ main.backpack {
 
 @media screen and (min-width: 1101px) and (max-width: 1300px){
     .backpack .box1 h2 {
-      font-size: 52px;  
+      font-size: 48px;  
     }   
 }
 @media screen and (min-width: 900px) and (max-width: 1100px){
     .backpack .box1 h2 {
-      font-size: 39px;  
+      font-size: 37px;  
     }   
 }
 
@@ -376,7 +376,7 @@ main.backpack {
 
 @media screen and (min-width: 768px) and (max-width: 899px){
         .backpack .box1 h2 {
-            font-size: 31px;  
+            font-size: 29px;  
         } 
          .backpack .btn {
             font-size: 14px;
@@ -455,13 +455,13 @@ main.backpack {
         margin-bottom: 15%;
     }
     .backpack .only-desktop, .backpack .box1 .circle-one-day {
-        margin-right: 57%;
+        margin-right: 64%;
     }
     .backpack .box1 {
         position: relative;
     }
     .backpack .box1 .circle-one-day h2 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .backpack .box1 .span3 {
         position: absolute;
@@ -529,6 +529,6 @@ main.backpack {
         margin-left: 0;
     }
     .backpack .box1 .circle-one-day h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
