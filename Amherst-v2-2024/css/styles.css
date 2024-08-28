@@ -12,7 +12,7 @@
 .loaded .font-text {
     visibility: visible;
 }
-.amherst2024-v2 figure.figure {
+.amherst2024 figure.figure {
     margin: 0;
     padding: 0;
     border: 0;
@@ -21,125 +21,125 @@
     vertical-align: baseline;
     background: 0 0;
 }
-.amherst2024-v2 ul {
+.amherst2024 ul {
     list-style: none;
 }
-.amherst2024-v2 figure.figure {
+.amherst2024 figure.figure {
     line-height: 0;
 }
-body.amherst2024-v2 {
+body.amherst2024 {
     margin: 0;
     font-size: 16px;
     font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
 }
-.amherst2024-v2,
-.amherst2024-v2 a,
-.amherst2024-v2 h1,
-.amherst2024-v2 h2,
-.amherst2024-v2 h3,
-.amherst2024-v2 h4,
-.amherst2024-v2 h5,
-.amherst2024-v2 h6,
-.amherst2024-v2 li,
-.amherst2024-v2 p,
-.amherst2024-v2 ul {
+.amherst2024,
+.amherst2024 a,
+.amherst2024 h1,
+.amherst2024 h2,
+.amherst2024 h3,
+.amherst2024 h4,
+.amherst2024 h5,
+.amherst2024 h6,
+.amherst2024 li,
+.amherst2024 p,
+.amherst2024 ul {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.amherst2024-v2 h1,
-.amherst2024-v2 h2,
-.amherst2024-v2 h3,
-.amherst2024-v2 h4,
-.amherst2024-v2 h5,
-.amherst2024-v2 h6 {
+.amherst2024 h1,
+.amherst2024 h2,
+.amherst2024 h3,
+.amherst2024 h4,
+.amherst2024 h5,
+.amherst2024 h6 {
     margin: 0;
     padding: 0;
 }
 
 @media all and (min-width: 768px) {
-    .amherst2024-v2 .two-cols {
+    .amherst2024 .two-cols {
         padding-top: 2.3%;
     }
 }
 
-.amherst2024-v2 .responsive-image {
+.amherst2024 .responsive-image {
     width: 100%;
     height: auto;
 }
 
-.amherst2024-v2 .two-cols .btn {
+.amherst2024 .two-cols .btn {
     margin: 2.6% auto 0;
 }
-.amherst2024-v2 .box-two {
+.amherst2024 .box-two {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.amherst2024-v2 .box-two .left {
+.amherst2024 .box-two .left {
     box-sizing: border-box;
 }
-.amherst2024-v2 .box-two .right {
+.amherst2024 .box-two .right {
     box-sizing: border-box;
 }
 @media all and (min-width: 768px) {
-    .amherst2024-v2 .section-heigth {
+    .amherst2024 .section-heigth {
         height: 120px;
         padding: 0 !important;
     }
     /* Opacity on images */
-    .amherst2024-v2 .hover {
+    .amherst2024 .hover {
         background: #212121;
     }
-    .amherst2024-v2 .hover img {
+    .amherst2024 .hover img {
         opacity: 1;
         -webkit-transition: .3s ease-in-out;
         transition: .3s ease-in-out;
     }
-    .amherst2024-v2 .hover:hover img {
+    .amherst2024 .hover:hover img {
         opacity: .5;
     }
     /* End opacity on images */
 }
 
-.amherst2024-v2 .embed-container {
+.amherst2024 .embed-container {
   position: relative;
   padding-bottom: 82%;
   height: 0;
   overflow: hidden;
   max-width: 100%; }
 
-.amherst2024-v2 .embed-container iframe, .amherst2024-v2 .embed-container video, .amherst2024-v2 .embed-container object, .amherst2024-v2 .embed-container embed {
+.amherst2024 .embed-container iframe, .amherst2024 .embed-container video, .amherst2024 .embed-container object, .amherst2024 .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%; 
 }
-.amherst2024-v2 .two-cols {
+.amherst2024 .two-cols {
     text-align: center;
     font-size: 0;
 }
 @media all and (max-width: 767px) {
-    .amherst2024-v2 .box-mobile {
+    .amherst2024 .box-mobile {
     padding-bottom: 3%;
     padding-top: 3%;
     box-sizing: border-box;
     }
-    .amherst2024-v2 .font-text {
+    .amherst2024 .font-text {
         font-weight: 500!important;
     }
-    .amherst2024-v2 .trufoam p .br {
+    .amherst2024 .trufoam p .br {
         display: none;
     }
 }
 
-main.amherst2024-v2 {
+main.amherst2024 {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-.amherst2024-v2 .box-hero h2 {
+.amherst2024 .box-hero h2 {
     font-size: 56px;
     font-family:'HelveticaNowvaR', arial, sans-serif;
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
@@ -148,30 +148,30 @@ main.amherst2024-v2 {
 
 /* HERO BOX */
 
-.amherst2024-v2 .box1 {
+.amherst2024 .box1 {
     position: relative;
     }
-.amherst2024-v2 .box1 h2 {
+.amherst2024 .box1 h2 {
         margin-bottom: 0;
     }
-.amherst2024-v2 .box1 .table {
+.amherst2024 .box1 .table {
         display: table;
         width: 100%; 
  }       
-.amherst2024-v2 .box1 .span1, .amherst2024-v2 .box1 .span2 {
+.amherst2024 .box1 .span1, .amherst2024 .box1 .span2 {
     display: table-cell;
     vertical-align: middle;
     float: none;
     text-align: center;
 }
-.amherst2024-v2 .box1 .table .span1, .amherst2024-v2 .box1 .table .span2 {
+.amherst2024 .box1 .table .span1, .amherst2024 .box1 .table .span2 {
     width: 100%;
 }
-.amherst2024-v2 .box1 .table .span9 {
+.amherst2024 .box1 .table .span9 {
     width: 50%;
 }
 
-.amherst2024-v2 .box1 .circle-one-day h2 {
+.amherst2024 .box1 .circle-one-day h2 {
     margin-left: 0;
     font-family:'HelveticaNowvaR', Arial, sans-serif;
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
@@ -183,7 +183,7 @@ main.amherst2024-v2 {
     width: 50%;
     text-align: center;
 }
-.amherst2024-v2 .box1 .span3 h2 {
+.amherst2024 .box1 .span3 h2 {
     font-family:'HelveticaNowvaR', Arial, sans-serif;
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
     font-size: 4.5em;
@@ -192,42 +192,42 @@ main.amherst2024-v2 {
     color: #ff2201;
     text-align: center;
 }
-.amherst2024-v2 .content-banner {
+.amherst2024 .content-banner {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
-.amherst2024-v2 .table-banner {
+.amherst2024 .table-banner {
     display: table;
     width: 100%;
     height: 100%;
 }
-.amherst2024-v2 .cell-banner {
+.amherst2024 .cell-banner {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
-.amherst2024-v2 .box1 .circle-one-day .btn {
+.amherst2024 .box1 .circle-one-day .btn {
     position: absolute;
     bottom: 6%;
     right: 6%;
 }
 
 @media screen and (min-width: 890px) and (max-width: 1090px){
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 7em;
     }
-    .amherst2024-v2 h3 {
+    .amherst2024 h3 {
         font-size: 21.2px;
     }
 }
 @media screen and (min-width: 1091px) and (max-width: 1250px){
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 9em;
     }
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 1.7rem;
         border-width: 2px;
         line-height: 14px;
@@ -235,50 +235,50 @@ main.amherst2024-v2 {
     }
 }
 @media screen and (min-width: 768px) and (max-width: 889px){
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 5.5em;
         letter-spacing: -2px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .amherst2024-v2 .bigcontainer {
+    .amherst2024 .bigcontainer {
         padding-left: 6.25%;
         padding-right: 6.25%;
     }  
-    .amherst2024-v2 .abigcontainer {
+    .amherst2024 .abigcontainer {
         padding-left: 1.875%;
         padding-right: 1.875%;
     } 
-    .amherst2024-v2 .trufoam .brm {
+    .amherst2024 .trufoam .brm {
         display: none;
     }
-    .amherst2024-v2 .box1 .circle-one-day {
+    .amherst2024 .box1 .circle-one-day {
         display: block;
         text-align: left;
         margin-left: 2.4%;
         margin-right: auto;
         margin-top: 0%;
     } 
-    .amherst2024-v2 .embed-container {
+    .amherst2024 .embed-container {
         padding-bottom: 56.25%;
     }
 }
 
 /* FIRST TWO COL BOX */
 
-.amherst2024-v2 .trufoam {
+.amherst2024 .trufoam {
     display: flex;
     background-color: #bbc4ad;
     flex-direction: column;
     height: 100%;
 }
-.amherst2024-v2 .firstsection {
+.amherst2024 .firstsection {
     text-align: center;
     margin-top: 2.6%;
     margin-bottom: 0.45%;
 }
-.amherst2024-v2 .trufoam h3 {
+.amherst2024 .trufoam h3 {
     color: #fbf1d4;
     font-family:'HelveticaNowvaR', Arial, sans-serif;
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
@@ -288,16 +288,16 @@ main.amherst2024-v2 {
     margin-bottom: 3%;
     text-align: center;
 }
-.amherst2024-v2 .with-btn h3 {
+.amherst2024 .with-btn h3 {
     color: #ff2201;
     font-family:'HelveticaNowvaR', Arial, sans-serif;
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
     font-size: 4.7rem;
 }
-.amherst2024-v2 .box1 .btn {
+.amherst2024 .box1 .btn {
     margin-top: 0.4em;
 }
-.amherst2024-v2 .btn {
+.amherst2024 .btn {
     background: transparent;
     color: #ff2201;
     display: inline-block;
@@ -310,15 +310,15 @@ main.amherst2024-v2 {
     font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
     text-decoration: none;
 }
-.amherst2024-v2 .btn:hover, .amherst2024-v2 .box1 .span3 .btn:hover {
+.amherst2024 .btn:hover, .amherst2024 .box1 .span3 .btn:hover {
     opacity: 0.8!important;
 }
-.amherst2024-v2 .trufoam .btn {
+.amherst2024 .trufoam .btn {
     align-self: center;
     margin-top: 3.8%;
 }
 @media all (max-width: 767px) {
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 16px;
         max-width: 100px;
         display: block;
@@ -328,47 +328,47 @@ main.amherst2024-v2 {
     }   
 }
 @media screen and (min-width: 1125px) and (max-width: 1250px){
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 6.5em;
     } 
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 9em;
     }
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 1.7rem;
         border-width: 2px;
         line-height: 14px;
         padding: 16px 20px 17px;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 2.5rem;
     }
 }
 @media screen and (min-width: 1251px) and (max-width: 1350px){
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 10em;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 3rem;
     }
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 2rem;
         border-width: 2px;
         line-height: 14px;
         padding: 17px 22px 18px;
     }
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 7em;
     }
 }
 @media screen and (min-width: 1351px) and (max-width: 1450px){
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 11em;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 3.5rem;
     }
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 2.5rem;
         border-width: 3px;
         line-height: 14px;
@@ -376,13 +376,13 @@ main.amherst2024-v2 {
     }
 }
 @media screen and (min-width: 1451px) and (max-width: 1550px){
-    .amherst2024-v2 .box1 .circle-one-day h2 {
+    .amherst2024 .box1 .circle-one-day h2 {
         font-size: 12em;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 3.7rem;
     }
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 2.5rem;
         border-width: 3px;
         line-height: 14px;
@@ -390,78 +390,78 @@ main.amherst2024-v2 {
     }
 }
 @media screen and (min-width: 900px) and (max-width: 1124px){
-    .amherst2024-v2 .btn {
+    .amherst2024 .btn {
         font-size: 1.5rem;
         border-width: 2px;
         line-height: 14px;
         padding: 14px 20px 15px;
     }  
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 5.2em;
     } 
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 2rem;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 899px){
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 4em;   
     } 
-    .amherst2024-v2 .trufoam p {
+    .amherst2024 .trufoam p {
         font-size: 22px;
         line-height: 32px;
      }
-     .amherst2024-v2 .btn {
+     .amherst2024 .btn {
         font-size: 1.5rem;
         border-width: 2px;
         line-height: 14px;
         padding: 14px 20px 15px;
     }   
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 1.7rem;
     }
 }
 
-.amherst2024-v2 .hidden,
-.amherst2024-v2 .only-desktop,
-.amherst2024-v2 .btn-only {
+.amherst2024 .hidden,
+.amherst2024 .only-desktop,
+.amherst2024 .btn-only {
     display: none;
 }
 @media all and (min-width: 768px) {
-    .amherst2024-v2 .container {
+    main.amherst2024 .container {
         margin-left: auto;
         margin-right: auto;
         max-width: 750px;
     }
-    .amherst2024-v2 .trufoam h3 {
+    main.amherst2024 .trufoam h3 {
         margin-top: 7.7%;
         margin-bottom: 6.5%;
     }
-    .amherst2024-v2 .only-mobile {
+    main.amherst2024 .only-mobile {
         display: none;
     }
-    .amherst2024-v2 .only-desktop {
+    main.amherst2024 .only-desktop {
         display: block;
     }
-    .amherst2024-v2 .btn-only {
+    main.amherst2024 .btn-only {
         display: inline-block;
     }
 }
-.amherst2024-v2 .with-btn {
+.amherst2024 .with-btn {
     position: relative;
 }
-.amherst2024-v2 .btn-in {
+.amherst2024 .btn-in {
     position: absolute;
     bottom: 4.2%;
     right: 6%;
 }
-.amherst2024-v2 .with-btn h3 {
+.amherst2024 .with-btn h3 {
     position: absolute;
     left: 4%;
 }
 
-.amherst2024-v2 sup {
+.amherst2024 sup {
     font-size: .7em;
     vertical-align: super!important;
 }
@@ -469,36 +469,36 @@ main.amherst2024-v2 {
 
 
 @media screen and (max-width: 767px){
-    .amherst2024-v2 .box1 {
+    .amherst2024 .box1 {
         position: relative;
     }
-    .amherst2024-v2 .box1 .span3 h2 {
+    .amherst2024 .box1 .span3 h2 {
         font-weight: 500!important;
     }
-    .amherst2024-v2 .firstsection {
+    .amherst2024 .firstsection {
         margin: 4%;
         margin-top: calc(4% - 5px);
         padding: 25% 0;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         top: 1%;
         font-weight: 500!important;
         line-height: 20px;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 1rem;
     }
-    .amherst2024-v2 .with-btn .btn {
+    .amherst2024 .with-btn .btn {
         font-size: 0.8rem;
         padding: 3px 8px 2px;
         border-width: 1.5px;
     }
-   .amherst2024-v2 .box1 .circle-one-day {
+   .amherst2024 .box1 .circle-one-day {
     margin-top: 0;
     margin-bottom: 50%;
     margin-left: 10%;
    }
-    .amherst2024-v2 .box1 .span3 {
+    .amherst2024 .box1 .span3 {
         position: absolute;
         width: 100%;
         text-align: center;
@@ -507,119 +507,119 @@ main.amherst2024-v2 {
         margin-top: 6%;
         transform: translate(-50%, -50%);
     }
-    .amherst2024-v2 .box1 .span3 .btn {
+    .amherst2024 .box1 .span3 .btn {
         font-size: 1.5rem;
         border-width: 2px;
         font-weight: 500!important;
         padding: 8px 15px 9px;
         margin-top: 10%;
     }
-    .amherst2024-v2 .tru, .box-two {
+    .amherst2024 .tru, .box-two {
         display: flex;
         flex-flow: column;
     }
-    .amherst2024-v2 .tru .left {
+    .amherst2024 .tru .left {
         order: 2;
     }
-    .amherst2024-v2 .tru .right {
+    .amherst2024 .tru .right {
         order: 1;
     }
-    .amherst2024-v2 .bigcontainer {
+    .amherst2024 .bigcontainer {
         padding-left: 10%;
         padding-right: 10%;
     }
-    .amherst2024-v2 .abigcontainer {
+    .amherst2024 .abigcontainer {
         padding-right: 15px;
         padding-left: 15px;
     }
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 3.4em;
         line-height: 0.83em;
     }
-   .amherst2024-v2 h4, .amherst2024-v2 p {
+   .amherst2024 h4, .amherst2024 p {
         font-size: 19.5px;
         line-height: 31px;
     }
 
-    .amherst2024-v2 .trufoam .btn {
+    .amherst2024 .trufoam .btn {
         align-self: center;
     }
-    .amherst2024-v2, .amherst2024-v2 {
+    .amherst2024, .amherst2024 {
       overflow-x: hidden;
     }
-    .amherst2024-v2 {
+    .amherst2024 {
       position: relative
     }
-    .amherst2024-v2 .two-cols.bigcontainer, .amherst2024-v2 .box1.bigcontainer {
+    .amherst2024 .two-cols.bigcontainer, .amherst2024 .box1.bigcontainer {
         padding-left: 0;
         padding-right: 0;
     }
-    .amherst2024-v2 .two-cols .btn {
+    .amherst2024 .two-cols .btn {
         margin-top: 12%;
     }
-    .amherst2024-v2 .reverse {
+    .amherst2024 .reverse {
         flex-flow: column-reverse;
     }
 }
 @media screen and (min-width: 400px) and (max-width: 450px) {
-    .amherst2024-v2 .box1 .span3 h2 {
+    .amherst2024 .box1 .span3 h2 {
         font-size: 6em;
     }
-    .amherst2024-v2 .box1 .span3 .btn {
+    .amherst2024 .box1 .span3 .btn {
         font-size: 1.5rem;
         padding: 9px 16px 10px;
     }
 }
 @media screen and (min-width: 451px) and (max-width: 550px) {
-    .amherst2024-v2 .box1 .span3 h2 {
+    .amherst2024 .box1 .span3 h2 {
         font-size: 6.5em;
     }
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 4.5em;
     }
-    .amherst2024-v2 .box1 .span3 .btn {
+    .amherst2024 .box1 .span3 .btn {
         font-size: 1.7rem;
         padding: 10px 17px 11px;
     }
 }
 @media screen and (min-width: 551px) and (max-width: 650px) {
-    .amherst2024-v2 .box1 .span3 h2 {
+    .amherst2024 .box1 .span3 h2 {
         font-size: 8.3em;
     }
-    .amherst2024-v2 .with-btn .btn {
+    .amherst2024 .with-btn .btn {
         font-size: 1.2rem;
         padding: 4px 10px 5px;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 1.7rem;
         top: 2%;
     }
-    .amherst2024-v2 .box1 .span3 .btn {
+    .amherst2024 .box1 .span3 .btn {
         font-size: 2rem;
         padding: 12px 20px 13px;
     }
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 5.5em;
     }
 }
 @media screen and (min-width: 651px) and (max-width: 767px) {
-    .amherst2024-v2 .box1 .span3 h2 {
+    .amherst2024 .box1 .span3 h2 {
         font-size: 9.5em;
     }
-    .amherst2024-v2 .trufoam h3 {
+    .amherst2024 .trufoam h3 {
         font-size: 6.5em;
     }
-    .amherst2024-v2 .box1 .span3 .btn {
+    .amherst2024 .box1 .span3 .btn {
         font-size: 2.5rem;
         padding: 14px 23px 15px;
         border-width: 3px;
     }
-    .amherst2024-v2 .with-btn .btn {
+    .amherst2024 .with-btn .btn {
         font-size: 1.8rem;
         padding: 8px 15px 11px;
         border-width: 2px;
     }
-    .amherst2024-v2 .with-btn h3 {
+    .amherst2024 .with-btn h3 {
         font-size: 2rem;
         top: 3%;
     }
