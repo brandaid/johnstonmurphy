@@ -40,11 +40,11 @@
     font-variation-settings:'wght' 750, 'wdth' 100, 'opsz' 30;
     font-size: 4rem;
     position: absolute;
-    right: 3%;
+    left: 3%;
     top: 1%;
     letter-spacing: 0.14em;
     line-height: 1.1em;
-    text-align: right;
+    text-align: left;
 }
 .upton2025 .tbtn ul {
     list-style: none;
