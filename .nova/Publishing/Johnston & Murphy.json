@@ -1,0 +1,18 @@
+{
+  "identifier" : "CA3AEE0B-1723-4C25-8A17-5228E029BC47",
+  "ignoredFilePatterns" : [
+    "november-2017-landing\/.DS_Store",
+    "february-2017-landing\/.DS_Store",
+    "february-2018-landing\/images\/.DS_Store",
+    "february-2018-landing\/.DS_Store",
+    "december-2017-landing\/.DS_Store",
+    "[source]landings\/blogger-landing\/.DS_Store",
+    ".DS_Store",
+    "[source]landings\/.DS_Store",
+    "december-2017-landing\/images\/.DS_Store"
+  ],
+  "remotePath" : "\/www.johnstonmurphy.com\/web\/content\/",
+  "remoteURL" : "http:\/\/www.johnstonmurphy.com.php56-30.ord1-1.websitetestlink.com\/",
+  "server" : "Johnston & Murphy",
+  "usesPublishing" : true
+}
