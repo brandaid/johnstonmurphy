@@ -1,0 +1,922 @@
+@font-face {
+    font-family:'HelveticaNowVar';
+    src: url("HelveticaNowVar.ttf") format("truetype");
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-display: swap; 
+ }
+.font-text {
+    font-family: 'HelveticaNowVar', sans-serif; 
+    visibility: hidden;
+}
+.loaded .font-text {
+    visibility: visible;
+}
+.conard2025 .tbtn figure.figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.conard2025 .verticaltext {
+    color: #ff2201;
+    font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
+    font-variation-settings:'wght' 950, 'wdth' 100, 'opsz' 30;
+    font-size: 1.365em;
+    letter-spacing: 0.4em;
+    writing-mode: vertical-rl; 
+    text-orientation: sideways; 
+    transform: rotate(180deg);
+    position: absolute;
+    right: 2%;
+    top: -2%;
+    white-space: nowrap;
+} 
+.conard2025 .conardtext {
+    position: absolute;
+    left: 6%;
+    bottom: 5%;
+}
+.conard2025 .tbtn .with-btn .conardtext h3, .conard2025 .tbtn .with-btn .conardtext h4  {
+    color: #fcf3d6;
+    font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
+    text-align: left;
+}
+.conard2025 .tbtn .with-btn .conardtext h4 {
+    font-variation-settings:'wght' 700, 'wdth' 100, 'opsz' 30;
+    font-size: 2.35rem;
+    line-height: 1.2em;
+}
+
+.conard2025 .tbtn .with-btn .conardtext h3 {
+    font-size: 1.82rem;
+    line-height: 1em;
+    font-variation-settings:'wght' 550, 'wdth' 100, 'opsz' 30;
+}
+
+.conard2025 .tbtn ul {
+    list-style: none;
+}
+.conard2025 .tbtn figure.figure {
+    line-height: 0;
+}
+body.conard2025 {
+    margin: 0;
+}
+body.conard2025 .tbtn {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+}
+.conard2025 .tbtn,
+.conard2025 .tbtn a,
+.conard2025 .tbtn h1,
+.conard2025 .tbtn h2,
+.conard2025 .tbtn h3,
+.conard2025 .tbtn h4,
+.conard2025 .tbtn h5,
+.conard2025 .tbtn h6,
+.conard2025 .tbtn li,
+.conard2025 .tbtn p,
+.conard2025 .tbtn ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.conard2025 .tbtn h1,
+.conard2025 .tbtn h2,
+.conard2025 .tbtn h3,
+.conard2025 .tbtn h4,
+.conard2025 .tbtn h5,
+.conard2025 .tbtn h6 {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 768px) {
+    .conard2025 .two-cols.tbtn, .conard2025 .video.tbtn  {
+        padding-top: 2.23%;
+    }
+}
+
+.conard2025 .tbtn .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.conard2025 .tbtn .two-cols .btn {
+    margin: 2.6% auto 0;
+}
+.conard2025 .tbtn .box-two {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.conard2025 .tbtn .box-two .left {
+    box-sizing: border-box;
+}
+.conard2025 .tbtn .box-two .right {
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .conard2025 .tbtn .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    /* Opacity on images */
+    .conard2025 .tbtn .hover {
+        background: #212121;
+    }
+    .conard2025 .tbtn .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .conard2025 .tbtn .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+
+.conard2025 .tbtn .embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.conard2025 .tbtn .embed-container iframe, .conard2025 .tbtn .embed-container video, .conard2025 .tbtn .embed-container object, .conard2025 .tbtn .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+.conard2025 .two-cols.tbtn {
+    text-align: center;
+    font-size: 0;
+}
+@media all and (max-width: 767px) {
+    .conard2025 .tbtn .box-mobile {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+        font-size: 1.1rem;
+        line-height: 1.2em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1.1em;
+        line-height: 1em;
+    }
+    .conard2025 .tbtn .box-two .right {
+        margin-top: 4%;
+        margin-bottom: 2%;
+    }
+    .conard2025 .tbtn .box-two {
+        flex-direction: column;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .tbtn .font-text {
+        font-weight: 500!important;
+    }
+    .conard2025 .tbtn .trufoam p .br {
+        display: none;
+    }
+    .conard2025 .tbtn .trufoam h3 .br {
+        display: none;
+    }
+}
+
+main.conard2025 .tbtn {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.conard2025 .tbtn .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNowvaR', arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.conard2025 .box1.tbtn {
+    position: relative;
+    }
+.conard2025 .box1.tbtn h2 {
+        margin-bottom: 0.7%;
+    }
+.conard2025 .box1.tbtn .tablem {
+        display: table;
+        width: 100%; 
+ }       
+.conard2025 .box1.tbtn .span1, .conard2025 .box1.tbtn .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.conard2025 .box1.tbtn .tablem .span1, .conard2025 .box1.tbtn .tablem .span2 {
+    width: 100%;
+}
+.conard2025 .box1.tbtn .tablem .span9 {
+    width: 50%;
+}
+
+.conard2025 .box1.tbtn .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    margin-right: auto;
+    font-size: 18.6em;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 0.79em;
+    color: #ff2201;
+    text-align: center;
+}
+.conard2025 .box1.tbtn.midtext .circle-one-day h2 {
+    font-size: 12.35em;
+}
+.conard2025 .box1.tbtn .span3 h2 {
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-size: 5.5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    line-height: 0.84em;
+    color: #fcf2d5;
+    text-align: center;
+}
+.conard2025 .tbtn .content-banner {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.conard2025 .tbtn .tablem-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.conard2025 .tbtn .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.conard2025 .box1.tbtn .circle-one-day .btn {
+    position: absolute;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .conard2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 11em;
+    }
+    .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
+        font-size: 7.5em;
+        line-height: 0.82em;
+    }
+    .conard2025 .tbtn h3 {
+        font-size: 21.2px;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .verticaltext {
+        font-size: 0.92em;
+    }
+    .conard2025 .conardtext {
+        font-size: 2.5rem;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.3em;
+        line-height: 1.23em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+            font-size: 1.24rem;
+    }  
+}
+@media screen and (min-width: 1091px) and (max-width: 1250px){
+    .conard2025 .tbtn .btn {
+        font-size: 1.7rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 16px 20px 17px;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.3em;
+        line-height: 1.23em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+            font-size: 1.55rem;
+    }  
+    .conard2025 .verticaltext {
+        font-size: 1.06em;
+    }
+    .conard2025 .conardtext {
+        font-size: 2.8rem;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .conard2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 9em;
+        letter-spacing: -2px;
+    }
+    .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
+        font-size: 5.5em;
+        line-height: 0.82em;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .verticaltext {
+        font-size: 0.75em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 0.9rem;
+        line-height: 0.9rem;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+        font-size: 1.15rem;
+    }
+    .conard2025 .conardtext {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .conard2025 .tbtn .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .conard2025 .tbtn .abigcontainer {
+        padding-left: 1.875%;
+        padding-right: 1.875%;
+    } 
+    .conard2025 .tbtn .trufoam .brm {
+        display: none;
+    }
+    .conard2025 .box1.tbtn .circle-one-day {
+        display: block;
+        text-align: left;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 32%;
+    } 
+    .conard2025 .box1.tbtn.midtext .circle-one-day { 
+        margin-bottom: 0;
+    }
+    .conard2025 .tbtn .embed-container {
+        padding-bottom: 56.25%;
+    }
+}
+
+/* FIRST TWO COL BOX */
+
+.conard2025 .tbtn .trufoam {
+    display: flex;
+    background-color: #fef2d5;
+    flex-direction: column;
+    height: 100%;
+}
+.conard2025 .tbtn .firstsection {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.conard2025 .tbtn .trufoam h3 {
+    color: #000;
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 500, 'wdth' 100, 'opsz' 30;
+    font-size: 2.35em;
+    letter-spacing: -1px;
+    line-height: 1.2em;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.conard2025 .tbtn .with-btn h3 {
+    color: #fcf3d6;
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-size: 4.7rem;
+}
+.conard2025 .box1.tbtn .btn {
+    bottom: 7%;
+    right: 4.1%;
+}
+.conard2025 .logo175 {
+    display: block;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+.conard2025 .tbtn .btn {
+    background: transparent;
+    color: #ff2201!important;
+    display: inline-block;
+    border: 4px solid #ff2201;
+    font-size: 3.35rem;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 29px 35px 31px;
+    font-family: 'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    transition: opacity 0.3s ease; 
+    text-decoration: none;
+}
+.conard2025 .tbtn .btn:hover, .conard2025 .box1.tbtn .span3 .btn:hover {
+    opacity: 0.8!important;
+}
+.conard2025 .tbtn .trufoam .btn {
+    align-self: center;
+    margin-top: 3.8%;
+}
+@media all (max-width: 767px) {
+    .conard2025 .tbtn .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }   
+}
+@media screen and (min-width: 1125px) and (max-width: 1250px){
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.7em;
+        line-height: 1.23em;
+    }
+    .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
+        font-size: 10em;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .tbtn .btn {
+        font-size: 1.7rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 16px 20px 17px;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 1251px) and (max-width: 1350px){
+    .conard2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 15em;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.7em;
+        line-height: 1.23em;
+    }
+    .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
+        font-size: 10em;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 3rem;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1.35rem;
+        line-height: 1.35rem;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+            font-size: 1.7rem;
+    }  
+    .conard2025 .tbtn .btn {
+        font-size: 2rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 17px 22px 18px;
+    }
+    .conard2025 .verticaltext {
+        font-size: 1.14em;
+    }
+    .conard2025 .conardtext {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 1090px) and (max-width: 1124px){
+    .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
+        font-size: 7.5em;
+        line-height: 0.82em;
+    }
+}    
+@media screen and (min-width: 1351px) and (max-width: 1450px){
+    .conard2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 15em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+    }
+    .conard2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+            font-size: 1.95rem;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 3.5rem;
+    }
+    .conard2025 .tbtn .btn {
+        font-size: 2.5rem;
+        border-width: 3px;
+        line-height: 14px;
+        padding: 21px 24px 20px;
+    }
+        .conard2025 .verticaltext {
+        font-size: 1.23em;
+    }
+    .conard2025 .conardtext {
+        font-size: 3.4rem;
+    }
+}
+@media screen and (min-width: 1451px) and (max-width: 1550px){
+    .conard2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 18em;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 3.7rem;
+    }
+    .conard2025 .tbtn .btn {
+        font-size: 2.5rem;
+        border-width: 3px;
+        line-height: 14px;
+        padding: 21px 24px 20px;
+    }
+    .conard2025 .conardtext {
+        font-size: 3.6rem;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .conard2025 .tbtn .btn {
+        font-size: 1.5rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 14px 20px 15px;
+    }  
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 2rem;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.3em;
+        line-height: 1.23em;
+    }
+    .conard2025 .logo175 {
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.3em;
+        line-height: 1.23em;   
+    } 
+    .conard2025 .logo175 {
+        max-width: 300px;
+    }
+    .conard2025 .tbtn .trufoam p {
+        font-size: 22px;
+        line-height: 32px;
+     }
+     .conard2025 .tbtn .btn {
+        font-size: 1.5rem;
+        border-width: 2px;
+        line-height: 14px;
+        margin-top: 0.5em!important;
+        padding: 14px 20px 15px;
+    }   
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 1.7rem;
+    }
+}
+
+.conard2025 .tbtn .hidden,
+.conard2025 .tbtn .only-desktop,
+.conard2025 .tbtn .btn-only {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .conard2025 .tbtn .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        margin-top: 3.4%;
+        margin-bottom: 3.6%;
+    }
+    .conard2025 .tbtn .only-mobile {
+        display: none;
+    }
+    .conard2025 .tbtn .only-desktop {
+        display: block;
+    }
+    .conard2025 .tbtn .btn-only {
+        display: inline-block;
+    }
+}
+.conard2025 .tbtn .with-btn {
+    position: relative;
+}
+.conard2025 .tbtn .btn-in {
+    position: absolute;
+    color: #ff2201!important;
+    border-color: #ff2201;
+    bottom: 2.2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.conard2025 .tbtn .logocircle {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 20.5%;
+    max-width: fit-content;
+}
+@media all and (min-width: 1400px) {
+    .conard2025 .tbtn .btn-in {
+        font-size: 2.9rem;
+        padding: 25px 30px 26px;
+    }
+    .conard2025 .conardtext {
+        font-size: 4rem;
+
+    }
+}
+
+.conard2025 .tbtn sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
+/* MOBILE */
+
+
+@media screen and (max-width: 767px){
+    .conard2025 .box1.tbtn {
+        position: relative;
+    }
+    .conard2025 .tbtn.midtext {
+        margin-bottom: 2%;
+    }
+    .conard2025 .content-container {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+        gap: 10px; 
+    }
+    .conard2025 .box1.tbtn .span3 .btn {
+        margin-top: 68%;
+    }
+    .conard2025 .box1.tbtn.midtext .span3 .btn {
+        margin-top: 15%;
+    }
+    .conard2025 .content-container .font-text {
+        width: 50%;
+    }
+    .conard2025 .content-container .logo175 {
+        width: 85%;
+        height: auto;
+        object-fit: contain;
+    }
+    .conard2025 .box1.tbtn .span3 h2 {
+        font-weight: 500!important;
+        color: #ff2201;
+        margin-bottom: 0;
+    }
+    .conard2025 .box1 {
+        position: relative;
+    }
+    .conard2025 .box1 .span3 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        margin-top: 3%;
+        transform: translate(-50%, -50%);
+    }
+    .conard2025 .tbtn .firstsection {
+        margin-top: 2.7%;
+        margin-bottom: 4.2%;
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        top: 1%;
+        font-weight: 500!important;
+        line-height: 20px;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 1rem;
+    }
+    .conard2025 .tbtn .with-btn .btn {
+        font-size: 1.6rem;
+        padding: 9px 16px 11px;
+        border-width: 4px;
+    }
+    .conard2025 .conardtext {
+        font-size: 0.8rem;
+    }
+   .conard2025 .box1.tbtn .circle-one-day {
+    margin-top: 0;
+    margin-bottom: 50%;
+    margin-left: 10%;
+   }
+    .conard2025 .tbtn .tru, .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .conard2025 .tbtn .tru .left {
+        order: 2;
+    }
+    .conard2025 .tbtn .tru .right {
+        order: 1;
+    }
+    .conard2025 .tbtn .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .conard2025 .tbtn .abigcontainer {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.3em;
+        line-height: 1.25em;
+    }
+   .conard2025 .tbtn h4, .conard2025 .tbtn p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .conard2025 .tbtn .trufoam .btn {
+        align-self: center;
+    }
+    .conard2025 .tbtn, .conard2025 .tbtn {
+      overflow-x: hidden;
+    }
+    .conard2025 .tbtn {
+      position: relative;
+    }
+    .conard2025 .two-cols.tbtn.bigcontainer, .conard2025 .box1.tbtn.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .conard2025 .two-cols.tbtn .btn {
+        margin-top: 12%;
+    }
+    .conard2025 .tbtn .reverse {
+        flex-flow: column-reverse;
+    }
+}
+@media screen and (max-width: 399px) {
+    .conard2025 .box1.tbtn .span3 .btn {
+        font-size: 1.6rem;
+        padding: 9px 16px 11px;
+    }
+    .conard2025 .tbtn h4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .conard2025 .box1.tbtn .span3 h2 {
+        font-size: 4em;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .conard2025 .tbtn h4 {
+        font-size: 20px;
+    }
+    .conard2025 .box1.tbtn .span3 h2 {
+        font-size: 4.8em;
+    }
+    .conard2025 .box1.tbtn .span3 .btn {
+        font-size: 1.6rem;
+        padding: 9px 16px 11px;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 550px) {
+    .conard2025 .box1.tbtn .span3 h2 {
+        font-size: 5.5em;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.4em;
+        line-height: 1.22em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+        font-size: 1.3rem;
+        line-height: 1.2em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1.25em;
+        line-height: 1em;
+    }
+    .conard2025 .tbtn h4 {
+        font-size: 22px;
+    }
+    .conard2025 .box1.tbtn .span3 .btn {
+        font-size: 1.7rem;
+        padding: 10px 17px 11px;
+    }
+}
+@media screen and (min-width: 551px) and (max-width: 650px) {
+    .conard2025 .box1.tbtn .span3 h2 {
+        font-size: 6.3em;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.6em;
+        line-height: 1.22em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+        font-size: 1.6rem;
+        line-height: 1.2em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 1.05em;
+        line-height: 0.9em;
+    }
+    .conard2025 .tbtn .with-btn .btn {
+        font-size: 2rem;
+        padding: 12px 20px 13px;
+    }
+    .conard2025 .tbtn h4 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .conard2025 .conardtext {
+        font-size: 1.2rem;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 1.7rem;
+        top: 2%;
+    }
+    .conard2025 .box1.tbtn .span3 .btn {
+        font-size: 2rem;
+        padding: 12px 20px 13px;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .conard2025 .box1.tbtn .span3 h2 {
+        font-size: 7.5em;
+    }
+    .conard2025 .tbtn h4 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h4 {
+        font-size: 1.8rem;
+        line-height: 1.4em;
+    }
+    .conard2025 .tbtn .with-btn .conardtext h3 {
+        font-size: 0.8em;
+        line-height: 0.8em;
+    }
+    .conard2025 .tbtn .trufoam h3 {
+        font-size: 1.8em;
+        line-height: 1.22em;
+    }
+    .conard2025 .box1.tbtn .span3 .btn {
+        font-size: 2.5rem;
+        padding: 14px 23px 15px;
+        border-width: 3px;
+    }
+    .conard2025 .tbtn .with-btn .btn {
+        font-size: 2rem;
+        padding: 12px 20px 13px;
+        border-width: 2px;
+    }
+    .conard2025 .conardtext {
+        font-size: 1.8rem;
+    }
+    .conard2025 .tbtn .with-btn h3 {
+        font-size: 2rem;
+        top: 3%;
+    }
+}
