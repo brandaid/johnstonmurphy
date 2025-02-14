@@ -465,6 +465,9 @@ main.conard2025 .tbtn {
         font-size: 1.7em;
         line-height: 1.23em;
     }
+    .conard2025 .logo175 {
+        max-width: 600px;
+    }
     .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
         font-size: 10em;
     }
@@ -488,6 +491,9 @@ main.conard2025 .tbtn {
     .conard2025 .tbtn .trufoam h3 {
         font-size: 1.7em;
         line-height: 1.23em;
+    }
+    .conard2025 .logo175 {
+        max-width: 650px;
     }
     .conard2025 .box1.tbtn.midtext .circle-one-day h2 {
         font-size: 10em;
@@ -529,6 +535,9 @@ main.conard2025 .tbtn {
     .conard2025 .box1.tbtn .circle-one-day h2 {
         font-size: 15em;
     }
+    .conard2025 .logo175 {
+        max-width: 700px;
+    }
     .conard2025 .tbtn .with-btn .conardtext h3 {
         font-size: 1.5rem;
         line-height: 1.5rem;
@@ -558,6 +567,9 @@ main.conard2025 .tbtn {
 @media screen and (min-width: 1451px) and (max-width: 1550px){
     .conard2025 .box1.tbtn .circle-one-day h2 {
         font-size: 18em;
+    }
+    .conard2025 .logo175 {
+        max-width: 700px;
     }
     .conard2025 .tbtn .with-btn h3 {
         font-size: 3.7rem;
@@ -597,7 +609,7 @@ main.conard2025 .tbtn {
         line-height: 1.23em;   
     } 
     .conard2025 .logo175 {
-        max-width: 300px;
+        max-width: 400px;
     }
     .conard2025 .tbtn .trufoam p {
         font-size: 22px;
@@ -720,7 +732,6 @@ main.conard2025 .tbtn {
         text-align: center;
         top: 50%;
         left: 50%;
-        margin-top: 3%;
         transform: translate(-50%, -50%);
     }
     .conard2025 .tbtn .firstsection {
