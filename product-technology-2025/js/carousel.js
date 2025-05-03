@@ -11,7 +11,7 @@ function toggleCarousel() {
       margin: 14,
       items: 3,
       autoWidth:true,
-      loop: true,
+      loop: false,
       autoplay: false,
       nav: false,
     });

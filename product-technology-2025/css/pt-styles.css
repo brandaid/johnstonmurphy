@@ -192,12 +192,6 @@
         letter-spacing: 4px;
         margin-bottom: 40px;
     }
-    .pt-2025 p {
-        font-size: 30px;
-        max-width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 .pt-2025 .carousel span {
     font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
@@ -442,71 +436,14 @@ body.pt-2025 {
             font-size: 1.583em;
         }
 }
-.pt-2025 .box1 {
-    margin-bottom: 10%;
-}
-@media screen and (min-width: 768px) {
-    .pt-2025 .box1 {
-        margin-bottom: 6%;
-    }
-}
 
-.pt-2025 .btn {
-    background: transparent;
-    color: #555555;
-    display: inline-block;
-    border: 2px solid #555555;
-    font-size: 18px;
-    line-height: 18px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 17px 35px 15px;
-    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
-    text-decoration: none;
-}
-
-.pt-2025 .btn:hover {
-    opacity: 0.8;
-}
-
-.pt-2025 .trufoam .btn {
-    align-self: center;
-}
-.pt-2025 .trufoam .btn {
-    margin-top: auto;
-}
-
-
-@media all (max-width: 767px) {
-    .pt-2025 .btn {
-        font-size: 16px;
-        max-width: 100px;
-        display: block;
-        text-align: center;
-        margin: 40px auto;
-        padding: 15px 20px 13px;
-    }  
-}
 
 @media screen and (min-width: 900px) and (max-width: 1124px){
     .pt-2025 h3{
         font-size: 28px;    
     } 
-    .pt-2025 .btn {
-        font-size: 16px;
-        padding: 14px 20px 10px;
-        line-height: 16px;
-    }    
 }
 
-@media screen and (min-width: 768px) and (max-width: 899px){
-     .pt-2025 .btn {
-        font-size: 14px;
-        line-height: 14px;
-        padding: 14px 20px 11px;
-
-    }   
-}
 .pt-2025 #tec-mobile {
     position: relative;
 }
@@ -616,7 +553,7 @@ body.pt-2025 {
         margin-bottom: 35px;
     }
     .pt-2025 #tec-mobile .btn {
-        margin-top: 5%;
+        margin-top: 13%;
     }
     .html-banks, .pt-2025 {
       overflow-x: hidden;
@@ -683,4 +620,82 @@ body.pt-2025 {
 .pt-2025 .media-container:hover .hover-video {
   opacity: 1;
   pointer-events: auto;
+}
+
+.pt-2025 .btn {
+    background: transparent;
+    color: #000;
+    display: inline-block;
+    border: 2px solid #000;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    padding: 17px 33px 13px;
+    font-family: 'HelveticaNeue-Bold', Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 10%;
+}
+.pt-2025 .btn:hover {
+    opacity: 0.8!important;
+}
+
+.pt-2025 .copy {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.pt-2025 .copy p {
+    font-size: 40px;
+    line-height: 55px;
+    font-family: 'HelveticaNeue-Regular', Arial, sans-serif;
+    color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width: 1280px) and (max-width: 1450px){
+    .pt-2025 .copy p {
+        font-size: 35px;
+        line-height: 48px;
+    }
+}
+@media screen and (min-width: 1125px) and (max-width: 1279px){
+    .pt-2025 .copy p {
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1124px){
+     .pt-2025 .btn {
+        font-size: 14px;
+         line-height: 14px;
+        padding: 14px 18px 11px;
+    }  
+    .pt-2025 .copy p {
+        font-size: 25px;
+        line-height: 34.4px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .pt-2025 .copy p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+    .pt-2025 .btn {
+        font-size: 14px;
+        padding: 14px 18px 11px;
+    }
+    .pt-2025 .copy p {
+        font-size: 18px;
+        line-height: 26px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
