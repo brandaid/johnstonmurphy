@@ -1,0 +1,106 @@
+.influencer-camille-landing .box-4 {
+	background: white;
+	text-align: center;
+	padding: 20px 0 50px 0px;
+	position: relative;
+	&:after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 1px;
+		background: $brand-primary;
+		display: block;
+		top: 30px;
+		z-index: 99;
+	}
+	h3 {
+		color: $brand-primary;
+		font-family: $font-italic;
+		margin-bottom: 100px;
+		letter-spacing: 2px;
+		font-size: 29px;
+		line-height: 1.3em;
+		position: relative;
+		background: white;
+		display: inline-block;
+		z-index: 999;
+		padding: 0 20px;
+	}
+}
+
+.influencer-camille-landing .shop {
+	max-width: 1010px;
+	@include center;
+	margin-bottom: 60px;
+	.col {
+		text-align: left;
+		max-width: 300px;
+		a {
+			display: block;
+		}
+		@include center;
+		h4, p {
+			padding-left: 30px;
+		}
+		a:hover {
+			img {
+				opacity: .8;
+			}
+		}
+	}
+	img {
+		width: 100%;
+		height: auto;
+		padding-bottom: 14px;
+		-webkit-transition: all 300ms ease-in-out;
+		-moz-transition: all 300ms ease-in-out;
+		-ms-transition: all 300ms ease-in-out;
+		-o-transition: all 300ms ease-in-out;
+		transition: all 300ms ease-in-out;
+		-webkit-backface-visibility: hidden;
+		-webkit-transform: translateZ(0) scale(1.0, 1.0);
+	}
+	h4 {
+		letter-spacing: 0;
+		margin-bottom: 10px;
+		font-family: 'HelveticaNeueW01-55Roma', Helvetica, sans-serif;
+		font-size: 15px;
+		color: black;
+	}
+	p {
+		font-family: $secondary-font;
+		color: #a32616;
+		letter-spacing: 1px;
+		span {
+			text-decoration: line-through;
+			color: $brand-primary;
+			padding-right: 5px;
+		}
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.influencer-camille-landing .box-4 {
+		padding: 20px 0px 50px 0;
+		&:after {
+			top: 35px;
+		}
+		h3 {
+			font-family: $font-italic;
+			margin-bottom: 50px;
+			font-size: 30px;
+			padding: 0 40px;
+		}
+	}
+	.influencer-camille-landing .shop {
+		display: table;
+		width: 100%;
+		vertical-align: top;
+		.col {
+			display: table-cell;
+			width: 33.333%;
+			padding: 20px;
+			max-width: 100%;
+		}
+	}
+}

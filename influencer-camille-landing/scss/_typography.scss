@@ -1,0 +1,40 @@
+.influencer-camille-landing h1, .influencer-camille-landing h3, .influencer-camille-landing h4,.influencer-camille-landing  h5, .influencer-camille-landing h6, .influencer-camille-landing p, .influencer-camille-landing span, .influencer-camille-landing a, .influencer-camille-landing ul, .influencer-camille-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.influencer-camille-landing h1, .influencer-camille-landing h3, .influencer-camille-landing h4, .influencer-camille-landing h5, .influencer-camille-landing h6 {
+	font-family: $font-roman;
+	color: $brand-primary;
+	letter-spacing: 5px;
+}
+.influencer-camille-landing p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.influencer-camille-landing h3 {
+	font-size: 20px;
+}
+.influencer-camille-landing small {
+	font-size: 20px;
+}
+.influencer-camille-landing i, .influencer-camille-landing em {
+	font-family: $font-italic;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.influencer-camille-landing h3 {
+		font-size: 56px;
+	}
+	.influencer-camille-landing small {
+		font-size: 32px;
+	}
+}

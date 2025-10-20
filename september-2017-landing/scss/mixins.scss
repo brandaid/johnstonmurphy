@@ -1,0 +1,37 @@
+@mixin center {
+	margin-left: auto;
+	margin-right: auto;
+}
+@mixin relative {
+	position: relative;
+}
+@mixin absolute {
+	position: absolute;
+}
+
+@mixin border($border-width,$border-color, $border-radius) {
+	border: $border-width solid $border-color;
+	border-radius: $border-radius;
+}
+
+
+//September
+@mixin oneColumnBorderBottom(){
+	.span3.last{
+		padding: 0 0 8%;
+		.hr{
+			margin: 0 7.75%;
+			background: #333;
+			height: 1px;
+		}
+	}
+}
+
+@mixin oneColumnBorderBottom768(){
+	.span3.last{
+		padding: 0 0 4%;
+		.hr{
+			display: none;
+		}
+	}
+}

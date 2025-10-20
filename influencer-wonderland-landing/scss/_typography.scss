@@ -1,0 +1,40 @@
+.influencer-wonderland-landing h1, .influencer-wonderland-landing h3, .influencer-wonderland-landing h4,.influencer-wonderland-landing  h5, .influencer-wonderland-landing h6, .influencer-wonderland-landing p, .influencer-wonderland-landing span, .influencer-wonderland-landing a, .influencer-wonderland-landing ul, .influencer-wonderland-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.influencer-wonderland-landing h1, .influencer-wonderland-landing h3, .influencer-wonderland-landing h4, .influencer-wonderland-landing h5, .influencer-wonderland-landing h6 {
+	font-family: $font-roman;
+	color: $brand-primary;
+	letter-spacing: 5px;
+}
+.influencer-wonderland-landing p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.influencer-wonderland-landing h3 {
+	font-size: 20px;
+}
+.influencer-wonderland-landing small {
+	font-size: 20px;
+}
+.influencer-wonderland-landing i, .influencer-wonderland-landing em {
+	font-family: $font-italic;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.influencer-wonderland-landing h3 {
+		font-size: 56px;
+	}
+	.influencer-wonderland-landing small {
+		font-size: 32px;
+	}
+}

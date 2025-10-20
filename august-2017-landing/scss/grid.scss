@@ -1,0 +1,121 @@
+// Set all variables
+
+$totalColumns: 3;
+$gutterWidth: 0%;
+
+$line-height: 1.5em;
+
+// Grid generation mixin
+
+@mixin spanWidth($numColumns) {
+	$numGutters: $totalColumns - 1; // Gutters will always be 1 less then columns
+	$gutterSpace: $numGutters * $gutterWidth; // Finding total space taken up by gutters
+	$remainingSpace: 100 - $gutterSpace; // Subtracting the total gutter space from 100(%)
+	$columnWidth: $remainingSpace / $totalColumns; // Finding column width by dividing space left by number of columns
+	$width: ($numColumns) * $columnWidth + ($gutterWidth * ($numColumns - 1) );
+	width: $width;
+}
+
+.container{
+  margin: 0;
+  @include center;
+  clear: both;
+}
+.container, section{
+  overflow: hidden;
+}
+
+.span1, .span2, .span3, .span4{
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.col{
+  margin-left: 0%;
+}
+
+.col:first-child {
+  margin-left:0;
+}
+
+.span1{
+  @include spanWidth(1);
+}
+.span2{
+  @include spanWidth(2);
+}
+.span3{
+  @include spanWidth(3);
+  margin-left: 0;
+}
+.span4{
+  width: 50%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: $screen-portrait){
+  .span2, .span4{
+    width: 100%;
+  }
+
+  .span1{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .container{
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Custom Breakpoints */
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+  .container { 
+    max-width: 750px;
+  }
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+  .container { 
+    max-width: 970px;
+  }
+}
+
+// 1300px
+@media all and (min-width: $screen-desktop) {
+  .container { 
+    max-width: 1280px;
+  }
+}
+
+
+// Micro Clearfix 
+
+// If you want the clearfix to remain within CSS (no classes in markup) then use the @extend method:
+// selector{
+// 		@extend .clearfix();
+// }
+
+.cf {
+  zoom: 1; // For IE 6/7 (trigger hasLayout)
+
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+

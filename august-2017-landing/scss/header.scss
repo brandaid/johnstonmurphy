@@ -1,0 +1,120 @@
+.aug-2017-landing .header {
+	background: white;
+}
+
+.aug-2017-landing .box-legend {
+	background: #4b3141;
+	padding: 20px 10px;
+	text-align: center;
+	color: white;
+	line-height: 1.4em;
+	font-family: $primary-font;
+	font-size: 15px;
+	text-transform: uppercase;
+	p {
+		margin: 0;
+	}
+	a {
+		text-decoration: underline;
+		color: white;
+		font-weight: bold;
+		font-size: 10px;
+	}
+}
+
+.aug-2017-landing .table-header {
+	display: table;
+	width: 100%;
+	padding: 23px 0 15px 0;
+	.col {
+		display: table-cell;
+		vertical-align: top;
+		text-align: center;
+	}
+}
+
+.aug-2017-landing .col-menu {
+	width: 11%;
+	text-align: right!important;
+}
+.aug-2017-landing .col-locate {
+	width: 9%;
+	text-align: right!important;
+}
+.aug-2017-landing .col-brand {
+	width: 60%;
+}
+.aug-2017-landing .col-search {
+	width: 9%;
+	text-align: left!important;
+}
+.aug-2017-landing .col-bag {
+	width: 11%;
+	text-align: left!important;
+}
+
+.aug-2017-landing .col-menu, .aug-2017-landing .col-locate, .aug-2017-landing .col-brand, .aug-2017-landing .col-search, .aug-2017-landing .col-bag {
+	img {
+		max-width: 28px;
+		height: auto;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
+.aug-2017-landing .col-locate {
+	img {
+		max-width: 16px;
+	}
+}
+.aug-2017-landing .col-brand {
+	img {
+		max-width: 190px;
+	}
+}
+.aug-2017-landing .col-search {
+	img {
+		max-width: 24px;
+	}
+}
+.aug-2017-landing .col-bag {
+	img {
+		max-width: 17px;
+		margin-left: 5px;
+	}
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.aug-2017-landing .table-header {
+		padding: 45px 0 40px 0;
+	}
+	.aug-2017-landing .col-menu {
+		img {
+			max-width: 36px;
+			margin-top: 3px;
+		}
+	}
+	.aug-2017-landing .col-locate {
+		img {
+			max-width: 27px;
+		}
+	}
+	.aug-2017-landing .col-brand {
+		img {
+			max-width: 370px;
+		}
+	}
+	.aug-2017-landing .col-search {
+		img {
+			max-width: 37px;
+		}
+	}
+	.aug-2017-landing .col-bag {
+		img {
+			max-width: 26px;
+		}
+	}
+	.aug-2017-landing .box-legend, .aug-2017-landing .box-legend a {
+		font-size: 15px;
+	}
+}

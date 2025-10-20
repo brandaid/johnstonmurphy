@@ -1,0 +1,40 @@
+.influencer-lovely-landing h1, .influencer-lovely-landing h3, .influencer-lovely-landing h4,.influencer-lovely-landing  h5, .influencer-lovely-landing h6, .influencer-lovely-landing p, .influencer-lovely-landing span, .influencer-lovely-landing a, .influencer-lovely-landing ul, .influencer-lovely-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.influencer-lovely-landing h1, .influencer-lovely-landing h3, .influencer-lovely-landing h4, .influencer-lovely-landing h5, .influencer-lovely-landing h6 {
+	font-family: $font-roman;
+	color: $brand-primary;
+	letter-spacing: 5px;
+}
+.influencer-lovely-landing p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.influencer-lovely-landing h3 {
+	font-size: 20px;
+}
+.influencer-lovely-landing small {
+	font-size: 20px;
+}
+.influencer-lovely-landing i, .influencer-lovely-landing em {
+	font-family: $font-italic;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+	.influencer-lovely-landing h3 {
+		font-size: 56px;
+	}
+	.influencer-lovely-landing small {
+		font-size: 32px;
+	}
+}

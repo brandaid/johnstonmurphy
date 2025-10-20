@@ -1,0 +1,45 @@
+.april-2017-landing h1, .april-2017-landing h2, .april-2017-landing h3, .april-2017-landing h4, .april-2017-landing h5, .april-2017-landing h6, .april-2017-landing p, .april-2017-landing span, .april-2017-landing a, .april-2017-landing ul, .april-2017-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.april-2017-landing h1,
+.april-2017-landing h2,
+.april-2017-landing h3,
+.april-2017-landing h4,
+.april-2017-landing h5,
+.april-2017-landing h6 {
+	margin: 0;
+	padding: 0;
+	font-family: "NewCenturySchlbkLTStdRoman", Georgia, serif;
+	font-weight: normal;
+}
+
+.april-2017-landing h1 {
+}
+.april-2017-landing h2 {
+	font-size: 30px;
+}
+.april-2017-landing h3 {
+	font-size: 20px;
+}
+.april-2017-landing h4 {
+}
+.april-2017-landing h5 {
+}
+.april-2017-landing h6 {
+}
+
+
+
+// 768px
+@media all and (min-width: $screen-portrait) {
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+
+}
+
+// 1200px
+@media all and (min-width: $screen-desktop) {
+}

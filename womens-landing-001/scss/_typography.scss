@@ -1,0 +1,36 @@
+.womens-landing h1, .womens-landing h2, .womens-landing h3, .womens-landing h4, .womens-landing h5, .womens-landing h6, .womens-landing p, .womens-landing span, .womens-landing a, .womens-landing ul, .womens-landing li {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.womens-landing h1, .womens-landing h2, .womens-landing h3, .womens-landing h4, .womens-landing h5, .womens-landing h6 {
+	font-family: $font-roman;
+	color: $brand-primary;
+	letter-spacing: 5px;
+}
+.womens-landing p {
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.womens-landing h2 {
+	font-size: 26px;
+}
+.womens-landing small {
+	font-size: 20px;
+}
+.womens-landing i, .womens-landing em {
+	font-family: $font-italic;
+}
+// 768px
+@media all and (min-width: $screen-portrait) {
+	.womens-landing h2 {
+		font-size: 32px;
+	}
+}
+
+// 992px
+@media all and (min-width: $screen-landscape) {
+	.womens-landing h2 {
+		font-size: 37px;
+	}
+}
