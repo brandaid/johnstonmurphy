@@ -1,0 +1,832 @@
+@font-face {
+    font-family:'HelveticaNowVar';
+    src: url("HelveticaNowVar.ttf") format("truetype");
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-display: swap; 
+ }
+.font-text {
+    font-family: 'HelveticaNowVar', sans-serif; 
+    visibility: hidden;
+}
+.loaded .font-text {
+    visibility: visible;
+}
+.collier2025 .tbtn figure.figure {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+.collier2025 .verticaltext {
+    color: #ff2201;
+    font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
+    font-variation-settings:'wght' 950, 'wdth' 100, 'opsz' 30;
+    font-size: 1.39em;
+    letter-spacing: 0.45em;
+    writing-mode: vertical-rl; 
+    text-orientation: sideways; 
+    position: absolute;
+    right: 2%;
+    top: 0;
+    white-space: nowrap;
+} 
+.collier2025 .colliertext {
+    color: #ff2201;
+    font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-size: 5rem;
+    position: absolute;
+    left: 3%;
+    bottom: 6%;
+    letter-spacing: 0;
+    line-height: 0.45em;
+    text-align: left;
+}
+.collier2025 .tbtn ul {
+    list-style: none;
+}
+.collier2025 .tbtn figure.figure {
+    line-height: 0;
+}
+body.collier2025 {
+    margin: 0;
+}
+body.collier2025 .tbtn {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'HelveticaNowvaR', Helvetica, Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+}
+.collier2025 .tbtn,
+.collier2025 .tbtn a,
+.collier2025 .tbtn h1,
+.collier2025 .tbtn h2,
+.collier2025 .tbtn h3,
+.collier2025 .tbtn h4,
+.collier2025 .tbtn h5,
+.collier2025 .tbtn h6,
+.collier2025 .tbtn li,
+.collier2025 .tbtn p,
+.collier2025 .tbtn ul {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.collier2025 .tbtn h1,
+.collier2025 .tbtn h2,
+.collier2025 .tbtn h3,
+.collier2025 .tbtn h4,
+.collier2025 .tbtn h5,
+.collier2025 .tbtn h6 {
+    margin: 0;
+    padding: 0;
+}
+
+@media all and (min-width: 768px) {
+    .collier2025 .two-cols.tbtn  {
+        padding-top: 2.23%;
+    }
+}
+
+.collier2025 .tbtn .responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.collier2025 .tbtn .logocircle {
+    position: absolute;
+}
+
+.collier2025 .tbtn .two-cols .btn {
+    margin: 2.6% auto 0;
+}
+.collier2025 .tbtn .box-two {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.collier2025 .tbtn .box-two .left {
+    box-sizing: border-box;
+}
+.collier2025 .tbtn .box-two .right {
+    box-sizing: border-box;
+}
+@media all and (min-width: 768px) {
+    .collier2025 .tbtn .section-heigth {
+        height: 120px;
+        padding: 0 !important;
+    }
+    /* Opacity on images */
+    .collier2025 .tbtn .hover {
+        background: #212121;
+    }
+    .collier2025 .tbtn .hover img {
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    .collier2025 .tbtn .hover:hover img {
+        opacity: .5;
+    }
+    /* End opacity on images */
+}
+
+.collier2025 .tbtn .embed-container {
+  position: relative;
+  padding-bottom: 82%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.collier2025 .tbtn .embed-container iframe, .collier2025 .tbtn .embed-container video, .collier2025 .tbtn .embed-container object, .collier2025 .tbtn .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+}
+.collier2025 .two-cols.tbtn {
+    text-align: center;
+    font-size: 0;
+}
+@media all and (max-width: 767px) {
+    .collier2025 .tbtn .box-mobile {
+    padding-bottom: 3%;
+    padding-top: 3%;
+    box-sizing: border-box;
+    }
+    .collier2025 .tbtn .font-text {
+        font-weight: 500!important;
+    }
+    .collier2025 .tbtn .trufoam p .br {
+        display: none;
+    }
+    .collier2025 .tbtn .trufoam h3 .br {
+        display: none;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+
+main.collier2025 .tbtn {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.collier2025 .tbtn .box-hero h2 {
+    font-size: 56px;
+    font-family:'HelveticaNowvaR', arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    color: #888888;
+}
+
+/* HERO BOX */
+
+.collier2025 .box1.tbtn {
+    position: relative;
+    }
+.collier2025 .box1.tbtn h2 {
+        margin-bottom: 0.7%;
+    }
+.collier2025 .box1.tbtn .tablem {
+        display: table;
+        width: 100%; 
+ }       
+.collier2025 .box1.tbtn .span1, .collier2025 .box1.tbtn .span2 {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    text-align: center;
+}
+.collier2025 .box1.tbtn .tablem .span1, .collier2025 .box1.tbtn .tablem .span2 {
+    width: 100%;
+}
+.collier2025 .box1.tbtn .tablem .span9 {
+    width: 50%;
+}
+
+.collier2025 .box1.tbtn .circle-one-day h2 {
+    margin-left: auto;
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    margin-right: auto;
+    font-size: 16.5em;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    line-height: 0.84em;
+    color: #ff2201;
+    text-align: center;
+}
+.collier2025 .box1.tbtn .span3 h2 {
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-size: 5.5em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    line-height: 0.84em;
+    color: #fcf2d5;
+    text-align: left;
+}
+.collier2025 .tbtn .content-banner {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.collier2025 .tbtn .tablem-banner {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.collier2025 .tbtn .cell-banner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.collier2025 .box1.tbtn .circle-one-day .btn {
+    position: absolute;
+}
+
+@media screen and (min-width: 890px) and (max-width: 1090px){
+    .collier2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 9em;
+    }
+    .collier2025 .tbtn h3 {
+        font-size: 21.2px;
+    }
+    .collier2025 .verticaltext {
+        font-size: 0.92em;
+    }
+    .collier2025 .colliertext {
+        font-size: 3.5rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media screen and (min-width: 1091px) and (max-width: 1250px){
+    .collier2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 12em;
+    }
+    .collier2025 .tbtn .btn {
+        font-size: 1.7rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 16px 20px 17px;
+    }
+    .collier2025 .verticaltext {
+        font-size: 1.06em;
+    }
+    .collier2025 .colliertext {
+        font-size: 4rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 889px){
+    .collier2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 8em;
+        letter-spacing: -2px;
+    }
+    .collier2025 .verticaltext {
+        font-size: 0.75em;
+    }
+    .collier2025 .colliertext {
+        font-size: 3.1rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .collier2025 .tbtn .bigcontainer {
+        padding-left: 6.25%;
+        padding-right: 6.25%;
+    }  
+    .collier2025 .tbtn .abigcontainer {
+        padding-left: 1.875%;
+        padding-right: 1.875%;
+    } 
+    .collier2025 .tbtn .trufoam .brm {
+        display: none;
+    }
+    .collier2025 .box1.tbtn .circle-one-day {
+        display: block;
+        text-align: left;
+        margin-right: 63%;
+        margin-left: 1%;
+        margin-bottom: 1%;
+    } 
+    .collier2025 .tbtn .embed-container {
+        padding-bottom: 56.25%;
+    }
+}
+
+/* FIRST TWO COL BOX */
+
+.collier2025 .tbtn .trufoam {
+    display: flex;
+    background-color: #fcf2d5;
+    flex-direction: column;
+    height: 100%;
+}
+.collier2025 .tbtn .firstsection {
+    text-align: center;
+    margin-top: 3.55%;
+}
+.collier2025 .tbtn .trufoam h3 {
+    color: #ff2201;
+    text-transform: uppercase;
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-size: 11.2em;
+    letter-spacing: -1px;
+    line-height: 0.81em;
+    margin-bottom: 3%;
+    text-align: center;
+}
+.collier2025 .tbtn .with-btn h3 {
+    color: #ff2201;
+    font-family:'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    font-size: 4.7rem;
+}
+.collier2025 .box1.tbtn .btn {
+    bottom: 6%;
+    right: 9%;
+}
+.collier2025 .logo175 {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+.collier2025 .tbtn .btn {
+    background: transparent;
+    color: #ff2201!important;
+    display: inline-block;
+    border: 4px solid #ff2201;
+    font-size: 3.35rem;
+    line-height: 18px;
+    font-weight: bold;
+    padding: 29px 35px 31px;
+    font-family: 'HelveticaNowvaR', Arial, sans-serif;
+    font-variation-settings:'wght' 700, 'wdth' 50, 'opsz' 30;
+    transition: opacity 0.3s ease; 
+    text-decoration: none;
+}
+.collier2025 .tbtn .btn:hover, .collier2025 .box1.tbtn .btn:hover {
+    opacity: 0.8!important;
+}
+.collier2025 .tbtn .trufoam .btn {
+    align-self: center;
+    margin-top: 3.8%;
+}
+@media all (max-width: 767px) {
+    .collier2025 .tbtn .btn {
+        font-size: 16px;
+        max-width: 100px;
+        display: block;
+        text-align: center;
+        margin: 40px auto;
+        padding: 15px 20px 13px;
+    }   
+}
+@media screen and (min-width: 1125px) and (max-width: 1250px){
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 8.5em;
+    } 
+    .collier2025 .tbtn .btn {
+        font-size: 1.7rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 16px 20px 17px;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 2.5rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media screen and (min-width: 1251px) and (max-width: 1350px){
+    .collier2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 13em;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 3rem;
+    }
+    .collier2025 .tbtn .btn {
+        font-size: 2rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 17px 22px 18px;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 9.5em;
+    }
+    .collier2025 .verticaltext {
+        font-size: 1.14em;
+    }
+    .collier2025 .colliertext {
+        font-size: 4.5rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media screen and (min-width: 1351px) and (max-width: 1450px){
+    .collier2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 14em;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 10.2em;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 3.5rem;
+    }
+    .collier2025 .tbtn .btn {
+        font-size: 2.5rem;
+        border-width: 3px;
+        line-height: 14px;
+        padding: 21px 24px 20px;
+    }
+        .collier2025 .verticaltext {
+        font-size: 1.23em;
+    }
+    .collier2025 .colliertext {
+        font-size: 4.7rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media screen and (min-width: 1451px) and (max-width: 1550px){
+    .collier2025 .box1.tbtn .circle-one-day h2 {
+        font-size: 15em;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 3.7rem;
+    }
+    .collier2025 .tbtn .btn {
+        font-size: 2.5rem;
+        border-width: 3px;
+        line-height: 14px;
+        padding: 21px 24px 20px;
+    }
+    .collier2025 .colliertext {
+        font-size: 4.6rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1124px){
+    .collier2025 .tbtn .btn {
+        font-size: 1.5rem;
+        border-width: 2px;
+        line-height: 14px;
+        padding: 14px 20px 15px;
+    }  
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 6.7em;
+    } 
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 2rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px){
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 5.7em;   
+    } 
+    .collier2025 .tbtn .trufoam p {
+        font-size: 22px;
+        line-height: 32px;
+     }
+     .collier2025 .tbtn .btn {
+        font-size: 1.5rem;
+        border-width: 2px;
+        line-height: 14px;
+        margin-top: 0.5em!important;
+        padding: 14px 20px 15px;
+    }   
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 1.7rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+
+.collier2025 .tbtn .hidden,
+.collier2025 .tbtn .only-desktop,
+.collier2025 .tbtn .btn-only {
+    display: none;
+}
+@media all and (min-width: 768px) {
+    .collier2025 .tbtn .container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 750px;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        margin-top: 6.35%;
+        margin-bottom: 7.2%;
+    }
+    .collier2025 .tbtn .only-mobile {
+        display: none;
+    }
+    .collier2025 .tbtn .only-desktop {
+        display: block;
+    }
+    .collier2025 .tbtn .btn-only {
+        display: inline-block;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+.collier2025 .tbtn .with-btn {
+    position: relative;
+}
+.collier2025 .tbtn .btn-in {
+    position: absolute;
+    color: #ff2201!important;
+    border-color: #ff2201;
+    bottom: 5%;
+    left: 6%;
+}
+@media all and (min-width: 1400px) {
+    .collier2025 .tbtn .btn-in {
+        font-size: 2.9rem;
+        padding: 25px 30px 26px;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+.collier2025 .tbtn .with-btn h3 {
+    position: absolute;
+    left: 4%;
+}
+
+.collier2025 .tbtn sup {
+    font-size: .7em;
+    vertical-align: super!important;
+}
+
+@media all and (min-width: 1501px) {
+    .collier2025 .colliertext {
+        font-size: 5.16rem;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+    }
+}
+@media all and (min-width: 1400px) and (max-width: 1500px)  {
+    .collier2025 .colliertext {
+        font-size: 4.7rem;
+
+    }    
+}
+/* MOBILE */
+
+
+@media screen and (max-width: 767px){
+    .collier2025 .box1.tbtn {
+        position: relative;
+    }
+    .collier2025 .tbtn .logo175 {
+        right: 3%;
+    }
+    .collier2025 .tbtn .btn-in {
+        color: #ff2201!important;
+        border-color: #ff2201;
+    }
+    .collier2025 .box1.tbtn .btn {
+        bottom: 4%;
+        right: 4%;
+    }
+    .collier2025 .content-container {
+        display: flex; 
+        flex-wrap: nowrap;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+    }
+    .collier2025 .box1.tbtn .btn {
+        margin-top: 5%; /* mobile positioning */
+    }
+    .collier2025 .content-container .font-text {
+        width: 45%;
+    }
+    .collier2025 .content-container .logo175 {
+        width: 55%;
+        height: auto;
+        object-fit: contain;
+    }
+    .collier2025 .box1.tbtn .span3 h2 {
+        font-weight: 500!important;
+        color: #ff2201;
+        margin-bottom: 0;
+    }
+    .collier2025 .box1 {
+        position: relative;
+    }
+    .collier2025 .box1 .span3 {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .collier2025 .tbtn .firstsection {
+        margin-top: 2.7%;
+        margin-bottom: 4.2%;
+        padding-top: 7.2%;
+        padding-bottom: 4.5%;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        top: 1%;
+        font-weight: 500!important;
+        line-height: 20px;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 1rem;
+    }
+    .collier2025 .tbtn .with-btn .btn {
+        font-size: 0.8rem;
+        padding: 3px 8px 2px;
+        border-width: 1.5px;
+    }
+    .collier2025 .colliertext {
+        font-size: 3rem;
+    }
+   .collier2025 .box1.tbtn .circle-one-day {
+    margin-top: 0;
+    margin-bottom: 50%;
+    margin-left: 10%;
+   }
+    .collier2025 .tbtn .tru, .box-two {
+        display: flex;
+        flex-flow: column;
+    }
+    .collier2025 .tbtn .tru .left {
+        order: 2;
+    }
+    .collier2025 .tbtn .tru .right {
+        order: 1;
+    }
+    .collier2025 .tbtn .bigcontainer {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .collier2025 .tbtn .abigcontainer {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 4.50em;
+        line-height: 0.9em;
+    }
+   .collier2025 .tbtn h4, .collier2025 .tbtn p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .collier2025 .tbtn .trufoam .btn {
+        align-self: center;
+    }
+    .collier2025 .tbtn, .collier2025 .tbtn {
+      overflow-x: hidden;
+    }
+    .collier2025 .tbtn {
+      position: relative
+    }
+    .collier2025 .two-cols.tbtn.bigcontainer, .collier2025 .box1.tbtn.bigcontainer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .collier2025 .two-cols.tbtn .btn {
+        margin-top: 12%;
+    }
+    .collier2025 .tbtn .reverse {
+        flex-flow: column-reverse;
+    }
+    .collier2025 .tbtn .logocircle {
+        max-width: 40%!important;
+        position: relative;
+        display: inline-block;
+        margin-left: -20px;
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 399px) {
+    .collier2025 .box1.tbtn .btn {
+        font-size: 1.6rem;
+        padding: 9px 16px 11px;
+    }
+    .collier2025 .tbtn h4 {
+        font-size: 16px;
+        line-height: 10px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 450px) {
+    .collier2025 .box1.tbtn .span3 h2 {
+        font-size: 6em;
+    }
+    .collier2025 .tbtn h4 {
+        font-size: 18px;
+        line-height: 12px;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 5em;
+    }
+    .collier2025 .box1.tbtn .btn {
+        font-size: 1.6rem;
+        padding: 9px 16px 11px;
+    }
+}
+@media screen and (min-width: 451px) and (max-width: 550px) {
+    .collier2025 .box1.tbtn .span3 h2 {
+        font-size: 6.5em;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 6em;
+    }
+    .collier2025 .tbtn h4 {
+        font-size: 20px;
+        line-height: 13px;
+    }
+    .collier2025 .box1.tbtn .btn {
+        font-size: 1.7rem;
+        padding: 10px 17px 11px;
+    }
+}
+@media screen and (min-width: 551px) and (max-width: 650px) {
+    .collier2025 .box1.tbtn .span3 h2 {
+        font-size: 8.3em;
+    }
+    .collier2025 .tbtn .with-btn .btn {
+        font-size: 1.2rem;
+        padding: 4px 10px 5px;
+    }
+    .collier2025 .tbtn h4 {
+        font-size: 24px;
+        line-height: 14px;
+    }
+    .collier2025 .colliertext {
+        font-size: 3rem;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 1.7rem;
+        top: 2%;
+    }
+    .collier2025 .box1.tbtn .btn {
+        font-size: 2rem;
+        padding: 12px 20px 13px;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 7em;
+    }
+}
+@media screen and (min-width: 651px) and (max-width: 767px) {
+    .collier2025 .box1.tbtn .span3 h2 {
+        font-size: 9.5em;
+    }
+    .collier2025 .tbtn h4 {
+        font-size: 30px;
+        line-height: 15px;
+    }
+    .collier2025 .tbtn .trufoam h3 {
+        font-size: 8em;
+    }
+    .collier2025 .box1.tbtn .btn {
+        font-size: 2.5rem;
+        padding: 14px 23px 15px;
+        border-width: 3px;
+    }
+    .collier2025 .tbtn .with-btn .btn {
+        font-size: 1.8rem;
+        padding: 8px 15px 11px;
+        border-width: 2px;
+    }
+    .collier2025 .colliertext {
+        font-size: 3rem;
+    }
+    .collier2025 .tbtn .with-btn h3 {
+        font-size: 2rem;
+        top: 3%;
+    }
+}
